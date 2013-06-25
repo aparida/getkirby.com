@@ -13,7 +13,7 @@ define('DS', DIRECTORY_SEPARATOR);
 define('KIRBY_INDEX_ROOT', __DIR__);
 
 // location of the kirby system
-define('KIRBY_CMS_ROOT', $_SERVER['DOCUMENT_ROOT'] . DS . 'repos' . DS . 'cms' . DS . 'kirby');
+define('KIRBY_CMS_ROOT', __DIR__ . DS . 'kirby');
 
 // location of all site specific files / site folder
 define('KIRBY_PROJECT_ROOT', KIRBY_INDEX_ROOT . DS . 'site');
