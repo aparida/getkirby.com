@@ -1,0 +1,17 @@
+Title: Disqus
+
+----
+
+Text: Add comments to any page of your site with (link: http://disqus.com text: Disqus) 
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/disqus/disqus.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/disqus/readme.mdown
+
+---- 
+
+Tutorial: /blog/adding-comments

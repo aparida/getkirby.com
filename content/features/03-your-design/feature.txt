@@ -1,0 +1,11 @@
+Title: Your Design, Your Templates
+
+----
+
+Text: 
+
+With Kirby you won't get huge amounts of predefined templates and design stuff. It's up to you to build whatever you like with it. Kirby won't be in your way.
+
+----
+
+Link: docs/templates

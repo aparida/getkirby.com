@@ -1,0 +1,274 @@
+Title: Any content you like
+
+----
+
+Date: 11.01.2012
+
+----
+
+Tags: tutorial, content
+
+---- 
+
+Text: 
+
+#### The flexibility of Kirby might not be visible to everybody on first sight, so with this article I'm going to show you what you can really do with it.
+
+<br />With a traditional database-driven system you often run into the problem of being stuck with a predefined structure for your data. 
+
+With Kirby you gain 100% freedom to add all the data you need for any page of your site. Kirby's text files have a very simple system. You define a field of data with a name, a colon and some content. You separate multiple fields with four dashes:
+
+	Title: This is my title
+	----
+	Text: This is a nice text
+	----
+	Date: 2012/01/11
+	----
+	etc.
+
+You are not limited to any number of fields per file. You could have hundreds of them, though that would be quite a mess to read and update – but you could :) There's only one restriction. **Field names must only contain alphanumeric characters and underscores.** 
+
+Stuff like…
+	
+	My fancy görman field: Some text
+	----	
+	
+…won't work. It won't break anything, but you will not be able to use the data of that field in your template.
+
+You are also not limited to use a certain kind of formatted content. You can add plain text, markdown formatted text or even just HTML to each field.
+
+### Using data in your templates:
+
+Once you've added your content, it is very easy to use those fields in your template files. Kirby will try to find a matching template for the name of your text file. So if your text file is project.txt, Kirby will try to load the template `site/templates/project.php`. If it is not there, it will fall back to `site/templates/default.php` So you can add specific templates for specific types of data very easily. 
+
+Let's say the text file for the current page has a title, text, date and tags field, you can add them to your template like this: 
+
+```
+
+<?php echo $page->title() ?>
+<?php echo $page->text() ?>
+<?php echo $page->date() ?>
+<?php echo $page->tags() ?>
+
+```
+
+You can find more about it in the (link: docs text: docs).
+
+But now on to the cool stuff:
+
+## Yay, examples!
+
+Here are some examples of data setups for different types of pages. It's just to get an idea how Kirby is working. It's up to you to build whatever you want with it – a bit like Lego for web designers.
+
+****
+
+### Portfolio page
+
+Kirby is perfect to build portfolio sites for designers, architects, photographers or just yourself. Most professionals in the creative industry are used to tools like FTP-clients and organizing their projects and files in folders, so chances are great that they will like Kirby. You can find some of the portfolio sites, which have been built with Kirby on the (link: home text: homepage)
+
+#### The content
+
+	Title: New Acme Company Website
+	----
+	Link: http://acme.com
+	----
+	Description: I bla bla redesign blah blah buzzword blah buzzword HTML5 buzzword buzzword awesome…
+	----
+	Year: 2012
+	----
+	Tags: Redesign, HTML5, CSS3
+	----
+
+#### The files
+
+To show some screenshots or pictures of each project, add a list of images to the same content folder. You can use numbers to easily sort them. In fact any alphabetic naming convention will do. 
+
+(image: 01.png)
+
+#### Availabel template variables in project.php
+
+```
+<?php echo $page->title() ?>
+<?php echo $page->link() ?>
+<?php echo $page->description() ?>
+<?php echo $page->year() ?>
+<?php echo $page->tags() ?>
+```
+
+#### Example: how to add all images
+
+```
+<ul>
+  <?php foreach($page->images() as $img): ?>
+  <li><img src="<?php echo $img->url() ?>" width="<?php echo $img->width() ?>" height="<?php echo $img->height() ?>" alt="<?php echo $img->title() ?>" /></li>
+  <?php endforeach ?>
+</ul>
+```
+
+
+
+****
+
+### Product Page
+
+Kirby is by no means great to build a full-featured eCommerce shop. You can't store customer data in text files or something crazy like that. But there are great services out there to help you with the payment process and pre-built shopping cart solutions. So for a smaller project it might be an alternative to build your own little store front with pages for all your articles and redirect your visitors to a hosted checkout system once they want to buy something from your shop. 
+
+#### The content
+
+	Title: Shirty
+	----
+	Subtitle: Fancy Shirt with fancy print
+	----
+	Text: This nice shirt is made of organic cotton and is soooo fluffy.  
+	---- 
+	Sizes: XS, S, M, L, XL, XXL, TENT
+	----
+	Colors: red, green, yellow, blue, purple
+	----
+	Available: yes
+	----
+	Price: $39
+	----
+	Link: http://myshopservice/add-to-cart?id=someidforshirty
+	----	
+
+#### The files
+Good shop sites often have multiple images for each product. For example a main picture of the entire product plus two close-ups with details. 
+
+(image: 02.png)
+
+#### Availabel template variables in product.php
+
+```
+<?php echo $page->title() ?>
+<?php echo $page->subtitle() ?>
+<?php echo $page->text() ?>
+<?php echo $page->sizes() ?>
+<?php echo $page->colors() ?>
+<?php echo $page->available() ?>
+<?php echo $page->price() ?>
+<?php echo $page->link() ?>
+```
+
+#### Example: how to add a single image
+
+```
+<img src="<?php echo $page->images()->find('01-shirty-front.jpg')->url() ?>" />
+```
+
+
+
+****
+
+### Conference Speaker Page
+
+Conference sites often need very different kinds of content and templates for each page. There's the schedule, all about the venue, information about accommodation and travel, the registration page and of course the introduction for each speaker. This is an example how to generate a page for each speaker with loads of information about them. 
+
+#### The content
+
+	Title: J. Montgomery Burns
+	----
+	About: J. Montgomery Burns is a very nice old man.
+	----
+	Talk: Why nuclear power is awesome
+	----
+	Teaser: In times of blah, blah, blah we need nuclear power.
+	----
+	Time: Saturday, 11:30 am
+	----
+	Venue: Great Hall
+	----
+	Link: http://j.montgomerybur.ns
+	----
+
+
+#### The files
+
+You won't need much here. Probably just an additional portrait of the speaker and maybe a pdf with additional information, which visitors can download. 
+
+(image: 03.png)
+
+#### Availabel template variables in speaker.php
+
+```
+<?php echo $page->title() ?>
+<?php echo $page->about() ?>
+<?php echo $page->talk() ?>
+<?php echo $page->teaser() ?>
+<?php echo $page->time() ?>
+<?php echo $page->venue() ?>
+<?php echo $page->link() ?>
+```
+
+#### Example: how to add a pdf download
+
+```
+<a href="<?php echo $page->documents()->find('mister-burns-cv.pdf')->url() ?>">Download CV</a>
+```
+
+#### Example: show the download size of a file
+
+```
+<?php echo $page->documents()->find('mister-burns-cv.pdf')->niceSize() ?>
+<!-- will echo something like 405.4 kb or 5.2 MB -->
+```
+
+
+
+****
+
+### Photography Project
+
+As a photographer you want the best presentation platform for your pictures. Something nice and clean, where your photos can shine. It might also be cool to add additional information about each picture and the process of taking it – things like the location, the lens, the time of day, etc.
+
+	Title: Mount Rushmore at noon
+	----
+	Description: The picture is a symbol for this and that. 
+	----
+	Location: Mount Rushmore, SD, United States
+	----
+	Date: 2012/01/11 12:00
+	----
+	Camera: Leica M9
+	----
+	Lens: Leica Summilux-M 24 mm f/1.4 ASPH
+	----
+
+#### The files
+
+Upload the picture to the same folder to include it in your template later.
+
+(image: 04.png)
+
+#### Availabel template variables in picture.php
+
+```
+<?php echo $page->title() ?>
+<?php echo $page->description() ?>
+<?php echo $page->location() ?>
+<?php echo $page->date() ?>
+<?php echo $page->camera() ?>
+<?php echo $page->lens() ?>
+```
+
+#### Tutorial: how to add a map
+
+It could be cool to add a map for the location to the page. 
+Read more about (link: blog/google-maps text: how to add Google Maps…)
+
+#### Tutorial: how to auto-generate thumbnails
+
+Especially for a photographer's site you might want to have an option to auto-generate thumbnails for large images, so you can build a nice little gallery or something like that. There's a (link: downloads text: plugin) for Kirby and a (link: blog/thumb-plugin text: tutorial how to auto-generate thumbs) in the blog.
+
+
+****
+
+### Blog Article
+
+I've already wrote a quite lengthy tutorial about how to setup your own blog, so just follow that one to build a blog with nice articles: <http://getkirby.com/blog/how-to-build-a-blog>
+
+## Conclusion
+
+I hope this gave you a good overview how to structure your content and how versatile the data for your pages can be. There's plenty of things you can do with all that data in your templates. There are a lot of (link: docs/helpers text: helper functions), ways to (link: docs/formatting-text text: format your text) and other (link: docs text: methods) available to come up with the result you are looking for. 
+
+Are you looking for some special solutions? Let me know: <bastian@getkirby.com>

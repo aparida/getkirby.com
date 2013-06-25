@@ -1,0 +1,35 @@
+Title: Flickrbadge
+
+----
+
+Text: 
+
+Thanks to (link: http://dantz.me text: Andreas Dantz) for letting me use the pictures from his (link: http://www.flickr.com/photos/szene/ text: Flickr stream) for this demo :)
+
+The CSS for this Demo is rather crappy, but if you want to use it as a starting point you can download it (file: badge.css text: here). 
+
+This is the source code:
+
+```
+<?php 
+
+$pictures = flickrbadge(array(
+  'key'      => 'i-wont-let-you-know-my-api-key-:)',
+  'username' => 'andreasdantz',
+  'limit'    => 6,
+  'format'   => 'small'
+));
+    
+?>
+
+<ul class="flickrbadge"">
+  <?php foreach($pictures as $picture): ?>
+  <li>
+    <a class="thumb" href="<?php echo $picture->url() ?>"><img src="<?php echo $picture->src() ?>" alt="<?php echo $picture->title() ?>" /></a>
+    <h3><a href="<?php echo $picture->url() ?>"><?php echo $picture->title() ?></a></h3>
+    <div class="date"><?php echo date('d.m.Y - H:i', $picture->taken()) ?></div>
+  </li>    
+  <?php endforeach ?>
+</ul>
+
+```

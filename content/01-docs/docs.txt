@@ -1,0 +1,19 @@
+Title: Docs
+
+----
+
+Text: 
+
+The Kirby Docs are here to help you learn everything about the Kirby API. 
+Whenever you run into issues and you can't find help here, please also check out the **(link: tutorials text: Tutorials section)** or send me an email: <bastian@getkirby.com>
+
+## The Kirby Cheat Sheet
+
+Get a quick overview of the entire API on two DIN A4 pages. 
+**(link: http://cl.ly/GXBe text: Download the Kirby Cheat Sheet)**
+
+(image: kirby-cheatsheet.png link: http://cl.ly/GXBe)
+
+## The Kirby Forum
+
+You are looking for something, which you just can't find in the docs? Get connected with other Kirby users in the **(link: forum text: Kirby Forum)** and talk about the things you plan to build. 

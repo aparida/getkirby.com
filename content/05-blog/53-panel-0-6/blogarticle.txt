@@ -1,0 +1,190 @@
+Title: Kirby Panel 0.6
+
+----
+
+Date: 16.04.2012
+
+----
+
+Tags: panel, releases
+
+----
+
+Text: 
+
+It's been a while since the first (link: blog/panel-alpha text: Kirby Panel Alpha) has been released and I'm very happy about all the help and positive feedback. Today I'm releasing the **(link: https://github.com/bastianallgeier/kirbycms-panel text: next alpha version)**. There are still a few missing features for 1.0, but I feel the beta is getting closer. 
+
+Please understand that not all suggestions from testers are in this next release. You guys had a bunch of awesome ideas, but the entire process of testing and coming up with the first version of the panel is taking longer than expected and I try to get it done finally. 
+
+## Download
+
+You can (link: https://github.com/bastianallgeier/kirbycms-panel text: download the latest version from Github)
+
+## How to update
+
+I always try to make updating as simple as possible. What you need to do, is to replace the old panel folder with the new panel folder. If you have modified the .htaccess inside the panel folder, make sure to not replace that one. 
+
+## Docs
+
+For all Panel testers, I've setup the first version of the (link: panel text: Panel docs). Please let me know if something is not understandable or missing. 
+
+## What's new
+
+A lot of fixes, new features and translations have gone into this new release. 
+
+### Format Buttons
+
+For all textareas, you can now activate the new format buttons in blueprints. 
+
+(image: 01.png)
+
+To activate them, add `buttons: true` to the textarea field definition in your blueprints. Here's an example, how to configure a textarea with buttons in a blueprint:
+
+```
+
+fields:
+  text: 
+    label:   Text
+    type:    textarea
+    size:    large
+    buttons: true
+
+```
+
+You can even list individual buttons if you don't want to provide access to all of them:
+
+```
+
+fields:
+  text: 
+    label: Text
+    type:  textarea
+    size:  large
+    buttons: 
+      - h1
+      - h2
+      - bold
+      - italic
+
+```
+
+
+### Input validation
+
+It's now possible to specify required fields and also do some input validation. This is again setup in your blueprints together with field definitions.
+
+#### Required fields
+
+```
+
+fields:
+  text: 
+    label:    Text
+    type:     textarea
+    size:     large
+    required: true
+	
+```
+
+#### Validation
+
+If you want to make sure that the content of a field is validated before a page can be saved, you can use the new validate option for fields. 
+
+```
+
+fields:
+  email: 
+    label:    Email Address
+    type:     text
+    validate: email
+	
+```
+
+You can use the predefined validation methods: `email`, `date`, `url` or you can define your own:
+
+```
+
+fields:
+  somefield: 
+    label:  Some Label
+    type:   text
+    validate: 
+      minlength: 10
+      maxlength: 30
+      match:     /[a-z0-9]+/i
+	
+```
+
+minlengt, maxlength and match are all optional, so you can combine them however you want. 
+
+### Running the panel without mod_rewrite
+
+The requirement for mod\_rewrite for the Panel has led to quite some problems, so you can now switch off mod\_rewrite support for the Panel in the Panel config (site/panel/config/config.php)
+
+```php
+
+c::set('panel.rewrite', false);
+
+```
+
+All Panel URLs will be constructed like this afterwards: 
+
+```
+
+http://yourdomain.com/panel/index.php/some/path
+
+```
+
+### IE 8 ready!
+
+The Panel interface will now work 100% on Internet Explorer 8. This will be the oldest supported version of Internet Explorer for Panel Version 1. Depending on the feedback, I might add support for Internet Explorer 7 later. The Panel has also been tested on IE9, latest versions of Opera, Firefox, Safari and Chrome (Win and Mac). If you find any browser-related issues, please let me know. 
+
+The Panel works also great on the iPad, except for sorting pages. I plan to add support for MobileSafari on the iPhone + Webkit on Android and sorting without drag and drop later. 
+
+### Bug Fixes
+
+There are tons of bug fixes in this release. Please check the (link: https://github.com/bastianallgeier/kirbycms-panel/blob/master/changelog.mdown text: changelog.mdown) for more info. 
+
+### Translations
+
+I'm totally overwhelmed by the fantastic support with translations. The Panel is still in Alpha and yet it is available in **nine languages!!** 
+
+A huge "Thank You!!" to: (link: http://morrick.me text: Riccardo Mori), (link: http://www.laggoun.com text: Loubna Aggoun), (link: http://kukac7.hu text: Dávid Bóta), (link: http://www.nirusu.me text: Nils Hendriks), (link: http://seitenwerk.at text: Seitenwerk), (link: http://ciuciu.at text: Ciuciu) and (link: http://seitenwerk.at text: Parlak) for their help. 
+
+Please check the (link: panel/translations text: Translations) page for more info. Also, please contact me, if you want to get involved: <bastian@getkirby.com> 
+
+To change the Panel translation for a certain account, open the account file in site/panel/accounts and change the language code like this:
+
+```
+username: bastian
+password: supersecret
+language: de
+```
+
+Available codes are 
+
+```
+de = Germanen = Englishes = Spanishfr = Frenchhu = Hungarianit = Italiannl = Dutchro = Rumaniantr = Turkish
+```
+
+## Next Steps
+
+It's all about finalizing the latest features now and about fixing the last bugs. So please help me with bug-hunting! Install the latest version and let me know if you find something, which is not working as expected: <bastian@getkirby.com> 
+
+You can also use the (link: https://github.com/bastianallgeier/kirbycms-panel/issues text: Github Issue Tracker)
+
+### Dev Branch
+
+I'm going to release all future updates until the next release in the (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: dev branch), so please make sure to check changes there from time to time to get the latest version. 
+
+### Get Involved
+
+If you are a developer, you are welcome to get involved in the development directly. Just heck the hell out of the latest version and let me know about it :)
+
+### Thank you!
+
+This is all off to a fantastic start and it wouldn't be possible without your help – thank you!!
+
+Cheers, Bastian
+
+

@@ -1,0 +1,7 @@
+Title: Are there any extensions/plugins for Kirby?
+----
+Text:
+
+You can find a bunch of plugins and snippets in the (link: downloads text: Downloads) section. All of them are free and open-source. Additionally you can find the source code for all of them on (link: https://github.com/bastianallgeier/kirbycms-extensions text: Github)
+
+More will be added over time and you are welcome to submit your own plugins or snippets.

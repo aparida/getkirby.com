@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  &,
+  &:before,
+  &:after {
+    @include vendor(box-sizing, border-box);
+  }
+}
+
+html {  
+  @include font-size($base-font-size);
+  font-size: 100%;
+  overflow-y: scroll;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: $font-family-primary;
+  background: $color-background;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  @include vendor(transition, color .3s);
+}
+
+img {
+  border: 0;
+}
+
+::-moz-selection {
+  background: $color-selection-background;
+  color: $color-selection-text;
+}
+::selection {
+  background: $color-selection-background;
+  color: $color-selection-text;
+}

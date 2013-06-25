@@ -1,0 +1,17 @@
+Title: Auth
+
+----
+
+Text: Frontend user authentification
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/auth
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/auth
+
+---- 
+
+Tutorial: /blog/frontend-authentication

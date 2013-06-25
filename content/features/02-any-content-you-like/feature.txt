@@ -1,0 +1,11 @@
+Title: Any Content You Like
+
+----
+
+Text: 
+
+Blog articles, galleries, simple pages or complex product sheets – with Kirby you are not limited to a fixed data structure. You are in control of your content.
+
+----
+
+Link: docs/content

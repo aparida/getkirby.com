@@ -1,0 +1,24 @@
+Title: Baseblog Theme
+
+----
+
+Text: 
+
+A nice & clean Basic Blog for Kirby 
+by (link: http://sashtown.de text: Sascha Lack)
+
+----
+
+Link: http://baseblog.sashtown.de
+
+----
+
+Download: https://github.com/sashtown/Baseblog-Kirby-Theme
+
+----
+
+Docs: http://baseblog.sashtown.de/about
+
+---- 
+
+Tutorial: 

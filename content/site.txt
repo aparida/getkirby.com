@@ -1,0 +1,17 @@
+﻿Title: Kirby
+
+----
+
+Author: Bastian Allgeier
+
+----
+
+Description: Kirby is a file-based content management system – easy to setup, easy to use, flexible as hell.
+
+----
+
+Keywords: kirby, cms, content management, kirbycms, php, filesystem, flexible, websites
+
+----
+
+Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier) / (link: http://openwe.de text: OpenWe GmbH)

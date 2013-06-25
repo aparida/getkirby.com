@@ -1,0 +1,32 @@
+Title: Kirby Code Snippets Thread
+
+----
+
+Date: 17.07.2012
+
+----
+
+Tags: forum
+
+----
+
+Text: 
+
+I've started a new (link: forum/code-snippets text: Code Snippets thread) in the forum. 
+
+Over the last months I've been asked often how to solve very specific tasks with Kirby. I've created numerous Gists on Github with example code, but most of the time it didn't make sense to release a full extension. 
+
+With the new (link: forum/code-snippets text: Code forum thread), I hope that we can start a common repository for those little code bits, to help each other build more awesome stuff with Kirby. 
+
+I've added a few of mine and you are all invited to add yours as well :)
+
+Feel free to use whatever tool you prefer – no matter if Github's Gists, Pastebin or any other code sharing tool. You might also just add the entire code to the topic. Remeber that you can use Markdown in the forum to format your topics. 
+
+This is also not restricted to PHP or Kirby-specific code. Whenever you feel like sharing code, which helps you to build websites faster or in a better way, you are very welcome to share that as well. 
+
+I'm excited to see what you guys come up with!
+
+– Bastian
+
+
+

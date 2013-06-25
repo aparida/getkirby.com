@@ -1,0 +1,11 @@
+Title: Low Requirements
+
+----
+
+Text: 
+
+All you need to get started is PHP 5.3+ and an Apache server. Kirby is pretty modest :)
+
+----
+
+Link: hosting

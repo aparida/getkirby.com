@@ -1,0 +1,17 @@
+Title: Submenu
+
+----
+
+Text: Add a submenu to your site. This snippet is included in the default Kirby theme.
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/submenu/submenu.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/submenu/readme.mdown
+
+---- 
+
+Tutorial: 

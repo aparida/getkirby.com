@@ -1,0 +1,78 @@
+Title: Read Later Plugin
+
+----
+
+Date: 19.04.2012
+
+----
+
+Tags: plugin, tutorial
+
+----
+
+Text: 
+
+(link: http://roylodder.com text: Roy Lodder) has come up with another great extension for Kirby: (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/readlater/ text: The Read Later Plugin)
+
+You can use the plugin to provide handy links for your visitors to save the current page or article with (link: http://instapaper.com text: Instapaper) or (link: http://getpocket.com text: Pocket). 
+
+## Installation
+
+Download the (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/readlater/readlater.php text: readlater.php) and put it in `site/plugins` Create the plugins folder if it is not there yet. 
+
+## Usage
+
+Once, the plugin is installed, you can instantly use it in your templates like this:
+
+```
+
+<article>
+  <h1><?php echo html($page->title()) ?></h1>
+  <?php echo kirbytext($page->text()) ?>
+
+  <div class="readlater">
+    <?php echo readlater($page->title(), 'instapaper') ?>
+    <?php echo readlater($page->title(), 'pocket') ?>
+  </div>
+
+</article>
+
+```
+
+This will create two links: 
+
+```
+<a class="readlater instapaper" href="http://www.instapaper.com/hello2?url=http%3A%2F%2Fgetkirby.com%2Fblog%2Freadlater&title=Read+Later+Plugin">
+  Add to Instapaper</a>
+<a class="readlater pocket" href="https://getpocket.com/save?url=http%3A%2F%2Fgetkirby.com%2Fblog%2Freadlater&title=Read+Later+Plugin">
+  Save to Pocket</a>  
+```
+
+…and you are free to style them with CSS and add them to your templates wherever you want.  
+
+## Customization
+
+If you don't want to use the default link texts (Add to Instapaper & Save to Pocket) you can use your own link texts: 
+
+```
+<?php echo readlater($page->title(), 'instapaper', 'Put this on Instapaper') ?>
+<?php echo readlater($page->title(), 'pocket', 'Put it in my Pocket') ?>
+```
+
+### Options
+
+You can also change the CSS selector, target and rel attribute for each link:
+
+```php
+<?php echo readlater($page->title(), 'pocket', 'Read later', array(
+  'class'  => 'mycustomclass',
+  'target' => '_blank',
+  'rel'    => 'somerelattribute'
+)); ?>
+```
+
+## Get involved
+
+It would be great to have support for (link: http://readability.com/ text: Readability) or other sharing/read later services. The plugin is very easy to extend, so just get involved and (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/readlater/ text: fork the plugin on Github). 
+
+

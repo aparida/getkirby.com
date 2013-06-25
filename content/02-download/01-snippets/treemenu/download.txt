@@ -1,0 +1,17 @@
+Title: Treemenu
+
+----
+
+Text: Add a treemenu to your site.
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/treemenu/treemenu.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/treemenu/readme.mdown
+
+---- 
+
+Tutorial: 

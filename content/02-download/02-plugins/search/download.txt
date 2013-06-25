@@ -1,0 +1,17 @@
+Title: Search
+
+----
+
+Text: Add a search form to your site.
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/search/search.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/search/readme.mdown
+
+---- 
+
+Tutorial: /blog/search

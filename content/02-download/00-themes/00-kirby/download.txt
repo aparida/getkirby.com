@@ -1,0 +1,24 @@
+Title: Kirby Default Theme
+
+----
+
+Text: 
+
+This is the default theme, which is included with every 
+Kirby download.
+
+----
+
+Link: http://test.getkirby.com/
+
+----
+
+Download: http://github.com/bastianallgeier/kirbycms
+
+----
+
+Docs: http://getkirby.com/docs
+
+---- 
+
+Tutorial: 

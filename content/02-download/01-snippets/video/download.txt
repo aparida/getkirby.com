@@ -1,0 +1,17 @@
+Title: Video
+
+----
+
+Text: Add HTML5 videos to your site
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/video/video.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/video/readme.mdown
+
+---- 
+
+Tutorial: /blog/html5-videos

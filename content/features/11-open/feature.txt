@@ -1,0 +1,11 @@
+Title: Source Code On Github
+
+----
+
+Text: 
+
+Kirby's source code is fully accessible on Github, so you don't have to buy a pig in a poke.
+
+----
+
+Link: downloads

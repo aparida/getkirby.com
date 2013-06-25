@@ -1,0 +1,17 @@
+Title: SublimeVideo
+
+----
+
+Text: Embed SublimeVideos with a simple Kirbytag. Plugin by (link: http://wooconcept.com/ text: Thibaut Ninove)
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/sublimevideo/sublimevideo.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/sublimevideo/readme.mdown
+
+---- 
+
+Tutorial: 

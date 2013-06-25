@@ -1,0 +1,13 @@
+Title: Fancybox Gallery
+
+----
+
+Text: 
+
+----
+
+js: assets/fancybox/jquery.fancybox-1.3.4.js
+
+----
+
+css: assets/fancybox/jquery.fancybox-1.3.4.css

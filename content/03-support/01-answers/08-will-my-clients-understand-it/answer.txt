@@ -1,0 +1,5 @@
+Title: Will my clients be able to understand Kirby?
+----
+Text:
+
+I've been using kirby for my own clients for the last three years and it always worked great. It totally depends on the clients though. I've been working with designers, architects and photographers and they all knew how to upload stuff via FTP and of course how to handle image files and how to edit text in text editors :) They all found it way easier to use their FTP client and text editor to update their website rather than using a crappy web interface. They also like markdown and kirbytext a lot. It is doable!! Just show them how Kirby works and ask them if they'd feel comfortable with it. 

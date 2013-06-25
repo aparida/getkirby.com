@@ -1,0 +1,8 @@
+/* For modern browsers */
+.clear {
+  &:after{
+    content:"";
+    display:table;
+    clear:both;
+  }
+}

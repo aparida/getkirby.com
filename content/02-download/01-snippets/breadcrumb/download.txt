@@ -1,0 +1,17 @@
+Title: Breadcrumb
+
+----
+
+Text: Add a breadcrumb navigation to your site. 
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/breadcrumb/breadcrumb.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/breadcrumb/readme.mdown
+
+---- 
+
+Tutorial: 

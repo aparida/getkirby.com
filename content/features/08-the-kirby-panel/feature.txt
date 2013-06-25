@@ -1,0 +1,11 @@
+Title: The Kirby Panel
+
+----
+
+Text: 
+
+Scared of the filesystem? Install the powerful Kirby web interface and administrate your website right in your browser.
+
+----
+
+Link: docs/panel

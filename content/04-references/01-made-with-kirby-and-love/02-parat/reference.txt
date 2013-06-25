@@ -1,0 +1,11 @@
+Title: Parat
+----
+Text: 
+
+Buero Parat is a Hamburg based architecture bureau with a top-notch portfolio. They use Kirby to quickly update their news and work section.
+
+---- 
+
+Link: http://buero-parat.de
+
+----

@@ -1,0 +1,132 @@
+.text h1, 
+.text .alpha {
+  @extend .alpha;
+  padding-bottom: .5em;
+}
+
+.text h2,
+.text .beta {
+  @extend .beta;
+  padding-bottom: .5em;
+}
+
+.text h3,
+.text .gamma {
+  @extend .gamma;
+  padding-bottom: 1em;
+}
+
+.text h4,
+.text .delta {
+  @extend .delta;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.text h5 {
+  @extend .epsilon
+}
+
+.text a {
+  color: $color-primary;
+  border-bottom: 1px solid $color-ui;
+}
+.text a:hover {
+  color: $color-text;
+}
+
+.text p,
+.text ul,
+.text ol,
+.text blockquote {
+  padding-bottom: 1.5em;
+}
+
+
+.text ul,
+.text ol {
+  padding-left: 1em;
+}
+.text ul li {
+  position: relative;
+  list-style: none;
+}
+.text ul li:after {
+  position: absolute;
+  content: "";
+  left: -1em;
+  top: .7em;
+  height: 2px;
+  width: 7px;
+  background: red;
+}
+.text ol {
+  counter-reset: num;
+}
+.text ol li {
+  position: relative;
+  list-style: none;
+}
+.text ol li:before { 
+  position: absolute;
+  left: -1em;
+  top: 1px;
+  counter-increment: num;
+  content: counter(num) ". "; 
+  color: red; 
+  font-weight: 600;
+  font-size: .9em;
+}
+
+.text p code {
+  font-family: "Courier", monospace;  
+  background: #eee;
+  padding: 0 7px;
+  border-radius: 3px;
+}
+
+.text figure.image {
+  display: block;  
+  padding-bottom: 24px;
+  overflow: hidden;
+}
+.text figure.image img {
+  display: block;
+  max-width: 100%;
+}
+.text figure.image figcaption {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: -8px;
+  color: #999;
+  font-size: .9em;
+}
+.text figure.code {
+  padding-bottom: 24px;
+}
+.text figure.code * {
+  font-family: "Menlo", "Courier", monospace;  
+}
+.text figure.code pre {
+  position: relative;
+  overflow: auto;
+  background: #f9f9f9;
+  -webkit-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  -moz-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  -o-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  padding: 24px;
+  line-height: 24px;
+  display: block;  
+}
+.text figure.code pre.highlight {
+  white-space: nowrap;
+}
+
+.text hr {
+  background: $color-ui;
+  height: 1px;
+  border: 0;
+  margin: 1.5em 0 3em;
+}

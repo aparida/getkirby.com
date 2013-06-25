@@ -1,0 +1,26 @@
+body {
+  width: 900px;
+}
+#gallery {
+  width: 860px;
+  overflow: hidden;
+  padding: 50px 0;
+}
+#gallery ul {
+  width: 1000px;
+}
+#gallery li {
+  float: left;
+  list-style: none;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  line-height: 0;
+}
+#gallery li a {
+  border: 0;
+}
+
+#fancybox-close {
+  border: 0;
+}

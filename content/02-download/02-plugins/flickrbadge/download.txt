@@ -1,0 +1,17 @@
+Title: Flickrbadge
+
+----
+
+Text: Show your recent pictures from Flickr on your site.
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/flickrbadge/flickrbadge.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/flickrbadge/readme.mdown
+
+---- 
+
+Tutorial: /blog/flickrbadge

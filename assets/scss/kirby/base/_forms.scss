@@ -1,0 +1,8 @@
+fieldset {
+  border: 0;
+}
+input, textarea, select {
+  font-family: $font-family-input;
+  color: $color-input;
+  @include font-size($base-font-size);
+}

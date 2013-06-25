@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 3rem;
+  padding: 1em 0 3em;
+  border-top: 2px solid $color-primary;
+  @extend .clear;
+  font-size: .9em;
+}
+
+.footer a {
+  color: red;
+}
+.footer a:hover {
+  color: $color-text;
+}
+.footer .copyright {
+  float: left;
+}
+.footer .misc {
+  float: right;
+}
+.footer .made-with {
+  color: $color-text;
+}
+.footer .made-with:hover {
+  color: $color-primary;
+}
+.footer .love {
+  @include font-size(13px);
+  text-align: center;
+  font-style: normal;   
+  padding-left: .2em;
+  color: $color-primary;
+}

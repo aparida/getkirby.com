@@ -1,0 +1,47 @@
+Title: Kirby meets Ajax
+
+----
+
+Date: 26.06.2012
+
+----
+
+Tags: tutorial
+
+----
+
+Text: 
+
+On modern sites and web applications Ajax is all over the place. It's a simple combination of JavaScript and server-side code, which makes it possible to update content on your site dynamically without refreshing the page. 
+
+Kirby is very Ajax-friendly and this tutorial will show you how to build some simple ajaxified parts into your site. 
+
+## jQuery to the help
+
+I will use (link: http://jquery.com/ text: jQuery) to handle all the Ajax calls, but of course this can be done with any other Javascript framework or plain Javascript. 
+
+### Embedding jQuery
+
+Like you would with any other external Javascript file, you can either use the standard `<script>` tags in your header or footer snippets or you can embed Javascript Kirby-style: 
+
+```php
+<?php echo js('assets/javascript/jquery.js') ?>
+<?php echo js('assets/javascript/scripts.js') ?>
+```
+
+I will use a second `scripts.js` to store all the custom Javascript, we will need.
+I prefer to embed Javascript right before the closing body tag, but you can of course also place it in the head of your HTML.
+
+## The site structure
+
+For this example I'm going to use the default site structure, which is being shipped with Kirby. 
+
+```
+- 01-about-us
+- 02-projects
+-- 01-project-a
+-- 02-project-b
+-- 03-project-c
+--
+
+

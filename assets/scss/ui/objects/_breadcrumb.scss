@@ -1,0 +1,27 @@
+.breadcrumb {
+  @extend .nav;
+  border-bottom: 1px solid $color-ui;
+  margin-bottom: 1.5em;
+}
+.breadcrumb a {
+  position: relative;
+  display: block;
+  padding: .5em 0;
+  font-weight: 600;
+  margin-right: 2em;
+}
+.breadcrumb a:after {
+  position: absolute;
+  content: "›";
+  top: 0em;
+  right: -.75em;
+  color: $color-text-light;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.breadcrumb .is-active {
+  color: $color-primary;
+}
+.breadcrumb .is-active:after {
+  display: none;
+}

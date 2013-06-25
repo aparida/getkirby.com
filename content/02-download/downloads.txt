@@ -1,0 +1,22 @@
+Title: Download
+----
+
+Text: 
+
+----
+
+
+Trial: 
+
+## Try Kirby before you buy
+
+Kirby's source is available as a **(link: https://github.com/bastianallgeier/kirbycms/zipball/master text: free trial on Github)**. You can test it on your local machine to see if it fits your next project, but you must **(link: buy text: buy)** a license to use it in production. **(link: blog/free-trial text: Read more…)**
+
+----
+
+Repo: 
+
+## Free Extensions
+
+All snippets, plugins, exporters and templates on this page are open-source and can also be found in the **(link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets text: Kirby Extension Repo)** on Github. 
+

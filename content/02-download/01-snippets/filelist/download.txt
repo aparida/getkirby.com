@@ -1,0 +1,17 @@
+Title: Filelist
+
+----
+
+Text: Add a file download list to your site
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/filelist/filelist.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/filelist/readme.mdown
+
+---- 
+
+Tutorial: 

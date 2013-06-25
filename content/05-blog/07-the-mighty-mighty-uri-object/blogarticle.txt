@@ -1,0 +1,158 @@
+Title: The mighty, mighty URI-object
+
+----
+
+Date: 20.12.2011
+
+----
+
+Tags: tutorial, uri, api
+
+---- 
+
+Text:
+
+You've probably all recognized those nifty URLs, which Kirby is building for each page. This one's URL is…
+
+    http://getkirby.com/blog/the-mighty-mighty-uri-object
+    
+Pretty readable, right?
+
+But wouldn't it be great if we could easily inspect those URLs in our code and react on changes of certain parts of it. Yes, that would be awesome and actually it is super easy. 
+
+There's an URI object attached to the global `$site` variable and it is very, very mighty.
+
+```php
+
+$site->uri
+
+```
+
+At some point when you are building dynamic sites you need to react on query strings in URLs or on certain parts of the path. That URI object has plenty of methods, which help you inspect pretty much any aspect of the current URL.
+
+Let us take a very crazy URL so I can explain the different methods a bit better:
+
+    http://getkirby.com/blog/the-mighty-mighty-uri-object/page:2/?comments=show
+
+If you just echo the URI object, you will get the entire URI, which might be helpful at some points:
+
+```php
+
+echo $site->uri;
+// output: blog/the-mighty-mighty-uri-object/page:2/?comments=show
+
+```
+
+## Path
+
+If you need to inspect the path you can get certain parts of it like this:
+
+```php
+
+echo $site->uri->path(1);
+// output: blog
+
+echo $site->uri->path(2);
+// output: the-mighty-mighty-uri-object
+
+// with a default value
+echo $site->uri->path(3, 'mydefaultvalue');
+// a third part of the path is not set 
+// so the output will be 'mydefaultvalue'
+
+// you can also get the entire path
+echo $site->uri->path();
+// output: blog/the-mighty-mighty-uri-object
+
+// or the first part of the path
+echo $site->uri->path()->first();
+// output: blog
+
+// or the last part
+echo $site->uri->path()->last();
+// output: the-mighty-mighty-uri-object
+
+```
+
+## Params
+
+You probably recognized that `page:2` is missing from the path. This is a custom Kirby thingy, which I call params. Whenever you need to pass some parameters to your code and you want to use a more readable format than query strings you can use those params in your URL, which will excluded from   the path. Here's another example:
+
+    http://getkirby.com/blog/param1:hello/param2:world
+    // param1 = hello
+    // param2 = world
+
+…or a bit more realistic…
+
+    http://getkirby.com/blog/page:2/show:20
+    // page = 2
+    // show = 20
+
+The URI object makes it very easy to read those params in your code and react on the passed values. 
+
+```php
+
+// url: http://getkirby.com/blog/the-mighty-mighty-uri-object/page:2/?comments=show
+
+echo $site->uri->params('page');
+// output: 2
+    
+// or with a default value if the param is not found
+echo $site->uri->params('someparam', 'mydefaultvalue');
+// 'someparam' doesn't exist so the output will be 'mydefaultvalue'    
+    
+    
+```
+
+The (link: blog/add-pagination-to-your-blog text: pagination) object is using a `page:` param to handle pagination in URLs. It is very readable for your visitors, which is a good thing :)
+
+If you need a string of all params, do it like this:
+
+```php
+
+echo $site->uri->params();
+// output i.e.: page:2/show:20
+
+```
+
+## Query Strings
+
+The (link: http://toolkit.getkirby.com text: Kirby Toolkit) has an included helper function to get any value from a query or even any post value. So the easiest way to react on variables in the query string is to do something like this: 
+
+```php
+
+// url: http://getkirby.com/blog/the-mighty-mighty-uri-object/page:2/?comments=show
+
+echo get('comments');
+// output: show 
+
+// or with a default value:
+echo get('somequerything','mydefaultvalue');
+// there's no 'somequerything' in the query so the output is 'mydefaultvalue'
+
+
+```
+
+There's a more verbose method from the URI object, which basically does the same:
+
+```php
+
+echo $site->uri->query('comments');
+// output: show
+
+```
+
+It's up to you which one you prefer. Probably the shorter version :)
+
+If you need the entire query, just use it like this: 
+
+```php
+
+echo $site->uri->query();
+// output: comments=show
+// or if there are multiple values:
+// comments=show&val2=super&val3=awesome
+
+```
+
+This will give you a huge amount of possibilities to make your templates and code more dynamic and you will still be able to provide nice and clean URLs to your visitors. I hope you enjoy it and find some great ways to use this. 

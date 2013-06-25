@@ -1,0 +1,53 @@
+/**
+ * Colors
+ */
+$color-primary:          #333!default;
+$color-secondary:        #333!default;
+$color-tertiary:         #333!default;
+$color-text:             #333!default;
+$color-text-light:       #aaa!default;
+$color-input:            #333!default;
+$color-link:             #333!default;
+$color-ui:               #dedede!default;
+$color-error:            red!default;
+$color-success:          green!default;
+$color-background:       #fff!default;
+
+/**
+ * Custom Selection 
+ */
+$color-selection-background: #333!default;
+$color-selection-text:       #fff!default;
+
+/**
+ * Font families
+ */
+$font-family-primary:    "Helvetica Neue", Arial, sans-serif!default;
+$font-family-secondary:  "Helvetica Neue", Arial, sans-serif!default;
+$font-family-tertiary:   "Helvetica Neue", Arial, sans-serif!default;
+$font-family-input:      "Menlo", monospace;
+
+/**
+ * Font sizes
+ */
+$base-font-size:         16px!default;
+$base-line-height:       24px!default;
+
+$size-giga:              96px!default;
+$size-mega:              72px!default;
+$size-kilo:              48px!default;
+
+$size-h1:                36px!default; // .alpha
+$size-h2:                30px!default; // .beta
+$size-h3:                24px!default; // .gamma
+$size-h4:                20px!default; // .delta
+$size-h5:                16px!default; // .epsilon
+$size-h6:                14px!default; // .zeta
+
+$size-milli:             12px!default;
+$size-micro:             10px!default;
+
+/**
+ * Misc
+ */
+$border-radius:          3px!default;

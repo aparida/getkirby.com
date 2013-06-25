@@ -1,0 +1,17 @@
+Title: Email
+
+----
+
+Text: Send emails via mail(), Amazon SES or Postmark
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/email/email.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/email/readme.mdown
+
+---- 
+
+Tutorial: /blog/email-plugin

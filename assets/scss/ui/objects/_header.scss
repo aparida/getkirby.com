@@ -1,0 +1,10 @@
+.header {
+  border-bottom: 2px solid $color-primary;
+  margin-bottom: 1.5em;
+}
+
+.header .logo a {
+  display: block;
+  background: url(../images/logo.png) no-repeat left center;
+  text-indent: -6000px;
+}

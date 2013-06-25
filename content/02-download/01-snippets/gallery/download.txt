@@ -1,0 +1,17 @@
+Title: Gallery
+
+----
+
+Text: Add a simple image gallery to your site
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/gallery/gallery.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/gallery/readme.mdown
+
+---- 
+
+Tutorial: 

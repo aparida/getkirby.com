@@ -1,0 +1,11 @@
+Title: How about the security of the Kirby store?
+----
+Text:
+
+I'm very concerned about selling Kirby in the most secure and comfortable way. That's why I decided to use (link: http://fastspring.com text: FastSpring) to sell Kirby instead of developing my own checkout site. They are handling the entire checkout, payment and tax collection process for me and are famous for secure eCommerce solutions for software developers. 
+
+Companies like <http://culturedcode.com/>, <http://www.codingmonkeys.de/> or <http://flexibits.com/> use FastSpring to sell their software. I've purchased loads of apps through FastSpring powered stores myself and trust them 100%. 
+
+Though the (link: buy text: Buy) section of this site has the same design as all the other pages, you will be directed to the (link: buy text: Kirby store) on the FastSpring server, where they offer highest standard SSL encryption, fraud protection and many additional security features. 
+
+If you've got any questions or concerns about the payment process, please let me know: <bastian@getkirby.com>

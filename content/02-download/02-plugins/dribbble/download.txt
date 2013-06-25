@@ -1,0 +1,18 @@
+Title: Dribbble
+
+----
+
+Text: Show your recent Dribbble shots to your site. Plugin by (link: http://albrecht.me text: Simon Albrecht)
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/dribbble/dribbble.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/dribbble/readme.md
+
+
+---- 
+
+Tutorial: 

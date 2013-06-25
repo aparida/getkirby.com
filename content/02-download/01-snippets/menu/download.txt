@@ -1,0 +1,17 @@
+Title: Menu
+
+----
+
+Text: Add a menu to your site. This snippet is included in the default Kirby theme.
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/menu/menu.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/menu/readme.mdown
+
+---- 
+
+Tutorial: 

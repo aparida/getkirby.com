@@ -1,0 +1,44 @@
+@import "../kirby/defaults";
+@import "../kirby/generic/mixins";
+@import "../ui/vars";
+
+.answers {
+  padding-right: 2em;
+  padding-bottom: 3em;
+}
+.answers .alpha {
+  border-bottom: 1px solid $color-ui;
+  margin: 0;
+  padding-bottom: .25em;
+}
+
+.answer {
+  border-bottom: 1px solid $color-ui;
+  padding: 1em 0;
+}
+.answer .delta {
+  position: relative;
+  cursor: pointer;
+}
+.answer .delta a {
+  display: block;
+}
+.answer .delta:after {
+  position: absolute;
+  content: "";
+  @include arrow-bottom($color-text-light, 5px);
+  right: 0;
+  top: .5em;
+}
+.answer .inner {
+  padding-top: 1em;
+  border-top: 1px dotted $color-ui;
+  margin-top: 1em;
+}
+.questions .alpha {  
+  border-bottom: 1px solid $color-ui;
+  padding-bottom: .25em;
+}
+.questions .body {  
+  padding-top: 1em;
+}

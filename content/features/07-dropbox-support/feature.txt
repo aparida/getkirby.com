@@ -1,0 +1,11 @@
+Title: Dropbox Support
+
+----
+
+Text: 
+
+If you got a dedicated server or VPS, Kirby can easily be integrated with Dropbox. Administration and backups have never been more fun.
+
+----
+
+Link: blog/kirby-meets-dropbox

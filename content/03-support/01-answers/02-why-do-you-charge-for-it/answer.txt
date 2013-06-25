@@ -1,0 +1,8 @@
+Title: Why do you charge for it?
+----
+Text:
+
+I think (link: buy text: 30 €) for software which makes your life easier is a no-brainer and it will help me to keep the development going.
+
+With such a small amount you can easily put it on your client's invoice without them 
+even noticing :)

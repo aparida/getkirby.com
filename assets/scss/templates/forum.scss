@@ -1,0 +1,153 @@
+@import "../kirby/defaults";
+@import "../kirby/generic/mixins";
+@import "../kirby/generic/clearfix";
+@import "../ui/vars";
+
+/** code highlighting */
+@import "../ui/vendors/highlight/php";
+@import "../ui/vendors/highlight/css";
+@import "../ui/vendors/highlight/html";
+@import "../ui/vendors/highlight/js";
+
+.topic {
+  position: relative;
+  border-bottom: .1em solid $color-ui;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.forum .count {
+  position: absolute;
+  right: 0;
+}
+.forum .count a {
+  color: #fff;  
+  font-size: .8em;
+  background: $color-text;
+  display: inline-block;
+  padding: .15em .8em .07em;
+  font-weight: 300;
+  border-radius: 1em;
+}
+.forum .count a:hover {
+  background: $color-primary;
+}
+
+.forum .user {
+  margin-left: -.2em; 
+  padding-right: 30px;
+  float: left;
+  line-height:0;
+}
+.forum .user img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.forum header {
+  border-bottom: .1em solid $color-ui;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  @extend .clear;
+}
+.forum header a,
+.forum header small {
+  float: left;
+}
+.forum header small {
+  font-weight: 300;
+  color: $color-ui;
+  padding: 0 .3em 0;
+}
+
+.forum .added a {
+  color: $color-text-light;  
+  font-weight: 300;
+}
+.forum .added a:hover {
+  color: $color-text;
+}
+
+
+.thread {
+  position: relative;
+  border-bottom: .1em solid $color-ui;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.thread .count {
+  bottom: 1.1em;
+}
+
+
+.topic {
+  position: relative;
+  @extend .clear;
+}
+.topic .delta {
+  margin-right: 6em;
+  @include truncate(99%);
+  padding-top: .25em;
+}
+.topic .meta {
+  color: $color-text-light;
+  font-weight: 300;
+}
+.topic .meta a {
+  font-weight: 300;
+}
+.topic .added {
+}
+.topic .count {
+  top: .7em;
+}
+
+.topic-details {
+  position: relative;
+}
+.topic-details .added {
+  position: absolute;
+  right: 0;
+  top: .8em;
+}
+.topic-details > .text {
+  width: 65.3333%;    
+  padding: 1.5em 0 1.5em 76px;
+}
+
+
+.posts {
+  border-top: .1em solid $color-ui;  
+  padding-top: 1em;  
+}
+.posts .beta {
+  margin-left: 74px;
+}
+.posts ul {
+  border-top: .1em solid $color-ui;  
+  margin-top: 1em;
+  padding-top: 2em;
+}
+.post {
+  position: relative;
+  @extend .clear;
+  list-style: none;
+  margin-bottom: 2em;
+  padding: 1em 0 1.5em;
+  border-bottom: .1em solid $color-ui;  
+}
+.post .added {
+  padding-top: .17em;
+}
+.post .user {
+  margin-top: -.9em;
+}
+.post .text {
+  width: 65.3333%;    
+  padding-left: 76px;
+}
+
+.post-form .beta {
+  margin-left: 74px;
+}

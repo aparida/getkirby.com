@@ -1,0 +1,28 @@
+@import "../kirby/defaults";
+@import "../ui/vars";
+
+@import "../ui/objects/voice";
+
+.main hr {
+  clear: both;
+  margin-bottom: 3em;
+  border: 0;
+  background: $color-ui;
+  height: .1em;
+}
+.main hr:last-child {
+  display: none;
+}
+.main .alpha {
+  margin-bottom: 1em;
+}
+.main .alpha strong {
+  position: relative;
+  font-size: .7em;
+  top: -.05em;
+  left: .1em;
+  color: $color-primary;
+}
+.reference {
+  padding-bottom: 2.5em;
+}

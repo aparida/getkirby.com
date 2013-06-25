@@ -1,0 +1,374 @@
+Title: Frontend Authentication with Kirby
+
+----
+
+Date: 30.10.2012
+
+----
+
+Tags: tutorial, plugin
+
+----
+
+Text: 
+
+I can't count the times I've been asked if there's a way to restrict access to certain parts of a Kirby-powered website. It's definitely the most requested feature by far and hasn't been available yet.
+
+And so I'm super excited to release the first version of the (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/auth text: Authentication plugin for Kirby).
+
+It took me a while to come up with an elegant extension that is not deeply baked into the core of Kirby and yet very functional and still easy to install. 
+
+This first version is a beta, since I wanted to give it to you guys as early as possible and hear your feedback about it. A lot of things are already built into it, but I'm sure you will probably have your own wishes and thoughts, so the beta is the best way to make it perfect together with you. 
+
+## Download
+
+As all the other plugins, the Authentication plugin is available on Github: <https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/auth>
+
+## Installation
+
+The installation of this plugin is a bit more tricky than others. I had to decide between making it a "plug & play install" or giving you a tool, which you can customize to fit any project you will come up with. Since I got so many requests I think it's the better approach to go for something that is customizable and maybe a bit more complex to install. But let me just show you how the different parts go together:
+
+### The plugin
+
+Get the `auth` folder from Github and add it to `sites/plugins`
+This is all you need to install the core plugin. 
+
+### The login form snippet
+
+I've added a basic login form snippet to the `auth` folder, so you should copy that and add it to `site/snippets`
+
+This is meant as a draft for your own login form. Feel free to customize it with your own HTML. The essential line though is: 
+
+```
+
+<?php $login = Auth::login() ?>
+
+…
+
+```
+
+You must not remove that line! Otherwise the login won't work. It will take care of receiving the request submitted by the form and check for the username and password. It will return an error if something went wrong or redirect the user to the home page when the user entered everything correctly. 
+
+You can customize the redirect URL for when the login succeeded, if you don't want it to redirect to the home page
+
+```
+
+<?php $login = Auth::login('some/other/url') ?>
+
+…
+
+```
+
+### The login page
+
+When the login snippet is exactly the way you want it to be you should create a new `login` content folder with a `login.txt`. You will find a sample for this in the `auth/content` folder. 
+
+#### content/login/login.txt
+
+    title: Login
+
+For your `login.php` template you may include your default header and footer snippets or create an entirely new HTML document, but of course you need to include your login form snippet. Find another sample in the `auth/templates` folder.
+
+#### site/templates/login.php
+
+```
+<?php snippet('header') ?>
+<?php snippet('menu') ?>
+
+<section class="content">
+<?php snippet('login') ?>
+</section>
+
+<?php snippet('header') ?>
+```
+
+With all those parts in place you will have a great login page available at: 
+
+    http://yourdomain.com/login
+
+Even though this seems like a bit of a hassle, you are now free with this system to move the login page wherever you want it, rename the login URL and have full control over the HTML on your login page. 
+
+### The logout page
+
+With a working login page we will definitely also need a working logout page. 
+
+Create a new `logout` folder in your content folder and add a `logout.txt` to it. The `logout.txt` doesn't need any fields, but to make it more complete, just add a title field to it: 
+
+#### content/logout/logout.txt
+    title: Logout
+
+This will be helpful if you want to make the logout page visible and add it to the menu.
+
+Create a new `logout.php` template in `site/templates`
+This is going to be very simple with just one line: 
+
+#### site/templates/logout.php
+```
+
+<?php Auth::logout() ?>
+
+```
+
+It will automatically kill the current user's session and redirect back to the login page. Again you can define where the redirect will lead to:
+
+#### site/templates/logout.php
+```
+
+<?php Auth::logout('/') ?>
+
+```
+This will redirect to the home page instead. 
+
+Now you have a working logout page available at:
+
+    http://yourdomain.com/logout
+
+### Your first account
+
+We don't have a working account yet, so you will be disappointed by the unfriendly "Invalid username or password" message when trying the login form. 
+
+Creating accounts for your website works exactly like creating (link: docs/panel/accounts text: accounts for the panel), except they are located in your site folder and not in site/panel. 
+
+Create a new `site/accounts` folder and add your first `demo.php` account file. Account files must always be named like the username of that account. So don't use any special characters or other fancy stuff in those file names. 
+
+You will find a sample account file in the `auth/accounts` folder. You can use that or just paste the following lines: 
+
+```
+
+<?php if(!defined('KIRBY')) exit ?>
+
+# setup your account credentials here
+# it's highly recommended to use md5 or sha1 encryption 
+# for your passwords. read more about encryption in the
+# docs: http://getkirby.com/docs/panel/accounts
+
+username: demo
+password: demo
+group:    admin
+
+```
+
+The first line is needed to avoid direct access to the account file. You will also find the hint that you should **ALWAYS USE ENCRYPTED PASSWORDS** in your account files. Please read more about it here: <http://getkirby.com/docs/panel/accounts>
+
+To get you started more easily I used the unencrypted "demo" password but it should be obvious that this needs to be changed asap. 
+
+With this account file in place you can try the login for the first time and if you enter your username and password correctly, you should be redirected to the home page. Even though it is not visible yet, you are now logged in. Visit the url of your logout page to get logged out again. 
+
+## The Firewall
+
+The Authentication plugin has a very simple built-in firewall method you can use to control which pages should be accessible by whom.  
+
+### A global firewall
+
+If you want to restrict access to all pages of your site, you can add a firewall to the header snippet. Since this is included in all templates, it's the perfect place to setup rules that apply to all templates and pages. 
+
+The most simple, global firewall can be setup like this: 
+
+#### site/snippets/header.php
+
+```
+<?php Auth::firewall() ?>
+
+<!-- the rest of the header snippet goes here -->
+
+```
+
+Now every page of your site (except the login page of course) will require a logged in user. Whenever you try to access any other page without being logged in you will be redirected to the login page. 
+
+### Ignoring pages
+
+You can customize the firewall to ignore some pages by their UID: 
+
+```
+<?php 
+
+Auth::firewall(array(
+  'ignore' => array('home', 'login', 'logout')
+)) 
+
+?>
+
+```
+
+This will make sure that the home page does not require a login. You must always define the login and logout page as well, if you customize this setting. Otherwise those pages will be end in an endless loop. 
+
+### Allowing only certain users
+
+If you got multiple accounts and you want to grant access only to a limited subset of users you can define, which users should be able to login at all.
+
+```
+<?php 
+
+Auth::firewall(array(
+  'allow' => array('user:peter', 'user:frank', 'user:john')
+)) 
+
+?>
+
+```
+Now only peter, frank and john will be able to login, while the other available accounts will be blocked.
+
+### Allowing only certain groups
+
+You can define a group for each user in the accounts files with the group: field. This groups are very handy to – well – group users :) The firewall can also be used to allow only a few of those groups. 
+
+```
+<?php 
+
+Auth::firewall(array(
+  'allow' => array('user:peter', 'group:editor')
+)) 
+
+?>
+
+```
+With this setup only peter and all users in the group "editor" can login. 
+
+### Denying users and groups
+
+While allowing users or groups will probably be the easiest way to setup the firewall most of the time, you can also combine that with denying groups or users. Here's an example: 
+
+```
+<?php 
+
+Auth::firewall(array(
+  'allow' => array('group:admin'),
+  'deny' => array('user:peter')
+)) 
+
+?>
+
+```
+Assuming that peter is in the admin group, you can easily allow all admins but him, with this setup. 
+
+### Template firewalls
+
+While setting up a firewall in the header snippet is a great way to protect the entire site, you can also setup a firewall per template instead to protect only parts of your site. 
+
+Just add the same firewall script to the first line of each template, which should be protected. More awesome: you can even combine two firewall scripts – one in the header snippet and one in the template – to gain even more control over logged in users. 
+
+### Controlling the firewall with your content files
+
+Now comes the best part: you can even control your firewall from within your content files!
+
+Just add an allow or deny field to your content files: 
+
+#### content/projects/project.txt
+
+    title: My protected project
+    ----
+    text: Some secret text
+    ----
+    allow: group:client-a
+    ----
+    deny: user:peter
+
+In your project.php template you can now setup the firewall like this: 
+
+#### site/templates/project.php
+
+```
+<?php 
+
+Auth::firewall(array(
+  'allow' => str::split($page->allow(), ','),
+  'deny' => str::split($page->deny(), ','),
+)); 
+
+?>
+
+```
+
+This will automatically pass your firewall settings from your content files to your template. Of course this can easily be added to a panel blueprint and here you go with full permission control in just a few simple steps.
+
+
+## The User Object
+
+Right now it is very hard to tell for logged in users that they are logged in at all. No problem! With the Authentication plugin you get full access to the user data of the currently logged in user. 
+
+Just use…
+
+```php
+
+Auth::user()
+
+```
+
+…in your templates or snippets. This method returns a user object, which has a getter method for all data you stored with the user in the account file (except the password). Here's an example:
+
+```php
+
+$user = Auth::user();
+
+// echo the username of the currently logged in user
+echo $user->username();
+
+```
+
+This also means that you are free to extend the account files with all the data you need:
+
+
+#### site/accounts/peter.php
+
+```
+
+username:  peter
+password:  somethingencrypted
+group:     admin
+email:     peter@peter.com
+firstName: Peter
+lastName:  Jackson
+phone:     555 - 1234 5678
+
+```
+
+Now you can do amazing things in your header snippet for example:
+
+
+#### site/snippets/header.php
+
+```
+
+<?php if($user = Auth::user()): ?>
+Hey <?php echo $user->firstName() ?>! <br />
+I know what you did last summer and I even got your phone number: 
+<?php echo $user->phone() ?> and your email address:
+<?php echo $user->email() ?>
+<?php endif ?>
+
+```
+
+Of course this shouldn't be used to frighten your users but instead show a customized main menu with a login link or a little dashboard with the username. 
+
+You can also use the `Auth::user()` method to show or hide parts in your templates and snippets. Whenever the `Auth::user()` method returns false it means that there's no logged in user. 
+
+
+## Final thoughts 
+
+This is just a rough overview of things you can do with the new Authentication plugin. It's more a toolbelt than a ready-made solution and so I can only recommend to play with it and start your own experiments. I'm very excited to hear your thoughts and see the first protected Kirby sites coming up. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+Title: How about updates?
+----
+Text:
+
+Minor updates of Kirby (i.e. 1.1 to 1.2) will be free. 
+Users with an older license will get a discount for major upgrades (i.e. 1.x to 2.0).

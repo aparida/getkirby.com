@@ -1,0 +1,19 @@
+Title: The Kirby Cheat Sheet
+
+----
+
+Date: 11.05.2012
+
+----
+
+Text: 
+
+I'm very happy to introduce you to the new **(link: http://cl.ly/GXBe text: Kirby Cheat Sheet.)**
+
+(image: 01.jpg link: http://cl.ly/GXBe)
+
+It's bascially the entire Kirby API on two DIN A4 pages. 
+
+(image: 02.png link: http://cl.ly/GXBe)
+
+I hope you like it and it will help you to get stuff done faster with Kirby. 

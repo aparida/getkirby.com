@@ -1,0 +1,18 @@
+Title: Flattr
+
+----
+
+Text: Add a flattr button to your site. 
+Snippet by (link: http://djdn.de text: André Dujardin)
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/flattr/flattr.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/flattr/readme.mdown
+
+---- 
+
+Tutorial: 

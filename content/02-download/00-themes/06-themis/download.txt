@@ -1,0 +1,24 @@
+Title: Themis
+
+----
+
+Text: 
+
+Themis is a beautiful theme for photographers
+by (link: http://niklausgerber.com text: Niklaus Gerber)
+
+----
+
+Link: http://themis.niklausgerber.com/
+
+----
+
+Download: https://github.com/niklausgerber/themis/
+
+----
+
+Docs: http://niklausgerber.com/articles/themis/
+
+---- 
+
+Tutorial: 

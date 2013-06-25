@@ -1,0 +1,117 @@
+Title: New Tweets Plugin 
+
+----
+
+Date: 10.03.2012
+
+----
+
+Tags: tutorial, twitter
+
+----
+
+Text: 
+
+I just uploaded a new (link: downloads/#plugins/tweets text: Tweets plugin), which makes it possible to display recent Tweets from any public Twitter account on your site. 
+
+## Demo
+
+Here's a quick **(link: blog/tweets/demo text: demo)** of how the result of the plugin looks. 
+
+## Install the plugin
+
+Installation is super simple. Download the (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tweets/tweets.php text: tweets.php file) from Github and add it to `site/plugins`. If the plugin folder does not exist in your site directory, just create it. 
+
+You should also enable caching, so the plugin is able to store the Tweets and does not have to call the Twitter API on each page view. Go to your `site/config/config.php` and make sure to enable caching like this:
+
+```php
+
+c::set('cache', true); 
+
+```
+
+You must also set the permissions of `site/cache` to `0755`.
+
+If you are using the HTML cache `c::set('cache.html', true)` you should add the URI of the page, where you use the plugin to the list of pages, which will be ignored by the HTML cache. I.e.:
+
+```php
+c::set('cache.ignore', array('uri/to/the/tweets/page'));
+```
+
+Otherwise new Tweets will only show up when you update the text in the content file of that page or if you delete the cache manually. 
+
+
+## Add it to your site
+
+You can use the plugin in any template like this:
+
+```
+
+<?php $tweets = tweets('getkirby') ?>
+
+<ul class="tweets">
+  <?php foreach($tweets as $tweet): ?>
+  <li>
+    <a class="user" href="<?php echo $tweet->user()->url() ?>">
+      <img src="<?php echo $tweet->user()->image() ?>" /> 
+      <strong><?php echo $tweet->user()->name() ?></strong>
+      <small>@<?php echo $tweet->user()->username() ?></small>
+    </a>    
+    <p><?php echo html($tweet->text()) ?></p>
+    <a class="date" href="<?php echo $tweet->url() ?>"><?php echo $tweet->date('h:i A - d M y') ?></a>
+  </li>
+  <?php endforeach ?>
+</ul>
+
+```
+
+For a full list of available variables for tweets and users, please refer to (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tweets/tweets.mdown text: the docs) 
+
+## Styling Tweets
+
+If you decide to go for the HTML from the example above and you need a starting point for your CSS, you can use the following styles: 
+
+```css
+
+.tweets li {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+.tweets .user {
+  overflow: hidden;
+  line-height: 16px;
+}
+.tweets .user img {
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.tweets .user strong {
+  margin-top: 2px;
+  display: block;
+}
+.tweets .user small {
+  font-size: 15px;
+  color: #777;
+}
+.tweets p {
+  font-family: Georgia, serif;
+  clear: both;
+  padding: 10px 0;
+  margin-bottom: 0;
+  color: #222;
+  line-height: 24px;
+  font-size: 17px;
+}
+.tweets .date {
+  color: #777;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+```
+
+It's only a rough start though and you should definitely spice it up with your own CSS. 

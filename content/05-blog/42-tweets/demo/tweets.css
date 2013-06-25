@@ -1,0 +1,38 @@
+.tweets li {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+.tweets .user {
+  overflow: hidden;
+  line-height: 16px;
+}
+.tweets .user img {
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.tweets .user strong {
+  margin-top: 2px;
+  display: block;
+}
+.tweets .user small {
+  font-size: 15px;
+  color: #777;
+}
+.tweets p {
+  font-family: Georgia, serif;
+  clear: both;
+  padding: 10px 0;
+  margin-bottom: 0;
+  color: #222;
+  line-height: 24px;
+  font-size: 17px;
+}
+.tweets .date {
+  color: #777;
+  font-size: 13px;
+  line-height: 18px;
+}

@@ -1,0 +1,18 @@
+Title: Read Later
+
+----
+
+Text: Add "read later" links to your articles and pages
+Plugin by (link: http://roylodder.com/ text: Roy Lodder)
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/readlater/readlater.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/readlater/readme.mdown
+
+---- 
+
+Tutorial: /blog/readlater

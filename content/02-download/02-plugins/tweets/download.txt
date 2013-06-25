@@ -1,0 +1,17 @@
+Title: Tweets
+
+----
+
+Text: Display recent Tweets from any public Twitter account
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tweets/tweets.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tweets/readme.mdown
+
+---- 
+
+Tutorial: 

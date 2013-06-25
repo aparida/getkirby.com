@@ -1,0 +1,13 @@
+.article-date {
+  position: absolute;
+  top: .59em;
+  right: 0;
+  text-align: right;
+  line-height: 1em;
+  font-size: .9em;
+}
+.article-date .month {
+  color: $color-primary;
+  display: block;
+  padding-bottom: .025em;
+}

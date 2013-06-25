@@ -1,0 +1,17 @@
+Title: Instagram
+
+----
+
+Text: Show your recent pictures from Instagram on your site. Plugin by (link: http://albrecht.me text: Simon Albrecht)
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/instagram/instagram.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/instagram/readme.md
+
+---- 
+
+Tutorial: 

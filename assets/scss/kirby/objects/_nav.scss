@@ -1,0 +1,10 @@
+.nav {
+
+  @extend .clear;
+
+  & li {
+    float: left;    
+    list-style: none;
+  }
+
+}

@@ -1,0 +1,9 @@
+Title: Forum
+
+----
+
+Text: 
+
+### About the forum
+This is the first version of the Kirby forum. It's entirely based on Kirby – no forum software involved. 
+It's still in beta, so bear with me, if things don't work out as expected and please let me know: <bastian@getkirby.com>

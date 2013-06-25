@@ -1,0 +1,17 @@
+Title: Wordpress
+
+----
+
+Text: Export all your Wordpress articles to Kirby. 
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/exporters/wordpress/wordpress.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/exporters/wordpress/readme.mdown
+
+---- 
+
+Tutorial: 

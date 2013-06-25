@@ -1,0 +1,89 @@
+Title: Multi-environment setup
+
+----
+
+Date: 03.01.2012
+
+----
+
+Tags: tutorial, server, configuration
+
+---- 
+
+Text:
+
+In 99% of all client projects, I work on a local version on my Mac. Before the project gets launched I also have a version on a remote test server, to make it possible for my clients to check out the latest changes there. Once the project is launched, every local update will be copied to the test server first and once it is working there as expected, it will be copied to the production server. 
+
+It does sound pretty straight forward, right? I guess most of you have a similar setup for your projects and so you know that fun instantly turns into a nightmare when you need to keep the local, test and production versions in sync. 
+
+When you are working with a CMS or blog software, there are mainly three big issues: 
+
+- keeping the files in sync
+- keeping the database in sync
+- adjusting configurations for all three environments
+
+We can leave number two out here, because Kirby has no database and so it's all just about keeping the files in sync and that configuration nightmare.
+
+If you are using Git or any other version control system there are nice ways to use them instead of a good old FTP-client to sync files on all servers. There are hundreds of articles about that out there, so I will just link to two of them and leave it up to you to learn more about it.
+
+- (link: http://www.saintsjd.com/2011/03/automated-deployment-of-wordpress-using-git/ text: Automated Deployment of PHP Applications using git)
+- (link: http://vortrieb.net/blog/php-deployment-mit-capistrano-und-git text: PHP Deployment mit Capistrano und Git) (german)
+
+With a good old FTP-client – I love (link: http://panic.com/transmit text: Transmit) btw – you could just replace all files to make sure you don't forget anything or use the built-in sync mode, which some FTP-clients offer. But it is definitely not that much fun.
+
+And after solving two out of three problems there's still one left…
+
+## Different configs for different environments
+
+It starts with simple things like switching off error messages on the production server, connecting to a different database (oh wait, did I mention that Kirby does not use a database?) running Kirby in a subfolder on your local machine but not on the production server, etc, etc. 
+
+There are dozens of possible issues with different environments and sooner or later you have to adjust the configuration. If there's just one config file for that, this means that you need to touch and change that config file after each deployment. This leaves a lot of room for errors and is time-consuming like hell. 
+
+You could add a simple server name check to your config file to switch between different setups. Something like:
+
+```php
+
+if($_SERVER['SERVER_NAME'] == 'localhost') {
+  // local setup
+} elseif($_SERVER['SERVER_NAME'] == 'test.yourdomain.com') {
+  // test server setup
+} elseif($_SERVER['SERVER_NAME'] == 'yourdomain.com') {
+  // production server setup
+}
+
+```
+
+But Kirby has a cleaner built-in way to handle different environments. 
+
+By default all your config variables for your Kirby installation go into 
+
+	site/config/config.php
+
+You should setup all general stuff there, which will be valid for any of your environments. 
+
+To add specific configurations add a new file to the `site/config` folder and name it like this:
+
+	site/config/config.{server_name}.php
+
+Let's assume we have the folling URLs for our three environments and we wanted to have different configs for all three of them:
+
+- Local: `http://localhost`
+- Testserver: `http://test.yourdomain.com`
+- Production: `http://yourdomain.com`
+
+The `site/config` folder would then contain four config files:
+
+	config.php
+	config.localhost.php
+	config.test.yourdomain.com.php
+	config.yourdomain.com.php
+
+The `config.php` file will be loaded every time, but only the matching file for the current server will be loaded additionally. Kirby automatically takes care of that so all you need to worry about is adding those files. 
+
+Since the environment-specifc file will always be loaded after the global `config.php` you can even overwrite global parts of the setup. 
+
+This makes it very easy to add different configurations for different environments, which will be switched on only when needed. 
+
+You no longer have to worry about overwritten config files on your test or production servers. Just upload your files and it will run.
+
+I hope this was helpful and not too boring/nerdy! :)

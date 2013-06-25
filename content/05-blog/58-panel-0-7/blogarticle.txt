@@ -1,0 +1,128 @@
+Title: Panel 0.7 – First Beta Release
+
+----
+
+Date: 09.05.2012
+
+----
+
+Text: 
+
+I've got some great new stuff for all Panel users. It's finally moving out of Alpha state with some great new features. 
+
+## Download
+
+You can (link: https://github.com/bastianallgeier/kirbycms-panel text: download the latest version from Github)
+
+## How to update
+
+Updating is easy. Download the latest version and replace the old panel folder with the new panel folder. If you have modified the .htaccess inside the panel folder, make sure to not replace that one. 
+
+## Docs
+
+Check out the (link: panel text: Panel docs) and please let me know if something is not understandable or missing. 
+
+## What's new
+
+### Edit file metadata
+
+You can finally add and edit any kind of metadata for files. 
+
+(image: 01.png)
+
+The cool thing: you can setup the form for metadata in the same way, you can setup the content forms in your blueprints: 
+
+```
+fields:
+  title: 
+    label: Title
+    type:  text
+  text: 
+    label: Text
+    type:  textarea
+    size:  huge
+    
+filefields:
+  title: 
+    label: Title
+    type:  text
+  caption:
+    label: Caption
+    type:  textarea
+
+```
+
+Just add a second field definition – called `filefields` – below the standard field definition. There's only one limitation. You can only use text fields and textareas. Buttons, required fields, field validation and different field sizes are not available yet. 
+
+This will still give you some great flexibility to come up with file metadata just the way you need it. 
+
+### iOS Drag & Drop Sorting
+
+The genius (twitter: @robrainfall) has sent me the link to a (link: http://touchpunch.furf.com/ text: great plugin for jQuery UI), which makes it possible to have drag & drop support for sortable lists on iOS devices (iPad, iPhone, iPod) This has been the missing puzzle piece to offer full support for the Panel on the iPad. You can now sit on your couche and update your Kirby-powered website from your iPad!
+
+### New Checkbox and Multicheckbox fields
+
+With the great support from (link: https://github.com/lulezi text: Luzi Humm) there's now a breand new checkbox field, which you can add to your Panel forms. Blueprint setup for this is super easy:
+
+```
+mycheckboxfield: 
+  label:   My super awesome checkbox
+  type:    checkbox
+  default: on
+  
+```
+
+(image: 02.png)
+
+This inspired me to create a new Multicheckbox field, which you can use to provide multiple selections – for example for categories:
+
+```
+categories: 
+  label:   Categories
+  type:    multicheckbox
+  default: design, photography
+  options:
+    design: Design
+    photography: Photography
+    architecture: Architecture  
+```
+
+(image: 03.png)
+
+I think both new field types will come in handy in many situations and I'm happy they are here now. If you are still missing an essential field type, please let me know. 
+
+  
+### Multiple Templates
+
+In your blueprints you can set, which templates subpages should/must have. So far you had the option to either let the user decide or to define a single template, which will be used for all subpages. Now it is possible to define a set of templates, which will give you way more flexibility:
+
+```
+
+# blog blueprint
+
+title: Blog
+
+pages: 
+
+  template: 
+    - blogarticle
+    - blogfeed
+
+  sort:  flip
+  limit: 10
+
+fields: 
+  …
+
+```
+
+You can add any number of templates to the list and the Panel will automatically create a selectbox out of it: 
+
+(image: 04.png)
+
+
+## Feedback
+
+I think it has been very important to add those new features and I'm very happy that they are finally here. I'm excited as always about your feedback. 
+
+The final launch of the Panel is drawing nearer. YAY!

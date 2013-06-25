@@ -1,0 +1,17 @@
+Title: Tagcloud
+
+----
+
+Text: Fetch all tags for subpages and build a tagcloud with this plugin.
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tagcloud/tagcloud.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tagcloud/readme.mdown
+
+---- 
+
+Tutorial: /blog/tagcloud

@@ -1,0 +1,33 @@
+Title: Styleguides
+
+----
+
+Date: 20.03.2012
+
+----
+
+Tags: content, use case
+
+----
+
+Text: 
+
+(link: http://www.starbucks.com/static/reference/styleguide text: Starbucks has published the styleguide for their website), which gives some interesting insights on the elements, grid, code and styles they use. 
+
+Especially when you are working on a bigger project in a team, such a styleguide is a great way to make sure that everybody is using the same design and code elements and to keep stuff consistent. It also makes the life of designers and developers way easier by being able to reuse elements from a shared library rather than reinventing the wheel. 
+
+Such styleguides are also a common tool in corporate design and branding projects and have been used in the "print world" for ages. They normally include stuff like the corporate logo, fonts, font sizes, colors, grids, common design templates and such. For web projects   they are extended to include also global css styles, javascript components, reusable HTML structures, etc. 
+
+## The Kirby Styleguide Theme
+
+(image: 01.png link: http://styles.getkirby.com)
+
+A web-based styleguide is a great Kirby use case and so I've decided to build a tiny little theme for Kirby, which you can use as a starting point for your next project's styleguide: **<http://styles.getkirby.com>**
+
+Feel free to download the theme over at Github: <https://github.com/bastianallgeier/kirbystyles> and to modify it for your own project. 
+
+The theme is free but a Kirby license is needed as soon as you use the styleguide in production. 
+
+
+
+

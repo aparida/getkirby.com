@@ -1,0 +1,11 @@
+Title: Markdown Syntax
+
+----
+
+Text: 
+
+Write your content with the powerful, extended version of the popular Markdown syntax. 
+
+----
+
+Link: docs/formatting-text

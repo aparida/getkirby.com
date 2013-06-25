@@ -1,0 +1,11 @@
+Title: jQuery-Inspired API
+
+----
+
+Text: 
+
+Kirby's highly flexible API is very easy to learn and will boost your productivity while you can focus on building awesome websites. 
+
+----
+
+Link: docs

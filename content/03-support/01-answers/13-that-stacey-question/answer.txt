@@ -1,0 +1,17 @@
+Title: What about Stacey?
+----
+Text:
+
+The concept of how to organize your content is partly similar with another great file-based open-source cms called (link: http://staceyapp.com text:Stacey). Kirby offers a completely different, jQuery-inspired API, its own core and a new approach to (link: docs/templates text:templates) and (link: docs/formatting-text text:text formatting). It also contains the (link:http://toolkit.getkirby.com text:kirby toolkit), which will help you speed up your development process. 
+
+It's up to you, which one you prefer. If you are not sure about it, you should consider comparing (link: http://staceyapp.com/documentation/ text:their docs) and the (link: docs text:Kirby docs). 
+
+Read more about it in the (link: blog/email-to-stacey text: blog)
+
+There are a lot more file-based cms you might want to consider before making a decision:
+
+<http://www.google.com/search?q=file+based+cms>
+
+If you are serious about this you will do research anyway, so better I provide you with all the info in the first place :) 
+
+

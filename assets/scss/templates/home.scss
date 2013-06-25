@@ -1,0 +1,58 @@
+@import "../kirby/defaults";
+@import "../ui/vars";
+
+.section {
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+  border-bottom: 1px solid $color-ui;
+}
+.section.last {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.section .beta {
+  padding-bottom: .5em;
+}
+.section .gamma {
+  padding-bottom: .75em;
+}
+
+
+.introduction .alpha {
+  padding: 0;
+  margin-bottom: -.2em;
+}
+.introduction ul {
+  font-size: $size-h3;
+  font-weight: 300;
+  padding-bottom: 0;
+  margin-left: -1em;
+}
+
+.features .column {
+  padding-bottom: 2em;
+}
+.features .more {
+  white-space: nowrap;
+}
+
+/* references section */
+.references.section .beta {
+  padding-bottom: .75em;
+}
+.references.section .beta strong {
+  position: relative;
+  font-size: .7em;
+  top: -.05em;
+  left: .1em;
+}
+
+@import "../ui/objects/reference";
+
+/* voices section */
+.voices .beta {
+  padding-bottom: 1em;
+}
+
+@import "../ui/objects/voice";

@@ -1,0 +1,17 @@
+Title: Thumb
+
+----
+
+Text: Auto-generate thumbnails and resized versions of big images. 
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/thumb/thumb.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/thumb/readme.mdown
+
+---- 
+
+Tutorial: /blog/thumb-plugin

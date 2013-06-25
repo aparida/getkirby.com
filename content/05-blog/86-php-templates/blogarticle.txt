@@ -1,0 +1,404 @@
+Title: Kirby, Y U NO HAZ template engine?
+
+----
+
+Date: 07.02.2013
+
+----
+
+Tags: tutorial
+
+----
+
+Text: 
+
+I asked you guys for the next topic I should write a tutorial about and many great suggestions popped up. I was already about to pick one of them, when (link: forum/general/topic:362 text: an interesting discussion about template engines) started in the forum.
+
+Now and then people ask me, why Kirby does not make use of a template engine like *“the one from ExpressionEngine“*, Twig or Smarty. 
+
+I think I owe you a good explanation, so here it comes:
+
+## Template engines are great
+
+Template engines are made to make the life of frontend developers easier, to separate logic and layout and to provide handy shortcuts for common tasks. 
+
+Those are all reasonable arguments, but they all don't mean that you have to invent another language for it. Kirby in fact has a template engine – a simple one, which is based on PHP. PHP can be the perfect tool to write templates, you just have to do it the “right“ way. 
+
+## PHP is ugly, right?
+
+It's always interesting to me that nobody ever questions the use of Ruby in Rails templates, while lots of agonized screams are being heard when you come up with PHP in templates. 
+
+*”Ruby is such a beautiful language – how dare you to compare it with PHP“* 
+– you might say. 
+
+I agree, Ruby is beautiful, but PHP is not as horrible as everybody says. A lot of PHP's ugliness comes from horrible APIs and careless written code. So why not invest in improving that instead of plunging a template engine with its own syntax on top of it?  
+
+## Keep it simple
+
+When I started Kirby, I wanted to create a system that is tiny on the outside but very powerful on the inside. It should be nothing more than a seed – a simple core, which you can use to build whatever you have in mind. I didn't want to create a CMS which has ALL THE FEATURES. I don't think there's any sense in even trying that. 
+
+How would a massive template engine fit on that? Let's face it, none of the good template systems are simple or small. Smarty is big, Twig is huge! Twig's core is actually twice as big as the entire Kirby system. 
+
+If you ask me a good template system has to be huge, because it has to fulfill A LOT of things in order to help you instead of being in your way.  
+
+There's another thought: When I focus on keeping Kirby's templates simple and on improving the API, I still have the chance to add a template system on top of that one day – maybe as a plugin. Once I build Kirby around a template system, I'm sold and have to carry it around until the end of all days. 
+
+## PHP Templates 101
+
+Enough theoretical talking. Let's write some code. I write my templates in PHP for years and always try to stick to some simple rules. If you want the short version, you can check out (link: http://beneverard.co.uk/blog/php-quick-tip-when-to-use-the-alternative-syntax/ text: this video by Ben Everard), which sums up the entire point pretty nicely. 
+
+### Design your code
+
+This is not only a rule for Kirby templates, but for all the HTML code you write – always keep it tidy, consistent and polished. I know it's often difficult with tight budgets or when you just started to learn how to code. But the cleaner you keep your templates right from the beginning, the easier it will be to maintain those later. 
+
+### Get a good editor with great syntax highlighting
+
+It's vital to feel comfortable with the editor and its syntax highlighting. I've been using (link: http://www.codingmonkeys.de/subethaedit/ text: SubEthaEdit) for years, because it had an awesome syntax highlighter for mixed PHP and HTML and just recesntly switched to (link: http://www.sublimetext.com/ text: Sublime Text), which is fantastic. 
+
+### Don't be afraid of PHP
+
+I know that PHP looks a bit scary in the beginning, when you come from an HTML and CSS background. But it's far less complicated than you might think. Here are the basics:
+
+#### Display a variable 
+
+```
+<?php echo $page->title() ?>
+```
+
+#### If clauses
+
+```
+<?php if($page->isHomePage()): ?>
+Welcome to the home page
+<?php endif ?>
+```
+
+#### If / else
+
+```
+<?php if($page->title() == ''): ?>
+<h1>No title</h1>
+<?php else: ?>
+<h1><?php echo $page->title() ?></h1>
+<?php endif ?>
+```
+
+#### foreach loops
+
+```
+<ul>
+  <?php foreach($pages as $p): ?>
+    <li><a href="<?php echo $p->url() ?>"><?php echo $p->title ?></a></li>
+  <?php endforeach ?>
+</ul>
+```
+
+Those are the most basic tools you will need in your templates. 
+That wasn't too hard, right?
+
+So let's move on with some rules to write beautiful PHP.
+
+### Indentation
+
+Always make sure to use proper indentation. It doesn't really matter if you use spaces or tabs to indent your lines, just make sure it's tidy. Considering PHP blocks as HTML blocks makes it easier for me to structure my templates and makes them look cleaner in the end.
+
+```
+<html>
+  <head>
+    <title><?php echo $site->title() ?></title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <?php foreach($pages as $child): ?>
+          <li><a href="<?php echo $child->url() ?>"><?php echo $child->title() ?></a></li>
+        <?php endforeach ?>
+      </ul>
+    </nav>
+  </body>
+</html>
+```
+
+### Don't use curly brackets
+
+```
+<?php if($page->hasChildren()) { ?>
+
+  <ul>
+    <?php foreach($page->children() as $child) { ?>
+      <li>…</li>
+    <?php } ?>
+  </ul>
+
+<?php } ?>
+```
+
+This becomes an unreadable mess when you have more than just one nested condition or loop and lots of html between it. Better use alternative syntax, which will help you to understand where blocks start and end. 
+
+```
+<?php if($page->hasChildren()): ?>
+
+  <ul>
+    <?php foreach($page->children() as $child): ?>
+      <li>…</li>
+    <?php endforeach ?>
+  </ul>
+
+<?php endif ?>
+```
+
+### Never ever create entire HTML parts with PHP
+
+#### No:
+
+```
+<header>
+<?php 
+
+echo '<nav>';
+echo '<ul>';
+foreach($page->children() as $child) {
+  echo '<li><a href="' . $child->url() . '">' . $child->title() . '</a></li>';
+}
+echo '</ul>';
+echo '</nav>';
+
+?>
+</header>
+```
+
+This will always end up in unreadable Spaghetti code.
+It might be ok to do that inside a function sometimes. But most of the times you really should avoid this. 
+
+#### Yes:
+
+```
+<header>
+  <nav>
+    <ul>
+      <?php foreach($page->children() as $child): ?>
+        <li><a href="<?php echo $child->url() ?>"><?php echo $child->title() ?></a></li>
+      <?php endforeach ?>
+    </ul>
+  </nav>
+</header>
+```
+
+### Switch on PHP short tags if possible
+
+Unless you are on a shared hosting plan, which doesn't allow to modify PHP.ini settings, you can switch on PHP short tags. 
+
+There's already a line in Kirby's **htaccess** file, which you can use to do that:
+
+```
+php_flag short_open_tag on 
+```
+
+Afterwards you should be able to use: 
+
+`<?` instead of `<?php`
+
+and 
+
+`<?=` instead of `<?php echo`
+
+Your templates will instantly look a lot less PHPy:
+
+```
+<html>
+  <head>
+    <title><?= $site->title() ?></title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <? foreach($pages as $child): ?>
+          <li><a href="<?= $child->url() ?>"><?= $child->title() ?></a></li>
+          <? endforeach ?>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <h1><?= $page->title() </h1>
+      <?= kirbytext($page->text()) ?>
+    </article>
+    <footer><?= $site->copyright() ?></footer>
+  </body>
+</html>
+```
+
+### Use snippets
+
+Kirby has built-in includes for your templates called snippets. In other systems they are often called partials or stubs or something similar. There's an (link: docs/snippets text: entire page in the docs) about them, which you should definitely read. 
+
+Snippets can simplify your templates drastically, which will lead to better template readability. 
+
+#### No:
+```
+<html>
+  <head>
+    <title><?= $site->title() ?></title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <? foreach($pages as $child): ?>
+          <li><a href="<?= $child->url() ?>"><?= $child->title() ?></a></li>
+          <? endforeach ?>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <h1><?= $page->title() </h1>
+      <?= kirbytext($page->text()) ?>
+    </article>
+    <footer><?= $site->copyright() ?></footer>
+  </body>
+</html>
+```
+
+#### Yes:
+
+**site/snippets/header.php**
+
+```
+<html>
+  <head>
+    <title><?= $site->title() ?></title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <? foreach($pages as $child): ?>
+          <li><a href="<?= $child->url() ?>"><?= $child->title() ?></a></li>
+          <? endforeach ?>
+        </ul>
+      </nav>
+    </header>
+```
+
+**site/snippets/footer.php**
+
+```
+  <footer><?= $site->copyright() ?></footer>
+</body>
+</html>
+```
+
+**site/templates/mytemplate.php**
+
+```
+<? snippet('header') ?>
+
+<article>
+  <h1><?= $page->title() </h1>
+  <?= kirbytext($page->text()) ?>
+</article>
+
+<? snippet('footer') ?>
+```
+
+Using snippets makes entire parts of your templates reusable for other templates and reduces the amount of code per template.
+
+### Use the js and css helpers
+
+Kirby has a lot of built-in helpers to simplify your templates and even more will follow in the next version.
+
+To simplify loading css and javascript files, you can use the following helpers: 
+
+```
+<?= css('assets/css/mystyle.css') ?>
+<?= js('assets/js/jquery.js') ?>
+```
+
+### Use the url() function
+
+Working with absolute URLs in templates is a nightmare. That's why Kirby has the url() function to help you build correct links: 
+
+#### No:
+```
+<a href="http://mydomain.com/my/path/to/a/subpage">My subpage</a>
+```
+
+#### Yes:
+```
+<a href="<?= url('my/path/to/a/subpage') ?>">My subpage</a>
+```
+
+### Simplify your if clauses
+
+In many situations you don't have to write a full if clause in your templates. There are shorter versions, which you should know about:
+
+#### No: 
+```
+<?php if($page->hasChildren()): ?>
+Yay, children!
+<?php else: ?>
+No children :(
+<?php endif ?>
+```
+
+```
+<?= ($page->hasChildren()) ? 'Yay, children!' : 'No children :(' ?>
+```
+
+### Even simpler: Use the ecco function
+
+A typical problem when writing templates is to switch on HTML attributes on demand. 
+(ie. for an active class on menu items)
+
+Kirby has a built in ecco() function, which works like a compressed if/else clause:
+
+```
+<body<? ecco($page->isHomePage(), ' class="home"') ?>>
+```
+
+In the example above, `class="home"` will only be added to the body tag, when the current page is the home page. 
+
+This even works with alternatives, when the condition is not matched:
+
+```
+<body class="<? ecco($page->isHomePage(), 'home', 'other') ?>">
+```
+
+This will apply the `home` selector to the home page and the `other` selector whenever the current page is not the home page.
+
+### And one last trick:
+
+You often have to check for an existing object first, before you can use it. For example when you want to find out if an image exists, before you render an image tag.
+
+#### No:
+```
+<? $image = $page->images()->first() ?>
+<? if($image): ?>
+<img src="<?= $image->url() ?>" />
+<? endif ?>
+```
+
+#### Yes:
+```
+<? if($image = $page->images()->first()): ?>
+<img src="<?= $image->url() ?>" />
+<? endif ?>
+```
+
+### More tricks? 
+
+I probably forgot a dozen more tricks, so if you want to share one of yours, feel free to post it in the comments!
+
+## One last argument
+
+If you still need arguments why to use PHP instead of a made-up template language, here's another one: **While making your first baby-steps with simple PHP for your templates you actually learn the basics of PHP.** 
+
+Even if you are a designer or a frontend developer and you don't want to focus on backend code, this is something you can use in so many other projects and systems. It's a valuable additional skill, even if you never become an expert. Maybe it will even get you interested to spend more time with code. That's what happened to me. 
+
+A template language has to be learned as well, but what are the long-term benefits? 
+
+
+
+
+
+

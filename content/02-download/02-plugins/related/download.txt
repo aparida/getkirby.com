@@ -1,0 +1,17 @@
+Title: Related Pages
+
+----
+
+Text: Easily add relations between any pages
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/related/related.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/related/readme.mdown
+
+---- 
+
+Tutorial: /blog/related-pages-plugin

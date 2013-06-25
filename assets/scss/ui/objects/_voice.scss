@@ -1,0 +1,22 @@
+.voice {
+  border-left: .2em solid $color-ui;
+  padding-left: 1em;
+  margin-bottom: 3em;
+}
+.voice figure {
+  float: left;
+  padding-right: 1em;
+}
+.voice figure img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+.voice .gamma {
+  margin-top: -.15em;
+  padding-bottom: .1em;
+}
+.voice blockquote {
+  padding-top: 1em;
+  clear: both;
+}

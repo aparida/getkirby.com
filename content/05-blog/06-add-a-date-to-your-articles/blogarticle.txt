@@ -1,0 +1,76 @@
+Title: How to add a date to your articles
+
+----
+
+Date: 19.12.2011
+
+----
+
+Tags: tutorial, blog, date
+
+---- 
+
+Text:
+
+Our blog is already pretty nice, but there's one more major things missing: a date for each article. 
+
+Kirby has a built in feature to include dates in your contents. 
+You could always add a simple field to your content files and write a date their just like this:
+
+    Title: Super Nice Content
+    ----
+    SomeDate: 15/12/2011
+    ----
+
+…and afterwards in your template you could just parse that date with PHP and generate whatever you need:
+
+```php
+<?php
+
+$somedate = strtotime($page->somedate());
+
+echo date('Y-m-d', $somedate);
+// 2011-12-15
+
+?>
+```
+    
+**But there's a nicer way to do that!**
+
+Whenever you need a date for your content, just add a date field to your content file:
+
+    Title: Super Nice Content
+    ----
+    Date: 15/12/2011
+    ----
+    
+Make sure the format you use for your date is parsable by php. Anything like `dd/mm/YYYY` or `YYYY-mm-dd` or many other formats will do. Read more about it (link: http://php.net/manual/en/function.strtotime.php text:here). 
+
+`Date` is a predefined keyword, so Kirby will automatically take care of parsing the content of that field as a date and give you nice shortcuts to handle it in your templates.
+
+```php    
+<?php echo $page->date('Y-m-d') ?>
+```
+
+This will do the same as the example above – just in one line. As an argument you can pass any valid (link: http://php.net/manual/de/function.date.php text: php date format string). If you don't pass any string the function will return a unix timestamp, which you can use to make some more fancy php date calculation stuff. 
+
+## How to use that for our blog?
+
+So if we take a look at our blog article template, it is very easy to include a date there and this is just a very general example. 
+
+```
+<article>
+  <h1><?php echo html($article->title()) ?></h1>
+  <?php echo kirbytext($article->text()) ?>
+
+  <time datetime="<?php echo $page->date('c') ?>" pubdate="pubdate"><?php echo $page->date('d.m.Y H:i') ?></time>
+
+</article>
+
+```
+
+It's up to you to customize that and build your own perfect article template. I'm sure you come up with something way more creative than that :)
+
+
+
+

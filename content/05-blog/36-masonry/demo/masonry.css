@@ -1,0 +1,22 @@
+body {
+  width: 860px;
+}
+#container {
+  overflow: hidden;
+  width: 860px;
+  padding: 50px 0;
+}
+#container ul {
+  width: 1000px;
+}
+#container li {
+  float: left;
+  list-style: none;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  line-height: 0;
+}
+#container li a {
+  border: 0;
+}

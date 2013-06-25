@@ -1,0 +1,17 @@
+Title: PrevNext
+
+----
+
+Text: Add a "previous entry | next entry" navigation to your site
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/prevnext/prevnext.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/prevnext/readme.mdown
+
+---- 
+
+Tutorial: 

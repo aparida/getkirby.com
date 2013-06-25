@@ -1,0 +1,11 @@
+Title: Instant Installation
+
+----
+
+Text: 
+
+Installing Kirby means uploading some files to your server and that's it. No fighting with your database setup, no 10-step setup wizard – it's a matter of seconds.
+
+----
+
+Link: docs/getting-started

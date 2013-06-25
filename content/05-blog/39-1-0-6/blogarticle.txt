@@ -1,0 +1,26 @@
+Title: 1.0.6
+
+----
+
+Date: 29.02.2012
+
+----
+
+Tags: releases
+
+----
+
+Text: (link: https://github.com/bastianallgeier/kirbycms/zipball/master text: 1.0.6) is here.
+It's a minor release with a bug fix for entirely numeric folder names, like `2012` or `1234`. Those did not work with the `$pages->find()` method in earlier releases. 
+
+I also included the rel attribute for kirbytext link tags:
+
+	(\link: http://google.com rel: nofollow)
+
+
+
+## How to update?
+
+Download the **(link: https://github.com/bastianallgeier/kirbycms/zipball/master text: latest version)** and extract the ZIP. Remove the old kirby system folder from your site and replace it with the new one from the latest version.
+
+**Also make sure to empty your cache folder if you have caching enabled**

@@ -1,0 +1,131 @@
+Title: HTML5 Videos
+
+----
+
+Date: 22.12.2011
+
+----
+
+Tags: tutorial, html5, videos
+
+----
+
+Text:
+
+Sooner or later you might want to embed some videos in your site. To be honest I always try to convince my own clients to go for (link: http://youtube.com text: Youtube) or (link: http://vimeo.com text: Vimeo) – not just because it is easier for me, but it's also much easier for them in most cases and those services already offer things like HTML 5 support, playback on shiny iDevices, easy embedding, etc. 
+
+## Embedding Vimeo and Youtube Videos
+
+If you are lucky and all the videos you want/need to embed are on either Youtube or Vimeo, embedding them in your pages with Kirby is very, very easy. You could of course just use their HTML-embed codes, but there are actually some shortcuts, which make it much more comfortable.
+
+In your content files you can embed them anywhere in your texts:
+
+    (\youtube: http://www.youtube.com/watch?v=iUCDhvbQFmU)
+    
+Or for Vimeo videos:
+
+    (\vimeo: http://vimeo.com/32875422)
+
+And you can even customize the size of the videos:
+
+    (\youtube: http://www.youtube.com/watch?v=iUCDhvbQFmU width: 500 height: 300)
+
+    (\vimeo: http://vimeo.com/32875422 width: 500 height: 300)
+
+### Template helpers
+
+There are also two helper functions for your templates. So if you want to embed videos right in your templates instead of embedding them in your content files, you can do it like this: 
+
+```php
+
+<?php echo youtube('http://www.youtube.com/watch?v=iUCDhvbQFmU') ?>
+
+<?php echo youtube('http://www.youtube.com/watch?v=iUCDhvbQFmU', 500, 300) ?>
+
+<?php echo vimeo('http://vimeo.com/32875422') ?>
+
+<?php echo vimeo('http://vimeo.com/32875422', 500, 300) ?>
+
+```
+
+## Custom HTML5 Videos
+
+But at some point Youtube or Vimeo might just not do it and you have to go for your own video files and your own HTML5 video player.
+
+Unfortunately it is still very painful to embed videos with the HTML5 video tag, because there's missing support for IE, where you mostly need a flash fallback, you need different formats for all modern browsers and so on.
+
+At least with Kirby I'm trying to make it a little less painful and together with such awesome services like (link: http://sublimevideo.net/ text:SublimeVideo) it can even be fun.
+
+### Storing your video files
+
+With Kirby you can store your video files right in your content folders like you would with images and documents. 
+
+(image: 01.png)
+
+I recommend to add a preview image for your video as fallback as well. In this case I have a htmlvideo.jpg. Naming all the files the same is optional, but it makes sense to keep your files tidy. 
+
+### The video snippet
+
+I've uploaded a handy little video snippet for your templates to github: <https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/video>
+
+Just add that to your snippets folder to get started. You could easily write your own, but I think it is a good starting point. Feel free to customize it however you like. 
+
+### In your template
+
+So if you like to add a HTML5 video to your template simply use the video snippet like this to create some proper video tags for all your video files:
+
+```php
+<?php
+
+$videos = array(
+  $page->videos()->find('htmlvideo.mp4'),
+  $page->videos()->find('htmlvideo.mobile.mp4'),
+  $page->videos()->find('htmlvideo.webm'),
+  $page->videos()->find('htmlvideo.ogv'),
+);
+
+snippet('video', array(
+  'videos' => $videos,
+  'thumb'  => $page->images()->find('htmlvideo.jpg'),
+  'width'  => 400,
+  'height' => 300
+)); 
+
+?>
+```
+
+What it does is to create an array of video files you like to add to your video tag. Just add the files from your content folder there. The snippet will take care of building the proper html and even of setting the right mime type. 
+
+```php
+
+$videos = array(
+  $page->videos()->find('htmlvideo.mp4'),
+  $page->videos()->find('htmlvideo.mobile.mp4'),
+  $page->videos()->find('htmlvideo.webm'),
+  $page->videos()->find('htmlvideo.ogv'),
+);
+
+```
+
+Afterwards the snippet will be embedded with some options. Of course the array of videos, we've just build, but here you can also add the thumbnail, which will be used as a fallback if it is not possible to playback the video and you can also set the width and height. 
+
+```php
+
+snippet('video', array(
+  'videos' => $videos,
+  'thumb'  => $page->images()->find('htmlvideo.jpg'),
+  'width'  => 400,
+  'height' => 300
+)); 
+
+```
+
+There are some more options, which you can find in the (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/video/video.mdown text: snippet) docs on Github and you can easily add your own to the snippet code if you like. 
+
+### What about a Flash fallback
+
+I haven't added a flash fallback, because you need some kind of flash video player for it and this would go too far. Also Flash is dying out – we all know this :) But you can add your own flash fallback to the snippet in a matter of seconds and always keep in mind that once you've customized the video snippet for your project you can use it on the entire site for each and every video. 
+
+### What about SublimeVideo
+
+Since (link: http://sublimevideo.net text: SublimeVideo) offers a free plan it has also become a great solution for smaller or personal projects so you should definitely give it a try. They have some additional requirements for the video tag, which you can add to the snippet very easily. I didn't want to add them by default because it would be too focused on their service. 

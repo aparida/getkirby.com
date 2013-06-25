@@ -1,0 +1,11 @@
+Title: Do I get a proper invoice?
+----
+Text:
+
+All purchases are handled by (link: http://fastspring.com/ text: Fastspring), so you will get an invoice from them. They are specialized in managing purchases including proper tax collection and invoicing for each country. 
+
+Here's an example of a (file: us.png text: US) invoice and here's an example for a German invoice (file: de.vat.png text: with VAT number) and (file: de.png text: without VAT number). 
+
+Be assured that they handle invoices for all other countries correctly as well. 
+
+If you got questions or complaints about invoices, please let me know and I will make sure you get a proper invoice from them: <bastian@getkirby.com>

@@ -1,0 +1,6 @@
+Title: Who should use Kirby?
+----
+Text:
+
+Kirby is perfect for anybody who knows how to use a FTP client and a text editor. It's awesome for designers, architects, photographers or anybody else interested in building their own website or online portfolio. It gives you great flexibility without having to handle complicated installation steps or fighting with databases. It has a very easy to use template system, so it's perfect for any webdesigner out there with some basic PHP knowledge. 
+

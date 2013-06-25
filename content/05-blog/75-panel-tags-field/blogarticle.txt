@@ -1,0 +1,185 @@
+Title: The New Panel Tags Field
+
+----
+
+Date: 14.08.2012
+
+----
+
+Tags: panel, tags, plugin
+
+----
+
+Text: 
+
+Kirby handles tags or other kinds of multiple data in a single field by simple, comma-separated lists. 
+
+```
+
+Tags: design, photography, architecture
+
+```
+
+Even if this seems to be a very low-tech solution, it can become very versatile and powerful and maybe most important: very, very simple to understand, edit and update
+
+I've written (link: blog/tagcloud text: a tutorial about how to handle tags) with Kirby a few months ago, if you want to learn more about it. 
+
+## Tags in the Panel
+
+If you wanted to edit and add tags in the (link: docs/panel text: Panel), a simple (link: docs/panel/blueprints/field-types text: text field) was the way to go. 
+
+(image: text-field.png)
+
+This works, but isn't really elegant and it has one big usability issue – you never know, which tags you already entered for other pages or articles, and how you spelled them. 
+
+## A new field to the rescue
+
+It's a hidden secret so far, but the Panel can be extended with new field types very easily.   Fields are built in a plugin-style way and each field can have its own javascript, css and configuration files, together with customizable html. You can find all existing fields in the `panel/fields` folder to see how simple they are constructed. 
+
+(image: fields.png)
+
+You could simply just create a new field plugin there, but there's a better way! Each of your projects can have its own custom fields. Just place your own fields in `site/panel/field` If that folder doesn't exist yet, create it. 
+
+(image: panel-fields.png)
+
+That way, you never have to touch the core of the panel and you can add as many project-specific fields as you need. 
+
+There's no documentation for creating your own fields yet, but I suggest you simply take existing fields from the panel as inspiration for your own creations. With a little knowledge about PHP/HTML/CSS & JS you should be fine. Docs will follow later. 
+
+## The new tags field
+
+To fix the issue with tag inputs, I've created a field plugin, which you can add to your site by **(link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/fields/tags text: downloading it from Github)** and adding it to `site/panel/fields` as described above. Afterwards you can start adding it to your blueprints right away: 
+
+```
+
+fields:
+  tags: 
+    label: My Tags
+    type:  tags
+
+```
+
+*Please read (link: docs/panel/blueprints text: more about blueprint creation) in the docs, if you are just getting started with the Kirby Panel.*
+
+This will render a beautiful new field, which works similar to the email address input on Facebook or tags on Mac OS X:
+
+(image: tags.png link: blog/panel-tags-field/demo)
+
+The tag field will automatically pull tag suggestions for autocompletion from other pages in the same parent folder and from the same field name and display them when you type. 
+
+## Demo
+
+Please feel free to (link: blog/panel-tags-field/demo text: play with the tag field demo) if you are too lazy to add it to the Panel right away :)
+
+## Field Options
+
+The field has a set of options to customize it and fit it to your project. 
+
+### index
+
+You can choose between three different options where to get tag suggestions from: 
+
+1. *siblings*
+
+	The plugin will check all siblings in the same parent folder to look for tag suggestions. 
+
+2. *template*
+
+	The plugin will check through all pages of your site and select tags from those with the same template – no matter where they are located. 
+
+3. *all*
+
+	The plugin will fetch tags from all pages
+
+#### Example
+
+```
+fields:
+  tags: 
+    label: My Tags
+    type:  tags
+    index: template
+```
+
+### field
+
+You can choose which field will be used to get tags from other pages. This makes it possible to not only use the tags field for – well, tags – but for all kinds of data from your site
+
+#### Example
+
+```
+fields:
+  tags: 
+    label: My Tags
+    type:  tags
+    index: template
+    field: title
+```
+
+*(This will pull titles from all pages with the same template as auto-suggestions)*
+
+### lower
+
+For tags it's often useful to automatically lowercase all tags. 
+You can use this option to do that:
+
+#### Example
+
+```
+fields:
+  tags: 
+    label: My Tags
+    type:  tags
+    lower: true
+```
+
+(the resulting tag string will be completely lowercase)
+
+### Separator
+
+Maybe you don't want to separate your data by comma. 
+Set the separator character here. 
+
+#### Example
+
+```
+fields:
+  tags: 
+    label:     My Tags
+    type:      tags
+    separator: ;
+```
+
+### data
+
+If you don't want to fetch suggestions from other pages, you can set your own array of strings, which will be used for autocompletion
+
+#### Example
+
+```
+fields:
+  tags: 
+    label: My Tags
+    type:  tags
+    data: 
+      - design
+      - architecture
+      - photography
+      - development
+      - web
+```
+
+
+## The Javascript
+
+I created the original version of the tag input plugin for (link: http://zootool.com text: Zootool) over five years ago. 
+
+With this new version I decided to release it as open-source, so anyone can use it for their own projects and help me imporve it. You can download the latest version from Github: <https://github.com/bastianallgeier/tags>
+
+I'm not a specialist with writing jQuery plugins, so if you want to help me make it more compliant with modern jQuery plugin guidelines, I'd appreciate that a lot. 
+
+## Conclusion
+
+The new tag field will give you and your clients a lot of options to easily add tags and all kinds of multiple field data. I hope you will have fun playing with it. Feedback is appreciated as always :)
+
+P.S. if you haven't yet – (link: blog/panel-tags-field/demo text: check out the demo)

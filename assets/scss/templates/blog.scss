@@ -1,0 +1,34 @@
+@import "../kirby/defaults";
+@import "../ui/vars";
+
+.article-preview {
+  position: relative;
+  border-bottom: 1px solid $color-ui;
+  padding: 0 4em 1em 0;
+  margin: 0 0 1em;
+}
+
+@import "../ui/objects/article-date";
+
+.tags {
+  margin-right: 4em;
+}
+.tags li {
+  list-style: none;
+  float: left;
+  margin: 0 2px 2px 0;
+}
+.tags li a {
+  background: $color-text;
+  color: #fff;
+  display: block;  
+  padding: .3em 1em;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: .9em;
+  border-radius: 1em;
+}
+.tags li a:hover,
+.tags .is-active {
+  background: $color-primary;
+}

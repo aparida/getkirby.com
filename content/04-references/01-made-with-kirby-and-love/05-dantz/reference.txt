@@ -1,0 +1,13 @@
+Title: Andreas Dantz
+----
+Text: 
+
+Andreas is a web designer from Bremen, Germany, who runs his own web design and development company <http://vortrieb.net/>
+
+He was one of the first beta testers of Kirby and the first who decided to port his personal site and blog to Kirby. 
+
+---- 
+
+Link: http://dantz.me
+
+----

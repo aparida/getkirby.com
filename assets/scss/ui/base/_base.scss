@@ -1,0 +1,22 @@
+html {
+  border: .5em solid #eee;
+}
+
+body {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1.5em;
+  @media screen and (min-width: 700px) {
+    padding: 3em;
+  }
+}
+
+body.grid {
+  background: url(../images/grid.png);
+}
+
+hr.c {
+  clear: both;
+  visibility: hidden;
+}

@@ -1,0 +1,21 @@
+Title: Contact
+
+----
+
+Text: 
+
+Kirby is designed and developed by (link: http://bastianallgeier.com text: Bastian Allgeier)
+and published by the (link: http://openwe.de text: OpenWe GmbH).
+
+Please just send me an email if you've 
+got any questions or bug reports 
+<bastian@getkirby.com>
+
+----
+Web:
+
+- Kirby on Twitter: (twitter: @getkirby)
+- Kirby on Facebook: (link: http://facebook.com/getkirby)
+- Kirby on Google+: (link: http://plus.google.com/getkirby)
+
+- Bastian on Twitter: (twitter: @bastianallgeier)

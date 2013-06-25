@@ -1,0 +1,12 @@
+Title: Do you recommend any text editors?
+----
+Text:
+
+In general every text editor with utf-8 support does the job. Even TextEdit on the Mac or the default Windows text editor is just fine. 
+
+If you need better support for Markdown syntax, there are some great Markdown editors available: 
+
+- iA Writer (<http://iawriter.com>)
+- Mou (<http://mouapp.com/>)
+- Byword (<http://bywordapp.com/>)
+- Marked (<http://markedapp.com/>)

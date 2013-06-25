@@ -1,0 +1,36 @@
+.submenu {
+  min-height: 1em;
+}
+.submenu ul {
+  margin-right: 1.5em;
+}
+.submenu li {
+  list-style: none;
+}
+.submenu ul ul {
+  margin-right: 0;
+  border-bottom: 0;
+}
+.submenu ul ul a {
+  padding-left: 1.5em;
+  font-weight: normal;
+}
+.submenu ul ul ul a {
+  padding-left: 3em;
+  color: #777;
+}
+.submenu ul ul ul a:hover {
+  color: $color-primary;
+}
+.submenu a {
+  border: 0;
+  border-bottom: 1px solid $color-ui;
+  display: block;
+  padding: .5em 0;
+}
+.submenu > ul > li > a {
+  font-weight: 600;
+}
+.submenu .is-active {
+  color: $color-primary;
+}
