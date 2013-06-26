@@ -70,6 +70,30 @@
 }
 
 
+
+.forum-header {
+  position: relative;
+}
+
+.forum-menu {
+  position: absolute;
+  right: 0;
+  top: -6px;
+}
+.forum-menu li {
+  list-style: none;
+}
+
+.forum-menu ul {
+  display: none;
+}
+.forum-menu .user {
+  padding: 0;
+  margin: 0;
+}
+.forum-menu .user img {
+}
+
 .thread {
   position: relative;
   border-bottom: .1em solid $color-ui;

@@ -2,43 +2,56 @@
 
 namespace Kirby\Forum;
 
+use Exception;
+use Kirby\Toolkit\C;
 use Kirby\Toolkit\Collection;
 use Kirby\Toolkit\DB;
 use Kirby\Toolkit\URI;
+use Kirby\Toolkit\S;
 use Kirby\Toolkit\TPL;
 use Kirby\CMS\Pages;
+use Kirby\Forum\User;
 use Kirby\Forum\Users;
+use Kirby\Forum\Auth;
 
 // direct access protection
 if(!defined('KIRBY')) die('Direct access is not allowed');
 
 class Forum {
 
-  protected $page  = null;
-  protected $users = null;
+  // the parent page object
+  protected $page = null;
 
-  public function __construct($uri = 'support/forum') {
+  // cached properties
+  protected $_user   = null;
+  protected $_users  = null;
+  protected $_search = null;
+
+  public function __construct() {
+    $uri        = c::get('forum.uri');
     $this->page = page($uri);
     $this->uri  = new URI(site()->uri()->toURL(), array(
       'subfolder' => site()->subfolder() . '/' . $uri
     ));
 
-    db::connect(array(
-      'host'     => '127.0.0.1', 
-      'user'     => 'root',
-      'password' => '',
-      'database' => 'kirbyforum',
-      'type'     => 'mysql'
-    ));
+    db::connect(c::get('forum.db'));
  
   }
 
   static public function instance() {
     static $instance = null;
     if(!$instance) {
-      $instance = new Forum('support/forum');
+      $instance = new Forum();
     }
     return $instance;
+  }
+
+  /**
+   * Returns the current user if logged in
+   */
+  public function user() {    
+    if(!is_null($this->_user)) return $this->_user;
+    return $this->_user = Auth::user();
   }
 
   /**
@@ -47,8 +60,8 @@ class Forum {
    * @return object
    */
   public function users() {
-    if(!is_null($this->users)) return $this->users;
-    return $this->users = new Users();
+    if(!is_null($this->_users)) return $this->_users;
+    return $this->_users = new Users();
   }
 
   /**
@@ -104,8 +117,14 @@ class Forum {
 
   }
 
-  public function url() {
-    return $this->page->url();
+  public function url($uri = '') {
+    return rtrim($this->page->url() . '/' . $uri, '/');
+  }
+
+  public function search($searchword = null) {  
+    if(!is_null($searchword))    return $this->_search = new Search($searchword);
+    if(!is_null($this->_search)) return $this->_search;
+    return $this->_search = new Search();
   }
 
   public function run() {
@@ -120,13 +139,25 @@ class Forum {
       
       if($topic = $this->topic()) {
         $template = 'topic';        
+      } else if($this->uri->path()->last() == 'topic') {
+        $template = 'topicform';
       }
-    
+
     } else {
 
       switch($this->uri->path()->first()) {
-        case 'auth':
-          $template = 'login';
+        case 'login':
+          // a template is only needed when an error occurs. 
+          // otherwise the user will be redirected to the homepage
+          $template = 'error';          
+          // transfer the error message to the template
+          tpl::set('error', Auth::login());
+          break;
+        case 'logout':        
+          // logout the current user
+          Auth::logout();
+          // go back to the start page
+          go($this->url());
           break;
         case 'search':
           $template = 'search';
@@ -135,14 +166,39 @@ class Forum {
 
     }
 
-    echo tpl::load('forum/' . $template, array(
-      'page'    => page('support/forum'),
+    tpl::set(array(
+      'page'    => $this->page,
       'forum'   => $this,
       'threads' => $this->threads(),
       'thread'  => $thread,
       'topic'   => $topic
     ));
 
+    echo tpl::loadFile(KIRBY_PROJECT_ROOT_FORUM . DS . 'templates' . DS . $template . '.php');
+
+  }
+
+  public function menu() {  
+    return static::snippet('menu', array('user' => $this->user()), $return = true);
+  }
+
+  static public function snippet($snippet, $data = array(), $return = false) {
+    $html = tpl::loadFile(KIRBY_PROJECT_ROOT_FORUM . DS . 'snippets' . DS . $snippet . '.php', $data, true);
+    if(!$return) {
+      echo $html;
+    } else {
+      return $html;
+    }
+  }
+
+  static public function form($name) {    
+    // this will be replaced in the controller 
+    // with the actual form object
+    $form = null;
+    // load the form controller
+    require_once(KIRBY_FORUM_ROOT . DS . 'forms' . DS . $name . '.controller.php');
+    // load the form template
+    return tpl::loadFile(KIRBY_PROJECT_ROOT_FORUM . DS . 'forms' . DS . $name . '.php', array('form' => $form));
   }
 
 }

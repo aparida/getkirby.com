@@ -4,3 +4,40 @@ Title: API Reference
 
 Text: 
 
+This is the official knowledge-base for all Kirby 2 components. 
+**The Kirby 2 universe consists of four parts:**
+
+- (link: docs/api-reference/toolkit text: The Kirby Toolkit)
+- (link: docs/api-reference/app text: The Kirby App Framework)
+- (link: docs/api-reference/cms text: The Kirby CMS)
+- (link: docs/api-reference/panel text: The Kirby Panel)
+
+****
+
+## (link: docs/api-reference/toolkit text: The Kirby Toolkit)
+
+The Kirby Toolkit is at the core of all other components. It's a collection of classes and helpers to make your life with PHP easier. All other components require the toolkit to be available.
+
+(link: docs/api-reference/toolkit text: Read more…)
+
+****
+
+## (link: docs/api-reference/app text: The Kirby App Framework)
+
+The Kirby App Framework is a MMVC framwork designed especially for the (link: docs/api-reference/panel text: Kirby Panel) but which can be used to create your own PHP-based web apps as well.
+
+(link: docs/api-reference/app text: Read more…)
+
+****
+
+## (link: docs/api-reference/cms text: The Kirby CMS)
+
+The core version of the Kirby CMS is a simple but powerful file-based content management system. It's fully administratable from the file system via FTP for example. It runs on the (link: docs/api-reference/toolkit text: Kirby Toolkit) and can optionally be extended with the (link: docs/api-reference/panel text: Kirby Panel) to get a nice web-based interface. 
+
+(link: docs/api-reference/cms text: Read more…)
+
+****
+
+## (link: docs/api-reference/panel text: The Kirby Panel)
+
+The Kirby Panel is an optional extension for the (link: docs/api-reference/cms text: Kirby CMS) You can install it to offer a nice web-based interface for your clients so they don't have to administrate pages on the file system. It runs on the (link: docs/api-reference/app text: Kirby App Framework)

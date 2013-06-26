@@ -9,6 +9,9 @@ if(!defined('KIRBY')) die('Direct access is not allowed');
 
 class User extends Database {
 
+  // model setup
+  protected $table = 'users';
+
   public function url() {
     return 'http://twitter.com/' . $this->username();
   }

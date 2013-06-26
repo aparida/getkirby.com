@@ -22,4 +22,9 @@ class Users extends Query {
     return $users->where(array('id' => $id))->first();
   }
 
+  static public function findByTwitterId($tid) {
+    $users = new static();
+    return $users->where(array('tid' => $tid))->first();
+  }
+
 }

@@ -37,17 +37,7 @@ snippet('header', array(
   </article>
   <?php endforeach ?>
 
-  <?php if($articles->pagination()->hasPages()): ?>
-  <nav class="pagination" role="navigation">  
-    <?php if($articles->pagination()->hasNextPage()): ?>
-    <a class="next" href="<?php echo $articles->pagination()->nextPageURL() ?>">&lsaquo; older posts</a>
-    <?php endif ?>
-
-    <?php if($articles->pagination()->hasPrevPage()): ?>
-    <a class="prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">newer posts &rsaquo;</a>
-    <?php endif ?>
-  </nav>
-  <?php endif ?>
+  <?php snippet('pagination', array('pagination' => $articles->pagination())) ?>
 
 </section>
 

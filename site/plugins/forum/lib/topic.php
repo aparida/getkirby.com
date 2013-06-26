@@ -9,6 +9,10 @@ if(!defined('KIRBY')) die('Direct access is not allowed');
 
 class Topic extends Database {
 
+  // model setup 
+  protected $table = 'topics';
+
+  // cached properties
   protected $_user = null;
 
   public function posts() {

@@ -8,7 +8,7 @@
 
     <?php foreach($page->children() as $answer): ?>
     <article class="answer">
-      <h1 class="delta"><a href=""><?= html($answer->title()) ?></a></h1>
+      <h1 class="delta"><a href=""><?php echo html($answer->title()) ?></a></h1>
       <div class="inner text is-invisible">
         <?php echo kirbytext($answer->text()) ?>      
       </div>

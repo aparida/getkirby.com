@@ -15,7 +15,7 @@
           <ul>
             <?php foreach($child->children()->visible() AS $subchild): ?>
             <li>
-              <a<?php e($subchild->isActive(), ' class="active"') ?> href="<?php echo $subchild->url() ?>"><?php echo $subchild->title() ?></a>
+              <a<?php e($subchild->isOpen(), ' class="is-active"') ?> href="<?php echo $subchild->url() ?>"><?php echo $subchild->title() ?></a>
             </li>
             <?php endforeach ?>            
           </ul>
