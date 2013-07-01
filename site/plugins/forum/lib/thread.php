@@ -13,7 +13,7 @@ class Thread extends Page {
     return Topics::findByThread($this);
   }
 
-  public function url() {    
+  public function url($lang = null) {    
     return Forum::instance()->url() . '/' . $this->uid();
   }
 
