@@ -130,11 +130,12 @@
 .form-button {
   @extend .button;
   @extend .round.button;
+  padding: 0 1em;
+  font-size: .9em;
 }
 .form-fieldset.is-buttonbar .is-submit {
   float: right;
   @extend .button;
-  @extend .round.button.submit;
 }
 .form.is-loading .form-fieldset.is-buttonbar {
   background: url(../images/loader.black.gif) no-repeat center center;

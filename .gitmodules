@@ -1,3 +1,6 @@
 [submodule "kirby"]
 	path = kirby
 	url = https://bastianallgeier@github.com/getkirby/cms.git
+[submodule "site/plugins/forum/vendors/form"]
+	path = site/plugins/forum/vendors/form
+	url = https://github.com/getkirby/form.git

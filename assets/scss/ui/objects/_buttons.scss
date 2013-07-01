@@ -6,21 +6,12 @@
   border-radius: 200px;
   border: .15rem solid #b5b4b0;
   font-weight: 400;
+  cursor: pointer;
 }
 .round.button:hover,
 .round.button:focus {
   border-color: #222;
   color: #222;
-}
-.round.submit.button {
-  background: $color-text;
-  color: #fff;
-  border-color: $color-text;
-}
-.round.submit.button:hover {
-  color: #fff;
-  background: #444;
-  border-color: #444;
 }
 .round.error.button {
   // needs to be defined

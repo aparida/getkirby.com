@@ -11,6 +11,7 @@
 
 @import "../ui/objects/buttons";
 @import "../ui/objects/form";
+@import "../ui/objects/sidebar";
 
 /* reply and topic counts */
 .forum .count {
@@ -64,11 +65,11 @@
   padding-bottom: 1em;
   @extend .clear;
 }
-.forum-header a,
-.forum-header small {
+.forum-header h1 a,
+.forum-header h1 small {
   float: left;
 }
-.forum-header small {
+.forum-header h1 small {
   font-weight: 300;
   color: $color-ui;
   padding: 0 .3em 0;
@@ -79,7 +80,19 @@
 .forum-menu {
   position: absolute;
   right: 0;
-  top: -6px;
+  top: -1.3em;
+  padding: 1em 0;
+}
+.forum-menu:before {
+  position: absolute;
+  content: "";
+  left: -1.5em;
+  top: 50%;
+  margin-top: 0;
+  @include arrow-bottom(#222, .3em);
+}
+.forum-menu:hover ul {
+  display: block;
 }
 .forum-menu li {
   list-style: none;
@@ -91,7 +104,36 @@
   padding: 0;
   margin: 0;
 }
-.forum-menu .user img {
+.forum-menu .menu-icon {
+  width: 48px;
+  height: 48px;
+  background: $color-text;
+  border-radius: 48px;
+  cursor: pointer;
+}
+.forum-menu .menu-icon span {
+  display: block;
+  padding-top: 16px;
+}
+.forum-menu .menu-icon i {
+  display: block;
+  width: 20px;
+  margin: 0 14px;
+  text-indent: -6000px;
+  height: 3px;
+  background: #fff;
+  margin-bottom: 3px;
+}
+.forum-menu .dropdown {
+  left: auto;
+  right: 0;
+  top: 5.1em;
+}
+.forum-menu .dropdown:before {
+  left: auto;
+  right: 0;
+  border-left: 0;
+  border-right: .5em solid $color-text;
 }
 
 
@@ -137,9 +179,13 @@
 .topic .count {
   top: .7em;
 }
-.topic > .text {
+.topic .text {
   max-width: 40em;    
   padding: 0 0 0 4.7em;
+}
+
+.topic .sidebar {
+  padding-bottom: 8em;
 }
 
 
@@ -169,11 +215,42 @@
 }
 
 /* post form */
-
 .post-form form {
   padding: 0 0 0 4.7em;  
   max-width: 40em;
   margin: 0
 }
 
+/* topic form */
+.topic-form {
+  border: 0;
+}
+.topic-form .topic-header {
+  border-bottom: 1px solid $color-ui;  
+  padding-bottom: 1em;
+}
+.topic-form form {
+  max-width: 40em;
+  padding: 0 0 0 4.7em;  
+  margin: 0;
+}
+.topic-form textarea {
+  height: 600px !important;
+}
 
+/* search form */
+.search-form .form {
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+}
+.search-form .form-fieldset.is-buttonbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 33%;
+  padding: .65em 1em;
+}
+.search-form .form-field.is-text .form-field-inner {
+  padding-right: 7em;
+}

@@ -14,6 +14,14 @@
 .pagination .next {
   float: right;
 }
+
+.pagination .prev span,
+.pagination .next span {
+  color: $color-ui;
+  font-weight: 300;
+  font-size: .9em;
+}
+
 .pagination .count {
   position: absolute;
   left: 0;

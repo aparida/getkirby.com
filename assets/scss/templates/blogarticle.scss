@@ -3,6 +3,7 @@
 @import "../ui/vars";
 
 @import "../ui/objects/article-date";
+@import "../ui/objects/sidebar";
 
 /** code highlighting */
 @import "../ui/vendors/highlight/php";
@@ -23,31 +24,3 @@
   padding-right: 2em;
 }
 
-.sidebar {
-  padding-left: 2em;
-}
-.sidebar li {
-  padding: 0 0 .5em;
-  margin-bottom: .5em;
-  border-bottom: 1px solid $color-ui;
-  list-style: none;
-}
-.sidebar li a {
-  position: relative;
-  display: block;
-  color: $color-text;
-  border: 0;
-  @include truncate(100%);
-  padding-left: 2em;
-}
-.sidebar li a:hover {
-  color: $color-primary;
-}
-.sidebar li a small {
-  position: absolute;
-  left: 0;
-  top: .25em;
-  width: 2em;
-  text-align: left;
-  color: $color-primary;
-}

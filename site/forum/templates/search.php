@@ -10,15 +10,19 @@
 
   </header>
 
-  <?php echo $forum->form('search') ?>
+  <div class="search-form">
 
-  <ul>
-    <?php foreach($forum->search()->results() as $result): ?>
-    <li>
+    <?php echo $forum->form('search') ?>
+
+    <ul>
+      <?php foreach($forum->search()->results() as $result): ?>
+      <li>
 
 
-    </li>
-    <?php endforeach ?>
-  </ul>
+      </li>
+      <?php endforeach ?>
+    </ul>
+
+  </div>
 
 </section>

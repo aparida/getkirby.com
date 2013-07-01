@@ -1,4 +1,4 @@
-<section class="main forum">
+<section class="main forum columns">
 
   <header class="forum-header">
     <h1>
@@ -7,7 +7,6 @@
     </h1>
 
     <?php echo $forum->menu() ?>
-
   </header>
 
   <?php echo $forum->form('topic') ?>
