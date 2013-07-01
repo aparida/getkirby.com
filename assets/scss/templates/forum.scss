@@ -9,13 +9,10 @@
 @import "../ui/vendors/highlight/html";
 @import "../ui/vendors/highlight/js";
 
-.topic {
-  position: relative;
-  border-bottom: .1em solid $color-ui;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-}
+@import "../ui/objects/buttons";
+@import "../ui/objects/form";
 
+/* reply and topic counts */
 .forum .count {
   position: absolute;
   right: 0;
@@ -33,6 +30,7 @@
   background: $color-primary;
 }
 
+/* user avatars */
 .forum .user {
   margin-left: -.2em; 
   padding-right: 30px;
@@ -45,36 +43,39 @@
   border-radius: 50%;
 }
 
-.forum header {
-  border-bottom: .1em solid $color-ui;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-  @extend .clear;
-}
-.forum header a,
-.forum header small {
-  float: left;
-}
-.forum header small {
-  font-weight: 300;
-  color: $color-ui;
-  padding: 0 .3em 0;
-}
-
-.forum .added a {
+/* timestamps */
+.forum .added {
   color: $color-text-light;  
   font-weight: 300;
+}
+.forum .added a {
+  color: inherit;
 }
 .forum .added a:hover {
   color: $color-text;
 }
 
 
-
+/* Forum Breadcrumb header */
 .forum-header {
   position: relative;
+  border-bottom: .1em solid $color-ui;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  @extend .clear;
+}
+.forum-header a,
+.forum-header small {
+  float: left;
+}
+.forum-header small {
+  font-weight: 300;
+  color: $color-ui;
+  padding: 0 .3em 0;
 }
 
+
+/* Dropdown menu */
 .forum-menu {
   position: absolute;
   right: 0;
@@ -83,7 +84,6 @@
 .forum-menu li {
   list-style: none;
 }
-
 .forum-menu ul {
   display: none;
 }
@@ -94,6 +94,8 @@
 .forum-menu .user img {
 }
 
+
+/* thread pages */
 .thread {
   position: relative;
   border-bottom: .1em solid $color-ui;
@@ -104,10 +106,21 @@
   bottom: 1.1em;
 }
 
-
+/* topics */
 .topic {
   position: relative;
   @extend .clear;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $color-ui;
+}
+.topic.details {
+  border-bottom: 0
+}
+.topic-header {
+  position: relative;
+  @extend .clear;
+  margin-bottom: 1em;
 }
 .topic .delta {
   margin-right: 6em;
@@ -121,57 +134,46 @@
 .topic .meta a {
   font-weight: 300;
 }
-.topic .added {
-}
 .topic .count {
   top: .7em;
 }
-
-.topic-details {
-  position: relative;
-}
-.topic-details .added {
-  position: absolute;
-  right: 0;
-  top: .8em;
-}
-.topic-details > .text {
-  width: 65.3333%;    
-  padding: 1.5em 0 1.5em 76px;
+.topic > .text {
+  max-width: 40em;    
+  padding: 0 0 0 4.7em;
 }
 
 
+/* Posts on Topic pages */
 .posts {
-  border-top: .1em solid $color-ui;  
-  padding-top: 1em;  
-}
-.posts .beta {
-  margin-left: 74px;
-}
-.posts ul {
-  border-top: .1em solid $color-ui;  
-  margin-top: 1em;
-  padding-top: 2em;
+  padding-top: 1em;
+  border-top: 2px solid $color-primary;
 }
 .post {
   position: relative;
   @extend .clear;
   list-style: none;
-  margin-bottom: 2em;
-  padding: 1em 0 1.5em;
   border-bottom: .1em solid $color-ui;  
+  margin-bottom: 1em;
 }
-.post .added {
-  padding-top: .17em;
+.post-header {
+  @extend .topic-header;
+  border: 0;
 }
-.post .user {
-  margin-top: -.9em;
+.post-header .delta small {
+  font-size: inherit;
+  color: $color-text;
 }
 .post .text {
-  width: 65.3333%;    
-  padding-left: 76px;
+  max-width: 40em;    
+  padding: 0 0 0 4.7em;
 }
 
-.post-form .beta {
-  margin-left: 74px;
+/* post form */
+
+.post-form form {
+  padding: 0 0 0 4.7em;  
+  max-width: 40em;
+  margin: 0
 }
+
+
