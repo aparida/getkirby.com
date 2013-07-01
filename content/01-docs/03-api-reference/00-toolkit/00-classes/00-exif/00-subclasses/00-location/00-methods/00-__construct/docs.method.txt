@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: location::__construct
+----
+Syntax: location::__construct($exif)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $exif
+  type: array
+  text: The entire exif array

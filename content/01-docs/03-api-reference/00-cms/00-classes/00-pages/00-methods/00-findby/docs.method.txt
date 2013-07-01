@@ -1,0 +1,29 @@
+﻿Name: findBy
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::findBy
+----
+Syntax: pages::findBy($key, $value, $deep = true)
+----
+Description: Finds a single element in a set of pages by a given key and value
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: The name of the key/field to search for
+
+- name: $value
+  type: mixed
+  text: The value to match against. Array: the method will search for multiple values and return a Pages collection of results.
+
+- name: $deep
+  type: boolean
+  text: true: the method will search all children, grantchildren, etc., false: the method will only search the current set
+----
+Returntype: mixed
+----
+Return: Page if a single page is found, Pages if multiple values have been passed and multiple pages are found or null if nothing could be found

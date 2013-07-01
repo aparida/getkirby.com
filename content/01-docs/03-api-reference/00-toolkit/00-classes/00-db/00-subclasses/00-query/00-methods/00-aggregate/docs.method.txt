@@ -1,0 +1,29 @@
+﻿Name: aggregate
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::aggregate
+----
+Syntax: query::aggregate($method, $column = '*', $default)
+----
+Description: Builds an aggregation query.
+----
+Text: This is used by all the aggregation methods above
+----
+Parameters: - name: $method
+  type: string
+  text: 
+
+- name: $column
+  type: string
+  text: 
+
+- name: $default
+  type: string
+  text: An optional default value, which should be returned if the query fails
+----
+Returntype: object
+----
+Return: 

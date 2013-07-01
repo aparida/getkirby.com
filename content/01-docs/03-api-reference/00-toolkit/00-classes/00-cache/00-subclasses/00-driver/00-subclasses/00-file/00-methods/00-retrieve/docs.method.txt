@@ -1,0 +1,21 @@
+﻿Name: retrieve
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::retrieve
+----
+Syntax: file::retrieve($key)
+----
+Description: Retrieve an item from the cache.
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: CacheValue

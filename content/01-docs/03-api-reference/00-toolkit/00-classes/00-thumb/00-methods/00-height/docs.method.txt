@@ -1,0 +1,19 @@
+﻿Name: height
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::height
+----
+Syntax: thumb::height()
+----
+Description: Returns the height of the thumbnail
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

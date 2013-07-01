@@ -1,0 +1,42 @@
+﻿Name: missing
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::missing
+----
+Syntax: a::missing($array, $required = array())
+----
+Description: Checks for missing elements in an array
+----
+Text: This is very handy to check for missing
+user values in a request for example.
+
+<pre><code>
+$array = array(
+  'cat' => 'miao',
+  'dog' => 'wuff',
+  'bird' => 'tweet'
+);
+
+$required = array('cat', 'elephant');
+
+$missng = a::missing($array, $required);
+// missing: array(
+//    'elephant'
+// );
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $required
+  type: array
+  text: An array of required keys
+----
+Returntype: array
+----
+Return: An array of missing fields. If this is empty, nothing is missing.

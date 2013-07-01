@@ -1,0 +1,3 @@
+Description: 
+
+The root location of all project-specific files. For the Kirby CMS, this represents the site folder with all its subfolders.

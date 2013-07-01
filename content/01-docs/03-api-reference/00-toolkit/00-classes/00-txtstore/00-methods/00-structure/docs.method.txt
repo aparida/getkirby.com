@@ -1,0 +1,21 @@
+﻿Name: structure
+----
+Visibility: public
+----
+Static: yes
+----
+Title: txtstore::structure
+----
+Syntax: txtstore::structure($data = array())
+----
+Description: Creates the structure from an array
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text:
+----
+Returntype: string
+----
+Return: 

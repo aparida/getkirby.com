@@ -1,0 +1,29 @@
+﻿Name: inject
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::inject
+----
+Syntax: a::inject($array, $position, $element = 'placeholder')
+----
+Description: Injects an element into an array
+----
+Text: 
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $position
+  type: int
+  text: The position, where to inject the element
+
+- name: $element
+  type: mixed
+  text: The element, which should be injected
+----
+Returntype: array
+----
+Return: The result array including the new element

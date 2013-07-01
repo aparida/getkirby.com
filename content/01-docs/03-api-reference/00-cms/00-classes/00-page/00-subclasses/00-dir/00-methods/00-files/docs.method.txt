@@ -1,0 +1,19 @@
+﻿Name: files
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::files
+----
+Syntax: dir::files()
+----
+Description: Returns an array with all files within this directory
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

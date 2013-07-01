@@ -1,0 +1,20 @@
+﻿Name: depth
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::depth
+----
+Syntax: page::depth()
+----
+Description: Returns a numeric indicator how deep the page is nested
+0 = site, 1 = first level, 2 = second level, etc.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

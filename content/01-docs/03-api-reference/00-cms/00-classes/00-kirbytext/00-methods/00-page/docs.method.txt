@@ -1,0 +1,19 @@
+﻿Name: page
+----
+Visibility: public
+----
+Static: no
+----
+Title: kirbytext::page
+----
+Syntax: kirbytext::page()
+----
+Description: Returns the active page object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Page

@@ -1,0 +1,19 @@
+﻿Name: id
+----
+Visibility: public
+----
+Static: yes
+----
+Title: s::id
+----
+Syntax: s::id()
+----
+Description: Returns the current session id
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: dir
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::dir
+----
+Syntax: upload::dir()
+----
+Description: Returns the destination directory
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

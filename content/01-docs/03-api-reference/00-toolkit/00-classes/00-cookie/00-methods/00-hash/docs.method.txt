@@ -1,0 +1,22 @@
+﻿Name: hash
+----
+Visibility: protected
+----
+Static: yes
+----
+Title: cookie::hash
+----
+Syntax: cookie::hash($value)
+----
+Description: Creates a hash for the cookie value
+salted with the secret cookie salt string from the config
+----
+Text: 
+----
+Parameters: - name: $value
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: ssl
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::ssl
+----
+Syntax: r::ssl()
+----
+Description: Checks if the request is encrypted
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

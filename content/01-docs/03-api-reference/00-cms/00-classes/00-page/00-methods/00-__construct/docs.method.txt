@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::__construct
+----
+Syntax: page::__construct($root)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $root
+  type: string
+  text: The full root to this page's directory

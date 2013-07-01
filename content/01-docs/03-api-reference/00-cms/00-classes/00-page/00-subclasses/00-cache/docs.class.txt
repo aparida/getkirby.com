@@ -1,0 +1,6 @@
+﻿Title: Page Cache
+Caches the full rendered HTML of a page
+----
+Class: Cache
+----
+Description: 

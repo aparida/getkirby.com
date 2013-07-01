@@ -1,0 +1,19 @@
+﻿Name: name
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::name
+----
+Syntax: thumb::name()
+----
+Description: Returns the name of the file without extension
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

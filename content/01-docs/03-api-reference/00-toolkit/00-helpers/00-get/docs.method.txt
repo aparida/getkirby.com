@@ -1,0 +1,25 @@
+﻿Name: get
+----
+Visibility: 
+----
+Static: 
+----
+Title: get
+----
+Syntax: get($key = false, $default = null)
+----
+Description: Shortcut for r::get()
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to look for. Pass false or null to return the entire request array.
+
+- name: $default
+  type: mixed
+  text: Optional default value, which should be returned if no element has been found
+----
+Returntype: mixed
+----
+Return: 

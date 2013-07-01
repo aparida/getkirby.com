@@ -1,0 +1,19 @@
+﻿Name: row
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::row
+----
+Syntax: query::row()
+----
+Description: Selects only one row from a table
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: height
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::height
+----
+Syntax: asset::height()
+----
+Description: Returns the height of the asset
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

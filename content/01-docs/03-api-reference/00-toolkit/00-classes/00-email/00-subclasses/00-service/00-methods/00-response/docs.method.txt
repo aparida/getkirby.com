@@ -1,0 +1,19 @@
+﻿Name: response
+----
+Visibility: public
+----
+Static: no
+----
+Title: service::response
+----
+Syntax: service::response()
+----
+Description: Returns the response if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

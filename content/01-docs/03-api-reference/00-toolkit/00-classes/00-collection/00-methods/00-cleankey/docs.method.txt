@@ -1,0 +1,21 @@
+﻿Name: cleankey
+----
+Visibility: private
+----
+Static: no
+----
+Title: collection::cleankey
+----
+Syntax: collection::cleankey($dirtyKey)
+----
+Description: Removes the leading underscore from internal key
+----
+Text: 
+----
+Parameters: - name: $dirtyKey
+  type: string
+  text: the key with the leading underscore
+----
+Returntype: string
+----
+Return: the clean version of the key

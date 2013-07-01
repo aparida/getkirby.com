@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: camera::__toString
+----
+Syntax: camera::__toString()
+----
+Description: Returns the full make + model name
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

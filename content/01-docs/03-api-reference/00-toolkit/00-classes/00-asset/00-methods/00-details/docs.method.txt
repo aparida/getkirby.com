@@ -1,0 +1,20 @@
+﻿Name: details
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::details
+----
+Syntax: asset::details()
+----
+Description: Inspects the asset file with additional
+methods to retreive more info about it
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

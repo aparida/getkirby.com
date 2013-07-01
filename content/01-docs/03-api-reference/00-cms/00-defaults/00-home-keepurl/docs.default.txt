@@ -1,0 +1,10 @@
+﻿Title: home.keepurl
+----
+Value: <pre>false</pre>
+----
+Description: If set to true, the name of the home page folder
+will be included in the URL for the home page.
+i.e. http://yourdomain.com/home
+
+This is used for the kirby panel mainly,
+but could come in handy in other setups as well

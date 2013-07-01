@@ -1,0 +1,21 @@
+﻿Name: andWhere
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::andWhere
+----
+Syntax: query::andWhere()
+----
+Description: Shortcut to attach a where clause with an AND operator.
+----
+Text: Check out the where() method docs for additional info.
+----
+Parameters: - name: 
+  type: 
+  text: list
+----
+Returntype: object
+----
+Return: 

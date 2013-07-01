@@ -1,0 +1,22 @@
+﻿Name: find
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::find
+----
+Syntax: collection::find()
+----
+Description: Find a bunch of elements from the collection
+and return a new collection with those
+----
+Text: 
+----
+Parameters: - name: 
+  type: args
+  text: any number of arguments. each must be a key to look for
+----
+Returntype: object
+----
+Return: a new collection object

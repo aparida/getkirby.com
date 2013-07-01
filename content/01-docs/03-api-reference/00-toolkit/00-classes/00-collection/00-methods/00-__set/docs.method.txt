@@ -1,0 +1,22 @@
+﻿Name: __set
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::__set
+----
+Syntax: collection::__set($key, $value)
+----
+Description: Magic setter
+----
+Text: Can be used to simply set values like this
+`$mycollection->mykey = 'My value'`;
+----
+Parameters: - name: $key
+  type: string
+  text: the name of the key, which should be set or replaced (auto-filled by PHP)
+
+- name: $value
+  type: mixed
+  text: an array or object or whatever you want to store

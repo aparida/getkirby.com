@@ -1,0 +1,43 @@
+﻿Name: show
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::show
+----
+Syntax: a::show($array, $echo = true)
+----
+Description: Shows an entire array or object in a human readable way
+This is perfect for debugging
+----
+Text: <pre><code>
+$array = array(
+  'cat'  => 'miao',
+  'dog'  => 'wuff',
+  'bird' => 'tweet'
+);
+
+a::show($array);
+
+// output:
+// Array
+// (
+//     [cat] => miao
+//     [dog] => wuff
+//     [bird] => tweet
+// )
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $echo
+  type: boolean
+  text: By default the result will be echoed instantly. You can switch that off here.
+----
+Returntype: mixed
+----
+Return: If echo is false, this will return the generated array output.

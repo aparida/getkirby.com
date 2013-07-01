@@ -1,0 +1,25 @@
+﻿Name: niceSize
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::niceSize
+----
+Syntax: dir::niceSize($dir, $recursive = true)
+----
+Description: Returns a nicely formatted size of all the contents of the folder
+----
+Text: 
+----
+Parameters: - name: $dir
+  type: string
+  text: The path of the directory
+
+- name: $recursive
+  type: boolean
+  text:
+----
+Returntype: mixed
+----
+Return: 

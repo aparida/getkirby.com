@@ -1,0 +1,31 @@
+﻿Name: xml
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::xml
+----
+Syntax: str::xml($text, $html = true)
+----
+Description: Converts a string to a xml-safe string
+Converts it to html-safe first and then it
+will replace html entities to xml entities
+----
+Text: <pre><code>
+echo str::xml('some über crazy stuff');
+// output: some &#252;ber crazy stuff
+
+</code></pre>
+----
+Parameters: - name: $text
+  type: string
+  text: 
+
+- name: $html
+  type: boolean
+  text: True: convert to html first
+----
+Returntype: string
+----
+Return: 

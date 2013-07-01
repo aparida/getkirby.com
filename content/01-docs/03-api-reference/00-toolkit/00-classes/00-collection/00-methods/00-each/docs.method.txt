@@ -1,0 +1,17 @@
+﻿Name: each
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::each
+----
+Syntax: collection::each($callback)
+----
+Description: Apply a callback to each element
+----
+Text: 
+----
+Parameters: - name: $callback
+  type: func
+  text: the callback function

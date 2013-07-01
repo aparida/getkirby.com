@@ -1,0 +1,19 @@
+﻿Name: lastError
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::lastError
+----
+Syntax: db::lastError()
+----
+Description: Returns the last db error (exception object)
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

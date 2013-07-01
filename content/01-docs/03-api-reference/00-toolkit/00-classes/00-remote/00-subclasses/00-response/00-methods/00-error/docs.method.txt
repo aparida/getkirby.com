@@ -1,0 +1,19 @@
+﻿Name: error
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::error
+----
+Syntax: response::error()
+----
+Description: Returns the curl error if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

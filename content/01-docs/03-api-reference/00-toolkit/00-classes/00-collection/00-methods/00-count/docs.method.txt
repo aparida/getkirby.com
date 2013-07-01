@@ -1,0 +1,19 @@
+﻿Name: count
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::count
+----
+Syntax: collection::count()
+----
+Description: Counts all elements in the array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

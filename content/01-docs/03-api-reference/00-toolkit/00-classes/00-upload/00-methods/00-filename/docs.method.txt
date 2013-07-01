@@ -1,0 +1,20 @@
+﻿Name: filename
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::filename
+----
+Syntax: upload::filename()
+----
+Description: Returns the raw filename of the
+uploaded file including extension
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

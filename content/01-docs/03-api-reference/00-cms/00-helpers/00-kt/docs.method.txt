@@ -1,0 +1,25 @@
+﻿Name: kt
+----
+Visibility: 
+----
+Static: 
+----
+Title: kt
+----
+Syntax: kt($text, $params = array())
+----
+Description: Shortcut for parsing a text with the Kirbytext parser
+----
+Text: 
+----
+Parameters: - name: $text
+  type: mixed
+  text: Variable object or string
+
+- name: $params
+  type: array
+  text: an array of options for kirbytext: array('markdown' => true, 'smartypants' => true)
+----
+Returntype: string
+----
+Return: parsed text

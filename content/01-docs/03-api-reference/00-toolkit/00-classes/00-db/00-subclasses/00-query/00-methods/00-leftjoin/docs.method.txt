@@ -1,0 +1,25 @@
+﻿Name: leftJoin
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::leftJoin
+----
+Syntax: query::leftJoin($table, $on)
+----
+Description: Shortcut for creating a left join clause
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: Name of the table, which should be joined
+
+- name: $on
+  type: string
+  text: The on clause for this join
+----
+Returntype: object
+----
+Return: 

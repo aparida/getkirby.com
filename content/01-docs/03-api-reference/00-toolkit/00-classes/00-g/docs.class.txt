@@ -1,0 +1,6 @@
+﻿Title: Globals
+----
+Class: G
+----
+Description: The Kirby Globals Class
+Easy setting/getting of globals

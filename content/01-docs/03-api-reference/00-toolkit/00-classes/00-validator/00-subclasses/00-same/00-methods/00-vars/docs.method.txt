@@ -1,0 +1,13 @@
+﻿Name: vars
+----
+Visibility: public
+----
+Static: no
+----
+Title: same::vars
+----
+Syntax: same::vars()
+----
+Description: 
+----
+Text: 

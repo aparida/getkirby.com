@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: tag::__construct
+----
+Syntax: tag::__construct($params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: A list of parameters for this tag. You can either pass array('name' => 'mytag', 'kirbytext' => $kirbytextobject, 'tag' => '(mytag: value attr: myattr') or array('name' => 'mytag', 'kirbytext' => $kirbytextobject, 'value' => 'myvalue', 'attr' => array('attr1' => 'myattr'))

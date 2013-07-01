@@ -1,0 +1,21 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: tpl::remove
+----
+Syntax: tpl::remove($key)
+----
+Description: Removes a template variable
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: void
+----
+Return: 

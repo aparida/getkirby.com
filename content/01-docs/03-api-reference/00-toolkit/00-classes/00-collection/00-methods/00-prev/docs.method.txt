@@ -1,0 +1,20 @@
+﻿Name: prev
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::prev
+----
+Syntax: collection::prev()
+----
+Description: Moves the cursor to the previous element in the array
+and returns it
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

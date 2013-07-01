@@ -1,0 +1,20 @@
+﻿Name: isActive
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::isActive
+----
+Syntax: language::isActive()
+----
+Description: Checks if this language is
+currently active
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

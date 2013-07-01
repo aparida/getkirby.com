@@ -1,0 +1,29 @@
+﻿Name: tag
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::tag
+----
+Syntax: html::tag($name, $content = null, $attr = array())
+----
+Description: Generates an Html tag with optional content and attributes
+----
+Text: 
+----
+Parameters: - name: $name
+  type: string
+  text: The name of the tag, i.e. "a"
+
+- name: $content
+  type: mixed
+  text: The content if availble. Pass null to generate a self-closing tag, Pass an empty string to generate empty content
+
+- name: $attr
+  type: array
+  text: An associative array with additional attributes for the tag
+----
+Returntype: string
+----
+Return: The generated Html

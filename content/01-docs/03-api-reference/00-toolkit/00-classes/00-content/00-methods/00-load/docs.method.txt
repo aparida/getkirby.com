@@ -1,0 +1,29 @@
+﻿Name: load
+----
+Visibility: public
+----
+Static: yes
+----
+Title: content::load
+----
+Syntax: content::load($file, $data = array(), $return = true)
+----
+Description: Loads content from a passed file
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: The path to the file
+
+- name: $data
+  type: array
+  text: Additional variables which should be available for the loaded content
+
+- name: $return
+  type: boolean
+  text: True: return the content of the file, false: echo the content
+----
+Returntype: mixed
+----
+Return: 

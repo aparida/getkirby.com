@@ -1,0 +1,5 @@
+﻿Title: Model
+----
+Class: Model
+----
+Description: Base class for building all kinds of models

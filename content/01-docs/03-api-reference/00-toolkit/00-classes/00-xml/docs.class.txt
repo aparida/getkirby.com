@@ -1,0 +1,5 @@
+﻿Title: XML
+----
+Class: Xml
+----
+Description: The Kirby XML parser and creator Class

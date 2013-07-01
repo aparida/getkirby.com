@@ -1,0 +1,21 @@
+﻿Name: name
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::name
+----
+Syntax: language::name()
+----
+Description: Returns the name of the language if available
+To enable this feature, language names must be
+set in your config in an associative array
+----
+Text: i.e. c::set('lang.names', array('en' => 'English'));
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

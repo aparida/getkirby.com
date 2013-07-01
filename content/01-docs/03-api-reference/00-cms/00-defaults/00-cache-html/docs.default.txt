@@ -1,0 +1,8 @@
+﻿Title: cache.html
+----
+Value: <pre>true</pre>
+----
+Description: Enable/disable html caching
+When enabled, Kirby will cache
+the entire generated html for each page,
+which is not being ignored.

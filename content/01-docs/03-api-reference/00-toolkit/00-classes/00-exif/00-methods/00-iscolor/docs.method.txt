@@ -1,0 +1,19 @@
+﻿Name: isColor
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::isColor
+----
+Syntax: exif::isColor()
+----
+Description: Checks if this is a color picture
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: firstPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::firstPage
+----
+Syntax: pagination::firstPage()
+----
+Description: Returns the number of the first page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

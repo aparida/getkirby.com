@@ -1,0 +1,19 @@
+﻿Name: failed
+----
+Visibility: public
+----
+Static: no
+----
+Title: email::failed
+----
+Syntax: email::failed()
+----
+Description: Checks if sending the email failed
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

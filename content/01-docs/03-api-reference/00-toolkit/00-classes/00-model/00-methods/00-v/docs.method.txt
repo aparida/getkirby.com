@@ -1,0 +1,26 @@
+﻿Name: v
+----
+Visibility: protected
+----
+Static: no
+----
+Title: model::v
+----
+Syntax: model::v($rules, $messages = array(), $attributes = array())
+----
+Description: Validation helper
+Check v::all for all available options
+----
+Text: 
+----
+Parameters: - name: $rules
+  type: array
+  text: A set of rules to validate the model by
+
+- name: $messages
+  type: array
+  text: An optional set of error messages for each used validation method
+
+- name: $attributes
+  type: array
+  text: An optional set of attribute names to be used in error messages

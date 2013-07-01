@@ -1,0 +1,34 @@
+.pagination {
+  position: relative;
+  @extend .clear;
+  padding-top: 2em;
+}
+.pagination li {
+  position: relative;
+  list-style: none;
+  z-index: 1;
+}
+.pagination .prev {
+  float: left;
+}
+.pagination .next {
+  float: right;
+}
+.pagination .count {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  text-align: center;
+  font-size: .9em;
+  color: $color-text-light;
+  padding: 2px;
+  font-weight: 300;
+}
+.pagination a {
+  display: block;
+  padding: 0 1em;
+  border: 2px solid $color-ui;
+  border-radius: 50px;
+  font-size: .9em;
+}

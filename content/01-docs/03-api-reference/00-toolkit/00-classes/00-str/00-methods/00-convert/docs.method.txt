@@ -1,0 +1,29 @@
+﻿Name: convert
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::convert
+----
+Syntax: str::convert($string, $targetEncoding, $sourceEncoding = null)
+----
+Description: Converts a string to a different encoding
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text: 
+
+- name: $targetEncoding
+  type: string
+  text: 
+
+- name: $sourceEncoding
+  type: string
+  text: (optional)
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: current
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::current
+----
+Syntax: url::current()
+----
+Description: Returns the current URL
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

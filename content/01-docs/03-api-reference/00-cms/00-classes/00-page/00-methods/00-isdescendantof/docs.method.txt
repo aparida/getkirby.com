@@ -1,0 +1,21 @@
+﻿Name: isDescendantOf
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isDescendantOf
+----
+Syntax: page::isDescendantOf($page)
+----
+Description: Checks if the page is a descendant of the given page
+----
+Text: 
+----
+Parameters: - name: 
+  type: object
+  text: Page the page object to check
+----
+Returntype: boolean
+----
+Return: 

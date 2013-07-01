@@ -1,0 +1,10 @@
+﻿Title: pagination.variable
+----
+Value: <pre>page</pre>
+----
+Description: The pagination class will produce
+URLs with this parameter name:
+http://yourdomain.com/list-of-items/page:1
+
+Especially for non-english sites it might
+be useful to overwrite this variable name

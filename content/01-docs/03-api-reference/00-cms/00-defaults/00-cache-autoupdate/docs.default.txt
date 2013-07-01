@@ -1,0 +1,10 @@
+﻿Title: cache.autoupdate
+----
+Value: <pre>true</pre>
+----
+Description: When autoupdate is set to true, Kirby will check
+all subfolders of your content folder for changes
+and use modifications to auto-flush the cache.
+To get better performance in some cases, you might
+want to switch this off. But you must flush the cache
+manually in this case or rely on the Panel.

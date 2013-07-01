@@ -1,0 +1,13 @@
+﻿Name: vars
+----
+Visibility: public
+----
+Static: no
+----
+Title: in::vars
+----
+Syntax: in::vars()
+----
+Description: 
+----
+Text: 

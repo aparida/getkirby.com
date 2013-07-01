@@ -1,0 +1,19 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: validator::validate
+----
+Syntax: validator::validate()
+----
+Description: Placeholder for the actual validation action in child classes
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

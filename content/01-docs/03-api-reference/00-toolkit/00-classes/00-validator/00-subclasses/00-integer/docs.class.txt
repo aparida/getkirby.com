@@ -1,0 +1,5 @@
+﻿Title: Integer Validator
+----
+Class: Integer
+----
+Description: Checks for a valid integer

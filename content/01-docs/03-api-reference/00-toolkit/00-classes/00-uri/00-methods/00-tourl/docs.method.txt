@@ -1,0 +1,21 @@
+﻿Name: toUrl
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::toUrl
+----
+Syntax: uri::toUrl($includeQuery = true)
+----
+Description: Converts the URI object to a proper URL
+----
+Text: 
+----
+Parameters: - name: $includeQuery
+  type: boolean
+  text: true: the query will be appended, false: this will only return the path
+----
+Returntype: string
+----
+Return: 

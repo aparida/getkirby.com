@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::__construct
+----
+Syntax: query::__construct($table = null)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: Optional name of the table, which should be queried

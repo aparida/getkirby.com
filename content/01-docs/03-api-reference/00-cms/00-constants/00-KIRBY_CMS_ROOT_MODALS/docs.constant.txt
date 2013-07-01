@@ -1,0 +1,3 @@
+Description: 
+
+The location of HTML files, which will be used to display special screens, like thrown exceptions or the troubleshooting screen.

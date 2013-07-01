@@ -1,0 +1,19 @@
+﻿Name: scheme
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::scheme
+----
+Syntax: uri::scheme()
+----
+Description: Returns the scheme of the URL (http or https)
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

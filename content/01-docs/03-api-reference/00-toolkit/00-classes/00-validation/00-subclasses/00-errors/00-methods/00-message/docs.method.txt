@@ -1,0 +1,22 @@
+﻿Name: message
+----
+Visibility: public
+----
+Static: no
+----
+Title: errors::message
+----
+Syntax: errors::message($type = null)
+----
+Description: Returns a particular message
+or the first message if no type is specified
+----
+Text: 
+----
+Parameters: - name: $type
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

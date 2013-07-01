@@ -1,0 +1,27 @@
+﻿Name: where
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::where
+----
+Syntax: query::where()
+----
+Description: Attaches an additional where clause
+----
+Text: All available ways to add where clauses
+
+->where('username like "myuser"');                        (args: 1)
+->where(array('username' => 'myuser'));                   (args: 1)
+->where(function($where) { $where->where('id', '=', 1) }) (args: 1)
+->where('username like ?', 'myuser')                      (args: 2)
+->where('username', 'like', 'myuser');                    (args: 3)
+----
+Parameters: - name: 
+  type: 
+  text: list
+----
+Returntype: object
+----
+Return: 

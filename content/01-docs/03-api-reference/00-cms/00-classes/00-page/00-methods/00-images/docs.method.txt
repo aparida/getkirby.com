@@ -1,0 +1,19 @@
+﻿Name: images
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::images
+----
+Syntax: page::images()
+----
+Description: Only returns images stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

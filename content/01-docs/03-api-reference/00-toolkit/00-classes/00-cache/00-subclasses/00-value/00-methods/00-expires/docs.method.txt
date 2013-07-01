@@ -1,0 +1,19 @@
+﻿Name: expires
+----
+Visibility: public
+----
+Static: no
+----
+Title: value::expires
+----
+Syntax: value::expires()
+----
+Description: Returns the expiration date as UNIX timestamp
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

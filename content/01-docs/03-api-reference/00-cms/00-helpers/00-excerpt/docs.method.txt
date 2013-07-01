@@ -1,0 +1,29 @@
+﻿Name: excerpt
+----
+Visibility: 
+----
+Static: 
+----
+Title: excerpt
+----
+Syntax: excerpt($text, $length = 140, $params = array())
+----
+Description: Creates an excerpt without html and kirbytext
+----
+Text: 
+----
+Parameters: - name: $text
+  type: mixed
+  text: Variable object or string
+
+- name: $length
+  type: int
+  text: The number of characters which should be included in the excerpt
+
+- name: $params
+  type: array
+  text: an array of options for kirbytext: array('markdown' => true, 'smartypants' => true)
+----
+Returntype: string
+----
+Return: The shortened text

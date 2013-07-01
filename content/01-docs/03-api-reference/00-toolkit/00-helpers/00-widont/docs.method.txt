@@ -1,0 +1,23 @@
+﻿Name: widont
+----
+Visibility: 
+----
+Static: 
+----
+Title: widont
+----
+Syntax: widont($string = '')
+----
+Description: The widont function makes sure that there are no
+typographical widows at the end of a paragraph –
+that's a single word in the last line
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

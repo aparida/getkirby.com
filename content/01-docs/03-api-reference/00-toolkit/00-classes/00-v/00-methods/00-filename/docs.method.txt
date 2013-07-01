@@ -1,0 +1,26 @@
+﻿Name: filename
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::filename
+----
+Syntax: v::filename($value)
+----
+Description: Checks for valid filename
+----
+Text: <pre><code>
+if(v::filename('filename.jpg')) {
+  echo 'That is a valid filename';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,9 @@
+﻿Title: Image
+----
+Class: Image
+----
+Description: The Image object extends the File
+object and is used for all images inside content
+folders to provide additional image-related methods.
+A Image object can only be constructed by
+converting an already existing File object.

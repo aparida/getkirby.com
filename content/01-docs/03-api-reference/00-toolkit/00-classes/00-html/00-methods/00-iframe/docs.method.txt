@@ -1,0 +1,29 @@
+﻿Name: iframe
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::iframe
+----
+Syntax: html::iframe($src, $attr = array(), $placeholder = '')
+----
+Description: Generates an iframe
+----
+Text: 
+----
+Parameters: - name: $src
+  type: string
+  text: The url of the iframe content
+
+- name: $attr
+  type: array
+  text: Additional attributes for the link tag
+
+- name: $placeholder
+  type: string
+  text: Text to be shown when the iframe can not be displayed.
+----
+Returntype: string
+----
+Return: the generated html

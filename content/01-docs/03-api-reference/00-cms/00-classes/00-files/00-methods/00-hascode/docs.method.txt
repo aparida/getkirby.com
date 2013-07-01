@@ -1,0 +1,19 @@
+﻿Name: hasCode
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasCode
+----
+Syntax: files::hasCode()
+----
+Description: Checks if this collection contains code files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

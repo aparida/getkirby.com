@@ -1,0 +1,21 @@
+﻿Name: params
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::params
+----
+Syntax: url::params($url)
+----
+Description: Returns an array of named params from the url
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text:
+----
+Returntype: array
+----
+Return: 

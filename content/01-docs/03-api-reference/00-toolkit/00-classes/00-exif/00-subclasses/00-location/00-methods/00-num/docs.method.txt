@@ -1,0 +1,21 @@
+﻿Name: num
+----
+Visibility: protected
+----
+Static: no
+----
+Title: location::num
+----
+Syntax: location::num($part)
+----
+Description: Converts coordinates to floats
+----
+Text: 
+----
+Parameters: - name: $part
+  type: string
+  text:
+----
+Returntype: float
+----
+Return: 

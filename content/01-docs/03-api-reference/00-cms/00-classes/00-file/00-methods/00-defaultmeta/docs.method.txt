@@ -1,0 +1,20 @@
+﻿Name: defaultMeta
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::defaultMeta
+----
+Syntax: file::defaultMeta()
+----
+Description: Returns the default meta info object
+for multi-language support
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Content

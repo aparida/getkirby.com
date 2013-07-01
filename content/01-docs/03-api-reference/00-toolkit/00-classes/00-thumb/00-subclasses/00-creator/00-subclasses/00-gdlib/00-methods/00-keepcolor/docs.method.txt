@@ -1,0 +1,21 @@
+﻿Name: keepColor
+----
+Visibility: protected
+----
+Static: no
+----
+Title: gdlib::keepColor
+----
+Syntax: gdlib::keepColor($image)
+----
+Description: Keeps the transparent background on gifs and pngs
+----
+Text: 
+----
+Parameters: - name: $image
+  type: object
+  text:
+----
+Returntype: object
+----
+Return: 

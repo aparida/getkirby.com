@@ -1,0 +1,25 @@
+﻿Name: css
+----
+Visibility: 
+----
+Static: 
+----
+Title: css
+----
+Syntax: css($url, $media = false)
+----
+Description: Returns a stylesheet tag
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: The url to the stylesheet file. Can be relative or absolute.
+
+- name: $media
+  type: string
+  text: An additional media type (i.e. screen, print, etc.)
+----
+Returntype: string
+----
+Return: 

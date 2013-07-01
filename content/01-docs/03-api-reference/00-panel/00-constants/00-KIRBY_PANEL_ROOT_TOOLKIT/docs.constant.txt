@@ -1,0 +1,3 @@
+Description: 
+
+The location of the Kirby Toolkit, which will be used by the Panel. 

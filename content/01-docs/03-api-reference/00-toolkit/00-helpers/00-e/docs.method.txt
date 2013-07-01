@@ -1,0 +1,25 @@
+﻿Name: e
+----
+Visibility: 
+----
+Static: 
+----
+Title: e
+----
+Syntax: e($condition, $value, $alternative = null)
+----
+Description: Smart version of echo with an if condition as first argument
+----
+Text: 
+----
+Parameters: - name: $condition
+  type: boolean
+  text: 
+
+- name: $value
+  type: string
+  text: The string to be echoed if the condition is true
+
+- name: $alternative
+  type: string
+  text: An alternative string which should be echoed when the condition is false

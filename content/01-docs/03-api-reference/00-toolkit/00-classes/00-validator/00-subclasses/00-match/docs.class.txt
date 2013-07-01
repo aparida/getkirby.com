@@ -1,0 +1,5 @@
+﻿Title: Match Validator
+----
+Class: Match
+----
+Description: Checks the value against a regular expression

@@ -1,0 +1,7 @@
+﻿Title: Pagination
+----
+Class: Pagination
+----
+Description: The pagination object is used to provide
+additional pagination methods for page and file
+collections

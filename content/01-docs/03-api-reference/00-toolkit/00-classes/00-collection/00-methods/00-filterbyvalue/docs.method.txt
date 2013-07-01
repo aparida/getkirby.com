@@ -1,0 +1,26 @@
+﻿Name: filterByValue
+----
+Visibility: protected
+----
+Static: no
+----
+Title: collection::filterByValue
+----
+Syntax: collection::filterByValue($item, $field)
+----
+Description: Makes sure to provide a valid value for each filter method
+no matter if an object or an array is given
+----
+Text: 
+----
+Parameters: - name: $item
+  type: mixed
+  text: 
+
+- name: $field
+  type: string
+  text:
+----
+Returntype: mixed
+----
+Return: 

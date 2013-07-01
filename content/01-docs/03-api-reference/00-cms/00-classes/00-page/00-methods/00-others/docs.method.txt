@@ -1,0 +1,19 @@
+﻿Name: others
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::others
+----
+Syntax: page::others()
+----
+Description: Returns all other files stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::__construct
+----
+Syntax: content::__construct($file)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $file
+  type: object
+  text: The parent File object

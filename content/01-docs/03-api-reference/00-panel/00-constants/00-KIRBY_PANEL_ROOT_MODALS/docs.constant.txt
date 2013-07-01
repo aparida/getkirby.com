@@ -1,0 +1,3 @@
+Description: 
+
+The location of basic HTML documents, which will be used to display a thrown exception for example. 

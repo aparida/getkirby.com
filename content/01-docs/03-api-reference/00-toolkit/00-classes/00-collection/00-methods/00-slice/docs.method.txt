@@ -1,0 +1,25 @@
+﻿Name: slice
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::slice
+----
+Syntax: collection::slice($offset = null, $limit = null)
+----
+Description: Returns a slice of the collection
+----
+Text: 
+----
+Parameters: - name: $offset
+  type: int
+  text: The optional index to start the slice from
+
+- name: $limit
+  type: int
+  text: The optional number of elements to return
+----
+Returntype: object
+----
+Return: a new collection

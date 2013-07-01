@@ -1,0 +1,25 @@
+﻿Name: current
+----
+Visibility: public
+----
+Static: yes
+----
+Title: uri::current
+----
+Syntax: uri::current($url = null, $options = null)
+----
+Description: Singleton for the current URI
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: Set a URL to overwrite the current URI
+
+- name: $options
+  type: array
+  text: Set additional options for the URI object
+----
+Returntype: object
+----
+Return: 

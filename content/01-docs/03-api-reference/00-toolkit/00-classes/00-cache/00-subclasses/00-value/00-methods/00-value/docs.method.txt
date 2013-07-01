@@ -1,0 +1,19 @@
+﻿Name: value
+----
+Visibility: public
+----
+Static: no
+----
+Title: value::value
+----
+Syntax: value::value()
+----
+Description: Returns the value
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

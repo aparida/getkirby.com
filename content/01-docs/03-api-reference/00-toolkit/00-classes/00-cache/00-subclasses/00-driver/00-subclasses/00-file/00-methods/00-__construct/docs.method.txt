@@ -1,0 +1,22 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::__construct
+----
+Syntax: file::__construct($params = array())
+----
+Description: Set all parameters which are needed for the file cache
+see defaults for available parameters
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text:
+----
+Returntype: void
+----
+Return: 

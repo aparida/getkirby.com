@@ -1,0 +1,15 @@
+﻿Name: params
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::params
+----
+Syntax: uri::params($key = null, $default = null)
+----
+Description: Alternative for $this->param()
+----
+Text: 
+----
+Parameters: 

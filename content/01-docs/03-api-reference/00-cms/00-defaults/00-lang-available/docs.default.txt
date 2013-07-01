@@ -1,0 +1,10 @@
+﻿Title: lang.available
+----
+Value: <pre>Array
+(
+    [0] =&gt; en
+    [1] =&gt; de
+)
+</pre>
+----
+Description: Set the codes of all available languages

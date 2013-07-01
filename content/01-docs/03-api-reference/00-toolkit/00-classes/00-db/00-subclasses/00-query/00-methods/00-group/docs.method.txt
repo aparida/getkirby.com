@@ -1,0 +1,21 @@
+﻿Name: group
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::group
+----
+Syntax: query::group($group)
+----
+Description: Attaches a group by clause
+----
+Text: 
+----
+Parameters: - name: $group
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

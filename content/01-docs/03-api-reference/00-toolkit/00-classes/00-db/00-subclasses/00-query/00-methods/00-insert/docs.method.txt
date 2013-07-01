@@ -1,0 +1,21 @@
+﻿Name: insert
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::insert
+----
+Syntax: query::insert($values = null)
+----
+Description: Fires an insert query
+----
+Text: 
+----
+Parameters: - name: $values
+  type: array
+  text: You can pass values here or set them with ->values() before
+----
+Returntype: mixed
+----
+Return: Returns the last inserted id on success or false.

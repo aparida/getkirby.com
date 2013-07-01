@@ -1,0 +1,19 @@
+﻿Name: stripQuery
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::stripQuery
+----
+Syntax: uri::stripQuery()
+----
+Description: Removes the entire query
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: $this

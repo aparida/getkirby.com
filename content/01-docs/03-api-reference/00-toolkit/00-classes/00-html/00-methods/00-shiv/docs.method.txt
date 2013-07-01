@@ -1,0 +1,19 @@
+﻿Name: shiv
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::shiv
+----
+Syntax: html::shiv()
+----
+Description: Generates a HTML5 shiv script tag with additional comments for older IEs
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: the generated html

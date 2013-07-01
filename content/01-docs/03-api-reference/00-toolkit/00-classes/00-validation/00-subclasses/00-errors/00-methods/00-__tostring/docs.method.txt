@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: errors::__toString
+----
+Syntax: errors::__toString()
+----
+Description: Returns the first message
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

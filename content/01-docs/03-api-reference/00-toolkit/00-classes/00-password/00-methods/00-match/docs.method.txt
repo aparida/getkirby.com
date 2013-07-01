@@ -1,0 +1,25 @@
+﻿Name: match
+----
+Visibility: public
+----
+Static: yes
+----
+Title: password::match
+----
+Syntax: password::match($plaintext, $hash)
+----
+Description: Checks if a password matches the encrypted hash
+----
+Text: 
+----
+Parameters: - name: $plaintext
+  type: string
+  text: 
+
+- name: $hash
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

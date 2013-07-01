@@ -1,0 +1,34 @@
+﻿Name: excerpt
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::excerpt
+----
+Syntax: str::excerpt($string, $chars = 140, $removehtml = true, $rep = '…')
+----
+Description: Creates an excerpt of a string
+It removes all html tags first and then uses str::short
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text: The string to be shortened
+
+- name: $chars
+  type: int
+  text: The final number of characters the string should have
+
+- name: $removehtml
+  type: boolean
+  text: True: remove the HTML tags from the string first
+
+- name: $rep
+  type: string
+  text: The element, which should be added if the string is too long. Ellipsis is the default.
+----
+Returntype: string
+----
+Return: The shortened string

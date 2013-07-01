@@ -1,0 +1,21 @@
+﻿Name: isDefaultContent
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::isDefaultContent
+----
+Syntax: content::isDefaultContent()
+----
+Description: Checks if this is the content file for
+the default language. This is used to check for needed
+fallbacks for missing stuff in translated files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

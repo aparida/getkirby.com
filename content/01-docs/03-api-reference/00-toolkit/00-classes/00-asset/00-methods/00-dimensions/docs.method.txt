@@ -1,0 +1,19 @@
+﻿Name: dimensions
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::dimensions
+----
+Syntax: asset::dimensions()
+----
+Description: Returns the dimensions object for this asset
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: KirbyDimensions

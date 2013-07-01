@@ -1,0 +1,24 @@
+﻿Name: template
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::template
+----
+Syntax: page::template()
+----
+Description: Returns the name of the used template
+The name of the template is defined by the name
+of the content text file.
+----
+Text: i.e. text file: project.txt / template name: project
+
+This method returns the name of the default template
+if there's no template with such a name
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

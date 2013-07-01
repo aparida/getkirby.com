@@ -1,0 +1,21 @@
+﻿Name: limit
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::limit
+----
+Syntax: query::limit($limit)
+----
+Description: Sets the limit for select clauses
+----
+Text: 
+----
+Parameters: - name: $limit
+  type: int
+  text:
+----
+Returntype: object
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: location::__toString
+----
+Syntax: location::__toString()
+----
+Description: Echos the entire location as lat, lng
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

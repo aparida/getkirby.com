@@ -1,0 +1,25 @@
+﻿Name: different
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::different
+----
+Syntax: v::different($value, $other)
+----
+Description: Checks for two different values
+----
+Text: 
+----
+Parameters: - name: $value
+  type: string
+  text: 
+
+- name: $other
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

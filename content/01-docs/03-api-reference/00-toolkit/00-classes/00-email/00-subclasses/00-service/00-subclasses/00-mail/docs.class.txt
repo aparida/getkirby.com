@@ -1,0 +1,5 @@
+﻿Title: Mail Email Service
+----
+Class: Mail
+----
+Description: Sends emails with PHP's mail() function

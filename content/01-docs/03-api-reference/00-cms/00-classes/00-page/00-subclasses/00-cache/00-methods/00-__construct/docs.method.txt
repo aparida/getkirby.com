@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: cache::__construct
+----
+Syntax: cache::__construct($page)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: 
+  type: object
+  text: Site
+
+- name: 
+  type: object
+  text: Page

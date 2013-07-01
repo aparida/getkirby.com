@@ -1,0 +1,25 @@
+﻿Name: innerJoin
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::innerJoin
+----
+Syntax: query::innerJoin($table, $on)
+----
+Description: Shortcut for creating an inner join clause
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: Name of the table, which should be joined
+
+- name: $on
+  type: string
+  text: The on clause for this join
+----
+Returntype: object
+----
+Return: 

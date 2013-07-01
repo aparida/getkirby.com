@@ -1,0 +1,20 @@
+﻿Name: valid
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::valid
+----
+Syntax: collection::valid()
+----
+Description: Checks if an element is valid
+This is needed for the Iterator implementation
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

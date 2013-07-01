@@ -1,0 +1,19 @@
+﻿Name: templateFile
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::templateFile
+----
+Syntax: page::templateFile()
+----
+Description: Returns the full path to the used template file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

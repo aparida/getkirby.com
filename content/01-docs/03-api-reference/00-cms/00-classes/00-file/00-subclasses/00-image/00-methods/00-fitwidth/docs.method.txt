@@ -1,0 +1,26 @@
+﻿Name: fitWidth
+----
+Visibility: public
+----
+Static: no
+----
+Title: image::fitWidth
+----
+Syntax: image::fitWidth($width, $force = false)
+----
+Description: Recalculates the width and height of the
+image to fit the given width
+----
+Text: 
+----
+Parameters: - name: $width
+  type: int
+  text: the max width
+
+- name: $force
+  type: boolean
+  text: If true, the image will be upscaled to fit the width if smaller
+----
+Returntype: object
+----
+Return: returns this image with recalculated dimensions

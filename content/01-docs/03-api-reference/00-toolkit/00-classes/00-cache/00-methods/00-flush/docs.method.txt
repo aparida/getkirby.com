@@ -1,0 +1,19 @@
+﻿Name: flush
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cache::flush
+----
+Syntax: cache::flush()
+----
+Description: Flush the entire cache
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

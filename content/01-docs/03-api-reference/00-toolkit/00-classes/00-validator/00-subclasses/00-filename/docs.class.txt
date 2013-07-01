@@ -1,0 +1,5 @@
+﻿Title: Filename Validator
+----
+Class: Filename
+----
+Description: Checks for a valid filename format

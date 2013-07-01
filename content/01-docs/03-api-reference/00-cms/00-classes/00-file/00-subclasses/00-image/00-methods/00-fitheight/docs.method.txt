@@ -1,0 +1,26 @@
+﻿Name: fitHeight
+----
+Visibility: public
+----
+Static: no
+----
+Title: image::fitHeight
+----
+Syntax: image::fitHeight($height, $force = false)
+----
+Description: Recalculates the width and height of the
+image to fit the given height
+----
+Text: 
+----
+Parameters: - name: $height
+  type: int
+  text: the max height
+
+- name: $force
+  type: boolean
+  text: If true, the image will be upscaled to fit the height if smaller
+----
+Returntype: object
+----
+Return: returns this image with recalculated dimensions

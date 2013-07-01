@@ -1,0 +1,21 @@
+﻿Name: mysql
+----
+Visibility: protected
+----
+Static: no
+----
+Title: connector::mysql
+----
+Syntax: connector::mysql($params)
+----
+Description: Returns a mysql dsn string
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text:
+----
+Returntype: string
+----
+Return: 

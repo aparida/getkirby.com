@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::__construct
+----
+Syntax: exif::__construct($asset)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $asset
+  type: object
+  text: Asset

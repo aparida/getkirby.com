@@ -1,0 +1,19 @@
+﻿Name: hasVideos
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasVideos
+----
+Syntax: page::hasVideos()
+----
+Description: Checks if there are any videos stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: true = has videos, false = no videos

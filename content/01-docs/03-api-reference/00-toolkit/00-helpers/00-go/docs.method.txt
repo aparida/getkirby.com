@@ -1,0 +1,25 @@
+﻿Name: go
+----
+Visibility: 
+----
+Static: 
+----
+Title: go
+----
+Syntax: go($url = false, $code = false, $send = true)
+----
+Description: Redirects the user to a new URL
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: The URL to redirect to
+
+- name: $code
+  type: boolean
+  text: The HTTP status code, which should be sent (301, 302 or 303)
+
+- name: $send
+  type: boolean
+  text: If true, headers will be sent and redirection will take effect

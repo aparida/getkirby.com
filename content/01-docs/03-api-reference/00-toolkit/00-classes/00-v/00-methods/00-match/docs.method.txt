@@ -1,0 +1,25 @@
+﻿Name: match
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::match
+----
+Syntax: v::match($value, $format)
+----
+Description: Checks if the value matches a regular expression
+----
+Text: 
+----
+Parameters: - name: $value
+  type: string
+  text: 
+
+- name: $format
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

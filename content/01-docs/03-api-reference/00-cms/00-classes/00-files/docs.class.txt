@@ -1,0 +1,6 @@
+﻿Title: Files
+----
+Class: Files
+----
+Description: This is the main collection object
+for a set of File objects

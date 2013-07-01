@@ -1,0 +1,5 @@
+﻿Title: Alpha Numeric Validator
+----
+Class: AlphaNumeric
+----
+Description: Checks for letters and numbers

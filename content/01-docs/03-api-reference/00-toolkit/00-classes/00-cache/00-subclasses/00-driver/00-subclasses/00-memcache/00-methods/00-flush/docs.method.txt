@@ -1,0 +1,19 @@
+﻿Name: flush
+----
+Visibility: public
+----
+Static: no
+----
+Title: memcache::flush
+----
+Syntax: memcache::flush()
+----
+Description: Flush the entire cache directory
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

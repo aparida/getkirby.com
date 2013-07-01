@@ -1,0 +1,15 @@
+﻿Name: restart
+----
+Visibility: public
+----
+Static: yes
+----
+Title: s::restart
+----
+Syntax: s::restart()
+----
+Description: Destroys a session first and then starts it again
+----
+Text: 
+----
+Parameters: 

@@ -1,0 +1,19 @@
+﻿Name: hasAudio
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasAudio
+----
+Syntax: files::hasAudio()
+----
+Description: Checks if this collection contains audio files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

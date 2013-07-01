@@ -1,0 +1,19 @@
+﻿Name: hasFiles
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasFiles
+----
+Syntax: page::hasFiles()
+----
+Description: Checks if there are any files stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: true = has files, false = no files

@@ -1,0 +1,20 @@
+﻿Name: validate
+----
+Visibility: protected
+----
+Static: no
+----
+Title: model::validate
+----
+Syntax: model::validate()
+----
+Description: Put your validation code for the model here
+Use the v method to run the auto validation
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

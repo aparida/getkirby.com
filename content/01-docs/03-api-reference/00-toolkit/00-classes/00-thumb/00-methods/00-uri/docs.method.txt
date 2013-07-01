@@ -1,0 +1,19 @@
+﻿Name: uri
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::uri
+----
+Syntax: thumb::uri()
+----
+Description: Returns the data uri for the thumbnail
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

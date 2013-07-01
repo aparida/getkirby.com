@@ -1,0 +1,21 @@
+﻿Name: values
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::values
+----
+Syntax: query::values($values = array())
+----
+Description: Sets the values which should be used for the update or insert clause
+----
+Text: 
+----
+Parameters: - name: $values
+  type: mixed
+  text: Can either be a string or an array of values
+----
+Returntype: object
+----
+Return: 

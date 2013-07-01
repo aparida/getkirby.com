@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::__toString
+----
+Syntax: dir::__toString()
+----
+Description: Echos the root of the directory if the entire object is echoed.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

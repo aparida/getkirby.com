@@ -1,0 +1,15 @@
+﻿Name: root
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::root
+----
+Syntax: thumb::root()
+----
+Description: Returns the full root to the
+----
+Text: 
+----
+Parameters: 

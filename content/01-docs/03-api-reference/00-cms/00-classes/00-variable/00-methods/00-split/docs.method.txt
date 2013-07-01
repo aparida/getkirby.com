@@ -1,0 +1,21 @@
+﻿Name: split
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::split
+----
+Syntax: variable::split($separator = ',')
+----
+Description: Splits the value by the given delimiter
+----
+Text: 
+----
+Parameters: - name: $separator
+  type: string
+  text: The delimiter to split by
+----
+Returntype: array
+----
+Return: 

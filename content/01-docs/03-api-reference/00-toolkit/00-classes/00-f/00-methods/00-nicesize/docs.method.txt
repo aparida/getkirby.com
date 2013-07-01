@@ -1,0 +1,28 @@
+﻿Name: niceSize
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::niceSize
+----
+Syntax: f::niceSize($size)
+----
+Description: Converts an integer size into a human readable format
+----
+Text: <pre><code>
+$niceSize = f::niceSize('/path/to/a/file.txt');
+// nice size is i.e: 212 kb
+
+$niceSize = f::niceSize(1231939);
+// nice size is: 1,2 mb
+
+</code></pre>
+----
+Parameters: - name: $size
+  type: int
+  text: The file size or a file path
+----
+Returntype: string
+----
+Return: 

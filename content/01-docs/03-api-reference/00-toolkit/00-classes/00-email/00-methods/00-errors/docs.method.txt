@@ -1,0 +1,19 @@
+﻿Name: errors
+----
+Visibility: public
+----
+Static: no
+----
+Title: email::errors
+----
+Syntax: email::errors()
+----
+Description: Returns all errors as an array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

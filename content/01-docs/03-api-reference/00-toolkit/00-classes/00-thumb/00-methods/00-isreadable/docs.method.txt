@@ -1,0 +1,19 @@
+﻿Name: isReadable
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::isReadable
+----
+Syntax: thumb::isReadable()
+----
+Description: Checks if the thumbnail is readable
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

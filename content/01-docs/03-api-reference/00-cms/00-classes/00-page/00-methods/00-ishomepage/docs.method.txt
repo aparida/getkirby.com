@@ -1,0 +1,22 @@
+﻿Name: isHomePage
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isHomePage
+----
+Syntax: page::isHomePage()
+----
+Description: Checks if this page is the home page
+You can define the uri of the homepage in your config
+file with the home option. By default it's assumed
+that the homepage folder has the name "home"
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

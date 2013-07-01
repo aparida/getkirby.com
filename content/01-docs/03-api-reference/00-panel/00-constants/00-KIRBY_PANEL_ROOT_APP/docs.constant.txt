@@ -1,0 +1,3 @@
+Description: 
+
+The location of the Kirby App Framework, which the panel relies on. Normally it is located within the Panel folder, but may also relinked to another version outside of the Panel. 

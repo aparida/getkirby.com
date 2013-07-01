@@ -1,0 +1,19 @@
+﻿Name: dirname
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::dirname
+----
+Syntax: asset::dirname()
+----
+Description: Returns the parent directory's name
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

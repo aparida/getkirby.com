@@ -1,0 +1,25 @@
+﻿Name: replace
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::replace
+----
+Syntax: object::replace($key, $value)
+----
+Description: Replaces a value of the object
+----
+Text: It's yet another alternative for set()
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text:
+----
+Returntype: object
+----
+Return: returns the current object to make it chainable

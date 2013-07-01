@@ -1,0 +1,19 @@
+﻿Name: __clone
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::__clone
+----
+Syntax: uri::__clone()
+----
+Description: Takes care of properly cloning child objects
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: $this

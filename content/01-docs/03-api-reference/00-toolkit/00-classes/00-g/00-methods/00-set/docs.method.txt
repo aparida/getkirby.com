@@ -1,0 +1,28 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: g::set
+----
+Syntax: g::set($key, $value = null)
+----
+Description: Sets a global by key
+----
+Text: <pre><code>
+g::set('var1', 'some value');
+
+// later
+echo g::get('var1');
+// output: 'some value'
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: The key to define
+
+- name: $value
+  type: mixed
+  text: The value for the passed key

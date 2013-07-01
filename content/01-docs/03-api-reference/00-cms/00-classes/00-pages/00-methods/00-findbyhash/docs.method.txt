@@ -1,0 +1,22 @@
+﻿Name: findByHash
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::findByHash
+----
+Syntax: pages::findByHash()
+----
+Description: Finds a single page by its hash
+Pass multiple hashes as separate arguments to get a Pages collection with all matches
+----
+Text: 
+----
+Parameters: - name: 
+  type: list
+  text: Either a single hash or multiple hashes as a list of arguments
+----
+Returntype: mixed
+----
+Return: Page, Pages or null

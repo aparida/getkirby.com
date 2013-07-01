@@ -1,0 +1,21 @@
+﻿Name: groupBy
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::groupBy
+----
+Syntax: collection::groupBy($field, $i = true)
+----
+Description: Groups the collection by a given field
+----
+Text: 
+----
+Parameters: - name: $field
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: A new collection with an item for each group and a subcollection in each group

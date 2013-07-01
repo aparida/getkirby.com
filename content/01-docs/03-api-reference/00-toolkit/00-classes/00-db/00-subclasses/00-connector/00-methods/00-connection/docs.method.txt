@@ -1,0 +1,19 @@
+﻿Name: connection
+----
+Visibility: public
+----
+Static: no
+----
+Title: connector::connection
+----
+Syntax: connector::connection()
+----
+Description: Returns the established PDO connection
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

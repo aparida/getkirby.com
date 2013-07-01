@@ -1,0 +1,19 @@
+﻿Name: files
+----
+Visibility: protected
+----
+Static: no
+----
+Title: tag::files
+----
+Syntax: tag::files()
+----
+Description: Tries to find all related files for the current page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

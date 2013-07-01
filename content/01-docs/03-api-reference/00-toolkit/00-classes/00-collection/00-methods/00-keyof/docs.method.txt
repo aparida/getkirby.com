@@ -1,0 +1,21 @@
+﻿Name: keyOf
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::keyOf
+----
+Syntax: collection::keyOf($needle)
+----
+Description: Tries to find the key for the given element
+----
+Text: 
+----
+Parameters: - name: $needle
+  type: mixed
+  text: the element to search for
+----
+Returntype: mixed
+----
+Return: the name of the key or false

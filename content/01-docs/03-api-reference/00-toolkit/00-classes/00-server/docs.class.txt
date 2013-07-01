@@ -1,0 +1,6 @@
+﻿Title: Server
+----
+Class: Server
+----
+Description: Makes it more convenient to get variables
+from the global server array

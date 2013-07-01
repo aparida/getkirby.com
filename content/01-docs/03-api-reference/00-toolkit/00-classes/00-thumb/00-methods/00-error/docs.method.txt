@@ -1,0 +1,19 @@
+﻿Name: error
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::error
+----
+Syntax: thumb::error()
+----
+Description: Returns the error message if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

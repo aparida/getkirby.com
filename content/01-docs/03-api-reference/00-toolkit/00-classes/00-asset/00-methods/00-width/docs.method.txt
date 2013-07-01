@@ -1,0 +1,19 @@
+﻿Name: width
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::width
+----
+Syntax: asset::width()
+----
+Description: Returns the width of the asset
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

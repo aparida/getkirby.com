@@ -1,0 +1,38 @@
+﻿Name: short
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::short
+----
+Syntax: url::short($url, $length = false, $base = false, $rep = '…')
+----
+Description: Shortens a URL
+It removes http:// or https:// and uses str::short afterwards
+----
+Text: <pre><code>
+echo url::short('http://veryveryverylongurl.com', 30);
+// output: veryveryverylongurl.com
+
+</code></pre>
+----
+Parameters: - name: $url
+  type: string
+  text: The URL to be shortened
+
+- name: $chars
+  type: int
+  text: The final number of characters the URL should have
+
+- name: $base
+  type: boolean
+  text: True: only take the base of the URL.
+
+- name: $rep
+  type: string
+  text: The element, which should be added if the string is too long. Ellipsis is the default.
+----
+Returntype: string
+----
+Return: The shortened URL

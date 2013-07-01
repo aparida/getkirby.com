@@ -1,0 +1,30 @@
+﻿Name: move
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::move
+----
+Syntax: dir::move($old, $new)
+----
+Description: Moves a directory to a new location
+----
+Text: <pre><code>
+$move = dir::move('mydirectory', 'mynewdirectory');
+
+if($move) echo 'the directory has been moved to mynewdirectory';
+
+</code></pre>
+----
+Parameters: - name: $old
+  type: string
+  text: The current path of the directory
+
+- name: $new
+  type: string
+  text: The desired path where the dir should be moved to
+----
+Returntype: boolean
+----
+Return: True: the directory has been moved, false: moving failed

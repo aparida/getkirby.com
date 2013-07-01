@@ -1,0 +1,21 @@
+﻿Name: pageURL
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::pageURL
+----
+Syntax: pagination::pageURL($page)
+----
+Description: Returns a page url for any given page number
+----
+Text: 
+----
+Parameters: - name: $page
+  type: int
+  text: The page number
+----
+Returntype: string
+----
+Return: The url

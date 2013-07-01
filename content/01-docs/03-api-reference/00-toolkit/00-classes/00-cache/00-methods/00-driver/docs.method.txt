@@ -1,0 +1,19 @@
+﻿Name: driver
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cache::driver
+----
+Syntax: cache::driver()
+----
+Description: Returns the currently connected driver
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

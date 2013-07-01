@@ -1,0 +1,3 @@
+Description: 
+
+The location of the panel library with additional files, which will be autoloaded by the panel bootstrapper. 

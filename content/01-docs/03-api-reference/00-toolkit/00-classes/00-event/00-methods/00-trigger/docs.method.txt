@@ -1,0 +1,21 @@
+﻿Name: trigger
+----
+Visibility: public
+----
+Static: no
+----
+Title: event::trigger
+----
+Syntax: event::trigger($event, $arguments = array())
+----
+Description: Triggers all available events for a given key
+----
+Text: 
+----
+Parameters: - name: $event
+  type: string
+  text: The name of the event, that should be triggered
+
+- name: $arguments
+  type: array
+  text: An optional array of arguments, which should be passed to the event

@@ -1,0 +1,22 @@
+﻿Name: retrieve
+----
+Visibility: public
+----
+Static: no
+----
+Title: driver::retrieve
+----
+Syntax: driver::retrieve($key)
+----
+Description: Private method to retrieve the cache value
+This needs to be defined by the driver
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: Value

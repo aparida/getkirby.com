@@ -1,0 +1,21 @@
+﻿Name: encoding
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::encoding
+----
+Syntax: str::encoding($string)
+----
+Description: Tries to detect the string encoding
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

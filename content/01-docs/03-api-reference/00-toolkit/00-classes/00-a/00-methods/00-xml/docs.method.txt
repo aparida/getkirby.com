@@ -1,0 +1,52 @@
+﻿Name: xml
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::xml
+----
+Syntax: a::xml($array, $tag = 'root', $head = true, $charset = 'utf-8', $tab = '  ', $level)
+----
+Description: Converts an array to a XML string
+----
+Text: <pre><code>
+$array = array(
+  'cat'  => 'miao',
+  'dog'  => 'wuff',
+  'bird' => 'tweet'
+);
+
+echo a::xml($array, 'animals');
+// output:
+// <animals>
+//   <cat>miao</cat>
+//   <dog>wuff</dog>
+//   <bird>tweet</bird>
+// </animals>
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $tag
+  type: string
+  text: The name of the root element
+
+- name: $head
+  type: boolean
+  text: Include the xml declaration head or not
+
+- name: $charset
+  type: string
+  text: The charset, which should be used for the header
+
+- name: $level
+  type: int
+  text: The indendation level
+----
+Returntype: string
+----
+Return: The XML string

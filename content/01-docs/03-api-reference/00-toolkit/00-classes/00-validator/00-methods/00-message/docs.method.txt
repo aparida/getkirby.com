@@ -1,0 +1,25 @@
+﻿Name: message
+----
+Visibility: public
+----
+Static: no
+----
+Title: validator::message
+----
+Syntax: validator::message($message = null, $attribute = null)
+----
+Description: Returns the error message
+----
+Text: 
+----
+Parameters: - name: $message
+  type: string
+  text: Optional custom message to overwrite the default message
+
+- name: $attribute
+  type: string
+  text: Optional custom attribute name to overwrite the default attribute
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: last
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::last
+----
+Syntax: collection::last()
+----
+Description: Returns the last element from the array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: visitor::__toString
+----
+Syntax: visitor::__toString()
+----
+Description: Returns the ip address if the object
+is being converted to a string or echoed
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

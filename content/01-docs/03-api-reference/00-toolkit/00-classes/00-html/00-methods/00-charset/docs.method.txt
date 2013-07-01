@@ -1,0 +1,21 @@
+﻿Name: charset
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::charset
+----
+Syntax: html::charset($charset = 'utf-8')
+----
+Description: Generates the charset metatag
+----
+Text: 
+----
+Parameters: - name: $charset
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: the generated html

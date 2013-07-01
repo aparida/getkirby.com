@@ -1,0 +1,19 @@
+﻿Name: prevPageURL
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::prevPageURL
+----
+Syntax: pagination::prevPageURL()
+----
+Description: Returns the url for the previous page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

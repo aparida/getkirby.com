@@ -1,0 +1,25 @@
+﻿Name: data
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::data
+----
+Syntax: content::data($key = null, $default = null)
+----
+Description: Returns an array with all keys and values/Variables
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: Optional key to get a single item from the data array
+
+- name: $default
+  type: mixed
+  text: Optional default value if the item is not in the array
+----
+Returntype: array
+----
+Return: 

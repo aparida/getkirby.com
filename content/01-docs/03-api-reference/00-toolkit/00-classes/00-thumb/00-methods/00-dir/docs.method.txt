@@ -1,0 +1,19 @@
+﻿Name: dir
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::dir
+----
+Syntax: thumb::dir()
+----
+Description: Returns the directory where the thumb is located
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

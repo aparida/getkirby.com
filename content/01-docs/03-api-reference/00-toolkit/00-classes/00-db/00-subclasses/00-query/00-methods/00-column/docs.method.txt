@@ -1,0 +1,21 @@
+﻿Name: column
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::column
+----
+Syntax: query::column($column)
+----
+Description: Returns only values from a single column
+----
+Text: 
+----
+Parameters: - name: $column
+  type: string
+  text:
+----
+Returntype: mixed
+----
+Return: 

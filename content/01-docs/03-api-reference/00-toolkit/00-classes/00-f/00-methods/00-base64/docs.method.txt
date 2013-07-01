@@ -1,0 +1,21 @@
+﻿Name: base64
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::base64
+----
+Syntax: f::base64($file)
+----
+Description: Returns the file content as base64 encoded string
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: The path for the file
+----
+Returntype: string
+----
+Return: 

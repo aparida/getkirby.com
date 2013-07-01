@@ -1,0 +1,13 @@
+﻿Name: post
+----
+Visibility: public
+----
+Static: yes
+----
+Title: router::post
+----
+Syntax: router::post($pattern, $action)
+----
+Description: 
+----
+Text: 

@@ -1,0 +1,25 @@
+﻿Name: size
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::size
+----
+Syntax: v::size($value, $size)
+----
+Description: Compares the size of the value with a given size
+----
+Text: 
+----
+Parameters: - name: $value
+  type: mixed
+  text: 
+
+- name: $size
+  type: int
+  text:
+----
+Returntype: boolean
+----
+Return: 

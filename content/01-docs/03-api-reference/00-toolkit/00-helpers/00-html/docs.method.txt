@@ -1,0 +1,21 @@
+﻿Name: html
+----
+Visibility: 
+----
+Static: 
+----
+Title: html
+----
+Syntax: html($text, $keepTags = true)
+----
+Description: Creates safe html by encoding special characters
+----
+Text: 
+----
+Parameters: - name: $text
+  type: string
+  text: unencoded text
+----
+Returntype: string
+----
+Return: 

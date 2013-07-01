@@ -1,0 +1,19 @@
+﻿Name: children
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::children
+----
+Syntax: dir::children()
+----
+Description: Returns an array with all subdirectories within this directory
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

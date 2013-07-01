@@ -1,0 +1,19 @@
+﻿Name: failed
+----
+Visibility: public
+----
+Static: no
+----
+Title: validation::failed
+----
+Syntax: validation::failed()
+----
+Description: Checks if the validation failed
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

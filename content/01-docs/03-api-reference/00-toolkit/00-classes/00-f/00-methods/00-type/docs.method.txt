@@ -1,0 +1,21 @@
+﻿Name: type
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::type
+----
+Syntax: f::type($file)
+----
+Description: Categorize the file
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: Either the file path or extension
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,21 @@
+﻿Name: sanitize
+----
+Visibility: protected
+----
+Static: yes
+----
+Title: r::sanitize
+----
+Syntax: r::sanitize($data)
+----
+Description: Private method to sanitize incoming request data
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text:
+----
+Returntype: array
+----
+Return: 

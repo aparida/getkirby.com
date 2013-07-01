@@ -1,0 +1,19 @@
+﻿Name: timestamps
+----
+Visibility: protected
+----
+Static: no
+----
+Title: model::timestamps
+----
+Syntax: model::timestamps()
+----
+Description: Adds correct timestamps to the model if activated
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: void
+----
+Return: 

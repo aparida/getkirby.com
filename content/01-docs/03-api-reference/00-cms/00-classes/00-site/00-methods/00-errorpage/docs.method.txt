@@ -1,0 +1,19 @@
+﻿Name: errorPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::errorPage
+----
+Syntax: site::errorPage()
+----
+Description: Returns the error page of the site
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Page

@@ -1,0 +1,21 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: tpl::set
+----
+Syntax: tpl::set($key, $value = false)
+----
+Description: Sets a new template variable
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $value
+  type: string
+  text:

@@ -1,0 +1,15 @@
+﻿Name: parse
+----
+Visibility: protected
+----
+Static: no
+----
+Title: exif::parse
+----
+Syntax: exif::parse()
+----
+Description: Pareses and stores all relevant exif data
+----
+Text: 
+----
+Parameters: 

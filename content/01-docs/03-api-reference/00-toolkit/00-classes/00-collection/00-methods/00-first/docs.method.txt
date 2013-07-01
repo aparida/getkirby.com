@@ -1,0 +1,19 @@
+﻿Name: first
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::first
+----
+Syntax: collection::first()
+----
+Description: Returns the first element from the array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

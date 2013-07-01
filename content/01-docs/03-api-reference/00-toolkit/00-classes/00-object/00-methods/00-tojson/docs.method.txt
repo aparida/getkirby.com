@@ -1,0 +1,20 @@
+﻿Name: toJSON
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::toJSON
+----
+Syntax: object::toJSON()
+----
+Description: Converts the object to an array first
+and afterwards to a json string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

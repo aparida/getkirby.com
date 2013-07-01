@@ -1,0 +1,21 @@
+﻿Name: contents
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::contents
+----
+Syntax: page::contents()
+----
+Description: Returns all content files stored with this page
+Content files are text files with the main content.
+----
+Text: There can be a single content file for single language websites,
+or multiple content text files for multi-language sites.
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

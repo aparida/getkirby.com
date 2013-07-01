@@ -1,0 +1,19 @@
+﻿Name: value
+----
+Visibility: public
+----
+Static: no
+----
+Title: validator::value
+----
+Syntax: validator::value()
+----
+Description: Returns the validated value
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

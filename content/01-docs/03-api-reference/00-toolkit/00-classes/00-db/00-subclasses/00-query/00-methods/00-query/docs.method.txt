@@ -1,0 +1,25 @@
+﻿Name: query
+----
+Visibility: protected
+----
+Static: no
+----
+Title: query::query
+----
+Syntax: query::query($query, $params = array())
+----
+Description: Used as an internal shortcut for firing a db query
+----
+Text: 
+----
+Parameters: - name: $query
+  type: string
+  text: 
+
+- name: $params
+  type: array
+  text:
+----
+Returntype: mixed
+----
+Return: 

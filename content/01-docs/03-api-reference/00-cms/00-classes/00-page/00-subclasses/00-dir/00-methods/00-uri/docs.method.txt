@@ -1,0 +1,20 @@
+﻿Name: uri
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::uri
+----
+Syntax: dir::uri()
+----
+Description: Returns the relative directory path
+excluding the document root
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: i.e. content/01-projects

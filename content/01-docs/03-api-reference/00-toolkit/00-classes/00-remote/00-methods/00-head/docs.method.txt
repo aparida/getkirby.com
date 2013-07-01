@@ -1,0 +1,25 @@
+﻿Name: head
+----
+Visibility: public
+----
+Static: yes
+----
+Title: remote::head
+----
+Syntax: remote::head($url, $params = array())
+----
+Description: Static method to send a HEAD request
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: 
+
+- name: $params
+  type: array
+  text:
+----
+Returntype: object
+----
+Return: Response

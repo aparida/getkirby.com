@@ -1,0 +1,29 @@
+﻿Name: sortBy
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::sortBy
+----
+Syntax: pages::sortBy($field, $direction = 'asc', $method = SORT_REGULAR)
+----
+Description: Sorts all pages in this set by one of its fields
+----
+Text: 
+----
+Parameters: - name: $field
+  type: string
+  text: 
+
+- name: $direction
+  type: string
+  text: 
+
+- name: $method
+  type: mixed
+  text:
+----
+Returntype: object
+----
+Return: Pages

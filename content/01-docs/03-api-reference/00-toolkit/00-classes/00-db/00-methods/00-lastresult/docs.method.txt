@@ -1,0 +1,19 @@
+﻿Name: lastResult
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::lastResult
+----
+Syntax: db::lastResult()
+----
+Description: Returns the last set of results
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

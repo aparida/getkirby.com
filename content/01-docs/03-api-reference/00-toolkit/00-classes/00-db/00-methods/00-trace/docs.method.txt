@@ -1,0 +1,21 @@
+﻿Name: trace
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::trace
+----
+Syntax: db::trace($data = null)
+----
+Description: Adds a value to the db trace and also returns the entire trace if nothing is specified
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text:
+----
+Returntype: array
+----
+Return: 

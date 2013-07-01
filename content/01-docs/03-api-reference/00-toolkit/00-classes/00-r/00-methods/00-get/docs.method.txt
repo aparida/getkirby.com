@@ -1,0 +1,32 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::get
+----
+Syntax: r::get($key = null, $default = null)
+----
+Description: Alternative to self::data($key, $default)
+----
+Text: <pre><code>
+echo r::get('username');
+// sample output 'bastian'
+
+echo r::get('username', 'peter');
+// if no username is found in the request peter will be echoed
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: An optional key to receive only parts of the data array
+
+- name: $default
+  type: mixed
+  text: A default value, which will be returned if nothing can be found for a given key
+
+- name: 
+  type: 
+  text: mixed

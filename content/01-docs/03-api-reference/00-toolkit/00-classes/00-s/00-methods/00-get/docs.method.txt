@@ -1,0 +1,32 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: s::get
+----
+Syntax: s::get($key = false, $default = null)
+----
+Description: Gets a session value by key
+----
+Text: <pre><code>
+s::get('username', 'bastian');
+// saves the username in the session
+
+echo s::get('username');
+// output: 'bastian'
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to look for. Pass false or null to return the entire session array.
+
+- name: $default
+  type: mixed
+  text: Optional default value, which should be returned if no element has been found
+----
+Returntype: mixed
+----
+Return: 

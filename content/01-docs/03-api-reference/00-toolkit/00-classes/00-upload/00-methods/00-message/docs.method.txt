@@ -1,0 +1,19 @@
+﻿Name: message
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::message
+----
+Syntax: upload::message()
+----
+Description: Returns the error message if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

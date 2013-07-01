@@ -1,0 +1,21 @@
+﻿Name: modified
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::modified
+----
+Syntax: f::modified($file)
+----
+Description: Get the file's last modification time.
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text:
+----
+Returntype: int
+----
+Return: 

@@ -1,0 +1,21 @@
+﻿Name: exists
+----
+Visibility: public
+----
+Static: no
+----
+Title: apc::exists
+----
+Syntax: apc::exists($key)
+----
+Description: Checks if the current key exists in cache
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

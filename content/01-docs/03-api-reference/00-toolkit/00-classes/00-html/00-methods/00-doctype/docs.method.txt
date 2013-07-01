@@ -1,0 +1,19 @@
+﻿Name: doctype
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::doctype
+----
+Syntax: html::doctype()
+----
+Description: Generates the HTML5 doctype
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: the generated html

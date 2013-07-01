@@ -1,0 +1,33 @@
+﻿Name: youtube
+----
+Visibility: 
+----
+Static: 
+----
+Title: youtube
+----
+Syntax: youtube($url, $width = false, $height = false, $class = false)
+----
+Description: Embeds a Youtube video by url
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: The Youtube url, ie. http://www.youtube.com/watch?v=d9NF2edxy-M
+
+- name: $width
+  type: int
+  text: The width of the embedded video
+
+- name: $height
+  type: int
+  text: The height of the embedded video
+
+- name: $class
+  type: string
+  text: an additional class selector which should be added to the iframe
+----
+Returntype: string
+----
+Return: The generated html

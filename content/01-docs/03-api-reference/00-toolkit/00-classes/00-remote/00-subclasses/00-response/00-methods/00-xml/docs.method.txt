@@ -1,0 +1,19 @@
+﻿Name: xml
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::xml
+----
+Syntax: response::xml()
+----
+Description: Parses the request content as xml
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

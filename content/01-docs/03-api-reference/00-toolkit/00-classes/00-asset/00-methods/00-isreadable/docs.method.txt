@@ -1,0 +1,19 @@
+﻿Name: isReadable
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::isReadable
+----
+Syntax: asset::isReadable()
+----
+Description: Checks if the file is readable
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

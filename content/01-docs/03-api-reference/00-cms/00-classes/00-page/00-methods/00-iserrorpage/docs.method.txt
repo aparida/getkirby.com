@@ -1,0 +1,22 @@
+﻿Name: isErrorPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isErrorPage
+----
+Syntax: page::isErrorPage()
+----
+Description: Checks if this page is the error page
+You can define the uri of the error page in your config
+file with the error option. By default it's assumed
+that the error page folder has the name "error"
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

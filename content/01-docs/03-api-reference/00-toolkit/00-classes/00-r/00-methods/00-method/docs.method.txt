@@ -1,0 +1,19 @@
+﻿Name: method
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::method
+----
+Syntax: r::method()
+----
+Description: Returns the current request method
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: POST, GET, DELETE, PUT

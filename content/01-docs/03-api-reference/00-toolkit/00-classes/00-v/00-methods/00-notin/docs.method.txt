@@ -1,0 +1,30 @@
+﻿Name: notIn
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::notIn
+----
+Syntax: v::notIn($value, $values = array())
+----
+Description: Checks if the value is not included in an array of values
+----
+Text: <pre><code>
+if(v::notIn('pineapple', array('apple', 'pear', 'melon'))) {
+  echo 'Yes, that is a valid fruit!';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: mixed
+  text: 
+
+- name: $values
+  type: array
+  text:
+----
+Returntype: boolean
+----
+Return: 

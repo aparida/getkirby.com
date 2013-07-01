@@ -1,0 +1,21 @@
+﻿Name: ucwords
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::ucwords
+----
+Syntax: str::ucwords($string)
+----
+Description: An UTF-8 safe version of ucwords()
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

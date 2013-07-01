@@ -1,0 +1,19 @@
+﻿Name: visitor
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::visitor
+----
+Syntax: site::visitor()
+----
+Description: Shortcut for the visitor plugin instance
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Visitor

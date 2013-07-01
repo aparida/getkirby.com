@@ -1,0 +1,21 @@
+﻿Name: orWhere
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::orWhere
+----
+Syntax: query::orWhere()
+----
+Description: Shortcut to attach a where clause with an OR operator.
+----
+Text: Check out the where() method docs for additional info.
+----
+Parameters: - name: 
+  type: 
+  text: list
+----
+Returntype: object
+----
+Return: 

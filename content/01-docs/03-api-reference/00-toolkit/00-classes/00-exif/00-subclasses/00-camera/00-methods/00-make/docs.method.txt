@@ -1,0 +1,19 @@
+﻿Name: make
+----
+Visibility: public
+----
+Static: no
+----
+Title: camera::make
+----
+Syntax: camera::make()
+----
+Description: Returns the make of the camera
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: params::__toString
+----
+Syntax: params::__toString()
+----
+Description: Converts the object to a string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

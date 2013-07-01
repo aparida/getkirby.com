@@ -1,0 +1,19 @@
+﻿Name: memory
+----
+Visibility: 
+----
+Static: 
+----
+Title: memory
+----
+Syntax: memory()
+----
+Description: Returns the memory usage in a readable format
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

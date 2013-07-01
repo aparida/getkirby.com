@@ -1,0 +1,19 @@
+﻿Name: niceSize
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::niceSize
+----
+Syntax: response::niceSize()
+----
+Description: Returns the size of the request response as humane readable string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

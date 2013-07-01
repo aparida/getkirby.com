@@ -1,0 +1,5 @@
+﻿Title: Validation Errors
+----
+Class: Errors
+----
+Description: A collection of error messages for a single attribute

@@ -1,0 +1,19 @@
+﻿Name: metas
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::metas
+----
+Syntax: file::metas()
+----
+Description: Returns all available meta files for this file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

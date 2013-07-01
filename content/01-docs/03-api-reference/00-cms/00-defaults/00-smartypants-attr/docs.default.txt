@@ -1,0 +1,5 @@
+﻿Title: smartypants.attr
+----
+Value: <pre>1</pre>
+----
+Description: Additional smartypants options

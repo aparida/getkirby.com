@@ -1,0 +1,5 @@
+﻿Title: markdown.blocktags.a
+----
+Value: <pre>ins|del|img</pre>
+----
+Description: Additional settings for the Markdown parser

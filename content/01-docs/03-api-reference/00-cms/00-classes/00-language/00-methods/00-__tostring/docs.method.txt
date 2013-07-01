@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::__toString
+----
+Syntax: language::__toString()
+----
+Description: Returns the language code if the object
+is being converted to a string or echoed
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

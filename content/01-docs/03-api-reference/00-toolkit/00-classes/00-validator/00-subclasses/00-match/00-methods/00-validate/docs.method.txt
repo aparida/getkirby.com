@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: match::validate
+----
+Syntax: match::validate()
+----
+Description: 
+----
+Text: 

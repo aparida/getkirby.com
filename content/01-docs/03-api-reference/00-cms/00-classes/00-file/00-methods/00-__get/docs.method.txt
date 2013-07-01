@@ -1,0 +1,22 @@
+﻿Name: __get
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::__get
+----
+Syntax: file::__get($key)
+----
+Description: Enables pseudo attributes for custom fields
+i.e. $file->title
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: this is auto-filled by PHP with the called attribute name
+----
+Returntype: mixed
+----
+Return: 

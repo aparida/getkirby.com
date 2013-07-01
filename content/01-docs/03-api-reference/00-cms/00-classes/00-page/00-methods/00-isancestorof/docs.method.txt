@@ -1,0 +1,21 @@
+﻿Name: isAncestorOf
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isAncestorOf
+----
+Syntax: page::isAncestorOf($page)
+----
+Description: Checks if the page is an ancestor of the given page
+----
+Text: 
+----
+Parameters: - name: 
+  type: object
+  text: Page the page object to check
+----
+Returntype: boolean
+----
+Return: 

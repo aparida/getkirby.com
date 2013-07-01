@@ -1,0 +1,19 @@
+﻿Name: unserialize
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::unserialize
+----
+Syntax: response::unserialize()
+----
+Description: Unserializes the request content
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: or object

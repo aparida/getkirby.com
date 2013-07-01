@@ -1,0 +1,29 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: route::__construct
+----
+Syntax: route::__construct($method, $pattern, $action, $options = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $method
+  type: string
+  text: 
+
+- name: $pattern
+  type: string
+  text: The url pattern for this route
+
+- name: $action
+  type: array
+  text: Callable action
+
+- name: $options
+  type: array
+  text:

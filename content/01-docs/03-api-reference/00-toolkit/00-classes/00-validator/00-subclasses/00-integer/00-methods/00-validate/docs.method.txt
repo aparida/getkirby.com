@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: integer::validate
+----
+Syntax: integer::validate()
+----
+Description: 
+----
+Text: 

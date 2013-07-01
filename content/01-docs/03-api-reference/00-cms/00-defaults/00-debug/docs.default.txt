@@ -1,0 +1,9 @@
+﻿Title: debug
+----
+Value: <pre>false</pre>
+----
+Description: Show/hide PHP errors
+
+By default Kirby will hide all
+PHP errors. Switch errors on with this
+option for debugging.

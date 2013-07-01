@@ -1,0 +1,15 @@
+﻿Name: is
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::is
+----
+Syntax: page::is($page)
+----
+Description: Alternative for $this->equals()
+----
+Text: 
+----
+Parameters: 

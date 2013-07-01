@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: kirbytext::__construct
+----
+Syntax: kirbytext::__construct($text = false, $params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $text
+  type: mixed
+  text: Variable object or string
+
+- name: $params
+  type: mixed
+  text: An array with parameters for kirbytext

@@ -1,0 +1,33 @@
+﻿Name: twitter
+----
+Visibility: 
+----
+Static: 
+----
+Title: twitter
+----
+Syntax: twitter($username, $text = null, $title = null, $class = null)
+----
+Description: Generates a link to a twitter profile
+----
+Text: 
+----
+Parameters: - name: $username
+  type: string
+  text: Twitter username (with or without prepended @)
+
+- name: $text
+  type: string
+  text: Optional Link text. If not specified the username will be used
+
+- name: $title
+  type: string
+  text: Optional link title
+
+- name: $class
+  type: string
+  text: Optional class selector for the a tag
+----
+Returntype: string
+----
+Return: twitter link

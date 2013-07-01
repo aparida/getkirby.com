@@ -1,0 +1,19 @@
+﻿Name: children
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::children
+----
+Syntax: pages::children()
+----
+Description: Merges all children of all pages
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Pages

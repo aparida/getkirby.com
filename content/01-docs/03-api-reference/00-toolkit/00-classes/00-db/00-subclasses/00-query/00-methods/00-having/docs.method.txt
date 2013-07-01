@@ -1,0 +1,21 @@
+﻿Name: having
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::having
+----
+Syntax: query::having($having)
+----
+Description: Attaches a having clause
+----
+Text: 
+----
+Parameters: - name: $having
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

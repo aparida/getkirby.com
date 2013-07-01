@@ -1,0 +1,45 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cookie::set
+----
+Syntax: cookie::set($key, $value, $expires, $path = '/', $domain = null, $secure = false)
+----
+Description: Set a new cookie
+----
+Text: <pre><code>
+cookie::set('mycookie', 'hello', 60);
+// expires in 1 hour
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: The name of the cookie
+
+- name: $value
+  type: string
+  text: The cookie content
+
+- name: $expires
+  type: int
+  text: The number of minutes until the cookie expires
+
+- name: $path
+  type: string
+  text: The path on the server to set the cookie for
+
+- name: $domain
+  type: string
+  text: the domain
+
+- name: $secure
+  type: boolean
+  text: only sets the cookie over https
+----
+Returntype: boolean
+----
+Return: true: the cookie has been created, false: cookie creation failed

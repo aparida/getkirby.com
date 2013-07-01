@@ -1,0 +1,19 @@
+﻿Name: code
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::code
+----
+Syntax: language::code()
+----
+Description: Returns the 2-char language code
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

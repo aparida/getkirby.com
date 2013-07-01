@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: dimensions::__toString
+----
+Syntax: dimensions::__toString()
+----
+Description: Echos the dimensions as width x height
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

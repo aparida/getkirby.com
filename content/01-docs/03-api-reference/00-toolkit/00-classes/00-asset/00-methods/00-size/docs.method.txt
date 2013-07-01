@@ -1,0 +1,19 @@
+﻿Name: size
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::size
+----
+Syntax: asset::size()
+----
+Description: Returns the raw file size of this file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

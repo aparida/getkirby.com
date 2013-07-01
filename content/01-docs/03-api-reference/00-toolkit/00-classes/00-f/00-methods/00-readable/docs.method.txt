@@ -1,0 +1,21 @@
+﻿Name: readable
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::readable
+----
+Syntax: f::readable($file)
+----
+Description: Checks if the file is readable
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

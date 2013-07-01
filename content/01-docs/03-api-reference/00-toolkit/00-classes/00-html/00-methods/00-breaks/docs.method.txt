@@ -1,0 +1,21 @@
+﻿Name: breaks
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::breaks
+----
+Syntax: html::breaks($string)
+----
+Description: Converts lines in a string into html breaks
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

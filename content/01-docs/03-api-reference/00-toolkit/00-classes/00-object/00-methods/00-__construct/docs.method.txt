@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::__construct
+----
+Syntax: object::__construct($data = array())
+----
+Description: Initializes a new object
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text: an optional array of data for the object
+----
+Returntype: void
+----
+Return: 

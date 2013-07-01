@@ -1,0 +1,33 @@
+﻿Name: option
+----
+Visibility: public
+----
+Static: yes
+----
+Title: form::option
+----
+Syntax: form::option($key, $value, $selected = false, $attr = array())
+----
+Description: Generates an option tag used in select boxes
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: The key of the option
+
+- name: $value
+  type: array
+  text: The displayed text value
+
+- name: $selected
+  type: boolean
+  text: true: the option will be selected, false: the option will not be selected
+
+- name: $attr
+  type: array
+  text: Additional attributes for the option tag
+----
+Returntype: The
+----
+Return: generated html

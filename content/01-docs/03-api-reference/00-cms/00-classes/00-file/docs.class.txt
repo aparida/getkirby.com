@@ -1,0 +1,8 @@
+﻿Title: File
+----
+Class: File
+----
+Description: The File object is used for all files
+in any subfolder of the content directory.
+It's the base file class, which can be converted
+to ImageFile or ContentFile classes if appropriate

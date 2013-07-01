@@ -1,0 +1,21 @@
+﻿Name: offset
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::offset
+----
+Syntax: collection::offset($offset)
+----
+Description: Returns a new collection starting from the given offset
+----
+Text: 
+----
+Parameters: - name: $offset
+  type: int
+  text: The index to start from
+----
+Returntype: object
+----
+Return: a new collection

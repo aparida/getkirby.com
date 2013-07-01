@@ -1,0 +1,31 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cache::set
+----
+Syntax: cache::set($key, $value, $minutes = null)
+----
+Description: Write an item to the cache for a given number of minutes.
+----
+Text: <pre><code>   // Put an item in the cache for 15 minutes
+   Cache::set('value', 'my value', 15);
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text: 
+
+- name: $minutes
+  type: int
+  text:
+----
+Returntype: void
+----
+Return: 

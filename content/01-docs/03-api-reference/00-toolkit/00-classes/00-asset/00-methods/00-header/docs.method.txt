@@ -1,0 +1,21 @@
+﻿Name: header
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::header
+----
+Syntax: asset::header($send = true)
+----
+Description: Sends an appropriate header for the asset
+----
+Text: 
+----
+Parameters: - name: $send
+  type: boolean
+  text:
+----
+Returntype: mixed
+----
+Return: 

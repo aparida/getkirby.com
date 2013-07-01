@@ -1,0 +1,21 @@
+﻿Name: expiration
+----
+Visibility: protected
+----
+Static: no
+----
+Title: driver::expiration
+----
+Syntax: driver::expiration($minutes = null)
+----
+Description: Calculates the expiration timestamp
+----
+Text: 
+----
+Parameters: - name: $minutes
+  type: int
+  text:
+----
+Returntype: int
+----
+Return: 

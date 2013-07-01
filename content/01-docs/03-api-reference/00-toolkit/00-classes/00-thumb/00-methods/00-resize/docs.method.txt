@@ -1,0 +1,19 @@
+﻿Name: resize
+----
+Visibility: protected
+----
+Static: no
+----
+Title: thumb::resize
+----
+Syntax: thumb::resize()
+----
+Description: Resizes the dimensions of the thumb object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

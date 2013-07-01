@@ -1,0 +1,20 @@
+﻿Name: next
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::next
+----
+Syntax: collection::next()
+----
+Description: Moves the cursor to the next element in the array
+and returns it
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

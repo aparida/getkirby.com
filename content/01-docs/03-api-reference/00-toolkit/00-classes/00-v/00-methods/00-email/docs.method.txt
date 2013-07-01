@@ -1,0 +1,26 @@
+﻿Name: email
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::email
+----
+Syntax: v::email($value)
+----
+Description: Checks for valid email address
+----
+Text: <pre><code>
+if(v::email('mail@bastian-allgeier.de')) {
+  echo 'That is a valid email';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

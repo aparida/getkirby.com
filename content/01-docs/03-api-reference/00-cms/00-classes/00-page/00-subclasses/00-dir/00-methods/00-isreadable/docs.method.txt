@@ -1,0 +1,19 @@
+﻿Name: isReadable
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::isReadable
+----
+Syntax: dir::isReadable()
+----
+Description: Checks if the directory is readable
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

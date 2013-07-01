@@ -1,0 +1,25 @@
+﻿Name: prevInvisible
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::prevInvisible
+----
+Syntax: page::prevInvisible($sort = false, $direction = 'asc')
+----
+Description: Returns the previous invisible page in the current collection if available
+----
+Text: 
+----
+Parameters: - name: $sort
+  type: string
+  text: An optional sort field for the siblings
+
+- name: $direction
+  type: string
+  text: An optional sort direction
+----
+Returntype: mixed
+----
+Return: Page or null

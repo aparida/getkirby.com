@@ -1,0 +1,19 @@
+﻿Name: hasImages
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasImages
+----
+Syntax: files::hasImages()
+----
+Description: Checks if this collection contains image files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

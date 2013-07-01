@@ -1,0 +1,23 @@
+﻿Name: site
+----
+Visibility: 
+----
+Static: 
+----
+Title: site
+----
+Syntax: site($params = array())
+----
+Description: Singleton handler for the site object
+Always use this to initiate the site!
+----
+Text: You can reinitiate the site by passing
+the $params argument.
+----
+Parameters: - name: $params
+  type: array
+  text: Additional params to overwrite/set config vars
+----
+Returntype: object
+----
+Return: Site

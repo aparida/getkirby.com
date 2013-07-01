@@ -1,0 +1,19 @@
+﻿Name: passed
+----
+Visibility: public
+----
+Static: no
+----
+Title: email::passed
+----
+Syntax: email::passed()
+----
+Description: Checks if sending the email succeeded
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,31 @@
+﻿Name: stop
+----
+Visibility: public
+----
+Static: yes
+----
+Title: content::stop
+----
+Syntax: content::stop()
+----
+Description: Stops the output buffer and returns its content
+----
+Text: <pre><code>
+content::start();
+echo 'some content';
+echo content::stop();
+// echo the content immediatelly
+
+
+content::start();
+echo 'some content';
+$content = content::stop(true);
+// return the content
+
+</code></pre>
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

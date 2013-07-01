@@ -1,0 +1,19 @@
+﻿Name: banned
+----
+Visibility: public
+----
+Static: yes
+----
+Title: visitor::banned
+----
+Syntax: visitor::banned()
+----
+Description: Checks if the ip of the current visitor is banned
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

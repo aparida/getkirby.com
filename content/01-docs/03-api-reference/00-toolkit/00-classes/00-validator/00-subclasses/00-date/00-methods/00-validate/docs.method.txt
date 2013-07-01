@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: date::validate
+----
+Syntax: date::validate()
+----
+Description: 
+----
+Text: 

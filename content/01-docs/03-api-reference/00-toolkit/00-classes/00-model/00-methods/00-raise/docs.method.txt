@@ -1,0 +1,21 @@
+﻿Name: raise
+----
+Visibility: protected
+----
+Static: no
+----
+Title: model::raise
+----
+Syntax: model::raise($key, $message = null)
+----
+Description: Adds an error message for the given key to the list of validation errors
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: Pass a string, array or an entire Validation object
+
+- name: $message
+  type: mixed
+  text: If you pass a string for the key, pass the message for that key here

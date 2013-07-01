@@ -1,0 +1,19 @@
+﻿Name: all
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::all
+----
+Syntax: query::all()
+----
+Description: Returns all matching rows from a table
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

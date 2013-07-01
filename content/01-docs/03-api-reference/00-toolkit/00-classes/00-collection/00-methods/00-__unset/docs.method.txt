@@ -1,0 +1,17 @@
+﻿Name: __unset
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::__unset
+----
+Syntax: collection::__unset($key)
+----
+Description: Removes an element from the array by key
+----
+Text: `unset($mycollection->mykey)`
+----
+Parameters: - name: $key
+  type: string
+  text: the name of the key

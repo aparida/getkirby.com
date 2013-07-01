@@ -1,0 +1,6 @@
+﻿Title: Object
+----
+Class: Object
+----
+Description: A core object with magic getters and setters
+and some helpful helper methods

@@ -1,0 +1,20 @@
+﻿Name: content
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::content
+----
+Syntax: page::content($lang = null)
+----
+Description: Returns the main content file
+which will be used to fetch custom variables for the page.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Content

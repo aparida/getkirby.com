@@ -1,0 +1,19 @@
+﻿Name: key
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::key
+----
+Syntax: collection::key()
+----
+Description: Returns the current key from the array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

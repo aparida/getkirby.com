@@ -1,0 +1,7 @@
+﻿Title: Template
+----
+Class: Tpl
+----
+Description: This is Kirby's super minimalistic
+template engine. It loads and fills
+templates. Who would have thought that

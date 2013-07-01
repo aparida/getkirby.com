@@ -1,0 +1,7 @@
+﻿Title: PageDir
+----
+Class: Dir
+----
+Description: This object represents a content folder.
+It's used within the Page object to provide
+additional info and methods for a folder of a page

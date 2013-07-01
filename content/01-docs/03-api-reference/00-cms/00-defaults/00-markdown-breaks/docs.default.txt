@@ -1,0 +1,7 @@
+﻿Title: markdown.breaks
+----
+Value: <pre>true</pre>
+----
+Description: Kirby has a built in line break converter,
+which is normally not available with Markdown
+You can switch it off with this option.

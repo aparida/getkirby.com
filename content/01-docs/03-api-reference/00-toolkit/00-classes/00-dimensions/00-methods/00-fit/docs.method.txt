@@ -1,0 +1,36 @@
+﻿Name: fit
+----
+Visibility: public
+----
+Static: no
+----
+Title: dimensions::fit
+----
+Syntax: dimensions::fit($box, $force = false)
+----
+Description: Recalculates the width and height
+to fit into the given box.
+----
+Text: <pre><code>
+$dimensions = new Dimensions(1200, 768);
+$dimensions->fit(500);
+
+echo $dimensions->width();
+// output: 500
+
+echo $dimensions->height();
+// output: 320
+
+</code></pre>
+----
+Parameters: - name: $box
+  type: int
+  text: the max width and/or height
+
+- name: $force
+  type: boolean
+  text: If true, the dimensions will be upscaled to fit the box if smaller
+----
+Returntype: object
+----
+Return: returns this object with recalculated dimensions

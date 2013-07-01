@@ -1,0 +1,31 @@
+﻿Name: read
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::read
+----
+Syntax: dir::read($dir, $ignore = array())
+----
+Description: Reads all files from a directory and returns them as an array.
+----
+Text: It skips unwanted invisible stuff.
+
+<pre><code>
+$files = dir::read('mydirectory');
+// returns array('file-1.txt', 'file-2.txt', 'file-3.txt', etc...);
+
+</code></pre>
+----
+Parameters: - name: $dir
+  type: string
+  text: The path of directory
+
+- name: $ignore
+  type: array
+  text: Optional array with filenames, which should be ignored
+----
+Returntype: mixed
+----
+Return: An array of filenames or false

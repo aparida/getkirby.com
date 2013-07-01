@@ -1,0 +1,22 @@
+﻿Name: ajax
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::ajax
+----
+Syntax: r::ajax()
+----
+Description: Checks if the request is an AJAX request
+----
+Text: <pre><code>
+if(r::ajax()) echo 'ajax rulez';
+
+</code></pre>
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

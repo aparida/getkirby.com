@@ -1,0 +1,22 @@
+﻿Name: __call
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::__call
+----
+Syntax: page::__call($key, $arguments = null)
+----
+Description: Enables getter function calls for custom fields
+i.e. $page->title()
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: this is auto-filled by PHP with the called method name
+----
+Returntype: mixed
+----
+Return: 

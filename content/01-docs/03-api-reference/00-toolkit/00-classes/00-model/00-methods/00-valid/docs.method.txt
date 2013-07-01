@@ -1,0 +1,19 @@
+﻿Name: valid
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::valid
+----
+Syntax: model::valid()
+----
+Description: Checks if the model is valid
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,20 @@
+﻿Name: mime
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::mime
+----
+Syntax: asset::mime()
+----
+Description: Returns the mime type of this file
+if detectable. i.e. image/jpeg
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

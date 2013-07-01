@@ -1,0 +1,46 @@
+﻿Name: parse
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::parse
+----
+Syntax: str::parse($string, $mode = 'json')
+----
+Description: Parses a string by a set of available methods
+----
+Text: Available methods:
+- json
+- xml
+- url
+- query
+- php
+
+<pre><code>
+str::parse('{"test":"cool","super":"genious"}');
+// output: array(
+//  'test' => 'cool',
+//  'super' => 'genious'
+// );
+
+str::parse('<xml><entries><cool>nice</cool></entries></xml>', 'xml');
+// output: array(
+//    'entries' => array(
+//        'cool' => 'nice'
+//    )
+// );
+
+</code></pre>
+----
+Parameters: - name: $string
+  type: string
+  text: 
+
+- name: $mode
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

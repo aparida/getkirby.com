@@ -1,0 +1,19 @@
+﻿Name: thumb
+----
+Visibility: public
+----
+Static: no
+----
+Title: image::thumb
+----
+Syntax: image::thumb()
+----
+Description: Returns the attached thumb file object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Image

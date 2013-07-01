@@ -1,0 +1,30 @@
+﻿Name: find
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::find
+----
+Syntax: pages::find()
+----
+Description: Finds pages by their URI.
+----
+Text: i.e. $pages->find('this/is/the/uri/to/my/page');
+
+In this case a single page will be returned
+
+It can also find multiple pages, by passing multiple
+URIs as arguments:
+
+i.e. $pages->find('page-1', 'page-1/subpage-1', 'page-2');
+
+In this case a Pages object will be returned
+----
+Parameters: - name: 
+  type: list
+  text: Either a single URI as first argument or multiple URIs as a list of arguments.
+----
+Returntype: mixed
+----
+Return: Either a Page object, a Pages object for multiple pages or null if nothing could be found

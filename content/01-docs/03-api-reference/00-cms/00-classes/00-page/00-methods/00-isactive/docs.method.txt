@@ -1,0 +1,19 @@
+﻿Name: isActive
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isActive
+----
+Syntax: page::isActive()
+----
+Description: Checks if this page is active.
+----
+Text: This means that the user is currently browsing this page.
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

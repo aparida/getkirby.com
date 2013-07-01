@@ -1,0 +1,16 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::__toString
+----
+Syntax: thumb::__toString()
+----
+Description: Makes it possible to simply echo the object
+to get a full tag for the thumb
+----
+Text: 
+----
+Parameters: 

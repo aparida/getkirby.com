@@ -1,0 +1,19 @@
+﻿Name: isLastPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::isLastPage
+----
+Syntax: pagination::isLastPage()
+----
+Description: Checks if the current page is the last page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

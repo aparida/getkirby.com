@@ -1,0 +1,21 @@
+﻿Name: send
+----
+Visibility: public
+----
+Static: no
+----
+Title: email::send
+----
+Syntax: email::send($params = null)
+----
+Description: Sends the constructed email
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: Optional way to set values for the email
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,17 @@
+﻿Name: dump
+----
+Visibility: 
+----
+Static: 
+----
+Title: dump
+----
+Syntax: dump($variable)
+----
+Description: Shortcut for a::show()
+----
+Text: 
+----
+Parameters: - name: $variable
+  type: mixed
+  text: Whatever you like to inspect

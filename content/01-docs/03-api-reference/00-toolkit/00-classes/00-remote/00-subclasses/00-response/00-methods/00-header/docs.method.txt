@@ -1,0 +1,25 @@
+﻿Name: header
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::header
+----
+Syntax: response::header($key, $default = null)
+----
+Description: Returns a specific header by array
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $default
+  type: mixed
+  text: Optional default value to return if the header could not be found
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,48 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::get
+----
+Syntax: a::get($array, $key, $default = null)
+----
+Description: Gets an element of an array by key
+----
+Text: <pre><code>
+$array = array(
+  'cat'  => 'miao',
+  'dog'  => 'wuff',
+  'bird' => 'tweet'
+);
+
+echo a::get($array, 'cat');
+// output: 'miao'
+
+echo a::get($array, 'elephant', 'shut up');
+// output: 'shut up'
+
+$catAndDog = a::get(array('cat', 'dog'));
+// result: array(
+//   'cat' => 'miao',
+//   'dog' => 'wuff'
+// );
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $key
+  type: mixed
+  text: The key to look for
+
+- name: $default
+  type: mixed
+  text: Optional default value, which should be returned if no element has been found
+----
+Returntype: mixed
+----
+Return: 

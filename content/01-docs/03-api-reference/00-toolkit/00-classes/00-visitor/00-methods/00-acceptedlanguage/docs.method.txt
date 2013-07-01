@@ -1,0 +1,19 @@
+﻿Name: acceptedLanguage
+----
+Visibility: public
+----
+Static: yes
+----
+Title: visitor::acceptedLanguage
+----
+Syntax: visitor::acceptedLanguage()
+----
+Description: Returns the user's accepted language
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

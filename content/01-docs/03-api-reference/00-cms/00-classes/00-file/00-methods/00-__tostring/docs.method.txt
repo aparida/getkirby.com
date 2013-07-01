@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::__toString
+----
+Syntax: file::__toString()
+----
+Description: Returns a full link to this file
+Perfect for debugging in connection with echo
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

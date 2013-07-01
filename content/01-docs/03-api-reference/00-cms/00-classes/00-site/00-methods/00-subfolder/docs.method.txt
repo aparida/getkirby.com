@@ -1,0 +1,21 @@
+﻿Name: subfolder
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::subfolder
+----
+Syntax: site::subfolder()
+----
+Description: Returns the subfolder(s)
+A subfolder will be auto-detected or can be set in the config file
+If you run the site under its own domain, the subfolder will be empty
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

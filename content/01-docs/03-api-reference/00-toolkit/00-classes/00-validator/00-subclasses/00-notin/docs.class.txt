@@ -1,0 +1,5 @@
+﻿Title: Not In Validator
+----
+Class: NotIn
+----
+Description: Checks for a value not contained in a list of values

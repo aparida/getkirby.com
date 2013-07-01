@@ -1,0 +1,20 @@
+﻿Name: isOpen
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isOpen
+----
+Syntax: page::isOpen()
+----
+Description: Checks if this page is open.
+----
+Text: This means that the user is currently browsing this page
+or one of its subpages.
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

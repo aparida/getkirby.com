@@ -1,0 +1,19 @@
+﻿Name: image
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::image
+----
+Syntax: thumb::image()
+----
+Description: Returns the original image/Asset object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Asset object

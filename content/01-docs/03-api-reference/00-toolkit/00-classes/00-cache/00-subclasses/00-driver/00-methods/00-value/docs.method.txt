@@ -1,0 +1,25 @@
+﻿Name: value
+----
+Visibility: protected
+----
+Static: no
+----
+Title: driver::value
+----
+Syntax: driver::value($value, $minutes)
+----
+Description: An array with value, created timestamp and expires timestamp
+----
+Text: 
+----
+Parameters: - name: $value
+  type: mixed
+  text: The value, which should be cached
+
+- name: $minutes
+  type: int
+  text: The number of minutes before expiration
+----
+Returntype: array
+----
+Return: 

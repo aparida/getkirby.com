@@ -1,0 +1,25 @@
+﻿Name: read
+----
+Visibility: public
+----
+Static: yes
+----
+Title: txtstore::read
+----
+Syntax: txtstore::read($input, $file = true)
+----
+Description: Reads the structure from a file or string
+----
+Text: 
+----
+Parameters: - name: $input
+  type: string
+  text: 
+
+- name: $file
+  type: boolean
+  text: Specify if you want to pass a file or string
+----
+Returntype: array
+----
+Return: 

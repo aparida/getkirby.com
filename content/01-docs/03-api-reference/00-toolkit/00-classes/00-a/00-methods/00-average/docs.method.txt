@@ -1,0 +1,25 @@
+﻿Name: average
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::average
+----
+Syntax: a::average($array, $decimals)
+----
+Description: Returns the average value of an array
+----
+Text: 
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $decimals
+  type: int
+  text: The number of decimals to return
+----
+Returntype: int
+----
+Return: The average value

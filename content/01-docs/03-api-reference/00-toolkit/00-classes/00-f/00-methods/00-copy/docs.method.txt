@@ -1,0 +1,25 @@
+﻿Name: copy
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::copy
+----
+Syntax: f::copy($file, $target)
+----
+Description: Copy a file to a new location.
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: 
+
+- name: $target
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

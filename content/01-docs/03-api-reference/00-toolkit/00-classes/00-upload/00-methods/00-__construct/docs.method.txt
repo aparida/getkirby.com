@@ -1,0 +1,25 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::__construct
+----
+Syntax: upload::__construct($key, $file, $params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $file
+  type: string
+  text: 
+
+- name: $params
+  type: array
+  text: Check defaults for possible options

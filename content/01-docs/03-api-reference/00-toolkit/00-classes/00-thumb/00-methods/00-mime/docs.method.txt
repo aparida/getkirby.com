@@ -1,0 +1,19 @@
+﻿Name: mime
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::mime
+----
+Syntax: thumb::mime()
+----
+Description: Returns the mime type of the thumbnail
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

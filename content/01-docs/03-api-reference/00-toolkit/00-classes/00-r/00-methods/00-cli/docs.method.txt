@@ -1,0 +1,19 @@
+﻿Name: cli
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::cli
+----
+Syntax: r::cli()
+----
+Description: Checks if the request has been made from the command line
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

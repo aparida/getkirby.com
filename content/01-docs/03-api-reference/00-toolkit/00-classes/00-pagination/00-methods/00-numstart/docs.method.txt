@@ -1,0 +1,21 @@
+﻿Name: numStart
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::numStart
+----
+Syntax: pagination::numStart()
+----
+Description: Returns the index number of the first item on the current page
+Can be used to display something like
+"Currently showing 1 - 10 of 123 items"
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

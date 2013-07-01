@@ -1,0 +1,17 @@
+﻿Name: __isset
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::__isset
+----
+Syntax: object::__isset($key)
+----
+Description: Checks if a value is available for the given key
+----
+Text: i.e.: isset($myobject->myvalue);
+----
+Parameters: - name: $key
+  type: string
+  text: The name for the key in the $data array (is auto-filled by PHP)

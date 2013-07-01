@@ -1,0 +1,19 @@
+﻿Name: body
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::body
+----
+Syntax: r::body()
+----
+Description: Returns the request body from POST requests for example
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

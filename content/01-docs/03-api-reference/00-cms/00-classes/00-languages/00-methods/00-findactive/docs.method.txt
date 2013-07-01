@@ -1,0 +1,19 @@
+﻿Name: findActive
+----
+Visibility: public
+----
+Static: no
+----
+Title: languages::findActive
+----
+Syntax: languages::findActive()
+----
+Description: Returns the currently active language
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Language

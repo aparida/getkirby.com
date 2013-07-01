@@ -1,0 +1,33 @@
+﻿Name: type
+----
+Visibility: public
+----
+Static: yes
+----
+Title: content::type
+----
+Syntax: content::type($type = null, $charset = 'utf-8', $send = true)
+----
+Description: Simplifies setting content type headers
+----
+Text: <pre><code>
+content::type('js');
+// some javascript
+
+content::type('png');
+// some png
+
+content::type('text/rtf', 'iso-8859-1');
+// rtf document
+
+</code></pre>
+
+check c::get('f.mimes') for more available shortcuts
+----
+Parameters: - name: $ctype
+  type: string
+  text: The shortcut for the content type. See the keys of the $ctypes array for all available shortcuts
+
+- name: $charset
+  type: string
+  text: The charset definition for the content type header. Default is "utf-8"

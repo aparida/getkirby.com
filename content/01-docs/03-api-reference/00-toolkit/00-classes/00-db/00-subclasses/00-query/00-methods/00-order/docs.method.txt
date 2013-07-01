@@ -1,0 +1,21 @@
+﻿Name: order
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::order
+----
+Syntax: query::order($order)
+----
+Description: Attaches an order clause
+----
+Text: 
+----
+Parameters: - name: $order
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

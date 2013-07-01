@@ -1,0 +1,18 @@
+﻿Name: reset
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::reset
+----
+Syntax: collection::reset($data = array())
+----
+Description: Removes all data from the $data array
+Can also be used to set a fresh array.
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text: a new array

@@ -1,0 +1,30 @@
+﻿Name: path
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::path
+----
+Syntax: thumb::path()
+----
+Description: Builds and returns the path to the file
+relative to the location root/url
+----
+Text: Available placeholders:
+
+{settings}       A generic unique string of thumb settings (i.e 100-200-0-0-1)
+{extension}      The extension of the thumb image
+{name}           The raw file name without the extension
+{safeName}       A safe version of the name without the extension
+{filename}       The raw filename with extension
+{safeFilename}   A safe version of the filename with extension
+{width}          The width of the final image
+{height}         The height of the final image
+{hash}           A md5 hashed version of the source's root
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

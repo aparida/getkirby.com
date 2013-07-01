@@ -1,0 +1,15 @@
+﻿Name: load
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::load
+----
+Syntax: f::load($file)
+----
+Description: Safely requires a file if it exists
+----
+Text: 
+----
+Parameters: 

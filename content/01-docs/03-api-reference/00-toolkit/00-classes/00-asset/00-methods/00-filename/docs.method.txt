@@ -1,0 +1,20 @@
+﻿Name: filename
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::filename
+----
+Syntax: asset::filename()
+----
+Description: Returns the filename of the file
+i.e. somefile.jpg
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

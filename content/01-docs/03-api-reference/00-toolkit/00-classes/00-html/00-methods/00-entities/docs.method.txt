@@ -1,0 +1,19 @@
+﻿Name: entities
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::entities
+----
+Syntax: html::entities()
+----
+Description: An internal store for a html entities translation table
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

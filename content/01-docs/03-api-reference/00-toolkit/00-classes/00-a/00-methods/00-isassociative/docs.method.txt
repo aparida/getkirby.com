@@ -1,0 +1,21 @@
+﻿Name: isAssociative
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::isAssociative
+----
+Syntax: a::isAssociative($array)
+----
+Description: Checks wether an array is associative or not (experimental)
+----
+Text: 
+----
+Parameters: - name: $array
+  type: array
+  text: The array to analyze
+----
+Returntype: boolean
+----
+Return: true: The array is associative false: It's not

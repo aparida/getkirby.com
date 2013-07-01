@@ -1,0 +1,25 @@
+﻿Name: img
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::img
+----
+Syntax: html::img($src, $attr = array())
+----
+Description: Generates an img tag
+----
+Text: 
+----
+Parameters: - name: $src
+  type: string
+  text: The url of the image
+
+- name: $attr
+  type: array
+  text: Additional attributes for the image tag
+----
+Returntype: string
+----
+Return: the generated html

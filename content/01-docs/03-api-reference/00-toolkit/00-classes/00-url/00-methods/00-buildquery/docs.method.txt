@@ -1,0 +1,25 @@
+﻿Name: buildQuery
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::buildQuery
+----
+Syntax: url::buildQuery($data, $prepend = '?')
+----
+Description: Builds a full query string out of an array
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text: 
+
+- name: $prepend
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

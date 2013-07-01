@@ -1,0 +1,25 @@
+﻿Name: attr
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::attr
+----
+Syntax: html::attr($name, $value = null)
+----
+Description: Generates a single attribute or a list of attributes
+----
+Text: 
+----
+Parameters: - name: $name
+  type: string
+  text: mixed string: a single attribute with that name will be generated. array: a list of attributes will be generated. Don't pass a second argument in that case.
+
+- name: $value
+  type: string
+  text: if used for a single attribute, pass the content for the attribute here
+----
+Returntype: string
+----
+Return: the generated html

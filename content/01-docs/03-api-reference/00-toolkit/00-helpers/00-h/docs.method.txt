@@ -1,0 +1,15 @@
+﻿Name: h
+----
+Visibility: 
+----
+Static: 
+----
+Title: h
+----
+Syntax: h($text, $keepTags = true)
+----
+Description: Shortcut for html()
+----
+Text: 
+----
+Parameters: 

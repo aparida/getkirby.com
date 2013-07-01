@@ -1,0 +1,21 @@
+﻿Name: limit
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::limit
+----
+Syntax: pagination::limit()
+----
+Description: Returns the chosen limit
+This is used for the slice() method together with
+the offset to get the correct items from collections
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

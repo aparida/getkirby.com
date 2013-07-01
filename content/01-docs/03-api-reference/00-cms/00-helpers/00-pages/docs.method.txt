@@ -1,0 +1,19 @@
+﻿Name: pages
+----
+Visibility: 
+----
+Static: 
+----
+Title: pages
+----
+Syntax: pages()
+----
+Description: Shortcut to get the $pages object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Pages

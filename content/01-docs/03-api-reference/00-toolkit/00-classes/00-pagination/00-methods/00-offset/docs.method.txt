@@ -1,0 +1,21 @@
+﻿Name: offset
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::offset
+----
+Syntax: pagination::offset()
+----
+Description: Returns the current offset
+This is used for the slice() method together with
+the limit to get the correct items from collections
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

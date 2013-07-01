@@ -1,0 +1,19 @@
+﻿Name: failed
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::failed
+----
+Syntax: response::failed()
+----
+Description: Checks if the request failed
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

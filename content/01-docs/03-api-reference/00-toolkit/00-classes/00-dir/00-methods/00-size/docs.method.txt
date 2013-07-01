@@ -1,0 +1,29 @@
+﻿Name: size
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::size
+----
+Syntax: dir::size($dir, $recursive = true, $nice = false)
+----
+Description: Gets the size of the directory and all subfolders and files
+----
+Text: 
+----
+Parameters: - name: $dir
+  type: string
+  text: The path of the directory
+
+- name: $recursive
+  type: boolean
+  text: 
+
+- name: $nice
+  type: boolean
+  text: returns the size in a human readable size
+----
+Returntype: mixed
+----
+Return: 

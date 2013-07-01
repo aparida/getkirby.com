@@ -1,0 +1,8 @@
+﻿Title: pagination.method
+----
+Value: <pre>params</pre>
+----
+Description: By default the pagination class will use
+url parameters to fetch the current page.
+You can switch to "query" here to produce urls like:
+http://yourdomain.com/list-of-items/?page=1

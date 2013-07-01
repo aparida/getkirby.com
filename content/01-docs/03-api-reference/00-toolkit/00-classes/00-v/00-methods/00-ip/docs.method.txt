@@ -1,0 +1,26 @@
+﻿Name: ip
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::ip
+----
+Syntax: v::ip($value)
+----
+Description: Checks if the value is a valid ip
+----
+Text: <pre><code>
+if(v::ip('127.0.0.1')) {
+  echo 'Valid IP';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: mixed
+  text:
+----
+Returntype: boolean
+----
+Return: 

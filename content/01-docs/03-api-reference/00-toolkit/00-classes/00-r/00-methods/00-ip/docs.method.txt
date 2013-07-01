@@ -1,0 +1,18 @@
+﻿Name: ip
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::ip
+----
+Syntax: r::ip()
+----
+Description: Returns the IP address from the
+request user if available
+----
+Text: 
+----
+Parameters: - name: 
+  type: 
+  text: mixed

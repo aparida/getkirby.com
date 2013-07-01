@@ -1,0 +1,19 @@
+﻿Name: prefix
+----
+Visibility: public
+----
+Static: no
+----
+Title: connector::prefix
+----
+Syntax: connector::prefix()
+----
+Description: Returns the optional prefix for table names
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

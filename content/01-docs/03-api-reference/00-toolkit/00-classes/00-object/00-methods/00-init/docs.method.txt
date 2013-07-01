@@ -1,0 +1,16 @@
+﻿Name: init
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::init
+----
+Syntax: object::init()
+----
+Description: Alternative to safely construct stuff
+without messing up the object construction
+----
+Text: 
+----
+Parameters: 

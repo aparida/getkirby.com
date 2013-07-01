@@ -1,0 +1,19 @@
+﻿Name: root
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::root
+----
+Syntax: asset::root()
+----
+Description: Returns the full root of the asset
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

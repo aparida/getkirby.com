@@ -1,0 +1,15 @@
+﻿Name: run
+----
+Visibility: public
+----
+Static: no
+----
+Title: gdlib::run
+----
+Syntax: gdlib::run()
+----
+Description: Run the thumb creator code
+----
+Text: 
+----
+Parameters: 

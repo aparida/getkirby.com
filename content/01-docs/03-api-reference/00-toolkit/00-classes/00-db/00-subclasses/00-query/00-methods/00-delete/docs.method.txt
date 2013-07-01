@@ -1,0 +1,21 @@
+﻿Name: delete
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::delete
+----
+Syntax: query::delete($where = null)
+----
+Description: Fires a delete query
+----
+Text: 
+----
+Parameters: - name: $where
+  type: mixed
+  text: You can pass a where clause here or set it with ->where() before
+----
+Returntype: boolean
+----
+Return: 

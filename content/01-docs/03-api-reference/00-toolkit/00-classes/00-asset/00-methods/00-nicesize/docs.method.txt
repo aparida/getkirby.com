@@ -1,0 +1,20 @@
+﻿Name: niceSize
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::niceSize
+----
+Syntax: asset::niceSize()
+----
+Description: Returns a human readble file size
+i.e. 1.2 MB
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: exposure
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::exposure
+----
+Syntax: exif::exposure()
+----
+Description: Returns the exposure
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: params::toString
+----
+Syntax: params::toString()
+----
+Description: Returns all params in a single string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

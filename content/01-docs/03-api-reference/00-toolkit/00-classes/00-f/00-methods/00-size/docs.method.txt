@@ -1,0 +1,32 @@
+﻿Name: size
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::size
+----
+Syntax: f::size($file, $nice = false)
+----
+Description: Returns the size of a file.
+----
+Text: <pre><code>
+$size = f::size('/var/www/test.txt');
+// size is ie: 1231939
+
+$size = f::size('/var/www/test.txt', true);
+// size is ie: 1,2 mb
+
+</code></pre>
+----
+Parameters: - name: $file
+  type: string
+  text: The path
+
+- name: $nice
+  type: boolean
+  text: True: return the size in a human readable format
+----
+Returntype: mixed
+----
+Return: 

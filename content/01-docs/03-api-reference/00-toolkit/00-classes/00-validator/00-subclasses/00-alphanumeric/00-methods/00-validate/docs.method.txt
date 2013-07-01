@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: alphanumeric::validate
+----
+Syntax: alphanumeric::validate()
+----
+Description: 
+----
+Text: 

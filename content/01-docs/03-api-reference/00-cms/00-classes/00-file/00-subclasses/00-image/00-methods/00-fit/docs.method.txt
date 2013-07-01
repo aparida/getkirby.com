@@ -1,0 +1,26 @@
+﻿Name: fit
+----
+Visibility: public
+----
+Static: no
+----
+Title: image::fit
+----
+Syntax: image::fit($box, $force = false)
+----
+Description: Recalculates the width and height of the
+image to fit into the given box.
+----
+Text: 
+----
+Parameters: - name: $box
+  type: int
+  text: the max width and/or height
+
+- name: $force
+  type: boolean
+  text: If true, the image will be upscaled to fit the box if smaller
+----
+Returntype: object
+----
+Return: returns this image with recalculated dimensions

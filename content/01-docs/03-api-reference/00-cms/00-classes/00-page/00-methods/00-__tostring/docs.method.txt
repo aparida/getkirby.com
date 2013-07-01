@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::__toString
+----
+Syntax: page::__toString()
+----
+Description: This makes it possible to simply echo the entire page object
+and get a usable result for debugging
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

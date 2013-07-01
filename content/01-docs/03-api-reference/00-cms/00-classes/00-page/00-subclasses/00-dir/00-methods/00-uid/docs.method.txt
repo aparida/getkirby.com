@@ -1,0 +1,21 @@
+﻿Name: uid
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::uid
+----
+Syntax: dir::uid()
+----
+Description: Returns the unique id
+The unique id is the folder name without
+prepended sorting number.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: i.e. 01-projects returns projects

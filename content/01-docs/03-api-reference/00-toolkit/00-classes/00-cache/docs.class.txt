@@ -1,0 +1,6 @@
+﻿Title: Cache
+----
+Class: Cache
+----
+Description: The ultimate cache wrapper for
+all available drivers

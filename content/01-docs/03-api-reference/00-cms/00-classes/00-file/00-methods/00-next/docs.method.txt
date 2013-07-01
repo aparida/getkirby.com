@@ -1,0 +1,19 @@
+﻿Name: next
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::next
+----
+Syntax: file::next()
+----
+Description: Returns the next file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: File

@@ -1,0 +1,25 @@
+﻿Name: gist
+----
+Visibility: public
+----
+Static: yes
+----
+Title: embed::gist
+----
+Syntax: embed::gist($url, $file = null)
+----
+Description: Embeds a github gist
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: Gist url: i.e. https://gist.github.com/2924148
+
+- name: $file
+  type: string
+  text: The name of a particular file from the gist, which should displayed only.
+----
+Returntype: string
+----
+Return: 

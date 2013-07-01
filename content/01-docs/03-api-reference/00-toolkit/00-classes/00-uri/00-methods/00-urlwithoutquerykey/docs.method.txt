@@ -1,0 +1,19 @@
+﻿Name: urlWithoutQueryKey
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::urlWithoutQueryKey
+----
+Syntax: uri::urlWithoutQueryKey($key)
+----
+Description: Removes a query key first and then returns the url
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: $this

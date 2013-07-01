@@ -1,0 +1,21 @@
+﻿Name: avg
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::avg
+----
+Syntax: query::avg($column)
+----
+Description: Builds an average query
+----
+Text: 
+----
+Parameters: - name: $column
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

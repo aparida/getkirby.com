@@ -1,0 +1,19 @@
+﻿Name: items
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::items
+----
+Syntax: pagination::items()
+----
+Description: Alternative for countItems()
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

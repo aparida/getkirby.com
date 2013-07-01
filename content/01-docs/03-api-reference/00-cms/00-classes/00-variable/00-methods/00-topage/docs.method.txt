@@ -1,0 +1,19 @@
+﻿Name: toPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toPage
+----
+Syntax: variable::toPage()
+----
+Description: Returns a page with the same uri as the value
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

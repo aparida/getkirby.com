@@ -1,0 +1,21 @@
+﻿Name: fail
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::fail
+----
+Syntax: query::fail($fail = true)
+----
+Description: Enables failing queries.
+----
+Text: If enabled queries will no longer fail silently but throw an exception
+----
+Parameters: - name: $fail
+  type: boolean
+  text:
+----
+Returntype: object
+----
+Return: 

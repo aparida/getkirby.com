@@ -1,0 +1,28 @@
+﻿Name: install
+----
+Visibility: public
+----
+Static: yes
+----
+Title: validator::install
+----
+Syntax: validator::install($key, $file = null)
+----
+Description: Installs a new set of validators
+Pass a single key and file to install a single additional validator
+Pass an array of keys and values to install an entire set of validators
+Pass a directory without second argument to install all validators within that directory
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: 
+
+- name: $file
+  type: mixed
+  text:
+----
+Returntype: true
+----
+Return: 

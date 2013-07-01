@@ -1,0 +1,28 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: c::remove
+----
+Syntax: c::remove($key = null)
+----
+Description: Removes a variable from the config array
+----
+Text: <pre><code>
+// remove the title from the config array
+c::remove('title');
+
+// the title will no longer return anything
+c::get('title');
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: array
+----
+Return: 

@@ -1,0 +1,25 @@
+﻿Name: param
+----
+Visibility: 
+----
+Static: 
+----
+Title: param
+----
+Syntax: param($key = null, $default = null)
+----
+Description: Get a parameter from the current URI object
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to look for. Pass false or null to return the entire params array.
+
+- name: $default
+  type: mixed
+  text: Optional default value, which should be returned if no element has been found
+----
+Returntype: mixed
+----
+Return: 

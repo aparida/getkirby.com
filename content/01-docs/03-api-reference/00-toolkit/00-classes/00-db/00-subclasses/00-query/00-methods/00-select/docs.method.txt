@@ -1,0 +1,22 @@
+﻿Name: select
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::select
+----
+Syntax: query::select($select)
+----
+Description: Sets the columns, which should be selected from the table
+By default all columns will be selected
+----
+Text: 
+----
+Parameters: - name: $select
+  type: mixed
+  text: Pass either a string of columns or an array
+----
+Returntype: object
+----
+Return: 

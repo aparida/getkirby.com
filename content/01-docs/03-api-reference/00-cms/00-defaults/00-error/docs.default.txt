@@ -1,0 +1,10 @@
+﻿Title: error
+----
+Value: <pre>error</pre>
+----
+Description: URI of the error page
+
+You can rename the content folder of the
+error page and thus the URL that way, but
+you must make sure that the folder is located
+in the main level of the content folder.

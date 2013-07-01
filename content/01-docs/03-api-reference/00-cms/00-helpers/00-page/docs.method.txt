@@ -1,0 +1,21 @@
+﻿Name: page
+----
+Visibility: 
+----
+Static: 
+----
+Title: page
+----
+Syntax: page($uid = null)
+----
+Description: Shortcut to get a page by uid
+----
+Text: 
+----
+Parameters: - name: $uid
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

@@ -1,0 +1,29 @@
+﻿Name: page
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::page
+----
+Syntax: query::page($page, $limit, $params = array())
+----
+Description: Automatically adds pagination to a query
+----
+Text: 
+----
+Parameters: - name: $page
+  type: int
+  text: 
+
+- name: $limit
+  type: int
+  text: The number of rows, which should be returned for each page
+
+- name: $params
+  type: array
+  text: Optional params for the pagination object
+----
+Returntype: object
+----
+Return: Collection iterator with attached pagination object

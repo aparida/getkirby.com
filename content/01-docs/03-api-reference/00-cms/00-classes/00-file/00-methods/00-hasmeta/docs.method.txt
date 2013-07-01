@@ -1,0 +1,19 @@
+﻿Name: hasMeta
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::hasMeta
+----
+Syntax: file::hasMeta($lang = null)
+----
+Description: Checks if a meta file is availabel for this file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

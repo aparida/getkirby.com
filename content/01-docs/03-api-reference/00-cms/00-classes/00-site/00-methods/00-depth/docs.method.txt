@@ -1,0 +1,19 @@
+﻿Name: depth
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::depth
+----
+Syntax: site::depth()
+----
+Description: The site object has a depth of 0
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 0

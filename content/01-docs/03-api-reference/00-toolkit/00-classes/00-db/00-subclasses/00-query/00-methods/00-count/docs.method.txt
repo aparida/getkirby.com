@@ -1,0 +1,19 @@
+﻿Name: count
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::count
+----
+Syntax: query::count()
+----
+Description: Builds a count query
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

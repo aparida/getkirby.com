@@ -1,0 +1,25 @@
+﻿Name: stripHash
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::stripHash
+----
+Syntax: url::stripHash($url)
+----
+Description: Strips a hash value from the URL
+----
+Text: <pre><code>
+echo url::stripHash('http://testurl.com/#somehash');
+// output: http://testurl.com/
+
+</code></pre>
+----
+Parameters: - name: $url
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

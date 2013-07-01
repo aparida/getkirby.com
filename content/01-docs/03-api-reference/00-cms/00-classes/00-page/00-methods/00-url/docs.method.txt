@@ -1,0 +1,19 @@
+﻿Name: url
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::url
+----
+Syntax: page::url()
+----
+Description: Returns the full url for the page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

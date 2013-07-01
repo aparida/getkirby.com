@@ -1,0 +1,19 @@
+﻿Name: isFirstPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::isFirstPage
+----
+Syntax: pagination::isFirstPage()
+----
+Description: Checks if the current page is the first page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

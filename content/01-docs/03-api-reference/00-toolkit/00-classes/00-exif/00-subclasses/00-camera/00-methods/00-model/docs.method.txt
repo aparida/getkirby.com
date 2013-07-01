@@ -1,0 +1,19 @@
+﻿Name: model
+----
+Visibility: public
+----
+Static: no
+----
+Title: camera::model
+----
+Syntax: camera::model()
+----
+Description: Returns the camera model
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

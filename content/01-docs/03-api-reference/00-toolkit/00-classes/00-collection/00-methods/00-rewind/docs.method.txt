@@ -1,0 +1,15 @@
+﻿Name: rewind
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::rewind
+----
+Syntax: collection::rewind()
+----
+Description: Moves the cusor to the first element of the array
+----
+Text: 
+----
+Parameters: 

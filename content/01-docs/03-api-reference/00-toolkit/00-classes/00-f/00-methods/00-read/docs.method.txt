@@ -1,0 +1,32 @@
+﻿Name: read
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::read
+----
+Syntax: f::read($file, $parse = false)
+----
+Description: Reads the content of a file
+----
+Text: <pre><code>
+$content = f::read('test.txt');
+// i.e. content is hello
+
+$content = f::read('text.txt', 'json');
+// returns an array with the parsed content
+
+</code></pre>
+----
+Parameters: - name: $file
+  type: string
+  text: The path for the file
+
+- name: $parse
+  type: mixed
+  text: if set to true, parse the result with the passed method. See: "str::parse()" for more info about available methods.
+----
+Returntype: mixed
+----
+Return: 

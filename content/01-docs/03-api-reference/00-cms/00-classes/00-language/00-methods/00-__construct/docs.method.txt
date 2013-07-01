@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::__construct
+----
+Syntax: language::__construct($code, $isActive = false)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $code
+  type: string
+  text: The 2-char language code

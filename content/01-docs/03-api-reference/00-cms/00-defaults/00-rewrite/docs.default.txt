@@ -1,0 +1,10 @@
+﻿Title: rewrite
+----
+Value: <pre>true</pre>
+----
+Description: URL rewriting
+
+By default Kirby assumes that url rewriting
+is available on the server. If for some reasons
+URL rewriting is not possible (i.e. mod_rewrite is not activated)
+it can be switched off with this option

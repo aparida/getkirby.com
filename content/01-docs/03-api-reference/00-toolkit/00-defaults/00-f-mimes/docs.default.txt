@@ -1,0 +1,179 @@
+﻿Title: f.mimes
+----
+Value: <pre>Array
+(
+    [hqx] =&gt; application/mac-binhex40
+    [cpt] =&gt; application/mac-compactpro
+    [csv] =&gt; Array
+        (
+            [0] =&gt; text/x-comma-separated-values
+            [1] =&gt; text/comma-separated-values
+            [2] =&gt; application/octet-stream
+        )
+
+    [bin] =&gt; application/macbinary
+    [dms] =&gt; application/octet-stream
+    [lha] =&gt; application/octet-stream
+    [lzh] =&gt; application/octet-stream
+    [exe] =&gt; Array
+        (
+            [0] =&gt; application/octet-stream
+            [1] =&gt; application/x-msdownload
+        )
+
+    [class] =&gt; application/octet-stream
+    [psd] =&gt; application/x-photoshop
+    [so] =&gt; application/octet-stream
+    [sea] =&gt; application/octet-stream
+    [dll] =&gt; application/octet-stream
+    [oda] =&gt; application/oda
+    [pdf] =&gt; Array
+        (
+            [0] =&gt; application/pdf
+            [1] =&gt; application/x-download
+        )
+
+    [ai] =&gt; application/postscript
+    [eps] =&gt; application/postscript
+    [ps] =&gt; application/postscript
+    [smi] =&gt; application/smil
+    [smil] =&gt; application/smil
+    [mif] =&gt; application/vnd.mif
+    [xls] =&gt; Array
+        (
+            [0] =&gt; application/excel
+            [1] =&gt; application/vnd.ms-excel
+            [2] =&gt; application/msexcel
+        )
+
+    [ppt] =&gt; Array
+        (
+            [0] =&gt; application/powerpoint
+            [1] =&gt; application/vnd.ms-powerpoint
+        )
+
+    [wbxml] =&gt; application/wbxml
+    [wmlc] =&gt; application/wmlc
+    [dcr] =&gt; application/x-director
+    [dir] =&gt; application/x-director
+    [dxr] =&gt; application/x-director
+    [dvi] =&gt; application/x-dvi
+    [gtar] =&gt; application/x-gtar
+    [gz] =&gt; application/x-gzip
+    [php] =&gt; Array
+        (
+            [0] =&gt; application/x-httpd-php
+            [1] =&gt; text/x-php
+        )
+
+    [php4] =&gt; application/x-httpd-php
+    [php3] =&gt; application/x-httpd-php
+    [phtml] =&gt; application/x-httpd-php
+    [phps] =&gt; application/x-httpd-php-source
+    [js] =&gt; application/x-javascript
+    [swf] =&gt; application/x-shockwave-flash
+    [sit] =&gt; application/x-stuffit
+    [tar] =&gt; application/x-tar
+    [tgz] =&gt; Array
+        (
+            [0] =&gt; application/x-tar
+            [1] =&gt; application/x-gzip-compressed
+        )
+
+    [xhtml] =&gt; application/xhtml+xml
+    [xht] =&gt; application/xhtml+xml
+    [zip] =&gt; Array
+        (
+            [0] =&gt; application/x-zip
+            [1] =&gt; application/zip
+            [2] =&gt; application/x-zip-compressed
+        )
+
+    [mid] =&gt; audio/midi
+    [midi] =&gt; audio/midi
+    [mpga] =&gt; audio/mpeg
+    [mp2] =&gt; audio/mpeg
+    [mp3] =&gt; Array
+        (
+            [0] =&gt; audio/mpeg
+            [1] =&gt; audio/mpg
+            [2] =&gt; audio/mpeg3
+            [3] =&gt; audio/mp3
+        )
+
+    [aif] =&gt; audio/x-aiff
+    [aiff] =&gt; audio/x-aiff
+    [aifc] =&gt; audio/x-aiff
+    [ram] =&gt; audio/x-pn-realaudio
+    [rm] =&gt; audio/x-pn-realaudio
+    [rpm] =&gt; audio/x-pn-realaudio-plugin
+    [ra] =&gt; audio/x-realaudio
+    [rv] =&gt; video/vnd.rn-realvideo
+    [wav] =&gt; audio/x-wav
+    [bmp] =&gt; image/bmp
+    [gif] =&gt; image/gif
+    [jpg] =&gt; Array
+        (
+            [0] =&gt; image/jpeg
+            [1] =&gt; image/pjpeg
+        )
+
+    [jpeg] =&gt; Array
+        (
+            [0] =&gt; image/jpeg
+            [1] =&gt; image/pjpeg
+        )
+
+    [jpe] =&gt; Array
+        (
+            [0] =&gt; image/jpeg
+            [1] =&gt; image/pjpeg
+        )
+
+    [png] =&gt; image/png
+    [tiff] =&gt; image/tiff
+    [tif] =&gt; image/tiff
+    [css] =&gt; text/css
+    [html] =&gt; text/html
+    [htm] =&gt; text/html
+    [shtml] =&gt; text/html
+    [txt] =&gt; text/plain
+    [text] =&gt; text/plain
+    [log] =&gt; Array
+        (
+            [0] =&gt; text/plain
+            [1] =&gt; text/x-log
+        )
+
+    [rtx] =&gt; text/richtext
+    [rtf] =&gt; text/rtf
+    [xml] =&gt; text/xml
+    [xsl] =&gt; text/xml
+    [mpeg] =&gt; video/mpeg
+    [mpg] =&gt; video/mpeg
+    [mpe] =&gt; video/mpeg
+    [qt] =&gt; video/quicktime
+    [mov] =&gt; video/quicktime
+    [avi] =&gt; video/x-msvideo
+    [movie] =&gt; video/x-sgi-movie
+    [doc] =&gt; application/msword
+    [docx] =&gt; application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    [xlsx] =&gt; application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    [word] =&gt; Array
+        (
+            [0] =&gt; application/msword
+            [1] =&gt; application/octet-stream
+        )
+
+    [xl] =&gt; application/excel
+    [eml] =&gt; message/rfc822
+    [json] =&gt; Array
+        (
+            [0] =&gt; application/json
+            [1] =&gt; text/json
+        )
+
+)
+</pre>
+----
+Description: a list of detectable mime types

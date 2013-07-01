@@ -1,0 +1,29 @@
+﻿Name: gravatar
+----
+Visibility: 
+----
+Static: 
+----
+Title: gravatar
+----
+Syntax: gravatar($email, $size = 256, $default = 'mm')
+----
+Description: Generates a gravatar image link
+----
+Text: 
+----
+Parameters: - name: $email
+  type: string
+  text: 
+
+- name: $size
+  type: int
+  text: 
+
+- name: $default
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

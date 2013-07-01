@@ -1,0 +1,15 @@
+﻿Name: parsers
+----
+Visibility: protected
+----
+Static: no
+----
+Title: site::parsers
+----
+Syntax: site::parsers()
+----
+Description: Load available parsers
+----
+Text: 
+----
+Parameters: 

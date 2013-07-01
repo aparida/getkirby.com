@@ -1,0 +1,35 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: c::set
+----
+Syntax: c::set($key, $value = null)
+----
+Description: Sets a config value by key
+----
+Text: <pre><code>
+// sets the hostname for the database for example
+c::set('db.host', 'localhost');
+
+// you can store all the values here you will need later somewhere
+c::set('title', 'The Title of your App');
+
+// setting multiple variables at once
+c::set(array(
+  'key1' => 'val1',
+  'key2' => 'val2',
+  'key3' => 'val3'
+));
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: The key to define
+
+- name: $value
+  type: mixed
+  text: The value for the passed key

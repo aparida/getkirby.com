@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: between::validate
+----
+Syntax: between::validate()
+----
+Description: 
+----
+Text: 

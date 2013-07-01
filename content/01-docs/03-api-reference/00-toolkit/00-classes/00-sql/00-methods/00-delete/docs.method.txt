@@ -1,0 +1,21 @@
+﻿Name: delete
+----
+Visibility: public
+----
+Static: yes
+----
+Title: sql::delete
+----
+Syntax: sql::delete($params = array())
+----
+Description: Builds a delete clause
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: List of parameters for the delete clause. See defaults for more info
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: size
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::size
+----
+Syntax: thumb::size()
+----
+Description: Returns the raw file size of the generated thumb
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

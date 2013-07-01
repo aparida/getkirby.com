@@ -1,0 +1,22 @@
+﻿Name: install
+----
+Visibility: public
+----
+Static: yes
+----
+Title: plugin::install
+----
+Syntax: plugin::install($id, $root)
+----
+Description: Installs a plugin and also initializes a child class of
+Plugin if available.
+----
+Text: 
+----
+Parameters: - name: $id
+  type: string
+  text: id/folder name of this plugin
+
+- name: $root
+  type: string
+  text: the full root to the plugin folder

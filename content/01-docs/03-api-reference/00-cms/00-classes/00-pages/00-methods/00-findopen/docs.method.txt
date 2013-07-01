@@ -1,0 +1,19 @@
+﻿Name: findOpen
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::findOpen
+----
+Syntax: pages::findOpen()
+----
+Description: Finds the currently open page in this collection if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: Page or null

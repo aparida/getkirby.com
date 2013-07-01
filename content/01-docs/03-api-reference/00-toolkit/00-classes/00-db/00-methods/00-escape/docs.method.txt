@@ -1,0 +1,21 @@
+﻿Name: escape
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::escape
+----
+Syntax: db::escape($value)
+----
+Description: Escapes a value to be used for a safe query
+----
+Text: 
+----
+Parameters: - name: $value
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

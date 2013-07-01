@@ -1,0 +1,19 @@
+﻿Name: isBW
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::isBW
+----
+Syntax: exif::isBW()
+----
+Description: Checks if this is a bw picture
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

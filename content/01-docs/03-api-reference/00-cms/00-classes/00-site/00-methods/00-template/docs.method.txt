@@ -1,0 +1,19 @@
+﻿Name: template
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::template
+----
+Syntax: site::template()
+----
+Description: Returns the usable template
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

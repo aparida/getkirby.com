@@ -1,0 +1,21 @@
+﻿Name: expires
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cache::expires
+----
+Syntax: cache::expires($key)
+----
+Description: Checks when an item in the cache expires
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: int
+----
+Return: 

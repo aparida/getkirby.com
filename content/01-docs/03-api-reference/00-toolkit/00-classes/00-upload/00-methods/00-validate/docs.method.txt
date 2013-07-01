@@ -1,0 +1,19 @@
+﻿Name: validate
+----
+Visibility: protected
+----
+Static: no
+----
+Title: upload::validate
+----
+Syntax: upload::validate()
+----
+Description: Validates the uploaded file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

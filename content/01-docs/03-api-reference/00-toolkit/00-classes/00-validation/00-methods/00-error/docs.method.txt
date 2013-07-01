@@ -1,0 +1,21 @@
+﻿Name: error
+----
+Visibility: public
+----
+Static: no
+----
+Title: validation::error
+----
+Syntax: validation::error($attribute = null)
+----
+Description: Returns a specific set of errors for a given attribute
+----
+Text: 
+----
+Parameters: - name: $attribute
+  type: string
+  text: if not specified the first error will be returned
+----
+Returntype: object
+----
+Return: ValidationErrors

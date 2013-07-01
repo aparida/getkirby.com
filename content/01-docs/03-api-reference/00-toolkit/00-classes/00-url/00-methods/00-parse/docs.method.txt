@@ -1,0 +1,21 @@
+﻿Name: parse
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::parse
+----
+Syntax: url::parse($url)
+----
+Description: Parses the url and returns a bunch of useful data
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text:
+----
+Returntype: array
+----
+Return: 

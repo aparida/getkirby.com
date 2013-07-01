@@ -1,0 +1,19 @@
+﻿Name: toArray
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::toArray
+----
+Syntax: collection::toArray()
+----
+Description: Converts the current object into an array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

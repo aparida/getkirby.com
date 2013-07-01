@@ -1,0 +1,34 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::get
+----
+Syntax: object::get($key = null, $default = null)
+----
+Description: The core getter
+----
+Text: This is invoked by the magic getter and
+can be used as well to get values from the object
+`echo $myobject->get('somevalue');`
+
+This has the nice sideeffect of offering a default
+fallback if the value can't be found:
+`echo $myobject->get('somevalue', 'my default value');
+
+It can even be used as a full getter for the entire array of values
+`print_r($myobject->get())`
+----
+Parameters: - name: $key
+  type: mixed
+  text: The optional key name to search for
+
+- name: $default
+  type: mixed
+  text: The fallback value if the key cannot be found
+----
+Returntype: mixed
+----
+Return: whatever you stored for that key

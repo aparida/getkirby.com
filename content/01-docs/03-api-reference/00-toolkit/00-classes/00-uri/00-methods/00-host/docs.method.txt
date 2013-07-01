@@ -1,0 +1,19 @@
+﻿Name: host
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::host
+----
+Syntax: uri::host()
+----
+Description: Returns the host name
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

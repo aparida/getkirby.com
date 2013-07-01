@@ -1,0 +1,10 @@
+﻿Title: Site
+----
+Class: Site
+----
+Description: ATTENTION: use the site() helper function to get access to the site singleton
+
+This is the main site object
+Everything else is dependent on this
+The site object is also used with the site()
+singleton function to initiate a Kirby site.

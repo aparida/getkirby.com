@@ -1,0 +1,10 @@
+﻿Title: Page
+----
+Class: Page
+----
+Description: This class represents a single page of
+a Kirby CMS powered website.
+A page is derived from a subfolder of the content folder.
+A page can have unlimited subpages (children)
+and attached media files. Its custom data is fetched from
+a text file with separated fields.

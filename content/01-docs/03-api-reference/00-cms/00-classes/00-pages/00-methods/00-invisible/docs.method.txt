@@ -1,0 +1,19 @@
+﻿Name: invisible
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::invisible
+----
+Syntax: pages::invisible()
+----
+Description: Returns only invisible pages from this set of pages
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Pages

@@ -1,0 +1,19 @@
+﻿Name: filterBy
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::filterBy
+----
+Syntax: collection::filterBy()
+----
+Description: Filters the current collection by a field, operator and search value
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: a new filtered collection

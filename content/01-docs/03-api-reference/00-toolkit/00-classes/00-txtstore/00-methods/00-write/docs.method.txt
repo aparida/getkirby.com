@@ -1,0 +1,25 @@
+﻿Name: write
+----
+Visibility: public
+----
+Static: yes
+----
+Title: txtstore::write
+----
+Syntax: txtstore::write($file, $data = array())
+----
+Description: Writes a data structure to the given file
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: path to the file
+
+- name: 
+  type: array
+  text: The data array
+----
+Returntype: boolean
+----
+Return: 

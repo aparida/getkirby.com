@@ -1,0 +1,28 @@
+﻿Name: read
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::read
+----
+Syntax: object::read($key = null, $default = null)
+----
+Description: Reads the value from the internal data array
+----
+Text: This can be used in custom getters to
+directly read a value from the data array
+instead of using get or a magic getter, which would
+cause a endless loop in a custom setter.
+----
+Parameters: - name: $key
+  type: string
+  text: The name for the key in the $data array
+
+- name: $default
+  type: mixed
+  text: An optional fallback value if nothing can be found for the key
+----
+Returntype: mixed
+----
+Return: Whatever is stored for the key

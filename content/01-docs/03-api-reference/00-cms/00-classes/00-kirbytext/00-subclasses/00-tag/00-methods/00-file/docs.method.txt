@@ -1,0 +1,21 @@
+﻿Name: file
+----
+Visibility: protected
+----
+Static: no
+----
+Title: tag::file
+----
+Syntax: tag::file($url)
+----
+Description: Tries to find a file for the given url/uri
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: a full path to a file or just a filename for files form the current active page
+----
+Returntype: object
+----
+Return: File

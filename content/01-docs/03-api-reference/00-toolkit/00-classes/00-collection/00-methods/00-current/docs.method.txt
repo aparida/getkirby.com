@@ -1,0 +1,19 @@
+﻿Name: current
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::current
+----
+Syntax: collection::current()
+----
+Description: Returns the current element of the array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

@@ -1,0 +1,32 @@
+﻿Name: data
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::data
+----
+Syntax: r::data($key = null, $default = null)
+----
+Description: Returns either the entire data array or parts of it
+----
+Text: <pre><code>
+echo r::data('username');
+// sample output 'bastian'
+
+echo r::data('username', 'peter');
+// if no username is found in the request peter will be echoed
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: An optional key to receive only parts of the data array
+
+- name: $default
+  type: mixed
+  text: A default value, which will be returned if nothing can be found for a given key
+
+- name: 
+  type: 
+  text: mixed

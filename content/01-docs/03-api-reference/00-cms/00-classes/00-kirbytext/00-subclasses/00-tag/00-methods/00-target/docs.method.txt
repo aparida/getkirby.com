@@ -1,0 +1,20 @@
+﻿Name: target
+----
+Visibility: protected
+----
+Static: no
+----
+Title: tag::target
+----
+Syntax: tag::target()
+----
+Description: Smart getter for the applicable target attribute.
+----
+Text: This will watch for popup or target attributes and return
+a proper target value if available.
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

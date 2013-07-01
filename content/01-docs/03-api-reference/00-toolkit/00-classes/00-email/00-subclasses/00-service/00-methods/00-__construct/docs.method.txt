@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: service::__construct
+----
+Syntax: service::__construct($email)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: 
+  type: object
+  text: The parent Email object

@@ -1,0 +1,6 @@
+﻿Title: Route
+----
+Class: Route
+----
+Description: A route can be added to the Router
+which wil then try to match it agains the current URL

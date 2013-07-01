@@ -1,0 +1,29 @@
+﻿Name: avg
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::avg
+----
+Syntax: db::avg($table, $column, $where = null)
+----
+Description: Shortcut for calculating the average value in a column
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: The name of the table, which should be queried
+
+- name: $column
+  type: string
+  text: The name of the column of which the average should be calculated
+
+- name: $where
+  type: string
+  text: An optional where clause
+----
+Returntype: mixed
+----
+Return: 

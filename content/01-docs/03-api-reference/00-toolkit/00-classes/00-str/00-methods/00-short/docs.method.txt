@@ -1,0 +1,36 @@
+﻿Name: short
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::short
+----
+Syntax: str::short($string, $length, $rep = '…')
+----
+Description: Shortens a string and adds an ellipsis if the string is too long
+----
+Text: <pre><code>
+echo str::short('This is a very, very, very long string', 10);
+// output: This is a…
+
+echo str::short('This is a very, very, very long string', 10, '####');
+// output: This i####
+
+</code></pre>
+----
+Parameters: - name: $string
+  type: string
+  text: The string to be shortened
+
+- name: $chars
+  type: int
+  text: The final number of characters the string should have
+
+- name: $rep
+  type: string
+  text: The element, which should be added if the string is too long. Ellipsis is the default.
+----
+Returntype: string
+----
+Return: The shortened string

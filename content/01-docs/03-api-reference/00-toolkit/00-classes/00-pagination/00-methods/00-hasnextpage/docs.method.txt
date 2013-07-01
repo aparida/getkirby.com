@@ -1,0 +1,19 @@
+﻿Name: hasNextPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::hasNextPage
+----
+Syntax: pagination::hasNextPage()
+----
+Description: Checks if there's a next page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

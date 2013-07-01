@@ -1,0 +1,21 @@
+﻿Name: has
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugins::has
+----
+Syntax: plugins::has($id)
+----
+Description: Checks if a plugin is available by its folder name
+----
+Text: 
+----
+Parameters: - name: $id
+  type: string
+  text: id/folder name of a plugin
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,25 @@
+﻿Name: hasPrevInvisible
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasPrevInvisible
+----
+Syntax: page::hasPrevInvisible($sort = false, $direction = 'asc')
+----
+Description: Checks if there is a previous invisible page in the collection
+----
+Text: 
+----
+Parameters: - name: $sort
+  type: string
+  text: An optional sort field for the siblings
+
+- name: $direction
+  type: string
+  text: An optional sort direction
+----
+Returntype: boolean
+----
+Return: 

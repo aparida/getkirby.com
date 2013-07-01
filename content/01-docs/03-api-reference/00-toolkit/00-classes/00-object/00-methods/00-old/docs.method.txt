@@ -1,0 +1,25 @@
+﻿Name: old
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::old
+----
+Syntax: object::old($key = null, $default = null)
+----
+Description: Get stuff from the old array
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: Optional key. If not given, the entire array will be returned
+
+- name: $default
+  type: mixed
+  text: Optional default value if the key does not exist
+----
+Returntype: mixed
+----
+Return: 

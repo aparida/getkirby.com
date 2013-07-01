@@ -1,0 +1,19 @@
+﻿Name: pattern
+----
+Visibility: public
+----
+Static: no
+----
+Title: route::pattern
+----
+Syntax: route::pattern()
+----
+Description: Returns the url pattern
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

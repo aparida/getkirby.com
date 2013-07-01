@@ -1,0 +1,19 @@
+﻿Name: toHash
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::toHash
+----
+Syntax: uri::toHash()
+----
+Description: Converts the URI object to a unique md5 hash
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

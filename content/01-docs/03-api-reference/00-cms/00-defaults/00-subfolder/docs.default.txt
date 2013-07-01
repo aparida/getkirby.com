@@ -1,0 +1,9 @@
+﻿Title: subfolder
+----
+Value: <pre>false</pre>
+----
+Description: Subfolder setup
+
+i.e. http://yourdomain.com/subfolder
+If set to false, Kirby will try to
+autodetect the subfolder.

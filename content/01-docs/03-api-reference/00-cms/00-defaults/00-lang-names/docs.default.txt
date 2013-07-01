@@ -1,0 +1,10 @@
+﻿Title: lang.names
+----
+Value: <pre>Array
+(
+    [en] =&gt; English
+    [de] =&gt; Deutsch
+)
+</pre>
+----
+Description: A set of human readable names for available languages

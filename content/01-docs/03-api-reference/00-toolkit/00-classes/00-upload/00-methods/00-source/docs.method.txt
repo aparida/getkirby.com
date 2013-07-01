@@ -1,0 +1,19 @@
+﻿Name: source
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::source
+----
+Syntax: upload::source()
+----
+Description: Returns the source file array from $_FILES[$this->key]
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

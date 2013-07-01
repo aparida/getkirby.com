@@ -1,0 +1,20 @@
+﻿Name: value
+----
+Visibility: protected
+----
+Static: no
+----
+Title: tag::value
+----
+Syntax: tag::value()
+----
+Description: Returns the main value for this tag
+ie. (image: myimage.jpg) value = myimage.jpg
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

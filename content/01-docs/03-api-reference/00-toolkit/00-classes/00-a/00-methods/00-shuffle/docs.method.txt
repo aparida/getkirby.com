@@ -1,0 +1,35 @@
+﻿Name: shuffle
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::shuffle
+----
+Syntax: a::shuffle($array)
+----
+Description: Shuffles an array and keeps the keys
+----
+Text: <pre><code>
+$array = array(
+  'cat'  => 'miao',
+  'dog'  => 'wuff',
+  'bird' => 'tweet'
+);
+
+$shuffled = a::shuffle($array);
+// output: array(
+//    'dog' => 'wuff',
+//    'cat' => 'miao',
+//    'bird' => 'tweet'
+// );
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+----
+Returntype: array
+----
+Return: The shuffled result array

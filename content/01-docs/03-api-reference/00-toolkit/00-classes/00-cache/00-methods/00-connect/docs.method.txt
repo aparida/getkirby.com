@@ -1,0 +1,27 @@
+﻿Name: connect
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cache::connect
+----
+Syntax: cache::connect($driver, $params = array())
+----
+Description: Connect a cache driver
+Check out the driver for more details
+on how to setup individual connections
+----
+Text: 
+----
+Parameters: - name: $driver
+  type: string
+  text: The name of the driver. ie. 'file'
+
+- name: $params
+  type: array
+  text: Additional params for the driver connection
+----
+Returntype: object
+----
+Return: The cache driver object

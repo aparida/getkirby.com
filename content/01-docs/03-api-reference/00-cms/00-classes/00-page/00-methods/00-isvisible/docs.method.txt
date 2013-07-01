@@ -1,0 +1,21 @@
+﻿Name: isVisible
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isVisible
+----
+Syntax: page::isVisible()
+----
+Description: Checks if this page is visible
+A visible page has a prepended number
+in its foldername. i.e. 01-projects
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

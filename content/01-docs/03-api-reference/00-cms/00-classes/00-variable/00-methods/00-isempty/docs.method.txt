@@ -1,0 +1,19 @@
+﻿Name: isEmpty
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::isEmpty
+----
+Syntax: variable::isEmpty()
+----
+Description: Checks if the value is empty
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

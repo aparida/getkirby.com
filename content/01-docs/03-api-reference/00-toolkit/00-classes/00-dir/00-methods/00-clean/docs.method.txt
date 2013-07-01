@@ -1,0 +1,21 @@
+﻿Name: clean
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::clean
+----
+Syntax: dir::clean($dir)
+----
+Description: Flushes a directory
+----
+Text: 
+----
+Parameters: - name: $dir
+  type: string
+  text: The path of the directory
+----
+Returntype: boolean
+----
+Return: True: the directory has been flushed, false: flushing failed

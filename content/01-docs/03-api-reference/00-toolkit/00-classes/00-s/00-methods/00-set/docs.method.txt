@@ -1,0 +1,32 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: s::set
+----
+Syntax: s::set($key, $value = false)
+----
+Description: Sets a session value by key
+----
+Text: <pre><code>
+s::set('username', 'bastian');
+// saves the username in the session
+
+s::set(array(
+    'key1' => 'val1',
+    'key2' => 'val2',
+    'key3' => 'val3'
+));
+// setting multiple variables at once
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to define
+
+- name: $value
+  type: mixed
+  text: The value for the passed key

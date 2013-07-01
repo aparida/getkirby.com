@@ -1,0 +1,19 @@
+﻿Name: hasSounds
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasSounds
+----
+Syntax: page::hasSounds()
+----
+Description: Checks if there are any sound files stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: true = has sound files, false = no sound files

@@ -1,0 +1,25 @@
+﻿Name: paginate
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::paginate
+----
+Syntax: collection::paginate($limit, $options = array())
+----
+Description: Add pagination
+----
+Text: 
+----
+Parameters: - name: $limit
+  type: int
+  text: the number of items per page
+
+- name: $options
+  type: array
+  text: and optional array with options for the pagination class
+----
+Returntype: object
+----
+Return: a sliced set of data

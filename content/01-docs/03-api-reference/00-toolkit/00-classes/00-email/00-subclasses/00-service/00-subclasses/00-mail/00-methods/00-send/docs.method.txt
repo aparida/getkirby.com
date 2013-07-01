@@ -1,0 +1,15 @@
+﻿Name: send
+----
+Visibility: public
+----
+Static: no
+----
+Title: mail::send
+----
+Syntax: mail::send()
+----
+Description: Sends an email with PHP's mail function
+----
+Text: 
+----
+Parameters: 

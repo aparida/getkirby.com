@@ -1,0 +1,20 @@
+﻿Name: safeName
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::safeName
+----
+Syntax: upload::safeName()
+----
+Description: Returns a safe version of the uploaded file name
+without any special characters or other unwanted stuff
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

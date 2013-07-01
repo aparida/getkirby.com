@@ -1,0 +1,25 @@
+﻿Name: dirname
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::dirname
+----
+Syntax: f::dirname($file = __FILE__)
+----
+Description: Just an alternative for dirname() to stay consistent
+----
+Text: <pre><code>
+$dirname = f::dirname('/var/www/test.txt');
+// dirname is /var/www
+
+</code></pre>
+----
+Parameters: - name: $file
+  type: string
+  text: The path
+----
+Returntype: string
+----
+Return: 

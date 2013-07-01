@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::__toString
+----
+Syntax: query::__toString()
+----
+Description: Returns the query in a single string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

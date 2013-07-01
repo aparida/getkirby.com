@@ -1,0 +1,9 @@
+﻿Title: cache.ignore.urls
+----
+Value: <pre>Array
+(
+)
+</pre>
+----
+Description: A list of pages, which should be ignored
+by the cache. Add the uri (relative urls) of each page to ignore.

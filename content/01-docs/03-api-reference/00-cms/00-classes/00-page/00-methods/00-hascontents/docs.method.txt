@@ -1,0 +1,19 @@
+﻿Name: hasContents
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasContents
+----
+Syntax: page::hasContents()
+----
+Description: Checks if there are any content files stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: true = has content files, false = no content files

@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: languages::__construct
+----
+Syntax: languages::__construct($codes = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $codes
+  type: array
+  text: An optional array of available language codes

@@ -1,0 +1,19 @@
+﻿Name: hasDocuments
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasDocuments
+----
+Syntax: files::hasDocuments()
+----
+Description: Checks if this collection contains document files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

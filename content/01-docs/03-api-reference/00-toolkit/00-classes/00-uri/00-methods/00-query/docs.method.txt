@@ -1,0 +1,25 @@
+﻿Name: query
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::query
+----
+Syntax: uri::query($key = null, $default = null)
+----
+Description: Smart getter for the Query object
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: null: get the entire query object, string: get a part of the query object by key
+
+- name: $default
+  type: mixed
+  text: null: no default. string: a default value if nothing is found for this key
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,9 @@
+﻿Title: error.header
+----
+Value: <pre>true</pre>
+----
+Description: Send 404 header on error pages?
+
+By default Kirby will send a 404 header
+when the error page is opened, but you
+can switch that off with this option

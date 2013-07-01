@@ -1,0 +1,25 @@
+﻿Name: findBy
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::findBy
+----
+Syntax: files::findBy($key, $value)
+----
+Description: Is a synonym for filterBy() but you can pass an array of values to filter by
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: The field/key to search for
+
+- name: $value
+  type: mixed
+  text: Either a single value to search for or an array of values
+----
+Returntype: mixed
+----
+Return: File for a single $value or Files for an array of values

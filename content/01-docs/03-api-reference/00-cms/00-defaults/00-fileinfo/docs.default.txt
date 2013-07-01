@@ -1,0 +1,283 @@
+﻿Title: fileinfo
+----
+Value: <pre>Array
+(
+    [jpg] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/jpeg
+        )
+
+    [jpeg] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/jpeg
+        )
+
+    [gif] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/gif
+        )
+
+    [png] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/png
+        )
+
+    [svg] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/svg+xml
+        )
+
+    [ico] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/x-icon
+        )
+
+    [tif] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/tiff
+        )
+
+    [tiff] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/tiff
+        )
+
+    [bmp] =&gt; Array
+        (
+            [type] =&gt; image
+            [mime] =&gt; image/bmp
+        )
+
+    [txt] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; text/plain
+        )
+
+    [mdown] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; text/plain
+        )
+
+    [md] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; text/plain
+        )
+
+    [markdown] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; text/plain
+        )
+
+    [pdf] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; application/pdf
+        )
+
+    [doc] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; application/msword
+        )
+
+    [docx] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; application/msword
+        )
+
+    [xls] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; application/msexcel
+        )
+
+    [xlsx] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; application/msexcel
+        )
+
+    [ppt] =&gt; Array
+        (
+            [type] =&gt; document
+            [mime] =&gt; application/mspowerpoint
+        )
+
+    [zip] =&gt; Array
+        (
+            [type] =&gt; archive
+            [mime] =&gt; application/zip
+        )
+
+    [tar] =&gt; Array
+        (
+            [type] =&gt; archive
+            [mime] =&gt; application/x-tar
+        )
+
+    [gz] =&gt; Array
+        (
+            [type] =&gt; archive
+            [mime] =&gt; application/x-gzip
+        )
+
+    [gzip] =&gt; Array
+        (
+            [type] =&gt; archive
+            [mime] =&gt; application/x-gzip
+        )
+
+    [tgz] =&gt; Array
+        (
+            [type] =&gt; archive
+            [mime] =&gt; application/gnutar
+        )
+
+    [js] =&gt; Array
+        (
+            [type] =&gt; code
+            [mime] =&gt; application/javascript
+        )
+
+    [css] =&gt; Array
+        (
+            [type] =&gt; code
+            [mime] =&gt; text/css
+        )
+
+    [scss] =&gt; Array
+        (
+            [type] =&gt; code
+            [mime] =&gt; text/css
+        )
+
+    [htm] =&gt; Array
+        (
+            [type] =&gt; code
+            [mime] =&gt; text/html
+        )
+
+    [html] =&gt; Array
+        (
+            [type] =&gt; code
+            [mime] =&gt; text/html
+        )
+
+    [php] =&gt; Array
+        (
+            [type] =&gt; code
+            [mime] =&gt; text/php
+        )
+
+    [xml] =&gt; Array
+        (
+            [type] =&gt; code
+            [mime] =&gt; application/xml
+        )
+
+    [json] =&gt; Array
+        (
+            [type] =&gt; code
+            [mime] =&gt; application/json
+        )
+
+    [mov] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; video/quicktime
+        )
+
+    [avi] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; video/avi
+        )
+
+    [ogg] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; video/ogg
+        )
+
+    [ogv] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; video/ogg
+        )
+
+    [webm] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; video/webm
+        )
+
+    [flv] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; video/x-flv
+        )
+
+    [swf] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; application/x-shockwave-flash
+        )
+
+    [mp4] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; video/mp4
+        )
+
+    [mv4] =&gt; Array
+        (
+            [type] =&gt; video
+            [mime] =&gt; video/mv4
+        )
+
+    [mp3] =&gt; Array
+        (
+            [type] =&gt; audio
+            [mime] =&gt; audio/mp3
+        )
+
+    [wav] =&gt; Array
+        (
+            [type] =&gt; audio
+            [mime] =&gt; audio/wav
+        )
+
+    [aif] =&gt; Array
+        (
+            [type] =&gt; audio
+            [mime] =&gt; audio/aiff
+        )
+
+    [aiff] =&gt; Array
+        (
+            [type] =&gt; audio
+            [mime] =&gt; audio/aiff
+        )
+
+)
+</pre>
+----
+Description: This array will define how files are
+organized. You can extend this to improve Kirby's
+file type and mime type detection
+
+all files, which don't match the criteria below
+will be categorized as "other"

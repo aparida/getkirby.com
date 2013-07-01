@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: notin::validate
+----
+Syntax: notin::validate()
+----
+Description: 
+----
+Text: 

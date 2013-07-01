@@ -1,0 +1,25 @@
+﻿Name: add
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::add
+----
+Syntax: collection::add($key, $value)
+----
+Description: Adds a new element to the collection
+----
+Text: It's basically an alternative for set()
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text:
+----
+Returntype: object
+----
+Return: returns the current object to make it chainable

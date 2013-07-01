@@ -1,0 +1,15 @@
+﻿Name: flush
+----
+Visibility: public
+----
+Static: yes
+----
+Title: content::flush
+----
+Syntax: content::flush()
+----
+Description: Stops the output buffer and echos its content
+----
+Text: 
+----
+Parameters: 

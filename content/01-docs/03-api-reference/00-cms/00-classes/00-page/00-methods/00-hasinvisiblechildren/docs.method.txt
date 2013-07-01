@@ -1,0 +1,19 @@
+﻿Name: hasInvisibleChildren
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasInvisibleChildren
+----
+Syntax: page::hasInvisibleChildren()
+----
+Description: Checks if this page has invisible children
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

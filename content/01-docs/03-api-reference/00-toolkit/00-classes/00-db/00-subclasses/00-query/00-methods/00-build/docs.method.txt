@@ -1,0 +1,22 @@
+﻿Name: build
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::build
+----
+Syntax: query::build($type)
+----
+Description: Builds the different types of SQL queries
+This uses the SQL class to build stuff.
+----
+Text: 
+----
+Parameters: - name: $type
+  type: string
+  text: (select, update, insert)
+----
+Returntype: string
+----
+Return: The final query

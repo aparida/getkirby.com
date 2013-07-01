@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: languages::__toString
+----
+Syntax: languages::__toString()
+----
+Description: Converts the current object to a string
+This will return all urls for all languages
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,23 @@
+﻿Name: __call
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::__call
+----
+Syntax: collection::__call($key, $args)
+----
+Description: Magic getter method
+----
+Text: The magic getter functions are used to provide
+an addtional way to get elements from the array.
+I.e. `$mycollection->myvalue()`
+----
+Parameters: - name: $key
+  type: string
+  text: the name of the key, which should be returned
+----
+Returntype: mixed
+----
+Return: Whatever is stored for that key

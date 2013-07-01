@@ -1,0 +1,21 @@
+﻿Name: created
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cache::created
+----
+Syntax: cache::created($key)
+----
+Description: Checks when the cache value has been created
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: int
+----
+Return: UNIX timestamp

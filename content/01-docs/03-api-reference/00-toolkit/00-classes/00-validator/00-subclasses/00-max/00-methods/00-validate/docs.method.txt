@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: max::validate
+----
+Syntax: max::validate()
+----
+Description: 
+----
+Text: 

@@ -1,0 +1,21 @@
+﻿Name: primaryKey
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::primaryKey
+----
+Syntax: model::primaryKey($value = null)
+----
+Description: Returns/sets the value of the primary key
+----
+Text: 
+----
+Parameters: - name: $value
+  type: mixed
+  text: Optional argument to use this as setter
+----
+Returntype: mixed
+----
+Return: 

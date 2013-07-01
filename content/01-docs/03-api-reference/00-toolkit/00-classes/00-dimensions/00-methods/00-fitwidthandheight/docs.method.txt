@@ -1,0 +1,25 @@
+﻿Name: fitWidthAndHeight
+----
+Visibility: public
+----
+Static: no
+----
+Title: dimensions::fitWidthAndHeight
+----
+Syntax: dimensions::fitWidthAndHeight($width, $height, $force = false)
+----
+Description: Recalculates the dimensions by the width and height
+----
+Text: 
+----
+Parameters: - name: $width
+  type: int
+  text: the max height
+
+- name: $height
+  type: int
+  text: the max width
+----
+Returntype: object
+----
+Return: 

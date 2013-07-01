@@ -1,0 +1,19 @@
+﻿Name: focalLength
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::focalLength
+----
+Syntax: exif::focalLength()
+----
+Description: Returns the focal length
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

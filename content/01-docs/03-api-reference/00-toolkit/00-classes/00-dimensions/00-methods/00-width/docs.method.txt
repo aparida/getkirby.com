@@ -1,0 +1,19 @@
+﻿Name: width
+----
+Visibility: public
+----
+Static: no
+----
+Title: dimensions::width
+----
+Syntax: dimensions::width()
+----
+Description: Returns the width
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: referer
+----
+Visibility: public
+----
+Static: yes
+----
+Title: visitor::referer
+----
+Syntax: visitor::referer()
+----
+Description: Nobody can remember if it is written with on or two r
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

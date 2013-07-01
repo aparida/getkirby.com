@@ -1,0 +1,21 @@
+﻿Name: hash
+----
+Visibility: public
+----
+Static: yes
+----
+Title: password::hash
+----
+Syntax: password::hash($plaintext)
+----
+Description: Generates a salted hash for a plaintext password
+----
+Text: 
+----
+Parameters: - name: $plaintext
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

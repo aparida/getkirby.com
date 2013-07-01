@@ -1,0 +1,25 @@
+﻿Name: delete
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::delete
+----
+Syntax: db::delete($table, $where = null)
+----
+Description: Shortcut for deleting rows in a table
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: The name of the table, which should be queried
+
+- name: $where
+  type: mixed
+  text: An optional where clause
+----
+Returntype: boolean
+----
+Return: 

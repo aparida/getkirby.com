@@ -1,0 +1,17 @@
+﻿Name: start
+----
+Visibility: public
+----
+Static: no
+----
+Title: autoloader::start
+----
+Syntax: autoloader::start()
+----
+Description: Registers the autoloader function
+and starts autoloading all available classes within $this->root
+It also makes sure to create aliases for classes if wanted and autoload those as well.
+----
+Text: 
+----
+Parameters: 

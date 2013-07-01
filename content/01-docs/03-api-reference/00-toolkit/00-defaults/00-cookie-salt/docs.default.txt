@@ -1,0 +1,5 @@
+﻿Title: cookie.salt
+----
+Value: <pre>secretTokenForCookieHashes</pre>
+----
+Description: secret key

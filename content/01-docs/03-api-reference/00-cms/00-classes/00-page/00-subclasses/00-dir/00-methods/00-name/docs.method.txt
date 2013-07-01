@@ -1,0 +1,19 @@
+﻿Name: name
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::name
+----
+Syntax: dir::name()
+----
+Description: Returns the base directory name
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

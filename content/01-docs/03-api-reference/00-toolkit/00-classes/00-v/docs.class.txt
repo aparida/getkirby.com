@@ -1,0 +1,5 @@
+﻿Title: V
+----
+Class: V
+----
+Description: Validation shortcuts

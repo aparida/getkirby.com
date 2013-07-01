@@ -1,0 +1,15 @@
+﻿Name: configure
+----
+Visibility: protected
+----
+Static: no
+----
+Title: site::configure
+----
+Syntax: site::configure($params = array())
+----
+Description: Loads all config files
+----
+Text: 
+----
+Parameters: 

@@ -1,0 +1,8 @@
+﻿Title: visitor.banned
+----
+Value: <pre>Array
+(
+)
+</pre>
+----
+Description: banned visitor ips

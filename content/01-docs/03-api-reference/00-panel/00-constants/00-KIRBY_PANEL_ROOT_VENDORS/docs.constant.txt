@@ -1,0 +1,3 @@
+Description: 
+
+The location of default vendors, which are being used by the Panel. Each module can have its own vendor libraries. 

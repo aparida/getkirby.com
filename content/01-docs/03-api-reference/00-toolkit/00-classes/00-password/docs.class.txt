@@ -1,0 +1,5 @@
+﻿Title: Password
+----
+Class: Password
+----
+Description: Password encryption class

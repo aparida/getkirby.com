@@ -1,0 +1,25 @@
+﻿Name: param
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::param
+----
+Syntax: uri::param($key = null, $default = null)
+----
+Description: Smart getter for the Params object
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: null: get the entire params object, string: get a part of the params object by key
+
+- name: $default
+  type: mixed
+  text: null: no default. string: a default value if nothing is found for this key
+----
+Returntype: string
+----
+Return: 

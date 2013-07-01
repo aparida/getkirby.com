@@ -1,0 +1,19 @@
+﻿Name: isAvailable
+----
+Visibility: public
+----
+Static: no
+----
+Title: cache::isAvailable
+----
+Syntax: cache::isAvailable()
+----
+Description: Checks if there is a valid cache file available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

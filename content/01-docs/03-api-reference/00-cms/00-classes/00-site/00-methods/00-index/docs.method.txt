@@ -1,0 +1,20 @@
+﻿Name: index
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::index
+----
+Syntax: site::index()
+----
+Description: Creates a full indexed array with all pages, subpages, subsubpages, etc. of the site
+This is perfect to search for something on all pages. It's therefor used by the search plugin
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

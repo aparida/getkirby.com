@@ -1,0 +1,6 @@
+﻿Title: Returns the latitude and longitude values
+for exif location data if available
+----
+Class: Location
+----
+Description: 

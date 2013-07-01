@@ -1,0 +1,19 @@
+﻿Name: countInvisible
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::countInvisible
+----
+Syntax: pages::countInvisible()
+----
+Description: Counts invisible pages in this set
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

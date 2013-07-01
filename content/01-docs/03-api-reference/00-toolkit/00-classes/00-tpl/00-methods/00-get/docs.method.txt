@@ -1,0 +1,25 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: tpl::get
+----
+Syntax: tpl::get($key = null, $default = null)
+----
+Description: Returns a template variable by key
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $default
+  type: string
+  text:
+----
+Returntype: mixed
+----
+Return: 

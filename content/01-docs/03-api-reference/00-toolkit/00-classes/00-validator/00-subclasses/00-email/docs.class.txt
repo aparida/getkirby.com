@@ -1,0 +1,5 @@
+﻿Title: Email Validator
+----
+Class: Email
+----
+Description: Checks for a valid email address

@@ -1,0 +1,19 @@
+﻿Name: isIgnored
+----
+Visibility: public
+----
+Static: no
+----
+Title: cache::isIgnored
+----
+Syntax: cache::isIgnored()
+----
+Description: Checks if the url or template should be ignored
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

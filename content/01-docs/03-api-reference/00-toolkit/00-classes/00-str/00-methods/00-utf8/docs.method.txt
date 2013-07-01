@@ -1,0 +1,21 @@
+﻿Name: utf8
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::utf8
+----
+Syntax: str::utf8($string)
+----
+Description: Converts a string to UTF-8
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

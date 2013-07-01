@@ -1,0 +1,21 @@
+﻿Name: modified
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::modified
+----
+Syntax: site::modified()
+----
+Description: Returns the last modified date (unix timestamp)
+This will go through all subfolders of the content directory
+and check for modifications unless you set cache.autoupdate to false.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

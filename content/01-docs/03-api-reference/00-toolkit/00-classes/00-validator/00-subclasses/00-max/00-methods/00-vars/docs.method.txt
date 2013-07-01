@@ -1,0 +1,13 @@
+﻿Name: vars
+----
+Visibility: public
+----
+Static: no
+----
+Title: max::vars
+----
+Syntax: max::vars()
+----
+Description: 
+----
+Text: 

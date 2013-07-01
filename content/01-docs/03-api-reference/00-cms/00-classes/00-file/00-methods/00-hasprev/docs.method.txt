@@ -1,0 +1,19 @@
+﻿Name: hasPrev
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::hasPrev
+----
+Syntax: file::hasPrev()
+----
+Description: Checks if there is a previous file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

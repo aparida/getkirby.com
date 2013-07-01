@@ -1,0 +1,19 @@
+﻿Name: shuffle
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::shuffle
+----
+Syntax: collection::shuffle()
+----
+Description: Shuffle all elements in the array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: a new shuffled collection

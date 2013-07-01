@@ -1,0 +1,21 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: no
+----
+Title: driver::remove
+----
+Syntax: driver::remove($key)
+----
+Description: Remove an item from the cache
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

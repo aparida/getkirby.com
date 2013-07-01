@@ -1,0 +1,19 @@
+﻿Name: hasNext
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::hasNext
+----
+Syntax: file::hasNext()
+----
+Description: Checks if there is a next file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

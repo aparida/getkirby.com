@@ -1,0 +1,19 @@
+﻿Name: toHtml
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::toHtml
+----
+Syntax: site::toHtml($echo = false)
+----
+Description: Converts the current page to html
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

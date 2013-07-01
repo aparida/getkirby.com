@@ -1,0 +1,21 @@
+﻿Name: update
+----
+Visibility: public
+----
+Static: yes
+----
+Title: sql::update
+----
+Syntax: sql::update($params = array())
+----
+Description: Builds an update clause
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: List of parameters for the update clause. See defaults for more info
+----
+Returntype: string
+----
+Return: 

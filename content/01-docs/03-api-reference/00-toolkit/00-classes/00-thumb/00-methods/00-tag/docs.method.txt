@@ -1,0 +1,21 @@
+﻿Name: tag
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::tag
+----
+Syntax: thumb::tag($attr = array())
+----
+Description: Generates and returns the full html tag for the thumbnail
+----
+Text: 
+----
+Parameters: - name: $attr
+  type: array
+  text: An optional array of attributes, which should be added to the image tag
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,25 @@
+﻿Name: attr
+----
+Visibility: protected
+----
+Static: no
+----
+Title: tag::attr
+----
+Syntax: tag::attr($key = null, $default = null)
+----
+Description: Returns either a single attribute or all attributes
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: An optional key of the attribute. If null, the entire list of attributes will be returned
+
+- name: $default
+  type: mixed
+  text: An optional default value if the attribute is empty or not existing.
+----
+Returntype: string
+----
+Return: The value of the attribute

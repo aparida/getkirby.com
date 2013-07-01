@@ -1,0 +1,33 @@
+﻿Name: all
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::all
+----
+Syntax: v::all($data, $rules = array(), $messages = array(), $attributes = array())
+----
+Description: Runs a full validation for an entire set of data and rules
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text: 
+
+- name: $rules
+  type: array
+  text: specify a set of rules for validation
+
+- name: $messages
+  type: array
+  text: Overwrite default validation messages for each method here
+
+- name: $attributes
+  type: array
+  text: Overwrite default attribute names
+----
+Returntype: object
+----
+Return: Validation

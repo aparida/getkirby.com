@@ -1,0 +1,37 @@
+﻿Name: write
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::write
+----
+Syntax: f::write($file, $content, $append = false)
+----
+Description: Creates a new file
+----
+Text: <pre><code>
+f::write('test.txt', 'hello');
+// creates a new text file with hello as content
+
+// create a new file
+f::write('text.txt', array('test' => 'hello'));
+// creates a new file and encodes the array as json
+
+</code></pre>
+----
+Parameters: - name: $file
+  type: string
+  text: The path for the new file
+
+- name: $content
+  type: mixed
+  text: Either a string or an array. Arrays will be converted to JSON.
+
+- name: $append
+  type: boolean
+  text: true: append the content to an exisiting file if available. false: overwrite.
+----
+Returntype: boolean
+----
+Return: 

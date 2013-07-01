@@ -1,0 +1,19 @@
+﻿Name: firstPageURL
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::firstPageURL
+----
+Syntax: pagination::firstPageURL()
+----
+Description: Returns the url for the first page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

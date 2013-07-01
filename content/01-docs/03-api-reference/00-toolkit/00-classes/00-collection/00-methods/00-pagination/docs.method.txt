@@ -1,0 +1,19 @@
+﻿Name: pagination
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::pagination
+----
+Syntax: collection::pagination()
+----
+Description: Get the previously added pagination object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

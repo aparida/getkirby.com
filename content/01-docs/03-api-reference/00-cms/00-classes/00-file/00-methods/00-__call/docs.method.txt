@@ -1,0 +1,22 @@
+﻿Name: __call
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::__call
+----
+Syntax: file::__call($key, $arguments = null)
+----
+Description: Enables getter function calls for custom fields
+i.e. $file->title()
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: this is auto-filled by PHP with the called method name
+----
+Returntype: mixed
+----
+Return: 

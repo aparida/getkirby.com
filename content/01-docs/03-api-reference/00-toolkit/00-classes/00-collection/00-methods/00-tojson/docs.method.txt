@@ -1,0 +1,19 @@
+﻿Name: toJSON
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::toJSON
+----
+Syntax: collection::toJSON()
+----
+Description: Converts the current object into a json string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

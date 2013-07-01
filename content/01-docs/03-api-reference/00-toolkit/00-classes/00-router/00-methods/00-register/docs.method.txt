@@ -1,0 +1,25 @@
+﻿Name: register
+----
+Visibility: public
+----
+Static: yes
+----
+Title: router::register
+----
+Syntax: router::register($methods, $pattern, $action)
+----
+Description: Adds a new route
+----
+Text: 
+----
+Parameters: - name: $methods
+  type: string|array
+  text: GET, POST, PUT, DELETE
+
+- name: $uri
+  type: string
+  text: The url pattern, which should be matched
+
+- name: $action
+  type: mixed
+  text: An array of parameters for this route

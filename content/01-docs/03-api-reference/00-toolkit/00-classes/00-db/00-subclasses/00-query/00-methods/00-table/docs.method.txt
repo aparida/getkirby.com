@@ -1,0 +1,21 @@
+﻿Name: table
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::table
+----
+Syntax: query::table($table)
+----
+Description: Sets the name of the table, which should be queried
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

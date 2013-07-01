@@ -1,0 +1,22 @@
+﻿Name: title
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::title
+----
+Syntax: page::title()
+----
+Description: Returns the title of the page
+The title is being fetched from the text file
+If no title field exists in the text fiel or
+the title is empty, the uid will be used as title.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

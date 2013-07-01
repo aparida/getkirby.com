@@ -1,0 +1,19 @@
+﻿Name: toHtml
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toHtml
+----
+Syntax: variable::toHtml()
+----
+Description: Converts the value to secure HTML
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

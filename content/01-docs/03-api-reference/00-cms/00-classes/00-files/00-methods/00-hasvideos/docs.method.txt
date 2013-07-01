@@ -1,0 +1,19 @@
+﻿Name: hasVideos
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasVideos
+----
+Syntax: files::hasVideos()
+----
+Description: Checks if this collection contains video files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

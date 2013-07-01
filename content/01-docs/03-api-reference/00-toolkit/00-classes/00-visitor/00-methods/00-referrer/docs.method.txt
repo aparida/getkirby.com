@@ -1,0 +1,19 @@
+﻿Name: referrer
+----
+Visibility: public
+----
+Static: yes
+----
+Title: visitor::referrer
+----
+Syntax: visitor::referrer()
+----
+Description: Returns the referrer if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

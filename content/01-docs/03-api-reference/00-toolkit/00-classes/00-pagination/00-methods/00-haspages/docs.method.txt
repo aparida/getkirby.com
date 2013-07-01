@@ -1,0 +1,20 @@
+﻿Name: hasPages
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::hasPages
+----
+Syntax: pagination::hasPages()
+----
+Description: Checks if multiple pages are needed
+or if the collection can be displayed on a single page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

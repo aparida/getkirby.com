@@ -1,0 +1,19 @@
+﻿Name: isEnabled
+----
+Visibility: public
+----
+Static: no
+----
+Title: cache::isEnabled
+----
+Syntax: cache::isEnabled()
+----
+Description: Checks if the data cache is enabled
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

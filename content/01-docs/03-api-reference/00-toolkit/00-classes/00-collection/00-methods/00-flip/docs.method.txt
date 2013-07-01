@@ -1,0 +1,19 @@
+﻿Name: flip
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::flip
+----
+Syntax: collection::flip()
+----
+Description: Returns the array in reverse order
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: a new collection in reverse order

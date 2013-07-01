@@ -1,0 +1,25 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::remove
+----
+Syntax: f::remove($file)
+----
+Description: Deletes a file
+----
+Text: <pre><code>
+$remove = f::remove('test.txt');
+if($remove) echo 'The file has been removed';
+
+</code></pre>
+----
+Parameters: - name: $file
+  type: string
+  text: The path for the file
+----
+Returntype: boolean
+----
+Return: 

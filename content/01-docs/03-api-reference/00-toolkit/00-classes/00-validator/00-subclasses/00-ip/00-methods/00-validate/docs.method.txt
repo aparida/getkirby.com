@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: ip::validate
+----
+Syntax: ip::validate()
+----
+Description: 
+----
+Text: 

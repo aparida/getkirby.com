@@ -1,0 +1,21 @@
+﻿Name: equals
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::equals
+----
+Syntax: page::equals($page)
+----
+Description: Compares this page with a given page object
+----
+Text: 
+----
+Parameters: - name: $page
+  type: object
+  text: A Page object to compare
+----
+Returntype: boolean
+----
+Return: 

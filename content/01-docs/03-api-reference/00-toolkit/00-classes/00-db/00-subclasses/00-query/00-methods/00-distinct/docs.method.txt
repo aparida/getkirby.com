@@ -1,0 +1,21 @@
+﻿Name: distinct
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::distinct
+----
+Syntax: query::distinct($distinct = true)
+----
+Description: Enables distinct select clauses.
+----
+Text: 
+----
+Parameters: - name: $distinct
+  type: boolean
+  text:
+----
+Returntype: object
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: method
+----
+Visibility: public
+----
+Static: no
+----
+Title: route::method
+----
+Syntax: route::method()
+----
+Description: Returns the method
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

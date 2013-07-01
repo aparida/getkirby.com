@@ -1,0 +1,19 @@
+﻿Name: created
+----
+Visibility: public
+----
+Static: no
+----
+Title: value::created
+----
+Syntax: value::created()
+----
+Description: Returns the creation date as UNIX timestamp
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

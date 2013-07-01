@@ -1,0 +1,41 @@
+﻿Name: forever
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cookie::forever
+----
+Syntax: cookie::forever($key, $value, $path = '/', $domain = null, $secure = false)
+----
+Description: Stores a cookie forever
+----
+Text: <pre><code>
+cookie::forever('mycookie', 'hello');
+// never expires
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: The name of the cookie
+
+- name: $value
+  type: string
+  text: The cookie content
+
+- name: $path
+  type: string
+  text: The path on the server to set the cookie for
+
+- name: $domain
+  type: string
+  text: the domain
+
+- name: $secure
+  type: boolean
+  text: only sets the cookie over https
+----
+Returntype: boolean
+----
+Return: true: the cookie has been created, false: cookie creation failed

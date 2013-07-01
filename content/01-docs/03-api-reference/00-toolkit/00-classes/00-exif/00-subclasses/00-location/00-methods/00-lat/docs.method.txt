@@ -1,0 +1,19 @@
+﻿Name: lat
+----
+Visibility: public
+----
+Static: no
+----
+Title: location::lat
+----
+Syntax: location::lat()
+----
+Description: Returns the latitude
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: float
+----
+Return: 

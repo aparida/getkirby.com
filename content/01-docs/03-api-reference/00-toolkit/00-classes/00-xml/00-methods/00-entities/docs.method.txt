@@ -1,0 +1,19 @@
+﻿Name: entities
+----
+Visibility: public
+----
+Static: yes
+----
+Title: xml::entities
+----
+Syntax: xml::entities()
+----
+Description: Returns a translation table of xml entities to html entities
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

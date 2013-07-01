@@ -1,0 +1,15 @@
+﻿Name: __get
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::__get
+----
+Syntax: content::__get($key)
+----
+Description: Legacy code to implement content->variables;
+----
+Text: 
+----
+Parameters: 

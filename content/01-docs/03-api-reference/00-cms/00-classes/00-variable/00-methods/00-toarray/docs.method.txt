@@ -1,0 +1,19 @@
+﻿Name: toArray
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toArray
+----
+Syntax: variable::toArray()
+----
+Description: Parses the value with the yaml parser to convert it to an array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

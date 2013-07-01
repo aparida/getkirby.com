@@ -1,0 +1,13 @@
+﻿Name: delete
+----
+Visibility: public
+----
+Static: yes
+----
+Title: router::delete
+----
+Syntax: router::delete($pattern, $action)
+----
+Description: 
+----
+Text: 

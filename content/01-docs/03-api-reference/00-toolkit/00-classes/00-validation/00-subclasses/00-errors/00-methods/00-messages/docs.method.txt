@@ -1,0 +1,20 @@
+﻿Name: messages
+----
+Visibility: public
+----
+Static: no
+----
+Title: errors::messages
+----
+Syntax: errors::messages()
+----
+Description: Returns all available error
+messages for the attribute
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: $this

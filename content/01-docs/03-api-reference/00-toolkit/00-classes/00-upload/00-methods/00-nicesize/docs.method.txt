@@ -1,0 +1,19 @@
+﻿Name: niceSize
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::niceSize
+----
+Syntax: upload::niceSize()
+----
+Description: Returns a human-readable version of the upload size
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,5 @@
+﻿Title: Autoloader
+----
+Class: Autoloader
+----
+Description: Simple helper to auto-load classes and create aliases for them if wanted

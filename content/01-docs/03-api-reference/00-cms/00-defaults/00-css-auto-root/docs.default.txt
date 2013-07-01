@@ -1,0 +1,8 @@
+﻿Title: css.auto.root
+----
+Value: <pre>KIRBY_INDEX_ROOT/assets/css/templates</pre>
+----
+Description: Define the root for the folder
+where auto-loadable css files should be located
+Auto-loadable files have to be named as the template
+they are loaded for.

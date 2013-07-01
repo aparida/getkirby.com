@@ -1,0 +1,33 @@
+title: Kirby Panel
+
+----
+
+text: 
+
+The Kirby Panel is a web-based interface for (link: cms text: Kirby CMS). You can install it optionally to manage pages via the interface instead of FTP. It is based on the (link: app text: Kirby App Framework).
+
+## Download
+
+The source code for the Kirby Panel can be downloaded on Github
+<https://github.com/getkirby/panel>
+
+## Buy
+
+You can purchase a license key for the Kirby Panel at 
+<http://getkirby.com/buy>
+
+## Contribute
+
+### Feature requests & bug reports
+
+You can submit all your feature request and bug reports on Github.
+<https://github.com/getkirby/panel/issues>
+
+### Coding styles
+
+Please read the (link: styleguide text: styleguide) to learn more about coding styles you should stick to, when writing code for the Kirby Panel.
+
+## License
+
+The Kirby Panel has its own commercial license. 
+<http://getkirby.com/license>

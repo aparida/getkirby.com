@@ -1,0 +1,33 @@
+title: Kirby CMS
+
+----
+
+text: 
+
+This is the core version of Kirby's file-based CMS. It runs on the (link: toolkit text: Kirby Toolkit) and can be extended with the (link: panel text: Kirby Panel) to get a nice web interface to administrate pages.  
+
+## Download
+
+The source code for the Kirby CMS can be downloaded on Github
+<https://github.com/getkirby/cms>
+
+## Buy
+
+You can purchase a license key for the Kirby CMS at 
+<http://getkirby.com/buy>
+
+## Contribute
+
+### Feature requests & bug reports
+
+You can submit all your feature request and bug reports on Github.
+<https://github.com/getkirby/cms/issues>
+
+### Coding styles
+
+Please read the (link: styleguide text: styleguide) to learn more about coding styles you should stick to, when writing code for the Kirby CMS.
+
+## License
+
+The Kirby CMS has its own commercial license. 
+<http://getkirby.com/license>

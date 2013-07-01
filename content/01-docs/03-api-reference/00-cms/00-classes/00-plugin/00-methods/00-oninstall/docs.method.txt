@@ -1,0 +1,21 @@
+﻿Name: onInstall
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugin::onInstall
+----
+Syntax: plugin::onInstall()
+----
+Description: Is being triggered within the constructor
+and can be used in child classes to do something
+as soon as the plugin is being loaded/installed
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: false
+----
+Return: 

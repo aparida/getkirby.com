@@ -1,0 +1,29 @@
+﻿Name: loadFile
+----
+Visibility: public
+----
+Static: yes
+----
+Title: tpl::loadFile
+----
+Syntax: tpl::loadFile($file, $data = array(), $return = false)
+----
+Description: Loads a specific template file and returns its output
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: The full root to the template file
+
+- name: $vars
+  type: string
+  text: Additional template vars to pass to the template
+
+- name: $return
+  type: boolean
+  text: true: html will be returned, false: html will be echoed directly
+----
+Returntype: string
+----
+Return: 

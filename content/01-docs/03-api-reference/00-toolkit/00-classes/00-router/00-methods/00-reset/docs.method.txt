@@ -1,0 +1,15 @@
+﻿Name: reset
+----
+Visibility: public
+----
+Static: yes
+----
+Title: router::reset
+----
+Syntax: router::reset()
+----
+Description: Resets all registered routes
+----
+Text: 
+----
+Parameters: 

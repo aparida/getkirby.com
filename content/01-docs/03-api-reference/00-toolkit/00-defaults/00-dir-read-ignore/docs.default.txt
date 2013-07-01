@@ -1,0 +1,12 @@
+﻿Title: dir.read.ignore
+----
+Value: <pre>Array
+(
+    [0] =&gt; .
+    [1] =&gt; ..
+    [2] =&gt; .DS_Store
+    [3] =&gt; .gitignore
+)
+</pre>
+----
+Description: items/files, which should be ignored while scanning directories

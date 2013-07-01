@@ -1,0 +1,15 @@
+﻿Name: check
+----
+Visibility: protected
+----
+Static: no
+----
+Title: gdlib::check
+----
+Syntax: gdlib::check()
+----
+Description: Check if the Creator is runnable
+----
+Text: 
+----
+Parameters: 

@@ -1,0 +1,15 @@
+﻿Name: check
+----
+Visibility: protected
+----
+Static: no
+----
+Title: creator::check
+----
+Syntax: creator::check()
+----
+Description: Checks if all requirements for the creator are met
+----
+Text: 
+----
+Parameters: 

@@ -1,0 +1,21 @@
+﻿Name: wildcards
+----
+Visibility: protected
+----
+Static: yes
+----
+Title: router::wildcards
+----
+Syntax: router::wildcards($pattern)
+----
+Description: Translate route URI wildcards into regular expressions.
+----
+Text: 
+----
+Parameters: - name: $uri
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

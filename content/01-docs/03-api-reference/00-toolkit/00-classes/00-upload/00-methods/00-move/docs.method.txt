@@ -1,0 +1,19 @@
+﻿Name: move
+----
+Visibility: protected
+----
+Static: no
+----
+Title: upload::move
+----
+Syntax: upload::move()
+----
+Description: Moves the uploaded file to the destination
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,20 @@
+﻿Name: update
+----
+Visibility: protected
+----
+Static: no
+----
+Title: database::update
+----
+Syntax: database::update()
+----
+Description: Define this function in your model
+to update the model
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,41 @@
+﻿Name: column
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::column
+----
+Syntax: db::column($table, $column, $where = null, $order = null, $offset, $limit = null)
+----
+Description: Returns only values from a single column
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: The name of the table, which should be queried
+
+- name: $column
+  type: mixed
+  text: The name of the column to select from
+
+- name: $where
+  type: mixed
+  text: The where clause. Can be a string or an array
+
+- name: $order
+  type: mixed
+  text: 
+
+- name: $offset
+  type: int
+  text: 
+
+- name: $limit
+  type: int
+  text:
+----
+Returntype: mixed
+----
+Return: 

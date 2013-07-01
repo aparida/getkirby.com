@@ -1,0 +1,24 @@
+﻿Name: ratio
+----
+Visibility: public
+----
+Static: no
+----
+Title: dimensions::ratio
+----
+Syntax: dimensions::ratio()
+----
+Description: Calculates and returns the ratio
+----
+Text: <pre><code>
+$dimensions = new Dimensions(1200, 768);
+echo $dimensions->ratio();
+// output: 1.5625
+
+</code></pre>
+----
+Parameters: 
+----
+Returntype: float
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: rangeEnd
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::rangeEnd
+----
+Syntax: pagination::rangeEnd()
+----
+Description: Returns the last page of the created range
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

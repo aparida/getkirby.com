@@ -1,0 +1,29 @@
+﻿Name: load
+----
+Visibility: public
+----
+Static: yes
+----
+Title: tpl::load
+----
+Syntax: tpl::load($template = 'default', $data = array(), $return = false)
+----
+Description: Loads a template and returns its output
+----
+Text: 
+----
+Parameters: - name: $template
+  type: string
+  text: The name of the template. The template must be located within the template folder (root.templates)
+
+- name: $vars
+  type: string
+  text: Additional template vars to pass to the template
+
+- name: $return
+  type: boolean
+  text: true: html will be returned, false: html will be echoed directly
+----
+Returntype: string
+----
+Return: 

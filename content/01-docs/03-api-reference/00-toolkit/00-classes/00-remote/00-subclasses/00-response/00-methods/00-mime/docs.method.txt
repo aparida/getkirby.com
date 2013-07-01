@@ -1,0 +1,19 @@
+﻿Name: mime
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::mime
+----
+Syntax: response::mime()
+----
+Description: Returns the mime type of the response
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

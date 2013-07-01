@@ -1,0 +1,19 @@
+﻿Name: extension
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::extension
+----
+Syntax: uri::extension()
+----
+Description: Returns the file extension (i.e. html, js, php, etc)
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

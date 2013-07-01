@@ -1,0 +1,7 @@
+﻿Title: markdown.extra
+----
+Value: <pre>false</pre>
+----
+Description: Markdown Extra is available as an alternative
+for the standard Markdown parser.
+You can enable it with this option

@@ -1,0 +1,19 @@
+﻿Name: keys
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::keys
+----
+Syntax: collection::keys()
+----
+Description: Returns an array of all keys from the array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

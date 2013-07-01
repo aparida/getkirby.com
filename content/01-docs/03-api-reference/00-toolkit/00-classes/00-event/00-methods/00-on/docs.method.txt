@@ -1,0 +1,21 @@
+﻿Name: on
+----
+Visibility: public
+----
+Static: yes
+----
+Title: event::on
+----
+Syntax: event::on($event, $callback)
+----
+Description: Registers a new event.
+----
+Text: 
+----
+Parameters: - name: $events
+  type: string
+  text: The name of the event
+
+- name: $callback
+  type: func
+  text: The callback function

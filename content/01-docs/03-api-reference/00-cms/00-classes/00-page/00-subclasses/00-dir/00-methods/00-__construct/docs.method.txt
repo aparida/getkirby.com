@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::__construct
+----
+Syntax: dir::__construct($root)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $root
+  type: string
+  text: The full root of the directory. Normally passed by the parent page object

@@ -1,0 +1,19 @@
+﻿Name: toHtml
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::toHtml
+----
+Syntax: page::toHtml()
+----
+Description: Returns the html for the current page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

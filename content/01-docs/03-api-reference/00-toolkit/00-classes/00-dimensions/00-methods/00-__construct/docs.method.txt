@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: dimensions::__construct
+----
+Syntax: dimensions::__construct($width, $height)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $width
+  type: int
+  text: 
+
+- name: $height
+  type: int
+  text:

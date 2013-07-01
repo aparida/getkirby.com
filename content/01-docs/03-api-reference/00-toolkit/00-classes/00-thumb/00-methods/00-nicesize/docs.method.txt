@@ -1,0 +1,19 @@
+﻿Name: niceSize
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::niceSize
+----
+Syntax: thumb::niceSize()
+----
+Description: Returns the human readable file size of the generated thumb
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

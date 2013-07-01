@@ -1,0 +1,20 @@
+﻿Name: toJson
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toJson
+----
+Syntax: variable::toJson()
+----
+Description: Uses the yaml parser to convert the value to an array first
+and returns the entire thing as json afterwards
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

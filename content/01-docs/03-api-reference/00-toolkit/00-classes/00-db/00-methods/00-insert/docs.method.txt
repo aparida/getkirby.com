@@ -1,0 +1,25 @@
+﻿Name: insert
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::insert
+----
+Syntax: db::insert($table, $values)
+----
+Description: Shortcut for inserting a new row into a table
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: The name of the table, which should be queried
+
+- name: $values
+  type: string
+  text: An array of values, which should be inserted
+----
+Returntype: boolean
+----
+Return: 

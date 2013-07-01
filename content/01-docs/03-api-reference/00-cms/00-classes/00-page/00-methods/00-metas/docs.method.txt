@@ -1,0 +1,20 @@
+﻿Name: metas
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::metas
+----
+Syntax: page::metas()
+----
+Description: Returns all meta files stored with this page
+Meta files are text files connected to images, videos, etc.
+----
+Text: to provide meta data for those files.
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

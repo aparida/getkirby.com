@@ -1,0 +1,21 @@
+﻿Name: file
+----
+Visibility: protected
+----
+Static: no
+----
+Title: file::file
+----
+Syntax: file::file($key)
+----
+Description: Returns the full path to a file for a given key
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

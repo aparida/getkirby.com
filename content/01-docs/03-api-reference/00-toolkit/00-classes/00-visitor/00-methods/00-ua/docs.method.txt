@@ -1,0 +1,19 @@
+﻿Name: ua
+----
+Visibility: public
+----
+Static: yes
+----
+Title: visitor::ua
+----
+Syntax: visitor::ua()
+----
+Description: Returns the user agent string of the current visitor
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

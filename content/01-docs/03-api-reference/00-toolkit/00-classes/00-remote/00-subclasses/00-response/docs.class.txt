@@ -1,0 +1,6 @@
+﻿Title: Remote Response
+----
+Class: Response
+----
+Description: Contains all info about returned data
+from a sent request

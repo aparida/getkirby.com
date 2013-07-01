@@ -1,0 +1,20 @@
+﻿Name: insert
+----
+Visibility: protected
+----
+Static: no
+----
+Title: model::insert
+----
+Syntax: model::insert()
+----
+Description: Define this function in your model
+to insert the model for the first time
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

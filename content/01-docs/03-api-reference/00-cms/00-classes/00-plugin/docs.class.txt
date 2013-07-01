@@ -1,0 +1,7 @@
+﻿Title: Plugin
+----
+Class: Plugin
+----
+Description: Represents a single Kirby plugin
+New plugins should all extend this class to gain
+handy methods like clean initializing and loading of sub files.

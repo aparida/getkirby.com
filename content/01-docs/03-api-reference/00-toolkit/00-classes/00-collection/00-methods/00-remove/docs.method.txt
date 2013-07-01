@@ -1,0 +1,21 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::remove
+----
+Syntax: collection::remove($key = null)
+----
+Description: Removes an element from the current collection
+----
+Text: It's an alternative for unset($object->element)
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: returns the current object to make it chainable

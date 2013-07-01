@@ -1,0 +1,19 @@
+﻿Name: isSite
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::isSite
+----
+Syntax: site::isSite()
+----
+Description: Checks if this page object is the main site
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: true
+----
+Return: 

@@ -1,0 +1,25 @@
+﻿Name: canonical
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::canonical
+----
+Syntax: html::canonical($href, $attr = array())
+----
+Description: Generates a canonical link tag
+----
+Text: 
+----
+Parameters: - name: $href
+  type: string
+  text: The canonical url of the current page
+
+- name: $attr
+  type: array
+  text: Additional attributes for the link tag
+----
+Returntype: string
+----
+Return: the generated html

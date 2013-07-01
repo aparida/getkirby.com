@@ -1,0 +1,19 @@
+﻿Name: translatedURL
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::translatedURL
+----
+Syntax: page::translatedURL()
+----
+Description: Returns the full translated URL
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

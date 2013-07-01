@@ -1,0 +1,20 @@
+﻿Name: dirname
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::dirname
+----
+Syntax: page::dirname()
+----
+Description: Returns the original directory name
+where all the data of the page is stored.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

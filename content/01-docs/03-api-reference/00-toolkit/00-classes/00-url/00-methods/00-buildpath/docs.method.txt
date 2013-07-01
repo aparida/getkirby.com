@@ -1,0 +1,21 @@
+﻿Name: buildPath
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::buildPath
+----
+Syntax: url::buildPath($data)
+----
+Description: Builds a path
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text:
+----
+Returntype: string
+----
+Return: 

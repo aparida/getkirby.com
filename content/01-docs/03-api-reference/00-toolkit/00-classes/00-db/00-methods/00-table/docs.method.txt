@@ -1,0 +1,21 @@
+﻿Name: table
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::table
+----
+Syntax: db::table($table)
+----
+Description: Sets the current table, which should be queried
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: Returns a DBQuery object, which can be used to build a full query for that table

@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::__construct
+----
+Syntax: site::__construct($params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: Additional options for the site. Can be used to overwrite config vars

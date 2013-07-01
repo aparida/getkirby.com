@@ -1,0 +1,15 @@
+﻿Name: notFound
+----
+Visibility: 
+----
+Static: 
+----
+Title: notFound
+----
+Syntax: notFound()
+----
+Description: Redirects the user to the error page
+----
+Text: 
+----
+Parameters: 

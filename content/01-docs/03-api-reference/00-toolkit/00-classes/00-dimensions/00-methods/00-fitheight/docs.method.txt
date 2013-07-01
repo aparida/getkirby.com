@@ -1,0 +1,36 @@
+﻿Name: fitHeight
+----
+Visibility: public
+----
+Static: no
+----
+Title: dimensions::fitHeight
+----
+Syntax: dimensions::fitHeight($fit, $force = false)
+----
+Description: Recalculates the width and height
+to fit the given height
+----
+Text: <pre><code>
+$dimensions = new Dimensions(1200, 768);
+$dimensions->fitHeight(500);
+
+echo $dimensions->width();
+// output: 781
+
+echo $dimensions->height();
+// output: 500
+
+</code></pre>
+----
+Parameters: - name: $height
+  type: int
+  text: the max height
+
+- name: $force
+  type: boolean
+  text: If true, the dimensions will be upscaled to fit the height if smaller
+----
+Returntype: object
+----
+Return: returns this object with recalculated dimensions

@@ -1,0 +1,29 @@
+﻿Name: extension
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::extension
+----
+Syntax: f::extension($file, $extension = false)
+----
+Description: Gets the extension of a file
+----
+Text: <pre><code>
+$extension = f::extension('test.txt');
+// extension is txt
+
+</code></pre>
+----
+Parameters: - name: $file
+  type: string
+  text: The filename or path
+
+- name: $extension
+  type: string
+  text: Set an optional extension to overwrite the current one
+----
+Returntype: string
+----
+Return: 

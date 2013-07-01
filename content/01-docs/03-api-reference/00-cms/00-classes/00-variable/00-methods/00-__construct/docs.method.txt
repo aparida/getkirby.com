@@ -1,0 +1,25 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::__construct
+----
+Syntax: variable::__construct($key, $value, $file = null)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: The name of the key for this variable
+
+- name: $value
+  type: mixed
+  text: The value for this variable
+
+- name: $file
+  type: object
+  text: The parent ContentFile object

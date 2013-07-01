@@ -1,0 +1,15 @@
+﻿Name: removeValue
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::removeValue
+----
+Syntax: a::removeValue($array, $search)
+----
+Description: Alternative for a::remove with $key set to false
+----
+Text: 
+----
+Parameters: 

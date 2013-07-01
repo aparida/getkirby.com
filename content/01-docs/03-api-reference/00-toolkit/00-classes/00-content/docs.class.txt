@@ -1,0 +1,6 @@
+﻿Title: Content
+----
+Class: Content
+----
+Description: This class handles output buffering,
+content loading and setting content type headers.

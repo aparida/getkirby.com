@@ -1,0 +1,7 @@
+﻿Title: Kirbytext
+----
+Class: Kirbytext
+----
+Description: Kirbytext is Kirby's extended version of Markdown
+It offers a lot of additional tags to simplify
+editing in content file.

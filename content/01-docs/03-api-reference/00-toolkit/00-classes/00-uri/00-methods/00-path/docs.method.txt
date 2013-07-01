@@ -1,0 +1,25 @@
+﻿Name: path
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::path
+----
+Syntax: uri::path($key = null, $default = null)
+----
+Description: Smart getter for the Path object
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: null: get the entire path object, int: get a part of the path
+
+- name: $default
+  type: mixed
+  text: null: no default. string: a default value if nothing is found for this key
+----
+Returntype: string
+----
+Return: 

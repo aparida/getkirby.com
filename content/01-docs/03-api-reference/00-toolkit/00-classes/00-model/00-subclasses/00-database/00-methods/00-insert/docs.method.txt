@@ -1,0 +1,19 @@
+﻿Name: insert
+----
+Visibility: protected
+----
+Static: no
+----
+Title: database::insert
+----
+Syntax: database::insert()
+----
+Description: Inserts a new row to the table
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

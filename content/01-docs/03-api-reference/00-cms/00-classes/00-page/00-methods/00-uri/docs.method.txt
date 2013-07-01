@@ -1,0 +1,22 @@
+﻿Name: uri
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::uri
+----
+Syntax: page::uri($uri = null)
+----
+Description: Setter and getter for the uri
+The uri is the page's url path without the base url
+----
+Text: 
+----
+Parameters: - name: $uri
+  type: string
+  text: this is used to set the uri in context with other pages
+----
+Returntype: string
+----
+Return: i.e. projects/web/project-a

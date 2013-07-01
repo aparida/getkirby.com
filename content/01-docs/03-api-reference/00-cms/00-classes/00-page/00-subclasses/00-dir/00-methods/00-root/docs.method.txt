@@ -1,0 +1,19 @@
+﻿Name: root
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::root
+----
+Syntax: dir::root()
+----
+Description: Returns the full directory path
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

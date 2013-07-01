@@ -1,0 +1,6 @@
+﻿Title: Timer
+----
+Class: Timer
+----
+Description: A handy little timer class to do some
+code profiling

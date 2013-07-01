@@ -1,0 +1,5 @@
+﻿Title: toolkit.min.version
+----
+Value: <pre>2</pre>
+----
+Description: Make sure the toolkit is up to date

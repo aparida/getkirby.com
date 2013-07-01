@@ -1,0 +1,15 @@
+﻿Name: show
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::show
+----
+Syntax: site::show()
+----
+Description: Renders the page as HTML and echos the result
+----
+Text: 
+----
+Parameters: 

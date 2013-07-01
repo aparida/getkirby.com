@@ -1,0 +1,35 @@
+﻿Name: first
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::first
+----
+Syntax: a::first($array)
+----
+Description: Returns the first element of an array
+----
+Text: I always have to lookup the names of that function
+so I decided to make this shortcut which is
+easier to remember.
+
+<pre><code>
+$array = array(
+  'cat',
+  'dog',
+  'bird',
+);
+
+$first = a::first($array);
+// first: 'cat'
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+----
+Returntype: mixed
+----
+Return: The first element

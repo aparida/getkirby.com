@@ -1,0 +1,25 @@
+﻿Name: l
+----
+Visibility: 
+----
+Static: 
+----
+Title: l
+----
+Syntax: l($key = null, $default = null)
+----
+Description: Returns a language string
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: 
+
+- name: $default
+  type: mixed
+  text:
+----
+Returntype: string
+----
+Return: 

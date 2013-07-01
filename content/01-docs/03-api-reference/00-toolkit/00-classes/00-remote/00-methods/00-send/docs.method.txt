@@ -1,0 +1,19 @@
+﻿Name: send
+----
+Visibility: protected
+----
+Static: no
+----
+Title: remote::send
+----
+Syntax: remote::send()
+----
+Description: Sets up all curl options and sends the request
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Response

@@ -1,0 +1,25 @@
+﻿Name: delete
+----
+Visibility: public
+----
+Static: yes
+----
+Title: remote::delete
+----
+Syntax: remote::delete($url, $params = array())
+----
+Description: Static method to send a DELETE request
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: 
+
+- name: $params
+  type: array
+  text:
+----
+Returntype: object
+----
+Return: Response

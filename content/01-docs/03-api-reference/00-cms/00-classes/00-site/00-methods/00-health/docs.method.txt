@@ -1,0 +1,15 @@
+﻿Name: health
+----
+Visibility: protected
+----
+Static: no
+----
+Title: site::health
+----
+Syntax: site::health()
+----
+Description: Internal system health checks
+----
+Text: 
+----
+Parameters: 

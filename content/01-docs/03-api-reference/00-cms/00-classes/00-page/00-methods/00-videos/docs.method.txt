@@ -1,0 +1,19 @@
+﻿Name: videos
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::videos
+----
+Syntax: page::videos()
+----
+Description: Only returns videos stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

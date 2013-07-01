@@ -1,0 +1,21 @@
+﻿Name: install
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugins::install
+----
+Syntax: plugins::install($id, $root)
+----
+Description: Installs a plugin by id and root
+----
+Text: 
+----
+Parameters: - name: $id
+  type: string
+  text: id/folder name of a plugin
+
+- name: $root
+  type: string
+  text: The full root to the plugin folder

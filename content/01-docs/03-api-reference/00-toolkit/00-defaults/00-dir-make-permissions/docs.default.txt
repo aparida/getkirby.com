@@ -1,0 +1,5 @@
+﻿Title: dir.make.permissions
+----
+Value: <pre>493</pre>
+----
+Description: permissions for new directories

@@ -1,0 +1,21 @@
+﻿Name: insert
+----
+Visibility: public
+----
+Static: yes
+----
+Title: sql::insert
+----
+Syntax: sql::insert($params = array())
+----
+Description: Builds an insert clause
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: List of parameters for the insert clause. See defaults for more info
+----
+Returntype: string
+----
+Return: 

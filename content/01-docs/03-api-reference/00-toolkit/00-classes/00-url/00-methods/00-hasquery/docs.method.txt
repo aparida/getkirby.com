@@ -1,0 +1,26 @@
+﻿Name: hasQuery
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::hasQuery
+----
+Syntax: url::hasQuery($url)
+----
+Description: Checks if the URL has a query string attached
+----
+Text: <pre><code>
+if(url::hasQuery('http://www.youtube.com/watch?v=9q_aXttJduk')) {
+  echo 'Yes, there is a query attached';
+}
+
+</code></pre>
+----
+Parameters: - name: $url
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

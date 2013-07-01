@@ -1,0 +1,21 @@
+﻿Name: exists
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cache::exists
+----
+Syntax: cache::exists($key)
+----
+Description: Determine if an item exists in the cache.
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

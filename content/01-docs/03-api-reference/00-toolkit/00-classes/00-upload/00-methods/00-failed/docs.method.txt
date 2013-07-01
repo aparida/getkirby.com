@@ -1,0 +1,19 @@
+﻿Name: failed
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::failed
+----
+Syntax: upload::failed()
+----
+Description: Checks if the upload failed
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

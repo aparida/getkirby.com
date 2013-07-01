@@ -1,0 +1,19 @@
+﻿Name: ssl
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::ssl
+----
+Syntax: site::ssl()
+----
+Description: Checks if the current page is visited with an encrypted connection
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

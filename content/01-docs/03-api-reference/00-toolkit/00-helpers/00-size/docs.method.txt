@@ -1,0 +1,21 @@
+﻿Name: size
+----
+Visibility: 
+----
+Static: 
+----
+Title: size
+----
+Syntax: size($value)
+----
+Description: Determines the size/length of numbers, strings, arrays and files
+----
+Text: 
+----
+Parameters: - name: $value
+  type: mixed
+  text:
+----
+Returntype: int
+----
+Return: 

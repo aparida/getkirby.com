@@ -1,0 +1,29 @@
+﻿Name: text
+----
+Visibility: public
+----
+Static: yes
+----
+Title: form::text
+----
+Syntax: form::text($name, $value, $attr = array())
+----
+Description: Generates a text input field
+----
+Text: 
+----
+Parameters: - name: $name
+  type: string
+  text: The name attribute for the field
+
+- name: $value
+  type: string
+  text: The value attribute for the field
+
+- name: $attr
+  type: array
+  text: Additional attributes for the input tag
+----
+Returntype: The
+----
+Return: generated html

@@ -1,0 +1,19 @@
+﻿Name: nextPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::nextPage
+----
+Syntax: pagination::nextPage()
+----
+Description: Returns the number of the next page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

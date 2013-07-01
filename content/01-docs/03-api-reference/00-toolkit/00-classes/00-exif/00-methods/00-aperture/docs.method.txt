@@ -1,0 +1,19 @@
+﻿Name: aperture
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::aperture
+----
+Syntax: exif::aperture()
+----
+Description: Returns the aperture
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

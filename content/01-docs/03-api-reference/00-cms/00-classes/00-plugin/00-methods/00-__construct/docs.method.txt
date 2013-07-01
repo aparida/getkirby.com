@@ -1,0 +1,22 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugin::__construct
+----
+Syntax: plugin::__construct($id, $root)
+----
+Description: Constructor
+----
+Text: Don't overwrite the constructor in child classes
+Use the onInstall event method instead
+----
+Parameters: - name: $id
+  type: string
+  text: id/folder name of this plugin
+
+- name: $root
+  type: string
+  text: the full root to the plugin folder

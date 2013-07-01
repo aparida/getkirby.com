@@ -1,0 +1,6 @@
+﻿Title: Email Service Abstract
+----
+Class: Service
+----
+Description: This class is a template for all email
+service drivers. Extend this to create a service class

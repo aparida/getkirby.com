@@ -1,0 +1,25 @@
+﻿Name: replaceParam
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::replaceParam
+----
+Syntax: uri::replaceParam($key, $value)
+----
+Description: Replaces a parameter with a new value
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text:
+----
+Returntype: object
+----
+Return: $this

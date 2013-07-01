@@ -1,0 +1,34 @@
+﻿Name: url
+----
+Visibility: 
+----
+Static: 
+----
+Title: url
+----
+Syntax: url($uri = false, $lang = false, $params = array(), $query = array())
+----
+Description: Main URL builder
+----
+Text: Use this in all your templates to make
+sure you get proper URls.
+----
+Parameters: - name: $uri
+  type: string
+  text: relative url: will be resolved to an absolute url, absolute url: will be kept, false: will return the base url for this site
+
+- name: $lang
+  type: string
+  text: Add a language key to get a specific url for this language
+
+- name: 
+  type: array
+  text: An optional associative array to build a set of params
+
+- name: 
+  type: array
+  text: An option associative array to build a query string
+----
+Returntype: string
+----
+Return: 

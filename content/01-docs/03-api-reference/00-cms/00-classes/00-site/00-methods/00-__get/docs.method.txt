@@ -1,0 +1,15 @@
+﻿Name: __get
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::__get
+----
+Syntax: site::__get($key)
+----
+Description: Get variables and lazy loaded attributes
+----
+Text: 
+----
+Parameters: 

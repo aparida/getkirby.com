@@ -1,0 +1,5 @@
+﻿Title: Cookie
+----
+Class: Cookie
+----
+Description: This class makes cookie handling easy

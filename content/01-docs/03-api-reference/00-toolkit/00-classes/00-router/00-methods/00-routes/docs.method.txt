@@ -1,0 +1,21 @@
+﻿Name: routes
+----
+Visibility: public
+----
+Static: yes
+----
+Title: router::routes
+----
+Syntax: router::routes($method = null)
+----
+Description: Returns all added routes
+----
+Text: 
+----
+Parameters: - name: $method
+  type: string
+  text:
+----
+Returntype: array
+----
+Return: 

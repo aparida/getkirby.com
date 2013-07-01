@@ -1,0 +1,21 @@
+﻿Name: parent
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::parent
+----
+Syntax: page::parent($parent = null)
+----
+Description: Returns the parent page object
+----
+Text: 
+----
+Parameters: - name: $parent
+  type: object
+  text: Setter for the parent page object
+----
+Returntype: object
+----
+Return: Page

@@ -1,0 +1,21 @@
+﻿Name: not
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::not
+----
+Syntax: pages::not()
+----
+Description: Returns a new collection of pages without the given pages
+----
+Text: 
+----
+Parameters: - name: 
+  type: args
+  text: any number of uris or page elements, passed as individual arguments
+----
+Returntype: object
+----
+Return: a new collection without the pages

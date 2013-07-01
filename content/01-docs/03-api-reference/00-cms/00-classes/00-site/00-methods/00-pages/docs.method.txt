@@ -1,0 +1,20 @@
+﻿Name: pages
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::pages
+----
+Syntax: site::pages()
+----
+Description: Returns the first set of pages/children in the content directory (the main pages of your site)
+You can also use $site->children() to get the same collection
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Pages

@@ -1,0 +1,20 @@
+﻿Name: num
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::num
+----
+Syntax: dir::num()
+----
+Description: Returns the optional prepended
+sorting number from the folder name
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: i.e. 01-projects returns 01

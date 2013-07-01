@@ -1,0 +1,19 @@
+﻿Name: dir
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::dir
+----
+Syntax: asset::dir()
+----
+Description: Returns the parent directory path
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

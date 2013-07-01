@@ -1,0 +1,7 @@
+﻿Title: Kirbytext Tag
+----
+Class: Tag
+----
+Description: The mother class for all Kirbytext tags
+Extend this to build a new KirbytextTag.
+Kirbytags are located in kirby/tags or site/kirbytags

@@ -1,0 +1,19 @@
+﻿Name: rangeStart
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::rangeStart
+----
+Syntax: pagination::rangeStart()
+----
+Description: Returns the first page of the created range
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

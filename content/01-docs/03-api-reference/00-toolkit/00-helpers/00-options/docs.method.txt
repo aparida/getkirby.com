@@ -1,0 +1,27 @@
+﻿Name: options
+----
+Visibility: 
+----
+Static: 
+----
+Title: options
+----
+Syntax: options($defaults = array(), $params = array())
+----
+Description: Merges default options with passed parameters and
+returns a Collection of those options.
+----
+Text: This is perfect to be used with classes, which
+need fancy option handling
+----
+Parameters: - name: $defaults
+  type: array
+  text: An array of default options
+
+- name: $params
+  type: array
+  text: An array of params, which should overwrite the defaults
+----
+Returntype: object
+----
+Return: Collection

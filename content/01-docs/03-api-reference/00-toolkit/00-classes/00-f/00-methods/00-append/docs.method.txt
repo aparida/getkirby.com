@@ -1,0 +1,25 @@
+﻿Name: append
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::append
+----
+Syntax: f::append($file, $content)
+----
+Description: Appends new content to an existing file
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: The path for the file
+
+- name: $content
+  type: mixed
+  text: Either a string or an array. Arrays will be converted to JSON.
+----
+Returntype: boolean
+----
+Return: 

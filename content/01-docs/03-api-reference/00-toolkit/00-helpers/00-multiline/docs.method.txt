@@ -1,0 +1,21 @@
+﻿Name: multiline
+----
+Visibility: 
+----
+Static: 
+----
+Title: multiline
+----
+Syntax: multiline($text)
+----
+Description: Converts new lines to html breaks
+----
+Text: 
+----
+Parameters: - name: $text
+  type: string
+  text: with new lines
+----
+Returntype: string
+----
+Return: 

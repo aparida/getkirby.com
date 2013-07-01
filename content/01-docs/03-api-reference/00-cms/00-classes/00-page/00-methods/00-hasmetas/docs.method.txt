@@ -1,0 +1,19 @@
+﻿Name: hasMetas
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasMetas
+----
+Syntax: page::hasMetas()
+----
+Description: Checks if there are any meta files stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: true = has meta files, false = no meta files

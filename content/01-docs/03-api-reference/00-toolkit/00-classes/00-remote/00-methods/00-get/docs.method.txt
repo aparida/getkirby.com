@@ -1,0 +1,25 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: remote::get
+----
+Syntax: remote::get($url, $params = array())
+----
+Description: Static method to send a GET request
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: 
+
+- name: $params
+  type: array
+  text:
+----
+Returntype: object
+----
+Return: Response

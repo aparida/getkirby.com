@@ -1,0 +1,21 @@
+﻿Name: languageCode
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::languageCode
+----
+Syntax: content::languageCode()
+----
+Description: Returns the language code of this file
+If the file has no language code,
+the default language code will be returned
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

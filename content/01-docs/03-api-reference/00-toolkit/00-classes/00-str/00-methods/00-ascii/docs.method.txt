@@ -1,0 +1,21 @@
+﻿Name: ascii
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::ascii
+----
+Syntax: str::ascii($string)
+----
+Description: Convert a string to 7-bit ASCII.
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

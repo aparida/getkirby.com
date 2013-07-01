@@ -1,0 +1,19 @@
+﻿Name: options
+----
+Visibility: public
+----
+Static: yes
+----
+Title: router::options
+----
+Syntax: router::options()
+----
+Description: Returns the options array from the current route
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

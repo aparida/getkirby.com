@@ -1,0 +1,13 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: router::get
+----
+Syntax: router::get($pattern, $action)
+----
+Description: 
+----
+Text: 

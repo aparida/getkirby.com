@@ -1,0 +1,21 @@
+﻿Name: stop
+----
+Visibility: public
+----
+Static: yes
+----
+Title: timer::stop
+----
+Syntax: timer::stop($key = null)
+----
+Description: Stops and retrieves a timer
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: double
+----
+Return: 

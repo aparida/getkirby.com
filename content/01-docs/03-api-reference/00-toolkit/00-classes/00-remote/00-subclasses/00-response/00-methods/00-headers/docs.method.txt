@@ -1,0 +1,19 @@
+﻿Name: headers
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::headers
+----
+Syntax: response::headers()
+----
+Description: Returns an array with all received headers
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

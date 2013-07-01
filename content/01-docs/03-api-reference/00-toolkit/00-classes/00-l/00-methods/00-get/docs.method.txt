@@ -1,0 +1,37 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: l::get
+----
+Syntax: l::get($key = null, $default = null)
+----
+Description: Gets a language value by key
+----
+Text: <pre><code>
+// for german users
+echo l::get('yes');
+// output: Ja
+
+// for english users
+echo l::get('yes');
+// output: yes
+
+a::show( l::get() );
+// returns the whole language array
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to look for. Pass false or null to return the entire language array.
+
+- name: $default
+  type: mixed
+  text: Optional default value, which should be returned if no element has been found
+----
+Returntype: mixed
+----
+Return: 

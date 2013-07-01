@@ -1,0 +1,19 @@
+﻿Name: userAgent
+----
+Visibility: public
+----
+Static: yes
+----
+Title: visitor::userAgent
+----
+Syntax: visitor::userAgent()
+----
+Description: A more readable but longer alternative for ua()
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

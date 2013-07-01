@@ -1,0 +1,19 @@
+﻿Name: version
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugin::version
+----
+Syntax: plugin::version()
+----
+Description: Returns the version number of the plugin
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: float
+----
+Return: 

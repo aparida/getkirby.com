@@ -1,0 +1,20 @@
+﻿Name: modified
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::modified
+----
+Syntax: asset::modified()
+----
+Description: Returns the last modified date of this file
+as unix timestamp
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

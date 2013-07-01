@@ -1,0 +1,25 @@
+﻿Name: keywords
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::keywords
+----
+Syntax: html::keywords($keywords, $attr = array())
+----
+Description: Generates a keywords meta tag
+----
+Text: 
+----
+Parameters: - name: $keywords
+  type: string
+  text: 
+
+- name: $attr
+  type: array
+  text: Additional attributes for the meta tag
+----
+Returntype: string
+----
+Return: the generated html

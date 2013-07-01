@@ -1,0 +1,19 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: no
+----
+Title: cache::get
+----
+Syntax: cache::get()
+----
+Description: Tries to get the data from cache
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

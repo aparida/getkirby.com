@@ -1,0 +1,21 @@
+﻿Name: sqlite
+----
+Visibility: protected
+----
+Static: no
+----
+Title: connector::sqlite
+----
+Syntax: connector::sqlite($params)
+----
+Description: Returns an sqlite dsn string
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text:
+----
+Returntype: string
+----
+Return: 

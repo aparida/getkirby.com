@@ -1,0 +1,29 @@
+﻿Name: label
+----
+Visibility: public
+----
+Static: yes
+----
+Title: form::label
+----
+Syntax: form::label($text, $for = false, $attr = array())
+----
+Description: Generates a label tag
+----
+Text: 
+----
+Parameters: - name: $text
+  type: string
+  text: The text for the label
+
+- name: $for
+  type: string
+  text: Optional for attribute
+
+- name: $attr
+  type: array
+  text: Additional attributes for the label tag
+----
+Returntype: The
+----
+Return: generated html

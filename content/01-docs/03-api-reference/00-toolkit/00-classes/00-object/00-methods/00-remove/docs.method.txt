@@ -1,0 +1,21 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::remove
+----
+Syntax: object::remove($key = null)
+----
+Description: Removes a value from the object
+----
+Text: It's an alternative for unset($object->key)
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: returns the current object to make it chainable

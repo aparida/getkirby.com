@@ -1,0 +1,13 @@
+﻿Name: vars
+----
+Visibility: public
+----
+Static: no
+----
+Title: between::vars
+----
+Syntax: between::vars()
+----
+Description: 
+----
+Text: 

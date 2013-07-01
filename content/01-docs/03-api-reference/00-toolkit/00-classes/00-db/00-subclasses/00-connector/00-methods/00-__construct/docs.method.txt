@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: connector::__construct
+----
+Syntax: connector::__construct($params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $params
+  type: mixed
+  text: Connection parameters

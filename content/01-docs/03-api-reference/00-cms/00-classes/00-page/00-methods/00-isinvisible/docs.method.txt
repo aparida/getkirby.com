@@ -1,0 +1,21 @@
+﻿Name: isInvisible
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isInvisible
+----
+Syntax: page::isInvisible()
+----
+Description: Checks if this page is invisible
+An invisible page has no prepended number
+in its foldername. i.e. projects
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

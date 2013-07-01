@@ -1,0 +1,21 @@
+﻿Name: postfields
+----
+Visibility: protected
+----
+Static: no
+----
+Title: remote::postfields
+----
+Syntax: remote::postfields($data)
+----
+Description: Internal method to handle post field data
+----
+Text: 
+----
+Parameters: - name: $data
+  type: mixed
+  text:
+----
+Returntype: mixed
+----
+Return: 

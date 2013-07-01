@@ -1,0 +1,15 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: no
+----
+Title: cache::set
+----
+Syntax: cache::set($html)
+----
+Description: Set a fresh cache file if enabled
+----
+Text: 
+----
+Parameters: 

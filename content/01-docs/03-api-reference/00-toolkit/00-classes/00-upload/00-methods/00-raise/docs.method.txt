@@ -1,0 +1,21 @@
+﻿Name: raise
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::raise
+----
+Syntax: upload::raise($message)
+----
+Description: Raises a new error
+----
+Text: 
+----
+Parameters: - name: $message
+  type: string
+  text:
+----
+Returntype: false
+----
+Return: 

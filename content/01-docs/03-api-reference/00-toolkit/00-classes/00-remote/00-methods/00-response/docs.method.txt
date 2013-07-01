@@ -1,0 +1,20 @@
+﻿Name: response
+----
+Visibility: public
+----
+Static: no
+----
+Title: remote::response
+----
+Syntax: remote::response()
+----
+Description: Returns the response object for
+the current request
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Response

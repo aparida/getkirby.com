@@ -1,0 +1,15 @@
+﻿Name: others
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::others
+----
+Syntax: files::others()
+----
+Description: Alternative for $this->unkown()
+----
+Text: 
+----
+Parameters: 

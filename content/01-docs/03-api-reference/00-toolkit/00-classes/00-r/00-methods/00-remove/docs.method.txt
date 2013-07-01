@@ -1,0 +1,17 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::remove
+----
+Syntax: r::remove($key)
+----
+Description: Removes a variable from the request array
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:

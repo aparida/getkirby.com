@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::__construct
+----
+Syntax: uri::__construct($url = null, $options = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: 
+
+- name: $options
+  type: array
+  text:

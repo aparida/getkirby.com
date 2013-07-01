@@ -1,0 +1,19 @@
+﻿Name: save
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::save
+----
+Syntax: model::save()
+----
+Description: Saves the model
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

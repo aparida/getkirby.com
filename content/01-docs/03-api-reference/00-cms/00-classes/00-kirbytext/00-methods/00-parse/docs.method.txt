@@ -1,0 +1,23 @@
+﻿Name: parse
+----
+Visibility: protected
+----
+Static: no
+----
+Title: kirbytext::parse
+----
+Syntax: kirbytext::parse($args)
+----
+Description: Used in $this->get() to parse
+all available Kirby tags. See the list of installed tags in kirby/tags
+----
+Text: For each detected tag this method will look for a
+matching file and class to render each tag.
+----
+Parameters: - name: $args
+  type: array
+  text: A list of arguments detected by the regular expression. The first value in the array is the entire tag
+----
+Returntype: string
+----
+Return: parsed text

@@ -1,0 +1,5 @@
+﻿Title: Size Validator
+----
+Class: Size
+----
+Description: Checks the size of the value

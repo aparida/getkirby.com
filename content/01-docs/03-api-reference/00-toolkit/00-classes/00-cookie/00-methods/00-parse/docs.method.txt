@@ -1,0 +1,22 @@
+﻿Name: parse
+----
+Visibility: protected
+----
+Static: yes
+----
+Title: cookie::parse
+----
+Syntax: cookie::parse($string)
+----
+Description: Parses the hashed value from a cookie
+and tries to extract the value
+----
+Text: 
+----
+Parameters: - name: $hash
+  type: string
+  text:
+----
+Returntype: mixed
+----
+Return: 

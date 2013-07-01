@@ -1,0 +1,29 @@
+﻿Name: _next
+----
+Visibility: protected
+----
+Static: no
+----
+Title: page::_next
+----
+Syntax: page::_next($siblings, $sort = false, $direction = 'asc')
+----
+Description: Internal method to return the next page
+----
+Text: 
+----
+Parameters: - name: $siblings
+  type: object
+  text: Pages A collection of siblings to search in
+
+- name: $sort
+  type: string
+  text: An optional sort field for the siblings
+
+- name: $direction
+  type: string
+  text: An optional sort direction
+----
+Returntype: mixed
+----
+Return: Page or null

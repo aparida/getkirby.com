@@ -1,0 +1,15 @@
+﻿Name: hash
+----
+Visibility: public
+----
+Static: no
+----
+Title: dir::hash
+----
+Syntax: dir::hash()
+----
+Description: Returns a md5 hash of the root
+----
+Text: 
+----
+Parameters: 

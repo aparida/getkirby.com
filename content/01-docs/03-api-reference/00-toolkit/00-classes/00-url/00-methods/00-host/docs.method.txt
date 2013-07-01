@@ -1,0 +1,25 @@
+﻿Name: host
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::host
+----
+Syntax: url::host($url, $default = null)
+----
+Description: Returns the host
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: 
+
+- name: $default
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

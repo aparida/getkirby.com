@@ -1,0 +1,7 @@
+﻿Title: kirbytext.unwrapImages
+----
+Value: <pre>false</pre>
+----
+Description: Markdown automatically wraps single images in a new line
+with p tags. You can manually switch that behavior
+off with this parameter.

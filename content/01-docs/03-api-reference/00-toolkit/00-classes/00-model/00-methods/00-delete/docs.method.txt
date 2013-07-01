@@ -1,0 +1,20 @@
+﻿Name: delete
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::delete
+----
+Syntax: model::delete()
+----
+Description: Define this function in your model
+to delete the model
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

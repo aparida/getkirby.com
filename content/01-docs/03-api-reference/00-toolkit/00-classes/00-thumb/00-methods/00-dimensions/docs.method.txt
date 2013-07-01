@@ -1,0 +1,22 @@
+﻿Name: dimensions
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::dimensions
+----
+Syntax: thumb::dimensions($return = 'result')
+----
+Description: Returns the dimensions object of the result
+the source or the tmp image
+----
+Text: 
+----
+Parameters: - name: $return
+  type: string
+  text: 'result', 'source' or 'tmp'
+----
+Returntype: object
+----
+Return: Dimensions

@@ -1,0 +1,26 @@
+﻿Name: date
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::date
+----
+Syntax: v::date($value)
+----
+Description: Checks for valid date
+----
+Text: <pre><code>
+if(v::date('2013-05-23')) {
+  echo 'That is a valid email';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

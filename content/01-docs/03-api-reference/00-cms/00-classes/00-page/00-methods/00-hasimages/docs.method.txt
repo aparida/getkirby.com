@@ -1,0 +1,19 @@
+﻿Name: hasImages
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasImages
+----
+Syntax: page::hasImages()
+----
+Description: Checks if there are any images stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: true = has images, false = no images

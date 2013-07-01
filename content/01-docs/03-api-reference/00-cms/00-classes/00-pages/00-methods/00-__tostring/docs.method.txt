@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::__toString
+----
+Syntax: pages::__toString()
+----
+Description: Returns a simple list of links for all pages in this collection
+This is perfect for simple debugging
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

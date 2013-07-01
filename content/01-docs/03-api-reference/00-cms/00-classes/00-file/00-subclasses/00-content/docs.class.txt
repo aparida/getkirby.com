@@ -1,0 +1,18 @@
+﻿Title: Content
+----
+Class: Content
+----
+Description: The content object is an extended File
+object which is used for all content text files.
+
+Content objects are used for the main content, site info and
+meta information for other files.
+
+Page objects access their main content object
+to return custom field data.
+
+i.e. $page->title() is the same as $page->content()->title()
+
+Content objects have many child Variable objects
+for each parsed field in the text file.
+So all custom field contents are Variable objects.

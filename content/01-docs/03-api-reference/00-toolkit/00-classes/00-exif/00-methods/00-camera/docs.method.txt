@@ -1,0 +1,19 @@
+﻿Name: camera
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::camera
+----
+Syntax: exif::camera()
+----
+Description: Returns the Camera object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: KirbyExifCamera

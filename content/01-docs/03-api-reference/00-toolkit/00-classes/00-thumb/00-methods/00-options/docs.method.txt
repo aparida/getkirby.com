@@ -1,0 +1,19 @@
+﻿Name: options
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::options
+----
+Syntax: thumb::options()
+----
+Description: Returns all final options which are applied
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

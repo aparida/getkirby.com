@@ -1,0 +1,20 @@
+﻿Name: diruri
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::diruri
+----
+Syntax: page::diruri()
+----
+Description: Returns the relative directory path
+excluding the document root
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: i.e. content/01-projects

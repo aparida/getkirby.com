@@ -1,0 +1,28 @@
+title: Kirby App Framework
+
+----
+
+text: 
+
+The Kirby App Framework is a small, flexible MMVC (Module, Model, View, Controller) framework based on the (link: toolkit text: Kirby Toolkit). 
+
+## Download
+
+The source code for the Kirby App Framework can be downloaded on Github
+<https://github.com/getkirby/app>
+
+## Contribute
+
+### Feature requests & bug reports
+
+You can submit all your feature request and bug reports on Github.
+<https://github.com/getkirby/app/issues>
+
+### Coding styles
+
+Please read the (link: styleguide text: styleguide) to learn more about coding styles you should stick to, when writing code for the Kirby App Framework.
+
+## License
+
+The Kirby App Framework is licensed under the MIT open source license
+<http://www.opensource.org/licenses/mit-license.php>

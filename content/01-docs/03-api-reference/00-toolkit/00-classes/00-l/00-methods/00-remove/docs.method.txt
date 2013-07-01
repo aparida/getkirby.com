@@ -1,0 +1,17 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: l::remove
+----
+Syntax: l::remove($key)
+----
+Description: Removes a variable from the language array
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:

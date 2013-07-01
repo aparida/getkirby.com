@@ -1,0 +1,13 @@
+﻿Name: vars
+----
+Visibility: public
+----
+Static: no
+----
+Title: min::vars
+----
+Syntax: min::vars()
+----
+Description: 
+----
+Text: 

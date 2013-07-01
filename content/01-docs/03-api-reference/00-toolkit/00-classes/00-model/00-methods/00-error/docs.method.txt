@@ -1,0 +1,21 @@
+﻿Name: error
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::error
+----
+Syntax: model::error($key = null)
+----
+Description: Returns a specific error for a given key
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: if not specified the first error will be returned
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: invalid
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::invalid
+----
+Syntax: model::invalid()
+----
+Description: Checks if the model is invalid
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

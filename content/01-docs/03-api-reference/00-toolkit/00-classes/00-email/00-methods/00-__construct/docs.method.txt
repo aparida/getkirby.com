@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: email::__construct
+----
+Syntax: email::__construct($params = null)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $service
+  type: string
+  text: The name of the service driver you want to use

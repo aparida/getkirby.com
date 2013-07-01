@@ -1,0 +1,19 @@
+﻿Name: toTimestamp
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toTimestamp
+----
+Syntax: variable::toTimestamp()
+----
+Description: Converts the value to a unix timestamp if possible
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

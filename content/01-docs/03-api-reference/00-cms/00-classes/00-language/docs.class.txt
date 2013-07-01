@@ -1,0 +1,5 @@
+﻿Title: Language
+----
+Class: Language
+----
+Description: Represents a single available language for multi-language sites

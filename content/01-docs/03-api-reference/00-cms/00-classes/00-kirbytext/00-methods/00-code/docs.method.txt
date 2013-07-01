@@ -1,0 +1,24 @@
+﻿Name: code
+----
+Visibility: protected
+----
+Static: no
+----
+Title: kirbytext::code
+----
+Syntax: kirbytext::code($code)
+----
+Description: Used in $this->get() to parse
+special, Github-style code blocks
+----
+Text: This methods looks for a external highlight function
+and uses that to add code highlighting to the parsed
+block if available.
+----
+Parameters: - name: $code
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: parsed text

@@ -1,0 +1,21 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::set
+----
+Syntax: uri::set($url = null, $options = array())
+----
+Description: Sets the inspectable url and additional options
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: 
+
+- name: $options
+  type: array
+  text:

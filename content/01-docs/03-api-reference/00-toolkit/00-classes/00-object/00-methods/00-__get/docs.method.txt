@@ -1,0 +1,23 @@
+﻿Name: __get
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::__get
+----
+Syntax: object::__get($key)
+----
+Description: The magic getter
+----
+Text: With this it is possible to get values from
+the object just like this:
+`echo $myobject->somevalue;`
+----
+Parameters: - name: $key
+  type: string
+  text: The key name (auto-filled by PHP)
+----
+Returntype: mixed
+----
+Return: Null if nothing can be found for this key or otherwise the stored data for this key

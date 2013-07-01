@@ -1,0 +1,19 @@
+﻿Name: location
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::location
+----
+Syntax: exif::location()
+----
+Description: Returns the location object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: ExifLocation

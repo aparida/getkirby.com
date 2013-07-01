@@ -1,0 +1,22 @@
+﻿Name: toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::toString
+----
+Syntax: uri::toString($includeQuery = true)
+----
+Description: Converts the URI object to a string
+This returns the path and optionally the query
+----
+Text: 
+----
+Parameters: - name: $includeQuery
+  type: boolean
+  text: true: the query will be appended, false: this will only return the path
+----
+Returntype: string
+----
+Return: 

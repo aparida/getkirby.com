@@ -1,0 +1,20 @@
+﻿Name: start
+----
+Visibility: public
+----
+Static: yes
+----
+Title: content::start
+----
+Syntax: content::start()
+----
+Description: Starts the output buffer
+----
+Text: <pre><code>
+content::start();
+echo 'some content';
+echo content::stop();
+
+</code></pre>
+----
+Parameters: 

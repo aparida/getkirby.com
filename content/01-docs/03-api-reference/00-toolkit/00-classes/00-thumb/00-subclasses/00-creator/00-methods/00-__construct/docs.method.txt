@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: creator::__construct
+----
+Syntax: creator::__construct($thumb)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $thumb
+  type: object
+  text: The parent Thumb object

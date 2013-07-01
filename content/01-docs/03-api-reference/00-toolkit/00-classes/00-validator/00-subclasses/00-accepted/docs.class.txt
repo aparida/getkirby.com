@@ -1,0 +1,5 @@
+﻿Title: Accepted Validator
+----
+Class: Accepted
+----
+Description: Checks for an activated checkbox input

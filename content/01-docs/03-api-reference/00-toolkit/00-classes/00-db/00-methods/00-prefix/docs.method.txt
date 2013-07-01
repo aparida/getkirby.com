@@ -1,0 +1,19 @@
+﻿Name: prefix
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::prefix
+----
+Syntax: db::prefix()
+----
+Description: Returns the used table name prefix
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

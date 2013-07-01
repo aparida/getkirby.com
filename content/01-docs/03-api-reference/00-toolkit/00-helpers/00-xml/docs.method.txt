@@ -1,0 +1,21 @@
+﻿Name: xml
+----
+Visibility: 
+----
+Static: 
+----
+Title: xml
+----
+Syntax: xml($text)
+----
+Description: Creates safe xml by encoding special characters
+----
+Text: 
+----
+Parameters: - name: $text
+  type: string
+  text: unencoded text
+----
+Returntype: string
+----
+Return: 

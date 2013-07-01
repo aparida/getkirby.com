@@ -1,0 +1,20 @@
+﻿Name: parents
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::parents
+----
+Syntax: page::parents()
+----
+Description: Returns a Pages collection with all
+parents of this page until the first level of pages.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Pages

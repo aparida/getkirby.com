@@ -1,0 +1,19 @@
+﻿Name: hasThumb
+----
+Visibility: public
+----
+Static: no
+----
+Title: image::hasThumb
+----
+Syntax: image::hasThumb()
+----
+Description: Checks if the current file has a thumb version
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

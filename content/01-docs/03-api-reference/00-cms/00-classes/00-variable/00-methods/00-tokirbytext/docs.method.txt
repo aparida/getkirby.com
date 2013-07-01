@@ -1,0 +1,19 @@
+﻿Name: toKirbytext
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toKirbytext
+----
+Syntax: variable::toKirbytext()
+----
+Description: Converts the value to kirbytext
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

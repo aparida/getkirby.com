@@ -1,0 +1,22 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: no
+----
+Title: kirbytext::get
+----
+Syntax: kirbytext::get()
+----
+Description: Parses and returns the text
+This method calls parse() and code()
+to resolve included tags and applies markdown
+and smartypants if activated.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

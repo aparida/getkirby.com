@@ -1,0 +1,19 @@
+﻿Name: sounds
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::sounds
+----
+Syntax: page::sounds()
+----
+Description: Only returns sound files stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

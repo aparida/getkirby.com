@@ -1,0 +1,23 @@
+﻿Name: __set
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::__set
+----
+Syntax: object::__set($key, $value)
+----
+Description: Magic setter
+----
+Text: With the magic setter you can basically set any
+value for the object just like:
+`$myobject->myvalue = 'My value'`
+----
+Parameters: - name: $key
+  type: mixed
+  text: The setter key (auto-prefilled by PHP)
+
+- name: $value
+  type: mixed
+  text: The value, which should be set for the key

@@ -1,0 +1,5 @@
+﻿Title: upload.maxsize
+----
+Value: <pre>false</pre>
+----
+Description: the maximum size for uploaded files

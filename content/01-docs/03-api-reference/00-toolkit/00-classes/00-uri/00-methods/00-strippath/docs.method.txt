@@ -1,0 +1,19 @@
+﻿Name: stripPath
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::stripPath
+----
+Syntax: uri::stripPath()
+----
+Description: Removes the entire path
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: $this
+----
+Return: 

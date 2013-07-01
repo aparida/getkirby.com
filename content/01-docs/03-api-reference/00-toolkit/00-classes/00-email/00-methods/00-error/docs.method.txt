@@ -1,0 +1,17 @@
+﻿Name: error
+----
+Visibility: public
+----
+Static: no
+----
+Title: email::error
+----
+Syntax: email::error($key = null)
+----
+Description: Returns a specific error by key
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:

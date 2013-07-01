@@ -1,0 +1,33 @@
+﻿Name: match
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::match
+----
+Syntax: str::match($string, $preg, $get = false, $placeholder = false)
+----
+Description: preg_match sucks! This tries to make it more convenient
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text: 
+
+- name: $preg
+  type: string
+  text: Regular expression
+
+- name: $get
+  type: string
+  text: Which part should be returned from the result array
+
+- name: $placeholder
+  type: string
+  text: Default value if nothing will be found
+----
+Returntype: mixed
+----
+Return: 

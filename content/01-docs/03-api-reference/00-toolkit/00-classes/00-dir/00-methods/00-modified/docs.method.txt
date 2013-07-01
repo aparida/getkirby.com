@@ -1,0 +1,26 @@
+﻿Name: modified
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::modified
+----
+Syntax: dir::modified($dir, $modified = false)
+----
+Description: Recursively check when the dir and all
+subfolders have been modified for the last time.
+----
+Text: 
+----
+Parameters: - name: $dir
+  type: string
+  text: The path of the directory
+
+- name: $modified
+  type: int
+  text: internal modified store
+----
+Returntype: int
+----
+Return: 

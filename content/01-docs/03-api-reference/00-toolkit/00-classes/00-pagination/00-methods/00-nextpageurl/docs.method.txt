@@ -1,0 +1,19 @@
+﻿Name: nextPageURL
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::nextPageURL
+----
+Syntax: pagination::nextPageURL()
+----
+Description: Returns the url for the next page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

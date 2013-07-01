@@ -1,0 +1,19 @@
+﻿Name: message
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::message
+----
+Syntax: response::message()
+----
+Description: Returns the curl message if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

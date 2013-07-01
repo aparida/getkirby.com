@@ -1,0 +1,17 @@
+﻿Name: load
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugins::load
+----
+Syntax: plugins::load($id = null)
+----
+Description: Loads either a single or all available plugins
+----
+Text: 
+----
+Parameters: - name: $id
+  type: string
+  text: Optional plugin id (folder name) to install a single plugin

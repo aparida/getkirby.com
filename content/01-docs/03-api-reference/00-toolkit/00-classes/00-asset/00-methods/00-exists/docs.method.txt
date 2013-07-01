@@ -1,0 +1,19 @@
+﻿Name: exists
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::exists
+----
+Syntax: asset::exists()
+----
+Description: Checks if the file actually exists
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

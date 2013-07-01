@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: path::__toString
+----
+Syntax: path::__toString()
+----
+Description: Returns the entire path in a single string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

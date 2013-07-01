@@ -1,0 +1,22 @@
+﻿Name: find
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::find
+----
+Syntax: files::find()
+----
+Description: Finds a single file or a set of multiple files by filename
+If you pass one argument a single file is searched.
+----
+Text: If you pass multiple filenames as individual arguments, a set of files is returned
+----
+Parameters: - name: 
+  type: list
+  text: Either a single filename or a multiple filenames as list of arguments
+----
+Returntype: mixed
+----
+Return: File, Files or null

@@ -1,0 +1,32 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: s::remove
+----
+Syntax: s::remove($key)
+----
+Description: Removes a value from the session by key
+----
+Text: <pre><code>
+$_SESSION = array(
+    'username' => 'bastian',
+    'id' => 1,
+);
+
+s::remove('username');
+// $_SESSION = array(
+//    'id' => 1
+// )
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to remove by
+----
+Returntype: array
+----
+Return: The session array without the value

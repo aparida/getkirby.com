@@ -1,0 +1,19 @@
+﻿Name: isGrayscale
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::isGrayscale
+----
+Syntax: thumb::isGrayscale()
+----
+Description: Checks if the thumbnail is grayscale
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

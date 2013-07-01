@@ -1,0 +1,19 @@
+﻿Name: file
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::file
+----
+Syntax: uri::file()
+----
+Description: Returns the file (i.e. test.php)
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

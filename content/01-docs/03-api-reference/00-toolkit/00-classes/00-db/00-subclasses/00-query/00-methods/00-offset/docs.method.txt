@@ -1,0 +1,21 @@
+﻿Name: offset
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::offset
+----
+Syntax: query::offset($offset)
+----
+Description: Sets the offset for select clauses
+----
+Text: 
+----
+Parameters: - name: $offset
+  type: int
+  text:
+----
+Returntype: object
+----
+Return: 

@@ -1,0 +1,5 @@
+﻿Title: Mailgun Email Service
+----
+Class: Mailgun
+----
+Description: Sends emails with Mailgun

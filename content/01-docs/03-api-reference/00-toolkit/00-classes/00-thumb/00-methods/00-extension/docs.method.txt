@@ -1,0 +1,19 @@
+﻿Name: extension
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::extension
+----
+Syntax: thumb::extension()
+----
+Description: Returns the extension of the thumbnail
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

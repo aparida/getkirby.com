@@ -1,0 +1,29 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: validator::__construct
+----
+Syntax: validator::__construct($method, $data, $attribute, $options = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $method
+  type: string
+  text: the used validation method (refers to the class- and file name of the validator)
+
+- name: $data
+  type: array
+  text: A set of data the value should be extracted from. Pass a single value for simple, data-independent validators.
+
+- name: $attribute
+  type: string
+  text: The name of the field in the data array, which should be used to extract the value. Pass null in connection with a single data value.
+
+- name: $options
+  type: array
+  text: An additional array of arguments for the validation

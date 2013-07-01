@@ -1,0 +1,8 @@
+﻿Title: TxtStore
+----
+Class: TxtStore
+----
+Description: Simple data structure for text files
+This is used by the Kirby CMS to structure text files
+with different fields and can be used in any other app
+to create simple structured text storage

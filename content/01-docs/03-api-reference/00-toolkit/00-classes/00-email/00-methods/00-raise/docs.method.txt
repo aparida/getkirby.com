@@ -1,0 +1,15 @@
+﻿Name: raise
+----
+Visibility: protected
+----
+Static: no
+----
+Title: email::raise
+----
+Syntax: email::raise($key, $message)
+----
+Description: Raises an internal error
+----
+Text: 
+----
+Parameters: 

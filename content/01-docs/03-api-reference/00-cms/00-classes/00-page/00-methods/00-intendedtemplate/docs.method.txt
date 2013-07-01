@@ -1,0 +1,20 @@
+﻿Name: intendedTemplate
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::intendedTemplate
+----
+Syntax: page::intendedTemplate()
+----
+Description: Returns the name of the content text file / intended template
+So even if there's no such template it will return the intended name.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

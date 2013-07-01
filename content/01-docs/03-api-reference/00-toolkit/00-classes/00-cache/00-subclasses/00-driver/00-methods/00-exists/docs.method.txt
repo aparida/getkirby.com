@@ -1,0 +1,21 @@
+﻿Name: exists
+----
+Visibility: public
+----
+Static: no
+----
+Title: driver::exists
+----
+Syntax: driver::exists($key)
+----
+Description: Determine if an item exists in the cache.
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

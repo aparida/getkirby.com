@@ -1,0 +1,8 @@
+title: License
+
+----
+
+Text: 
+
+The Kirby CMS has its own commercial license. You can purchase a license key at <http://getkirby.com/buy>
+(link: http://getkirby.com/license text: Read more about the License)

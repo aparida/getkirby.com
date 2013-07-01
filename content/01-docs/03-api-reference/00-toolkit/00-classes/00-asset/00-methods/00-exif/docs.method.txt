@@ -1,0 +1,19 @@
+﻿Name: exif
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::exif
+----
+Syntax: asset::exif()
+----
+Description: Returns the exif data object for this asset
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: KirbyExif

@@ -1,0 +1,19 @@
+﻿Name: data
+----
+Visibility: public
+----
+Static: no
+----
+Title: cache::data
+----
+Syntax: cache::data()
+----
+Description: Returns the cached data
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

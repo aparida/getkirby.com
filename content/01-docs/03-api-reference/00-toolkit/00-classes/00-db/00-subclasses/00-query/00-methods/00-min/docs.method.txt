@@ -1,0 +1,21 @@
+﻿Name: min
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::min
+----
+Syntax: query::min($column)
+----
+Description: Builds a min query
+----
+Text: 
+----
+Parameters: - name: $column
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

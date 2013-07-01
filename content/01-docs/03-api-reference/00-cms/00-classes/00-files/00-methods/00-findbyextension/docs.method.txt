@@ -1,0 +1,21 @@
+﻿Name: findByExtension
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::findByExtension
+----
+Syntax: files::findByExtension()
+----
+Description: Find a single or multiple files by extension
+----
+Text: 
+----
+Parameters: - name: 
+  type: list
+  text: Either a single extension or a list of extension as individual arguments
+----
+Returntype: mixed
+----
+Return: File for a single extension or Files for a list of extensions

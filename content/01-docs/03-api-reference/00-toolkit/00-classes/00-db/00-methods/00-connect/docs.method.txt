@@ -1,0 +1,21 @@
+﻿Name: connect
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::connect
+----
+Syntax: db::connect($params = null)
+----
+Description: Connects to a database
+----
+Text: 
+----
+Parameters: - name: $params
+  type: mixed
+  text: This can either be a config key or an array of parameters for the connection
+----
+Returntype: object
+----
+Return: 

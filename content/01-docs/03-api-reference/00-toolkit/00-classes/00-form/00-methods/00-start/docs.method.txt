@@ -1,0 +1,33 @@
+﻿Name: start
+----
+Visibility: public
+----
+Static: yes
+----
+Title: form::start
+----
+Syntax: form::start($action = '', $method = 'post', $upload = false, $attr = array())
+----
+Description: Generates the form start tag
+----
+Text: 
+----
+Parameters: - name: $action
+  type: string
+  text: The url to send the form to
+
+- name: $method
+  type: string
+  text: post, get
+
+- name: $upload
+  type: boolean
+  text: if true the enctype attribute will be added
+
+- name: $attr
+  type: array
+  text: Additional attributes for the tag
+----
+Returntype: The
+----
+Return: generated html

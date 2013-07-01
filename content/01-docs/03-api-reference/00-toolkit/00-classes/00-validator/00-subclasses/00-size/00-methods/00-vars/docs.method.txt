@@ -1,0 +1,13 @@
+﻿Name: vars
+----
+Visibility: public
+----
+Static: no
+----
+Title: size::vars
+----
+Syntax: size::vars()
+----
+Description: 
+----
+Text: 

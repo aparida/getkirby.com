@@ -1,0 +1,18 @@
+﻿Name: parse
+----
+Visibility: private
+----
+Static: no
+----
+Title: uri::parse
+----
+Syntax: uri::parse($url)
+----
+Description: Private parsing method which will take the URL
+apart and analyze all its components
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text:

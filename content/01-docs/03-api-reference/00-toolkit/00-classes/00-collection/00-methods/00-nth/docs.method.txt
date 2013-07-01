@@ -1,0 +1,19 @@
+﻿Name: nth
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::nth
+----
+Syntax: collection::nth($n)
+----
+Description: Returns the nth element from the array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

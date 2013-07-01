@@ -1,0 +1,6 @@
+﻿Title: DB Connector
+----
+Class: Connector
+----
+Description: Used by the DB class to connect with different database types
+Returns a PDO connection

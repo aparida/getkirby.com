@@ -1,0 +1,19 @@
+﻿Name: method
+----
+Visibility: public
+----
+Static: no
+----
+Title: validator::method
+----
+Syntax: validator::method()
+----
+Description: Returns the used validation method
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

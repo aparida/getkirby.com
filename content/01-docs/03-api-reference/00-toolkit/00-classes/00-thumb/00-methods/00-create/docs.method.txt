@@ -1,0 +1,19 @@
+﻿Name: create
+----
+Visibility: protected
+----
+Static: no
+----
+Title: thumb::create
+----
+Syntax: thumb::create()
+----
+Description: Creates the thumbnail and tries to save it
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

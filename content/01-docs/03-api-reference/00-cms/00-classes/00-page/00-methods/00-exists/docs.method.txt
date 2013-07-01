@@ -1,0 +1,19 @@
+﻿Name: exists
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::exists
+----
+Syntax: page::exists()
+----
+Description: Checks if a page exists
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

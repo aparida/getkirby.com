@@ -1,0 +1,6 @@
+﻿Title: Directory
+----
+Class: Dir
+----
+Description: This class makes it easy to create/edit/delete
+directories on the filesystem

@@ -1,0 +1,42 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::remove
+----
+Syntax: a::remove($array, $search, $key = true)
+----
+Description: Removes an element from an array
+----
+Text: <pre><code>
+$array = array(
+  'cat'  => 'miao',
+  'dog'  => 'wuff',
+  'bird' => 'tweet'
+);
+
+$array = a::remove($array, 'cat');
+// array is now: array(
+//     'dog' => 'wuff',
+//     'bird' => 'tweet'
+// );
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $search
+  type: mixed
+  text: The value or key to look for
+
+- name: $key
+  type: boolean
+  text: Pass true to search for an key, pass false to search for an value.
+----
+Returntype: array
+----
+Return: The result array without the removed element

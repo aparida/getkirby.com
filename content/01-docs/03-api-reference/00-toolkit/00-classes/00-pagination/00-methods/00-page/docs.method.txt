@@ -1,0 +1,19 @@
+﻿Name: page
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::page
+----
+Syntax: pagination::page()
+----
+Description: Returns the current page number
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

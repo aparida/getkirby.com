@@ -1,0 +1,46 @@
+﻿Name: fill
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::fill
+----
+Syntax: a::fill($array, $limit, $fill = 'placeholder')
+----
+Description: Fills an array up with additional elements to certain amount.
+----
+Text: <pre><code>
+$array = array(
+  'cat',
+  'dog',
+  'bird',
+);
+
+$result = a::fill($array, 5, 'elephant');
+
+// result: array(
+//   'cat',
+//   'dog',
+//   'bird',
+//   'elephant',
+//   'elephant',
+// );
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $limit
+  type: int
+  text: The number of elements the array should contain after filling it up.
+
+- name: $fill
+  type: mixed
+  text: The element, which should be used to fill the array
+----
+Returntype: array
+----
+Return: The filled-up result array

@@ -1,0 +1,25 @@
+﻿Name: type
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::type
+----
+Syntax: file::type($type = null)
+----
+Description: Returns the file type i.e. image
+Is also being used as setter
+----
+Text: Available file types by default are:
+image, video, document, sound, content, meta, other
+See the kirby/defaults.php for config options to
+refine type categorization
+----
+Parameters: - name: $type
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

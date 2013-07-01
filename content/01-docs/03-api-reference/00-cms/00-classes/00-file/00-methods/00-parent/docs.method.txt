@@ -1,0 +1,23 @@
+﻿Name: parent
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::parent
+----
+Syntax: file::parent($parent = null)
+----
+Description: Setter and getter for the parent Files object
+Pass a Files object to use this as setter
+Without a passed argument this will return the parent object
+----
+Text: 
+----
+Parameters: - name: $parent
+  type: object
+  text: The parent Files object
+----
+Returntype: object
+----
+Return: Files

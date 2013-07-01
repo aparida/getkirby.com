@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::__construct
+----
+Syntax: file::__construct($root, $parent = null)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $root
+  type: string
+  text: The full root/path of the file
+
+- name: $parent
+  type: object
+  text: The parent Files object

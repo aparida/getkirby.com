@@ -1,0 +1,19 @@
+﻿Name: type
+----
+Visibility: public
+----
+Static: no
+----
+Title: connector::type
+----
+Syntax: connector::type()
+----
+Description: Returns the used database type
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

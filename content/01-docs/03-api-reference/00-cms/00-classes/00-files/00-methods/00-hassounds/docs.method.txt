@@ -1,0 +1,15 @@
+﻿Name: hasSounds
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasSounds
+----
+Syntax: files::hasSounds()
+----
+Description: Alternative for $this->hasAudio()
+----
+Text: 
+----
+Parameters: 

@@ -1,0 +1,33 @@
+﻿Name: create
+----
+Visibility: public
+----
+Static: yes
+----
+Title: validator::create
+----
+Syntax: validator::create($method, $data, $attribute = null, $options = array())
+----
+Description: Initializes a new validator
+----
+Text: 
+----
+Parameters: - name: $method
+  type: string
+  text: the used validation method (refers to the class- and file name of the validator)
+
+- name: $data
+  type: array
+  text: A set of data the value should be extracted from. Pass a single value for simple, data-independent validators.
+
+- name: $attribute
+  type: string
+  text: The name of the field in the data array, which should be used to extract the value. Pass null in connection with a single data value.
+
+- name: $options
+  type: array
+  text: An additional array of arguments for the validation
+----
+Returntype: object
+----
+Return: Validator

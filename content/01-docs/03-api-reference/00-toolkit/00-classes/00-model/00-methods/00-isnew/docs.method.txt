@@ -1,0 +1,19 @@
+﻿Name: isNew
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::isNew
+----
+Syntax: model::isNew()
+----
+Description: Checks if the model is new
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

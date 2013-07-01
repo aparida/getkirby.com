@@ -1,0 +1,21 @@
+﻿Name: buildParams
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::buildParams
+----
+Syntax: url::buildParams($data)
+----
+Description: Build params
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text:
+----
+Returntype: string
+----
+Return: 

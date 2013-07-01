@@ -1,0 +1,29 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: validation::__construct
+----
+Syntax: validation::__construct($data, $rules, $messages = array(), $attributes = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text: A set of data to be validated
+
+- name: $rules
+  type: array
+  text: A set of rules for the validation
+
+- name: $messages
+  type: array
+  text: A set of custom error messages
+
+- name: $attributes
+  type: array
+  text: A set of attribute translations

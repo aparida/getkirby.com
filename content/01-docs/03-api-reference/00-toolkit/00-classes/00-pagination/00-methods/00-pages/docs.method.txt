@@ -1,0 +1,19 @@
+﻿Name: pages
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::pages
+----
+Syntax: pagination::pages()
+----
+Description: Alternative for countPages()
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

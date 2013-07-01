@@ -1,0 +1,20 @@
+﻿Name: hash
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hash
+----
+Syntax: page::hash()
+----
+Description: Returns a unique hashed version of the uri,
+which is used for the tinyurl for example
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

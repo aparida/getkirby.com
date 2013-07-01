@@ -1,0 +1,27 @@
+﻿Name: unxml
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::unxml
+----
+Syntax: str::unxml($string)
+----
+Description: Removes all xml entities from a string
+and convert them to html entities first
+and remove all html entities afterwards.
+----
+Text: <pre><code>
+echo str::unxml('some <em>&#252;ber</em> crazy stuff');
+// output: some &uuml;ber crazy stuff
+
+</code></pre>
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

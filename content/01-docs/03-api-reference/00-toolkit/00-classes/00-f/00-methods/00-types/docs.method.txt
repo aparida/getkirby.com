@@ -1,0 +1,19 @@
+﻿Name: types
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::types
+----
+Syntax: f::types()
+----
+Description: Returns an array of all available file types
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

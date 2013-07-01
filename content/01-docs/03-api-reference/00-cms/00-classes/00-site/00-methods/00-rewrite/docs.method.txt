@@ -1,0 +1,16 @@
+﻿Name: rewrite
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::rewrite
+----
+Syntax: site::rewrite()
+----
+Description: Handles URL rewriting in particular situations
+like forcing https or removing/adding index.php
+----
+Text: 
+----
+Parameters: 

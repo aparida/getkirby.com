@@ -1,0 +1,23 @@
+﻿Name: __get
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::__get
+----
+Syntax: collection::__get($key)
+----
+Description: Magic getter
+----
+Text: Can be used like this:
+`$mycollection->myvalue`
+to get a part of the array
+----
+Parameters: - name: $key
+  type: string
+  text: the key to get. Will be auto-filled by PHP
+----
+Returntype: mixed
+----
+Return: Whatever is stored for that key

@@ -1,0 +1,21 @@
+﻿Name: isPreferred
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::isPreferred
+----
+Syntax: language::isPreferred()
+----
+Description: Checks if this is the preferred
+language of the current user.
+----
+Text: The user agent string will be
+checked to guess the preferred language
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

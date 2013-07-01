@@ -1,0 +1,21 @@
+﻿Name: tagclass
+----
+Visibility: public
+----
+Static: no
+----
+Title: kirbytext::tagclass
+----
+Syntax: kirbytext::tagclass($name)
+----
+Description: Detects and loads the matching tag class
+----
+Text: 
+----
+Parameters: - name: $name
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: tag instance

@@ -1,0 +1,10 @@
+﻿Title: home
+----
+Value: <pre>home</pre>
+----
+Description: URI of the home page
+
+You can rename the content folder of the
+home page and thus the URL that way, but
+you must make sure that the folder is located
+in the main level of the content folder.

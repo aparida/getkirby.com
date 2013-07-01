@@ -1,0 +1,3 @@
+Description: 
+
+The location of core plugins, which are installed by default.

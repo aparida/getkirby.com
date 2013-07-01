@@ -1,0 +1,19 @@
+﻿Name: extractAddress
+----
+Visibility: protected
+----
+Static: no
+----
+Title: email::extractAddress
+----
+Syntax: email::extractAddress($string)
+----
+Description: Extracts the email address from an address string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,21 @@
+﻿Name: uri
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::uri
+----
+Syntax: file::uri()
+----
+Description: Returns the URI for the file.
+----
+Text: The URI is the URL to its location within the content folder
+without the base url of the site.
+i.e. content/somefolder/somesubfolder/somefile.jpg
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

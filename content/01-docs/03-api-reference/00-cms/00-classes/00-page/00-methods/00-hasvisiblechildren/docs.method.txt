@@ -1,0 +1,19 @@
+﻿Name: hasVisibleChildren
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasVisibleChildren
+----
+Syntax: page::hasVisibleChildren()
+----
+Description: Checks if this page has visible children
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

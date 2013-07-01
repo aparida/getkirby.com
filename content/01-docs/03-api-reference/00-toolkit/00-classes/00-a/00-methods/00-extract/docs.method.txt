@@ -1,0 +1,49 @@
+﻿Name: extract
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::extract
+----
+Syntax: a::extract($array, $key)
+----
+Description: Extracts a single column from an array
+----
+Text: <pre><code>
+$array[0] = array(
+  'id' => 1,
+  'username' => 'bastian',
+);
+
+$array[1] = array(
+  'id' => 2,
+  'username' => 'peter',
+);
+
+$array[3] = array(
+  'id' => 3,
+  'username' => 'john',
+);
+
+$extract = a::extract($array, 'username');
+
+// result: array(
+//   'bastian',
+//   'peter',
+//   'john'
+// );
+
+</code></pre>
+----
+Parameters: - name: $array
+  type: array
+  text: The source array
+
+- name: $key
+  type: string
+  text: The key name of the column to extract
+----
+Returntype: array
+----
+Return: The result array with all values from that column.

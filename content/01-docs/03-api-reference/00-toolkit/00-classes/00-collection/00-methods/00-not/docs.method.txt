@@ -1,0 +1,21 @@
+﻿Name: not
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::not
+----
+Syntax: collection::not()
+----
+Description: Returns a new collection without the given element(s)
+----
+Text: 
+----
+Parameters: - name: 
+  type: args
+  text: any number of keys, passed as individual arguments
+----
+Returntype: object
+----
+Return: a new collection without the element(s)

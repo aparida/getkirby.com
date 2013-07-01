@@ -1,0 +1,9 @@
+﻿Title: tinyurl.folder
+----
+Value: <pre>x</pre>
+----
+Description: By default Kirby's tinyurls are built like this:
+http://yourdomain.com/x/akjshdkajs
+
+You can change the folder name for tinyurls with
+this option

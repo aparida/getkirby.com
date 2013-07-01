@@ -1,0 +1,6 @@
+﻿Title: lang.locale
+----
+Value: <pre>false</pre>
+----
+Description: Set an additional locale string to be used
+for PHP's locale setting

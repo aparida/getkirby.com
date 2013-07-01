@@ -1,0 +1,25 @@
+﻿Name: prevVisible
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::prevVisible
+----
+Syntax: page::prevVisible($sort = false, $direction = 'asc')
+----
+Description: Returns the previous visible page in the current collection if available
+----
+Text: 
+----
+Parameters: - name: $sort
+  type: string
+  text: An optional sort field for the siblings
+
+- name: $direction
+  type: string
+  text: An optional sort direction
+----
+Returntype: mixed
+----
+Return: Page or null

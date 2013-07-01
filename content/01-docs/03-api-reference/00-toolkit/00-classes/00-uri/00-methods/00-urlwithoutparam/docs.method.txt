@@ -1,0 +1,21 @@
+﻿Name: urlWithoutParam
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::urlWithoutParam
+----
+Syntax: uri::urlWithoutParam($param)
+----
+Description: Removes a parameter and returns the URL
+----
+Text: 
+----
+Parameters: - name: $param
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

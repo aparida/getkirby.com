@@ -1,0 +1,15 @@
+﻿Name: csfr
+----
+Visibility: public
+----
+Static: yes
+----
+Title: form::csfr
+----
+Syntax: form::csfr($name = 'csfr')
+----
+Description: Builds a hidden field with a csfr token
+----
+Text: 
+----
+Parameters: 

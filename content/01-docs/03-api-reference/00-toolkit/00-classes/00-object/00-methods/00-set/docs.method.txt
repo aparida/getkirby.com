@@ -1,0 +1,27 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::set
+----
+Syntax: object::set($key, $value = null)
+----
+Description: The core setter
+----
+Text: This will be invoked by the magic setter
+and can be used as setter itself:
+`$myobject->set('myvalue', 'My value')`
+----
+Parameters: - name: $key
+  type: mixed
+  text: The setter key. If you pass an array you can set multiple values at once
+
+- name: $value
+  type: mixed
+  text: The optional value for the given key.
+----
+Returntype: object
+----
+Return: Returns the same object so set methods are chainable

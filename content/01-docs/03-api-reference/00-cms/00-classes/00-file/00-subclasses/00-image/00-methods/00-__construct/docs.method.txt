@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: image::__construct
+----
+Syntax: image::__construct($file)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $file
+  type: object
+  text: A File object

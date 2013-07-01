@@ -1,0 +1,19 @@
+﻿Name: content
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::content
+----
+Syntax: response::content()
+----
+Description: Returns the content received from the request
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

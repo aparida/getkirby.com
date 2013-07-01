@@ -1,0 +1,26 @@
+﻿Name: accepted
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::accepted
+----
+Syntax: v::accepted($value)
+----
+Description: Checks for an activated checkbox value
+----
+Text: <pre><code>
+if(v::accepted(get('tos'))) {
+  echo 'The terms of service have been accepted';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

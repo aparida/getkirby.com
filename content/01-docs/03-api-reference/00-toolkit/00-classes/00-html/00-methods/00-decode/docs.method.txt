@@ -1,0 +1,25 @@
+﻿Name: decode
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::decode
+----
+Syntax: html::decode($string)
+----
+Description: Removes all html tags and encoded chars from a string
+----
+Text: <pre><code>
+echo html::decode('some <em>crazy</em> stuff');
+// output: some uber crazy stuff
+
+</code></pre>
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: The html string

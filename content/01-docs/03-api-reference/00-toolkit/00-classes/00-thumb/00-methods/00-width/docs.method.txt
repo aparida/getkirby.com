@@ -1,0 +1,19 @@
+﻿Name: width
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::width
+----
+Syntax: thumb::width()
+----
+Description: Returns the width of the thumbnail
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

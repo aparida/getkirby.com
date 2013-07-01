@@ -1,0 +1,25 @@
+﻿Name: replaceQueryKey
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::replaceQueryKey
+----
+Syntax: uri::replaceQueryKey($key, $value)
+----
+Description: Replaces a query key with a new value
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text:
+----
+Returntype: object
+----
+Return: $this

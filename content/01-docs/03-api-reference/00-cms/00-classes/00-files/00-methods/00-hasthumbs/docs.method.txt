@@ -1,0 +1,19 @@
+﻿Name: hasThumbs
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasThumbs
+----
+Syntax: files::hasThumbs()
+----
+Description: Checks if this collection contains thumb files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

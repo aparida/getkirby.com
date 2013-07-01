@@ -1,0 +1,19 @@
+﻿Name: prev
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::prev
+----
+Syntax: file::prev()
+----
+Description: Returns the previous file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: File

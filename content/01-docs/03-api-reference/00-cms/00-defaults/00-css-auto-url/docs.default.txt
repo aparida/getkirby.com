@@ -1,0 +1,6 @@
+﻿Title: css.auto.url
+----
+Value: <pre>assets/css/templates</pre>
+----
+Description: Define the url for the folder
+where auto-loadable css files should be located.

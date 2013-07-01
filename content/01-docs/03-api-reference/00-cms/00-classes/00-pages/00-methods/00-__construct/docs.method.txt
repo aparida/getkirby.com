@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::__construct
+----
+Syntax: pages::__construct($input = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $input
+  type: mixed
+  text: Can either be a Page object (All children will be auto-added) or an array of Page objects

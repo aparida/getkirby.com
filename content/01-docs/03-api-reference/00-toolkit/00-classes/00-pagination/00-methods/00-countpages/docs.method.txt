@@ -1,0 +1,19 @@
+﻿Name: countPages
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::countPages
+----
+Syntax: pagination::countPages()
+----
+Description: Returns the total number of pages
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

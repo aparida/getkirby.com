@@ -1,0 +1,13 @@
+﻿Name: put
+----
+Visibility: public
+----
+Static: yes
+----
+Title: router::put
+----
+Syntax: router::put($pattern, $action)
+----
+Description: 
+----
+Text: 

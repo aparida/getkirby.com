@@ -1,0 +1,6 @@
+﻿Title: Thumb
+----
+Class: Thumb
+----
+Description: A simple thumbnail generator using the
+Asset and Dimensions classes.

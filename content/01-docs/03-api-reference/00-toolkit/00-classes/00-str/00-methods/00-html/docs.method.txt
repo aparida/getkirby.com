@@ -1,0 +1,32 @@
+﻿Name: html
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::html
+----
+Syntax: str::html($string, $keepTags = true)
+----
+Description: Converts a string to a html-safe string
+----
+Text: <pre><code>
+echo str::html('some <em>über crazy</em> stuff');
+// output: some <em>&uuml;ber crazy</em> stuff
+
+echo str::html('some <em>über crazy</em> stuff', false);
+// output: some &lt;em&gt;&uuml;ber crazy&lt;/em&gt; stuff
+
+</code></pre>
+----
+Parameters: - name: $string
+  type: string
+  text: 
+
+- name: $keepTags
+  type: boolean
+  text: True: lets stuff inside html tags untouched.
+----
+Returntype: string
+----
+Return: The html string

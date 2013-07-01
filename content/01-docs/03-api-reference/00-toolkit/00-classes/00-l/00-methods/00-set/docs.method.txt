@@ -1,0 +1,34 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: l::set
+----
+Syntax: l::set($key, $value = null)
+----
+Description: Sets a language value by key
+----
+Text: <pre><code>
+// in the german translation file
+l::set('yes', 'Ja');
+
+// in the english translation file
+l::set('yes', 'yes');
+
+// set multiple values at once
+l::set(array(
+    'yes' => 'Ja',
+    'no'  => 'Nein'
+));
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to define
+
+- name: $value
+  type: mixed
+  text: The value for the passed key

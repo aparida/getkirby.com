@@ -1,0 +1,19 @@
+﻿Name: lastQuery
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::lastQuery
+----
+Syntax: db::lastQuery()
+----
+Description: Returns the last query
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: children
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::children
+----
+Syntax: page::children()
+----
+Description: Returns all subpages/children for the page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Pages

@@ -1,0 +1,29 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cookie::get
+----
+Syntax: cookie::get($key = null, $default = null)
+----
+Description: Get a cookie value
+----
+Text: <pre><code>
+cookie::get('mycookie', 'peter');
+// sample output: 'hello' or if the cookie is not set 'peter'
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: The name of the cookie
+
+- name: $default
+  type: string
+  text: The default value, which should be returned if the cookie has not been found
+----
+Returntype: mixed
+----
+Return: The found value

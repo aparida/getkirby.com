@@ -1,0 +1,25 @@
+﻿Name: same
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::same
+----
+Syntax: v::same($value, $other)
+----
+Description: Checks for two valid, matching values
+----
+Text: 
+----
+Parameters: - name: $value
+  type: string
+  text: 
+
+- name: $other
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

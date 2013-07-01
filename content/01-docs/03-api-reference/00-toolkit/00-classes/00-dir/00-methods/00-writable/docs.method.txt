@@ -1,0 +1,21 @@
+﻿Name: writable
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::writable
+----
+Syntax: dir::writable($dir)
+----
+Description: Checks if the dir is writable
+----
+Text: 
+----
+Parameters: - name: $dir
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

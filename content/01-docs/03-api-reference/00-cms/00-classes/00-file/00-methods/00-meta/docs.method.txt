@@ -1,0 +1,20 @@
+﻿Name: meta
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::meta
+----
+Syntax: file::meta($lang = null)
+----
+Description: Returns the meta info object
+which will be used to fetch custom variables for the file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Content

@@ -1,0 +1,17 @@
+﻿Name: __unset
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::__unset
+----
+Syntax: object::__unset($key)
+----
+Description: Makes it possible to unset object values
+----
+Text: i.e.: unset($myobject->myvalue);
+----
+Parameters: - name: $key
+  type: string
+  text: The name for the key in the $data array (is auto-filled by PHP)

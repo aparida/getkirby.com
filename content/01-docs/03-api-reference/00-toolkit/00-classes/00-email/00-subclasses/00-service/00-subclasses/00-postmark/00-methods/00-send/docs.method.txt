@@ -1,0 +1,15 @@
+﻿Name: send
+----
+Visibility: public
+----
+Static: no
+----
+Title: postmark::send
+----
+Syntax: postmark::send()
+----
+Description: Sends an email with Postmark
+----
+Text: 
+----
+Parameters: 

@@ -1,0 +1,23 @@
+﻿Name: is
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::is
+----
+Syntax: r::is($method)
+----
+Description: Checks if the request is of a specific type:
+----
+Text: - GET
+- POST
+- PUT
+- DELETE
+- AJAX
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

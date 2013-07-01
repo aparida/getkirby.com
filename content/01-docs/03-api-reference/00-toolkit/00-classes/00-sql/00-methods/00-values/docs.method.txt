@@ -1,0 +1,29 @@
+﻿Name: values
+----
+Visibility: public
+----
+Static: yes
+----
+Title: sql::values
+----
+Syntax: sql::values($values, $separator = ', ', $set = true)
+----
+Description: Builds a safe list of values for insert, select or update queries
+----
+Text: 
+----
+Parameters: - name: $values
+  type: mixed
+  text: A value string or array of values
+
+- name: $separator
+  type: string
+  text: A separator which should be used to join values
+
+- name: $set
+  type: boolean
+  text: If true builds a set list of values for update clauses
+----
+Returntype: string
+----
+Return: 

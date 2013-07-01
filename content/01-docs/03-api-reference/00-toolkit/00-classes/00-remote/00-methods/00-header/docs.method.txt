@@ -1,0 +1,25 @@
+﻿Name: header
+----
+Visibility: protected
+----
+Static: no
+----
+Title: remote::header
+----
+Syntax: remote::header($curl, $header)
+----
+Description: Used by curl to parse incoming headers
+----
+Text: 
+----
+Parameters: - name: $curl
+  type: object
+  text: the curl connection
+
+- name: $header
+  type: string
+  text: the header line
+----
+Returntype: int
+----
+Return: the length of the heade

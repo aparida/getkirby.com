@@ -1,0 +1,30 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::remove
+----
+Syntax: dir::remove($dir, $keep = false)
+----
+Description: Deletes a directory
+----
+Text: <pre><code>
+$remove = dir::remove('mydirectory');
+
+if($remove) echo 'the directory has been removed';
+
+</code></pre>
+----
+Parameters: - name: $dir
+  type: string
+  text: The path of the directory
+
+- name: $keep
+  type: boolean
+  text: If set to true, the directory will flushed but not removed.
+----
+Returntype: boolean
+----
+Return: True: the directory has been removed, false: removing failed

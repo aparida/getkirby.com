@@ -1,0 +1,15 @@
+﻿Name: html
+----
+Visibility: public
+----
+Static: no
+----
+Title: tag::html
+----
+Syntax: tag::html()
+----
+Description: This is an empty placeholder for child classes.
+----
+Text: Use this in all tag classes to generate the html for the tag.
+----
+Parameters: 

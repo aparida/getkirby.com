@@ -1,0 +1,21 @@
+﻿Name: valid
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::valid
+----
+Syntax: url::valid($url)
+----
+Description: Checks for a valid URL
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

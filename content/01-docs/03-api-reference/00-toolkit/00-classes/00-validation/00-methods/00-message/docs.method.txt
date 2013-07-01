@@ -1,0 +1,19 @@
+﻿Name: message
+----
+Visibility: public
+----
+Static: no
+----
+Title: validation::message
+----
+Syntax: validation::message()
+----
+Description: Returns the first message of the first error
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

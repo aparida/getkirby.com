@@ -1,0 +1,19 @@
+﻿Name: activePage
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::activePage
+----
+Syntax: site::activePage()
+----
+Description: Returns the currently active page of the site
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Page

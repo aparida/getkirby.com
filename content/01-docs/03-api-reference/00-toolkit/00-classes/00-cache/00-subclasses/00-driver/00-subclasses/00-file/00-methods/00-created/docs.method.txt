@@ -1,0 +1,21 @@
+﻿Name: created
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::created
+----
+Syntax: file::created($key)
+----
+Description: Checks when the cache has been created
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: int
+----
+Return: 

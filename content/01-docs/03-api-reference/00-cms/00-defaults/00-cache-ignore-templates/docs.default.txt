@@ -1,0 +1,8 @@
+﻿Title: cache.ignore.templates
+----
+Value: <pre>Array
+(
+)
+</pre>
+----
+Description: A list of templates, which should be ignored by the cache.

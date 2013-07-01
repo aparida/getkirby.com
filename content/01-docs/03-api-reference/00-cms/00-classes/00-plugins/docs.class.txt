@@ -1,0 +1,6 @@
+﻿Title: Plugins
+----
+Class: Plugins
+----
+Description: The Plugins class provides a list of all installed
+plugins and is also responsible to load and install them.

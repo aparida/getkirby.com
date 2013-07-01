@@ -1,0 +1,15 @@
+﻿Name: send
+----
+Visibility: public
+----
+Static: no
+----
+Title: mailgun::send
+----
+Syntax: mailgun::send()
+----
+Description: Sends an email with Mailgun
+----
+Text: 
+----
+Parameters: 

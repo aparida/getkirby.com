@@ -1,0 +1,8 @@
+﻿Title: Router
+----
+Class: Router
+----
+Description: The router makes it possible to react
+on any incoming URL scheme
+
+Partly inspired by Laravel's router

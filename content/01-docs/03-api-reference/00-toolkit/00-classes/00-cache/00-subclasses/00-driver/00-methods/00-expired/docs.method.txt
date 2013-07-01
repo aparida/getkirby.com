@@ -1,0 +1,21 @@
+﻿Name: expired
+----
+Visibility: public
+----
+Static: no
+----
+Title: driver::expired
+----
+Syntax: driver::expired($key)
+----
+Description: Checks if an item in the cache is expired
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: int
+----
+Return: 

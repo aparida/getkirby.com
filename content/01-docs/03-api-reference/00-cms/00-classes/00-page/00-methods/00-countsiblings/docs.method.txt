@@ -1,0 +1,19 @@
+﻿Name: countSiblings
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::countSiblings
+----
+Syntax: page::countSiblings()
+----
+Description: Counts the number of siblings for this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

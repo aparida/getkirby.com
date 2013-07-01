@@ -1,0 +1,15 @@
+﻿Name: send
+----
+Visibility: public
+----
+Static: no
+----
+Title: amazon::send
+----
+Syntax: amazon::send()
+----
+Description: Sends an email with Amazon SES
+----
+Text: 
+----
+Parameters: 

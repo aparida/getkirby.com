@@ -1,0 +1,25 @@
+﻿Name: info
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::info
+----
+Syntax: response::info($key = null, $default = null)
+----
+Description: Returns all the info from curl
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: an optional key to get only a specific var from the info array
+
+- name: $default
+  type: mixed
+  text: an optional default value to return if the var does not exist.
+----
+Returntype: array
+----
+Return: 

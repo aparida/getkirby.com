@@ -1,0 +1,21 @@
+﻿Name: raise
+----
+Visibility: 
+----
+Static: 
+----
+Title: raise
+----
+Syntax: raise($message, $exception = 'Exception')
+----
+Description: Raises an Exception
+----
+Text: 
+----
+Parameters: - name: $message
+  type: string
+  text: An error message for the exception
+
+- name: $exception
+  type: string
+  text: Exception class

@@ -1,0 +1,22 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::__toString
+----
+Syntax: object::__toString()
+----
+Description: Converts the object to a simple
+string with all keys and values from the
+internal array to make it easier
+to debug the current object and its content
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

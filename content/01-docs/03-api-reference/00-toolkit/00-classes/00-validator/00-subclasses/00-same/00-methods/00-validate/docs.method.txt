@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: same::validate
+----
+Syntax: same::validate()
+----
+Description: 
+----
+Text: 

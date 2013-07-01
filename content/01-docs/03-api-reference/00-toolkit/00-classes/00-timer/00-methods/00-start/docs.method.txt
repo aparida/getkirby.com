@@ -1,0 +1,21 @@
+﻿Name: start
+----
+Visibility: public
+----
+Static: yes
+----
+Title: timer::start
+----
+Syntax: timer::start($key = null)
+----
+Description: Starts a timer
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: double
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: allowed
+----
+Visibility: protected
+----
+Static: no
+----
+Title: upload::allowed
+----
+Syntax: upload::allowed()
+----
+Description: Returns an array of allowed mime types or null if everything is allowed
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: value::__construct
+----
+Syntax: value::__construct($value, $minutes = null)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $value
+  type: mixed
+  text: 
+
+- name: $minutes
+  type: int
+  text: the number of minutes until the value expires

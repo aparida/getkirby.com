@@ -1,0 +1,19 @@
+﻿Name: hasMetas
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasMetas
+----
+Syntax: files::hasMetas()
+----
+Description: Checks if this collection contains meta files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

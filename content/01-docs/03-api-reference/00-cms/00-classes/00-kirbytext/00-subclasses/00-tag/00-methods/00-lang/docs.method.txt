@@ -1,0 +1,21 @@
+﻿Name: lang
+----
+Visibility: protected
+----
+Static: no
+----
+Title: tag::lang
+----
+Syntax: tag::lang()
+----
+Description: Smart getter for the applicable language attribute
+This will watch for a lang attribute and if multi-lang support is available
+it will return the value of that attribute
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

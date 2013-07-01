@@ -1,0 +1,21 @@
+﻿Name: mime
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::mime
+----
+Syntax: f::mime($file)
+----
+Description: Returns the mime type of a file
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,25 @@
+﻿Name: update
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::update
+----
+Syntax: query::update($values = null, $where = null)
+----
+Description: Fires an update query
+----
+Text: 
+----
+Parameters: - name: $values
+  type: array
+  text: You can pass values here or set them with ->values() before
+
+- name: $where
+  type: mixed
+  text: You can pass a where clause here or set it with ->where() before
+----
+Returntype: boolean
+----
+Return: 

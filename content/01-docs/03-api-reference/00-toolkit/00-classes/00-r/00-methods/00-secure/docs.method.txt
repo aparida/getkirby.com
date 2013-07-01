@@ -1,0 +1,19 @@
+﻿Name: secure
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::secure
+----
+Syntax: r::secure()
+----
+Description: Alternative for self::ssl()
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

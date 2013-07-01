@@ -1,0 +1,26 @@
+﻿Name: make
+----
+Visibility: public
+----
+Static: yes
+----
+Title: dir::make
+----
+Syntax: dir::make($dir, $recursive = true)
+----
+Description: Creates a new directory
+----
+Text: <pre><code>
+$create = dir::make('/app/test/new-directory');
+
+if($create) echo 'the directory has been created';
+
+</code></pre>
+----
+Parameters: - name: $dir
+  type: string
+  text: The path for the new directory
+----
+Returntype: boolean
+----
+Return: True: the dir has been created, false: creating failed

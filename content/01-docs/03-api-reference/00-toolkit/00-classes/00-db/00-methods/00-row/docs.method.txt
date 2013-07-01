@@ -1,0 +1,15 @@
+﻿Name: row
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::row
+----
+Syntax: db::row($table, $columns = '*', $where = null, $order = null)
+----
+Description: Shortcut for selecting a single row in a table
+----
+Text: 
+----
+Parameters: 

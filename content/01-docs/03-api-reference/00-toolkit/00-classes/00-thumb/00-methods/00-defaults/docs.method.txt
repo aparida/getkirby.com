@@ -1,0 +1,19 @@
+﻿Name: defaults
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::defaults
+----
+Syntax: thumb::defaults()
+----
+Description: Returns all default values for the thumb object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

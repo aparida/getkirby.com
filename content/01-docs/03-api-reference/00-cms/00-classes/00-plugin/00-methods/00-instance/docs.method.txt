@@ -1,0 +1,21 @@
+﻿Name: instance
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugin::instance
+----
+Syntax: plugin::instance($arguments = array())
+----
+Description: Returns the attached object instance.
+----
+Text: Makes sure to cache it and init it only once.
+----
+Parameters: - name: $arguments
+  type: array
+  text: Optional arguments to pass to the instance
+----
+Returntype: object
+----
+Return: 

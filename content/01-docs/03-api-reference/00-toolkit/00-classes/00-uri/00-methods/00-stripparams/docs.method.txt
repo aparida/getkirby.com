@@ -1,0 +1,19 @@
+﻿Name: stripParams
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::stripParams
+----
+Syntax: uri::stripParams()
+----
+Description: Removes all parameters
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: $this
+----
+Return: 

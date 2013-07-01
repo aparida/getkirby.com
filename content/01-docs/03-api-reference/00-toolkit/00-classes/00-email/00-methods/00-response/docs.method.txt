@@ -1,0 +1,19 @@
+﻿Name: response
+----
+Visibility: public
+----
+Static: no
+----
+Title: email::response
+----
+Syntax: email::response()
+----
+Description: Returns the optional response from the service
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: mixed
+----
+Return: 

@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: remote::__construct
+----
+Syntax: remote::__construct($url, $options = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: 
+
+- name: $options
+  type: array
+  text:

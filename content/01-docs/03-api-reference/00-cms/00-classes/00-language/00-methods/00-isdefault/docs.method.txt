@@ -1,0 +1,19 @@
+﻿Name: isDefault
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::isDefault
+----
+Syntax: language::isDefault()
+----
+Description: Checks if this is the default language
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

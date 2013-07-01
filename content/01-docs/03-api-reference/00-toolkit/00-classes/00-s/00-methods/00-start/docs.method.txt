@@ -1,0 +1,19 @@
+﻿Name: start
+----
+Visibility: public
+----
+Static: yes
+----
+Title: s::start
+----
+Syntax: s::start()
+----
+Description: Starts a new session
+----
+Text: <pre><code>
+s::start();
+// do whatever you want with the session now
+
+</code></pre>
+----
+Parameters: 

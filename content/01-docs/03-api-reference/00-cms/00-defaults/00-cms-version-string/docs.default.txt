@@ -1,0 +1,5 @@
+﻿Title: cms.version.string
+----
+Value: <pre>2.0</pre>
+----
+Description: Human-readable version

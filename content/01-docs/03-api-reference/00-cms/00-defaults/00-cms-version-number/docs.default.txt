@@ -1,0 +1,5 @@
+﻿Title: cms.version.number
+----
+Value: <pre>2</pre>
+----
+Description: Machine-readable version

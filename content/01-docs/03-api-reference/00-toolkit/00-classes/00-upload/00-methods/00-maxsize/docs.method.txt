@@ -1,0 +1,19 @@
+﻿Name: maxSize
+----
+Visibility: public
+----
+Static: yes
+----
+Title: upload::maxSize
+----
+Syntax: upload::maxSize()
+----
+Description: Returns the max allowed upload size
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

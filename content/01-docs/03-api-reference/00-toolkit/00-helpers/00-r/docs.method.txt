@@ -1,0 +1,25 @@
+﻿Name: r
+----
+Visibility: 
+----
+Static: 
+----
+Title: r
+----
+Syntax: r($condition, $value, $alternative = null)
+----
+Description: Smart version of return with an if condition as first argument
+----
+Text: 
+----
+Parameters: - name: $condition
+  type: boolean
+  text: 
+
+- name: $value
+  type: string
+  text: The string to be returned if the condition is true
+
+- name: $alternative
+  type: string
+  text: An alternative string which should be returned when the condition is false

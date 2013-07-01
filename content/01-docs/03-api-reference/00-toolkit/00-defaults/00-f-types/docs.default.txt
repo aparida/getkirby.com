@@ -1,0 +1,98 @@
+﻿Title: f.types
+----
+Value: <pre>Array
+(
+    [image] =&gt; Array
+        (
+            [0] =&gt; jpeg
+            [1] =&gt; jpg
+            [2] =&gt; jpe
+            [3] =&gt; gif
+            [4] =&gt; png
+            [5] =&gt; svg
+            [6] =&gt; ico
+            [7] =&gt; tif
+            [8] =&gt; tiff
+            [9] =&gt; bmp
+            [10] =&gt; psd
+            [11] =&gt; ai
+            [12] =&gt; eps
+            [13] =&gt; ps
+        )
+
+    [document] =&gt; Array
+        (
+            [0] =&gt; txt
+            [1] =&gt; text
+            [2] =&gt; mdown
+            [3] =&gt; md
+            [4] =&gt; markdown
+            [5] =&gt; pdf
+            [6] =&gt; doc
+            [7] =&gt; docx
+            [8] =&gt; word
+            [9] =&gt; xl
+            [10] =&gt; xls
+            [11] =&gt; xlsx
+            [12] =&gt; ppt
+            [13] =&gt; csv
+            [14] =&gt; rtf
+            [15] =&gt; rtx
+            [16] =&gt; log
+        )
+
+    [archive] =&gt; Array
+        (
+            [0] =&gt; zip
+            [1] =&gt; tar
+            [2] =&gt; gz
+            [3] =&gt; gzip
+            [4] =&gt; tgz
+        )
+
+    [code] =&gt; Array
+        (
+            [0] =&gt; js
+            [1] =&gt; css
+            [2] =&gt; scss
+            [3] =&gt; htm
+            [4] =&gt; html
+            [5] =&gt; shtml
+            [6] =&gt; xhtml
+            [7] =&gt; php
+            [8] =&gt; php3
+            [9] =&gt; php4
+            [10] =&gt; rb
+            [11] =&gt; xml
+            [12] =&gt; json
+        )
+
+    [video] =&gt; Array
+        (
+            [0] =&gt; mov
+            [1] =&gt; movie
+            [2] =&gt; avi
+            [3] =&gt; ogg
+            [4] =&gt; ogv
+            [5] =&gt; webm
+            [6] =&gt; flv
+            [7] =&gt; swf
+            [8] =&gt; mp4
+            [9] =&gt; mv4
+            [10] =&gt; mpg
+            [11] =&gt; mpe
+        )
+
+    [audio] =&gt; Array
+        (
+            [0] =&gt; mp3
+            [1] =&gt; wav
+            [2] =&gt; aif
+            [3] =&gt; aiff
+            [4] =&gt; midi
+        )
+
+)
+</pre>
+----
+Description: file categorization

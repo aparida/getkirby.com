@@ -1,0 +1,19 @@
+﻿Name: siblings
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::siblings
+----
+Syntax: page::siblings()
+----
+Description: Returns all siblings of this page including the current page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Pages

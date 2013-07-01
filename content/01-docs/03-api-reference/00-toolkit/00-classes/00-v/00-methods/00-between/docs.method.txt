@@ -1,0 +1,37 @@
+﻿Name: between
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::between
+----
+Syntax: v::between($value, $min, $max)
+----
+Description: Checks if the size/count/length of a given value
+is between a minimum and maximumn value.
+----
+Text: The value may be a string, array or file
+
+<pre><code>
+if(v::between('My random text', 10, 140)) {
+  echo 'Your text has the correct length';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: mixed
+  text: 
+
+- name: $min
+  type: int
+  text: 
+
+- name: $max
+  type: int
+  text:
+----
+Returntype: boolean
+----
+Return: 

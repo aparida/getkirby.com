@@ -1,0 +1,25 @@
+﻿Name: hit
+----
+Visibility: protected
+----
+Static: yes
+----
+Title: db::hit
+----
+Syntax: db::hit($query, $bindings = array())
+----
+Description: Private method to execute database queries.
+----
+Text: This is used by the query() and execute() methods
+----
+Parameters: - name: $query
+  type: string
+  text: 
+
+- name: $bindings
+  type: array
+  text:
+----
+Returntype: mixed
+----
+Return: 

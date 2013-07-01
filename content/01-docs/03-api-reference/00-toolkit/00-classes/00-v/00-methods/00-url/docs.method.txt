@@ -1,0 +1,26 @@
+﻿Name: url
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::url
+----
+Syntax: v::url($value)
+----
+Description: Checks for valid URL
+----
+Text: <pre><code>
+if(v::url('http://getkirby.com')) {
+  echo 'That is a valid URL';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: hasPrevPage
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::hasPrevPage
+----
+Syntax: pagination::hasPrevPage()
+----
+Description: Checks if there's a previous page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

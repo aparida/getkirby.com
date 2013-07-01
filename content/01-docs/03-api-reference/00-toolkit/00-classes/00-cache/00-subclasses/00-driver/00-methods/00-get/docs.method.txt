@@ -1,0 +1,30 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: no
+----
+Title: driver::get
+----
+Syntax: driver::get($key, $default = null)
+----
+Description: Get an item from the cache.
+----
+Text: <pre><code>		// Get an item from the cache driver
+		$value = Cache::get('value');
+
+		// Return a default value if the requested item isn't cached
+		$value = Cache::get('value', 'default value');
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $default
+  type: mixed
+  text:
+----
+Returntype: mixed
+----
+Return: 

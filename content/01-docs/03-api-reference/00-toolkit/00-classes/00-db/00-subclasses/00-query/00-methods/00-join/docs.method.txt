@@ -1,0 +1,29 @@
+﻿Name: join
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::join
+----
+Syntax: query::join($table, $on, $type = '')
+----
+Description: Adds a new join clause to the query
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: Name of the table, which should be joined
+
+- name: $on
+  type: string
+  text: The on clause for this join
+
+- name: $type
+  type: string
+  text: The join type. Uses an inner join by default
+----
+Returntype: object
+----
+Return: 

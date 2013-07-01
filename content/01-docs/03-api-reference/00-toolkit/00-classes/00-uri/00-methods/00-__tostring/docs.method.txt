@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::__toString
+----
+Syntax: uri::__toString()
+----
+Description: Makes it possible to echo the object
+and get a string represantation of the URI
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

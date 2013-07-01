@@ -1,0 +1,21 @@
+﻿Name: filter
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::filter
+----
+Syntax: collection::filter($callback)
+----
+Description: Filter the elements in the array by a callback function
+----
+Text: 
+----
+Parameters: - name: $callback
+  type: func
+  text: the callback function
+----
+Returntype: object
+----
+Return: a new filtered collection

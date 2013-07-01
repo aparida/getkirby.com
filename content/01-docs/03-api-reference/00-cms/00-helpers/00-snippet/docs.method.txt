@@ -1,0 +1,29 @@
+﻿Name: snippet
+----
+Visibility: 
+----
+Static: 
+----
+Title: snippet
+----
+Syntax: snippet($snippet, $data = array(), $return = false)
+----
+Description: Embeds a template snippet from the snippet folder
+----
+Text: 
+----
+Parameters: - name: $snippet
+  type: string
+  text: The name of the snippet (without .php)
+
+- name: $data
+  type: array
+  text: An optional associative array with additional data which should be accessible from within the snippet
+
+- name: $return
+  type: boolean
+  text: false: the snippet content will be echoed, true: the snippet content will be returned
+----
+Returntype: string
+----
+Return: 

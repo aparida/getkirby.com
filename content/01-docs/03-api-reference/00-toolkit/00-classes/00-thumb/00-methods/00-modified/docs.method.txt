@@ -1,0 +1,19 @@
+﻿Name: modified
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::modified
+----
+Syntax: thumb::modified()
+----
+Description: Returns the unix timestamp of the last modification
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

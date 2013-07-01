@@ -1,0 +1,7 @@
+﻿Title: Params
+----
+Class: Params
+----
+Description: The params object is a child object of the URI object.
+It contains all named parameters from a URL:
+param1:value1/param2:value2/param3:value3

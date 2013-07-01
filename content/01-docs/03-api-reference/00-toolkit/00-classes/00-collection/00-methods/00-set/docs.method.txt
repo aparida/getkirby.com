@@ -1,0 +1,23 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::set
+----
+Syntax: collection::set($key, $value = null)
+----
+Description: Adds a new element or overwrites an existing
+element in the array
+----
+Text: Can also be used to set the entire array by
+passing the array as first argument instead of a key
+----
+Parameters: - name: $key
+  type: string
+  text: the name of the key, which should be set or replaced
+
+- name: $value
+  type: mixed
+  text: an array or object or whatever you want to store

@@ -1,0 +1,25 @@
+﻿Name: unhtml
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::unhtml
+----
+Syntax: str::unhtml($string)
+----
+Description: Removes all html tags and encoded chars from a string
+----
+Text: <pre><code>
+echo str::unhtml('some <em>crazy</em> stuff');
+// output: some uber crazy stuff
+
+</code></pre>
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: The html string

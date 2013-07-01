@@ -1,0 +1,19 @@
+﻿Name: ip
+----
+Visibility: public
+----
+Static: yes
+----
+Title: visitor::ip
+----
+Syntax: visitor::ip()
+----
+Description: Returns the ip address of the current visitor
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

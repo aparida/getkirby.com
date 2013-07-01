@@ -1,0 +1,19 @@
+﻿Name: hasSiblings
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasSiblings
+----
+Syntax: page::hasSiblings()
+----
+Description: Checks if this page has siblings
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

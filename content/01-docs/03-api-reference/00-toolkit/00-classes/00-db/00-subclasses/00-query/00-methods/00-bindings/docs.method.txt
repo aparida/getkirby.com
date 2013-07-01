@@ -1,0 +1,21 @@
+﻿Name: bindings
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::bindings
+----
+Syntax: query::bindings($bindings = null)
+----
+Description: Attaches additional bindings to the query.
+----
+Text: Also can be used as getter for all attached bindings by not passing an argument.
+----
+Parameters: - name: $bindings
+  type: mixed
+  text: Array of bindings or null to use this method as getter
+----
+Returntype: mixed
+----
+Return: 

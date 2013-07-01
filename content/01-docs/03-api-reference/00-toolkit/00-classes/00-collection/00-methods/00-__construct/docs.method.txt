@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::__construct
+----
+Syntax: collection::__construct($array = array())
+----
+Description: Creates a new collection
+----
+Text: 
+----
+Parameters: - name: $array
+  type: array
+  text: the initial array for the iterator

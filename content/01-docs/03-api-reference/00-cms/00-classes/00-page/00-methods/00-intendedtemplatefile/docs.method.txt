@@ -1,0 +1,20 @@
+﻿Name: intendedTemplateFile
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::intendedTemplateFile
+----
+Syntax: page::intendedTemplateFile()
+----
+Description: Returns the full path to the intended template file
+This template file may not exist.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

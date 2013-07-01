@@ -1,0 +1,21 @@
+﻿Name: raw
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::raw
+----
+Syntax: content::raw()
+----
+Description: Returns the plain text version of the text file
+This also makes sure to remove BOM characters from
+text files to avoid parsing errors.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

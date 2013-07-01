@@ -1,0 +1,16 @@
+﻿Name: scan
+----
+Visibility: private
+----
+Static: no
+----
+Title: dir::scan
+----
+Syntax: dir::scan()
+----
+Description: Scans all contents of this directory
+and divides items into dirs and files
+----
+Text: 
+----
+Parameters: 

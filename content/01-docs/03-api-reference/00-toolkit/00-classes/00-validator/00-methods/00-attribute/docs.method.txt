@@ -1,0 +1,19 @@
+﻿Name: attribute
+----
+Visibility: public
+----
+Static: no
+----
+Title: validator::attribute
+----
+Syntax: validator::attribute()
+----
+Description: Returns the used attribute name
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,20 @@
+﻿Name: toCollection
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toCollection
+----
+Syntax: variable::toCollection()
+----
+Description: Uses the yaml parser to convert the value to an array first
+and converts it to a Collection object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

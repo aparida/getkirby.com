@@ -1,0 +1,10 @@
+﻿Title: currentURL
+----
+Value: <pre>&nbsp;</pre>
+----
+Description: Current URL
+
+You can overwrite the currently active URL
+with this option to force rendering of a specific
+page. This can be used to convert particular pages
+to a static version for example

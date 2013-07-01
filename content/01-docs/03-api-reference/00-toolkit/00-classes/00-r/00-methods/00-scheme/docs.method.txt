@@ -1,0 +1,19 @@
+﻿Name: scheme
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::scheme
+----
+Syntax: r::scheme()
+----
+Description: Returns the request scheme
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

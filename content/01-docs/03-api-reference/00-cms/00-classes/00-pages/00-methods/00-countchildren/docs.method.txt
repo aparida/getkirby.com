@@ -1,0 +1,19 @@
+﻿Name: countChildren
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::countChildren
+----
+Syntax: pages::countChildren()
+----
+Description: Counts all children of all pages
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

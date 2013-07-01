@@ -1,0 +1,19 @@
+﻿Name: hasOthers
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasOthers
+----
+Syntax: page::hasOthers()
+----
+Description: Checks if there are any other files stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: true = has other files, false = no other files

@@ -1,0 +1,19 @@
+﻿Name: table
+----
+Visibility: protected
+----
+Static: no
+----
+Title: database::table
+----
+Syntax: database::table()
+----
+Description: Returns the DbQuery object with the table prefilled
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: DbQuery

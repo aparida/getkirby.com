@@ -1,0 +1,19 @@
+﻿Name: data
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::data
+----
+Syntax: exif::data()
+----
+Description: Returns the raw data array from the parser
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

@@ -1,0 +1,26 @@
+﻿Name: __call
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::__call
+----
+Syntax: object::__call($method, $arguments = null)
+----
+Description: Magic call function
+----
+Text: This adds additional method getters to the
+object. Stuff like `$myobject->myvalue()`
+----
+Parameters: - name: $method
+  type: string
+  text: The name of the called method
+
+- name: $arguments
+  type: mixed
+  text: Those do not need to be specified, but the argument is required by PHP
+----
+Returntype: mixed
+----
+Return: If the getter finds something, that value will be returned. Otherwise it will return null or void

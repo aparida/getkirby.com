@@ -1,0 +1,19 @@
+﻿Name: kirbytext
+----
+Visibility: protected
+----
+Static: no
+----
+Title: tag::kirbytext
+----
+Syntax: tag::kirbytext()
+----
+Description: Returns the parent kirbytext object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Kirbytext

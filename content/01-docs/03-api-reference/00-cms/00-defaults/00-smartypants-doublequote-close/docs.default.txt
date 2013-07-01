@@ -1,0 +1,5 @@
+﻿Title: smartypants.doublequote.close
+----
+Value: <pre>&#8221;</pre>
+----
+Description: 

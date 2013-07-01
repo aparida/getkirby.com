@@ -1,0 +1,19 @@
+﻿Name: active
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::active
+----
+Syntax: pages::active()
+----
+Description: Returns the active page in the collection
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Page

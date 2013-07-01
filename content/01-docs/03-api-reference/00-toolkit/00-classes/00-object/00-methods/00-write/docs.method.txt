@@ -1,0 +1,24 @@
+﻿Name: write
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::write
+----
+Syntax: object::write($key, $value)
+----
+Description: Writes the value to the internal data array
+----
+Text: This can be used in custom setters to
+directly write a value to the data array
+instead of using set, which would cause a
+endless loop in a custom setter.
+----
+Parameters: - name: $key
+  type: string
+  text: The name for the key in the $data array
+
+- name: $value
+  type: mixed
+  text: Can be anything

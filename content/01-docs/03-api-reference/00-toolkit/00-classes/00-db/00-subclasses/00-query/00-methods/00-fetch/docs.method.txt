@@ -1,0 +1,22 @@
+﻿Name: fetch
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::fetch
+----
+Syntax: query::fetch($fetch)
+----
+Description: Sets the object class, which should be fetched
+Set this to array to get a simple array instead of an object
+----
+Text: 
+----
+Parameters: - name: $fetch
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

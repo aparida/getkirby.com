@@ -1,0 +1,19 @@
+﻿Name: action
+----
+Visibility: public
+----
+Static: no
+----
+Title: route::action
+----
+Syntax: route::action()
+----
+Description: Returns the assigned action for this route
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: function
+----
+Return: 

@@ -1,0 +1,13 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: size::validate
+----
+Syntax: size::validate()
+----
+Description: 
+----
+Text: 

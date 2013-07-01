@@ -1,0 +1,25 @@
+﻿Name: stripQuery
+----
+Visibility: public
+----
+Static: yes
+----
+Title: url::stripQuery
+----
+Syntax: url::stripQuery($url)
+----
+Description: Strips the query from the URL
+----
+Text: <pre><code>
+echo url::stripQuery('http://www.youtube.com/watch?v=9q_aXttJduk');
+// output: http://www.youtube.com/watch
+
+</code></pre>
+----
+Parameters: - name: $url
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

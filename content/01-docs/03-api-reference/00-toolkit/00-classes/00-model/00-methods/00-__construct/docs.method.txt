@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::__construct
+----
+Syntax: model::__construct($data = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $data
+  type: array
+  text:

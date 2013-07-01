@@ -1,0 +1,19 @@
+﻿Name: baseurl
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::baseurl
+----
+Syntax: uri::baseurl()
+----
+Description: Returns the base url (ie. http://yourdomain.com)
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

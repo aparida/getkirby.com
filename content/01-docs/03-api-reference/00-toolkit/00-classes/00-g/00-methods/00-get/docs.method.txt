@@ -1,0 +1,29 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: g::get
+----
+Syntax: g::get($key = null, $default = null)
+----
+Description: Gets an global value by key
+----
+Text: <pre><code>
+g::get('var1', 'some other value');
+// returns 'some value' if var1 has been set earlier, otherwise returns 'some other value'
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to look for. Pass false or null to return the entire globals array.
+
+- name: $default
+  type: mixed
+  text: Optional default value, which should be returned if no element has been found
+----
+Returntype: mixed
+----
+Return: 

@@ -1,0 +1,21 @@
+﻿Name: vars
+----
+Visibility: public
+----
+Static: no
+----
+Title: validator::vars
+----
+Syntax: validator::vars()
+----
+Description: Use this in child classes to return a set
+of vars, which should be replaced in the
+final error message
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

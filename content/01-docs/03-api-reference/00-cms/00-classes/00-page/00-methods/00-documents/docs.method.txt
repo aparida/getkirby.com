@@ -1,0 +1,19 @@
+﻿Name: documents
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::documents
+----
+Syntax: page::documents()
+----
+Description: Only returns documents stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Files

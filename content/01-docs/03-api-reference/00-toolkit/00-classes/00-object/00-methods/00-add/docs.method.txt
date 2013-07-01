@@ -1,0 +1,25 @@
+﻿Name: add
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::add
+----
+Syntax: object::add($key, $value)
+----
+Description: Adds a new value to the object
+----
+Text: It's basically an alternative for set()
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text:
+----
+Returntype: object
+----
+Return: returns the current object to make it chainable

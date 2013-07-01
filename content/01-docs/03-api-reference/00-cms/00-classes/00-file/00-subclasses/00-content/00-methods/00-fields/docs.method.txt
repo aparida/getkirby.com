@@ -1,0 +1,19 @@
+﻿Name: fields
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::fields
+----
+Syntax: content::fields()
+----
+Description: Returns an array with all field names from the text file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: end
+----
+Visibility: public
+----
+Static: yes
+----
+Title: form::end
+----
+Syntax: form::end()
+----
+Description: Generates the form end tag
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: The
+----
+Return: generated html

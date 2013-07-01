@@ -1,0 +1,5 @@
+﻿Title: Max Validator
+----
+Class: Max
+----
+Description: Checks for a value with a size less than the max value

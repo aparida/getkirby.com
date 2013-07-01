@@ -1,0 +1,21 @@
+﻿Name: url
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::url
+----
+Syntax: site::url($lang = false)
+----
+Description: Returns the base url of the site
+The url is auto-detected by default and can
+also be set in the config like the subfolder
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,31 @@
+﻿Name: min
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::min
+----
+Syntax: v::min($value, $min)
+----
+Description: Checks for a min size/count/length of a given value
+The value may be a string, array or file
+----
+Text: <pre><code>
+if(v::min('My username', 6)) {
+  echo 'Your username is long enough';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: mixed
+  text: 
+
+- name: $min
+  type: int
+  text:
+----
+Returntype: boolean
+----
+Return: 

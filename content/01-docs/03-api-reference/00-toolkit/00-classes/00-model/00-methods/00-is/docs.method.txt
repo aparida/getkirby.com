@@ -1,0 +1,21 @@
+﻿Name: is
+----
+Visibility: public
+----
+Static: no
+----
+Title: model::is
+----
+Syntax: model::is($model)
+----
+Description: Compares this model to another given model by type and primary key
+----
+Text: 
+----
+Parameters: - name: $model
+  type: 
+  text:
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: id
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugin::id
+----
+Syntax: plugin::id()
+----
+Description: Returns the id/folder name of the plugin
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

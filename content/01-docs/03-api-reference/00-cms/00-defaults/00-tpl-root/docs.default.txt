@@ -1,0 +1,5 @@
+﻿Title: tpl.root
+----
+Value: <pre>KIRBY_PROJECT_ROOT_TEMPLATES</pre>
+----
+Description: Default location for templates

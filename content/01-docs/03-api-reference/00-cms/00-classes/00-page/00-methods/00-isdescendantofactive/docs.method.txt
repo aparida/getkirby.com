@@ -1,0 +1,19 @@
+﻿Name: isDescendantOfActive
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::isDescendantOfActive
+----
+Syntax: page::isDescendantOfActive()
+----
+Description: Checks if the page is a descendant of the currently active page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,21 @@
+﻿Name: removeParam
+----
+Visibility: public
+----
+Static: no
+----
+Title: uri::removeParam
+----
+Syntax: uri::removeParam($key)
+----
+Description: Removes a parameter
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: $this

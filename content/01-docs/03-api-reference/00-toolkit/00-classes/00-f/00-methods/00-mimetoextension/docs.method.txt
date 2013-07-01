@@ -1,0 +1,21 @@
+﻿Name: mimeToExtension
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::mimeToExtension
+----
+Syntax: f::mimeToExtension($mime)
+----
+Description: Converts a mime type to a file extension
+----
+Text: 
+----
+Parameters: - name: $mime
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

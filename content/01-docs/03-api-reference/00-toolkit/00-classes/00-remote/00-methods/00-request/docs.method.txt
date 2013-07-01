@@ -1,0 +1,25 @@
+﻿Name: request
+----
+Visibility: public
+----
+Static: yes
+----
+Title: remote::request
+----
+Syntax: remote::request($url, $params = array())
+----
+Description: Static method to init this class and send a request
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: 
+
+- name: $params
+  type: array
+  text:
+----
+Returntype: object
+----
+Return: Response

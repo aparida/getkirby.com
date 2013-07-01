@@ -1,0 +1,9 @@
+﻿Title: lang.locales
+----
+Value: <pre>Array
+(
+)
+</pre>
+----
+Description: An optional set of locales for available languages
+This will overrule the lang.local setting if available.

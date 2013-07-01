@@ -1,0 +1,22 @@
+﻿Name: language
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::language
+----
+Syntax: site::language($code = null)
+----
+Description: Returns the current language or any other language
+if a language code is passed as argument
+----
+Text: 
+----
+Parameters: - name: $code
+  type: string
+  text: An optional language code to return any available language
+----
+Returntype: object
+----
+Return: Language

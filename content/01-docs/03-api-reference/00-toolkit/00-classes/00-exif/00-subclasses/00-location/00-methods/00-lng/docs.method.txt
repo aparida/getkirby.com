@@ -1,0 +1,19 @@
+﻿Name: lng
+----
+Visibility: public
+----
+Static: no
+----
+Title: location::lng
+----
+Syntax: location::lng()
+----
+Description: Returns the longitude
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: float
+----
+Return: 

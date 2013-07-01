@@ -1,0 +1,25 @@
+﻿Name: instance
+----
+Visibility: public
+----
+Static: yes
+----
+Title: kirbytext::instance
+----
+Syntax: kirbytext::instance($text = false, $params = array())
+----
+Description: Creates a Kirbytext instance
+----
+Text: 
+----
+Parameters: - name: $text
+  type: mixed
+  text: Variable object or string
+
+- name: $params
+  type: mixed
+  text: An array with parameters for kirbytext
+----
+Returntype: object
+----
+Return: Kirbytext

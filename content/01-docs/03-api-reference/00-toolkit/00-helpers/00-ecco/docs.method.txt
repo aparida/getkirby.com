@@ -1,0 +1,15 @@
+﻿Name: ecco
+----
+Visibility: 
+----
+Static: 
+----
+Title: ecco
+----
+Syntax: ecco($condition, $value, $alternative = null)
+----
+Description: Alternative for e()
+----
+Text: 
+----
+Parameters: 

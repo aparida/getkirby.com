@@ -1,0 +1,19 @@
+﻿Name: json
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::json
+----
+Syntax: response::json()
+----
+Description: Parses the request content as json
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

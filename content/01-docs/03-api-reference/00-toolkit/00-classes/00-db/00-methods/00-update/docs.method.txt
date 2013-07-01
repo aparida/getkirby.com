@@ -1,0 +1,29 @@
+﻿Name: update
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::update
+----
+Syntax: db::update($table, $values, $where = null)
+----
+Description: Shortcut for updating a row in a table
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: The name of the table, which should be queried
+
+- name: $values
+  type: string
+  text: An array of values, which should be inserted
+
+- name: $where
+  type: mixed
+  text: An optional where clause
+----
+Returntype: boolean
+----
+Return: 

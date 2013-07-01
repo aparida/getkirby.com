@@ -1,0 +1,7 @@
+﻿Title: lang.detect
+----
+Value: <pre>true</pre>
+----
+Description: If true, Kirby will try to detect the
+current language of the user and switch to
+that language if available.

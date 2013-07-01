@@ -1,0 +1,16 @@
+﻿Name: validate
+----
+Visibility: public
+----
+Static: no
+----
+Title: email::validate
+----
+Syntax: email::validate()
+----
+Description: Validates the constructed email
+to make sure it can be sent at all
+----
+Text: 
+----
+Parameters: 

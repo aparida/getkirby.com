@@ -1,0 +1,26 @@
+﻿Name: __call
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::__call
+----
+Syntax: content::__call($key, $arguments = null)
+----
+Description: Magic getter for Variables
+i.e. $this->title()
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: This is auto filled by PHP with the called method name
+
+- name: $arguments
+  type: mixed
+  text: Not used!
+----
+Returntype: mixed
+----
+Return: 

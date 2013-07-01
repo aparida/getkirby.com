@@ -1,0 +1,19 @@
+﻿Name: affected
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::affected
+----
+Syntax: db::affected()
+----
+Description: Returns the number of affected rows for the last query
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

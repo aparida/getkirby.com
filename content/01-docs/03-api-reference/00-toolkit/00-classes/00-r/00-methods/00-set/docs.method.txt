@@ -1,0 +1,35 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::set
+----
+Syntax: r::set($key, $value = null)
+----
+Description: Sets or overwrites a variable in the data array
+----
+Text: <pre><code>
+r::set('username', 'bastian');
+
+a::show($_REQUEST);
+
+// sample output: array(
+//    'username' => 'bastian'
+//    ... other stuff from the request
+// );
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: mixed
+  text: The key to set/replace. Use an array to set multiple values at once
+
+- name: $value
+  type: mixed
+  text: The value
+----
+Returntype: array
+----
+Return: 

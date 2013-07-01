@@ -1,0 +1,21 @@
+﻿Name: upper
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::upper
+----
+Syntax: str::upper($str)
+----
+Description: An UTF-8 safe version of strotoupper()
+----
+Text: 
+----
+Parameters: - name: $str
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

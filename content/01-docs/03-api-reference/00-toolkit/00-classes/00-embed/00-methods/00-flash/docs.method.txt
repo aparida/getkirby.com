@@ -1,0 +1,33 @@
+﻿Name: flash
+----
+Visibility: public
+----
+Static: yes
+----
+Title: embed::flash
+----
+Syntax: embed::flash($url, $width, $height, $params = array())
+----
+Description: Embeds a flash file
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: The url of the fla or swf
+
+- name: $width
+  type: int
+  text: 
+
+- name: $height
+  type: int
+  text: 
+
+- name: $params
+  type: array
+  text: Additional options (see $defaults array)
+----
+Returntype: string
+----
+Return: 

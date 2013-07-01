@@ -1,0 +1,21 @@
+﻿Name: md
+----
+Visibility: 
+----
+Static: 
+----
+Title: md
+----
+Syntax: md($text)
+----
+Description: Shortcut for markdown()
+----
+Text: 
+----
+Parameters: - name: $text
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: parsed text

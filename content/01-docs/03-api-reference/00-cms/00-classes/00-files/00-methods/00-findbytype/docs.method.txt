@@ -1,0 +1,21 @@
+﻿Name: findByType
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::findByType
+----
+Syntax: files::findByType()
+----
+Description: Find a single or multiple files by type
+----
+Text: 
+----
+Parameters: - name: 
+  type: list
+  text: Either a single type or a list of types as individual arguments
+----
+Returntype: mixed
+----
+Return: File for a single type or Files for a list of types

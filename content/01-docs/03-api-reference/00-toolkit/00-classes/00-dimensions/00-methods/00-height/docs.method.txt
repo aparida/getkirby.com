@@ -1,0 +1,19 @@
+﻿Name: height
+----
+Visibility: public
+----
+Static: no
+----
+Title: dimensions::height
+----
+Syntax: dimensions::height()
+----
+Description: Returns the height
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

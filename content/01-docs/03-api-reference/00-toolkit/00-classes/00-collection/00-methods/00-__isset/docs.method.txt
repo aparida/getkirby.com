@@ -1,0 +1,21 @@
+﻿Name: __isset
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::__isset
+----
+Syntax: collection::__isset($key)
+----
+Description: Checks if the current key is set
+----
+Text: `isset($mycollection->mykey)`
+----
+Parameters: - name: $key
+  type: string
+  text: the key to check
+----
+Returntype: boolean
+----
+Return: 

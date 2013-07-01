@@ -1,0 +1,25 @@
+﻿Name: youtube
+----
+Visibility: public
+----
+Static: yes
+----
+Title: embed::youtube
+----
+Syntax: embed::youtube($url, $attr = array())
+----
+Description: Embeds a youtube video by passing the Youtube url
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: Youtube url i.e. http://www.youtube.com/watch?v=d9NF2edxy-M
+
+- name: $attr
+  type: array
+  text: Additional attributes for the iframe
+----
+Returntype: string
+----
+Return: 

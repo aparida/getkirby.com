@@ -1,0 +1,22 @@
+﻿Name: iterator
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::iterator
+----
+Syntax: query::iterator($iterator)
+----
+Description: Sets the iterator class, which should be used for multiple results
+Set this to array to get a simple array instead of an iterator object
+----
+Text: 
+----
+Parameters: - name: $iterator
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: 

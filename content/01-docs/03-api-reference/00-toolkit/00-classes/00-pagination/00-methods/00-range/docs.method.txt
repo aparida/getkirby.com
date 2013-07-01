@@ -1,0 +1,19 @@
+﻿Name: range
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::range
+----
+Syntax: pagination::range($range = 5)
+----
+Description: Creates a range of page numbers for Google-like pagination
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

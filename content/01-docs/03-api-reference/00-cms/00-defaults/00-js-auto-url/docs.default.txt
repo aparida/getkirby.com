@@ -1,0 +1,6 @@
+﻿Title: js.auto.url
+----
+Value: <pre>assets/js/templates</pre>
+----
+Description: Define the url for the folder
+where auto-loadable js files should be located.

@@ -1,0 +1,19 @@
+﻿Name: toUrl
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toUrl
+----
+Syntax: variable::toUrl()
+----
+Description: Applies the url() helper function to the value
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

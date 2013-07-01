@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: camera::__construct
+----
+Syntax: camera::__construct($exif)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $make
+  type: string
+  text: 
+
+- name: $model
+  type: string
+  text:

@@ -1,0 +1,15 @@
+﻿Name: home
+----
+Visibility: 
+----
+Static: 
+----
+Title: home
+----
+Syntax: home()
+----
+Description: Redirects the user to the home page
+----
+Text: 
+----
+Parameters: 

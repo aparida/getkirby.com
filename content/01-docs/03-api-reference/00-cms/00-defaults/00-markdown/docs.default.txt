@@ -1,0 +1,8 @@
+﻿Title: markdown
+----
+Value: <pre>true</pre>
+----
+Description: General switch for the markdown parser
+
+If set to false, Markdown will be disabled
+throughout all functions

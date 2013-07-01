@@ -1,0 +1,23 @@
+﻿Name: file
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::file
+----
+Syntax: upload::file($file = null)
+----
+Description: Returns the full path to the destination file
+This will replace all placeholders in the file name
+Check replace for available placeholders
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: Filename template. Leave empty to use this as getter
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::__construct
+----
+Syntax: thumb::__construct($image, $options = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $image
+  type: mixed
+  text: The image (Asset) object
+
+- name: $options
+  type: array
+  text: Options for the final thumbnail

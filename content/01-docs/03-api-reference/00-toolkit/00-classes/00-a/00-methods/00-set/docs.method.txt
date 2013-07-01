@@ -1,0 +1,25 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: yes
+----
+Title: a::set
+----
+Syntax: a::set($array, $key, $value)
+----
+Description: Sets a value for any key or sub key in the array
+----
+Text: 
+----
+Parameters: - name: $array
+  type: array
+  text: 
+
+- name: $key
+  type: string
+  text: Use > notation to acccess deeper nested array keys
+
+- name: $value
+  type: mixed
+  text:

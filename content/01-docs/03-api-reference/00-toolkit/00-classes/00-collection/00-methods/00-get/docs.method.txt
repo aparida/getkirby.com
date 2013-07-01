@@ -1,0 +1,25 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: no
+----
+Title: collection::get
+----
+Syntax: collection::get($key = null, $default = null)
+----
+Description: Get an element from the array
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: the name of the key to get. if no key is given, the entire array will be returned.
+
+- name: $default
+  type: mixed
+  text: the optional fallback value, which will be returned if the key has not been found
+----
+Returntype: mixed
+----
+Return: Whatever has been found for the key

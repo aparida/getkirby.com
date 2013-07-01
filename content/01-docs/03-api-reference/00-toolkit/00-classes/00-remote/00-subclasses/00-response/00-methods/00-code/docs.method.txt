@@ -1,0 +1,19 @@
+﻿Name: code
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::code
+----
+Syntax: response::code()
+----
+Description: Returns the response code
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

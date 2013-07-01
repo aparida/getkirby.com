@@ -1,0 +1,6 @@
+﻿Title: Collection
+----
+Class: Collection
+----
+Description: An iterator base for every array,
+which needs a little more love

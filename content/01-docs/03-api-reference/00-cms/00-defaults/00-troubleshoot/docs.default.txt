@@ -1,0 +1,12 @@
+﻿Title: troubleshoot
+----
+Value: <pre>false</pre>
+----
+Description: Troubleshoot modal
+
+When running into setup issues it might
+come in handy to show Kirby's troubleshoot page.
+The troubleshoot page has a list of possible errors
+and an overview of all set options.
+Set this option to true, to show it and reload
+your page afterwards.

@@ -1,0 +1,6 @@
+﻿Title: Pages
+----
+Class: Pages
+----
+Description: This is the main collection object
+for a set of Page objects

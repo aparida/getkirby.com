@@ -1,0 +1,21 @@
+﻿Name: retrieve
+----
+Visibility: public
+----
+Static: no
+----
+Title: memcache::retrieve
+----
+Syntax: memcache::retrieve($key)
+----
+Description: Retrieve the CacheValue object from the cache.
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text:
+----
+Returntype: object
+----
+Return: CacheValue

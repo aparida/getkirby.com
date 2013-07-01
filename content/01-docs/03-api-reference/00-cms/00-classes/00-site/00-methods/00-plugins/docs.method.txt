@@ -1,0 +1,19 @@
+﻿Name: plugins
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::plugins
+----
+Syntax: site::plugins()
+----
+Description: Returns the Plugins object with all installed plugins
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Plugins

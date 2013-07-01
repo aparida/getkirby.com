@@ -1,0 +1,19 @@
+﻿Name: ratio
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::ratio
+----
+Syntax: thumb::ratio()
+----
+Description: Returns the ratio of the thumbnail
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: float
+----
+Return: 

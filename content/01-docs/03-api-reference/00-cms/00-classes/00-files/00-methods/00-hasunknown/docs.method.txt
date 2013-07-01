@@ -1,0 +1,19 @@
+﻿Name: hasUnknown
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasUnknown
+----
+Syntax: files::hasUnknown()
+----
+Description: Checks if this collection contains unknown files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

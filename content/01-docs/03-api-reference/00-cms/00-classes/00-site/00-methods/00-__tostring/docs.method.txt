@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::__toString
+----
+Syntax: site::__toString()
+----
+Description: Creates a link to the main url of this site.
+----
+Text: It's just there for debugging and to avoid errors when
+someone tries to echo the entire site object
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

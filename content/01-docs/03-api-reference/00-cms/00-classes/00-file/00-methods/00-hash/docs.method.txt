@@ -1,0 +1,19 @@
+﻿Name: hash
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::hash
+----
+Syntax: file::hash()
+----
+Description: Returns a md5 hash of this file's root
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

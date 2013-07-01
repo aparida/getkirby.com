@@ -1,0 +1,21 @@
+﻿Name: select
+----
+Visibility: public
+----
+Static: yes
+----
+Title: sql::select
+----
+Syntax: sql::select($params = array())
+----
+Description: Builds a select clause
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: List of parameters for the select clause. Check out the defaults for more info.
+----
+Returntype: string
+----
+Return: 

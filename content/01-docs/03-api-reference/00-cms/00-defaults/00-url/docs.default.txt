@@ -1,0 +1,9 @@
+﻿Title: url
+----
+Value: <pre>false</pre>
+----
+Description: The base url
+
+If false, the url will be autodetected
+You can hardwire the url with this option
+if autodetection fails for some reason.

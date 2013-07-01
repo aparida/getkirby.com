@@ -1,0 +1,6 @@
+﻿Title: URI
+----
+Class: Uri
+----
+Description: The Kirby URI object makes it possible
+to inspect the current URL and modify it

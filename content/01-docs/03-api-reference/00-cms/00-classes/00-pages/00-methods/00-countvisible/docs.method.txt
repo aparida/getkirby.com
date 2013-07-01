@@ -1,0 +1,19 @@
+﻿Name: countVisible
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::countVisible
+----
+Syntax: pages::countVisible()
+----
+Description: Counts visible pages in this set
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

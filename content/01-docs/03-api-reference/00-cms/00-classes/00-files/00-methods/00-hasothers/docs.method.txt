@@ -1,0 +1,15 @@
+﻿Name: hasOthers
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasOthers
+----
+Syntax: files::hasOthers()
+----
+Description: Alternative for $this->hasUnkown()
+----
+Text: 
+----
+Parameters: 

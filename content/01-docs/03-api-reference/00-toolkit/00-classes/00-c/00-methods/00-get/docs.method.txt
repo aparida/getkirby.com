@@ -1,0 +1,35 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: yes
+----
+Title: c::get
+----
+Syntax: c::get($key = null, $default = null)
+----
+Description: Gets a config value by key
+----
+Text: <pre><code>
+// get the hostname for the database and take the localhost if it's not defined.
+c::get('db.host', 'localhost');
+
+// sample output: 'The Title of your App'
+$title = echo c::get('title');
+
+// get an array of values
+$array = c::get(array('key1', 'key2'));
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: The key to look for. Pass false to get the entire config array
+
+- name: $default
+  type: mixed
+  text: The default value, which will be returned if the key has not been found
+----
+Returntype: mixed
+----
+Return: The found config value

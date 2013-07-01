@@ -1,0 +1,19 @@
+﻿Name: ratio
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::ratio
+----
+Syntax: asset::ratio()
+----
+Description: Returns the ratio of the asset
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: timestamp
+----
+Visibility: public
+----
+Static: no
+----
+Title: exif::timestamp
+----
+Syntax: exif::timestamp()
+----
+Description: Returns the timestamp
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,25 @@
+﻿Name: hasNext
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasNext
+----
+Syntax: page::hasNext($sort = false, $direction = 'asc')
+----
+Description: Checks if there is a next page in the collection
+----
+Text: 
+----
+Parameters: - name: $sort
+  type: string
+  text: An optional sort field for the siblings
+
+- name: $direction
+  type: string
+  text: An optional sort direction
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: size
+----
+Visibility: public
+----
+Static: no
+----
+Title: upload::size
+----
+Syntax: upload::size()
+----
+Description: Returns the raw file size of the upload
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

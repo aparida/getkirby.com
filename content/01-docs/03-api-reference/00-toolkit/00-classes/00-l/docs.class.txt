@@ -1,0 +1,5 @@
+﻿Title: Language
+----
+Class: L
+----
+Description: Some handy methods to handle multi-language support

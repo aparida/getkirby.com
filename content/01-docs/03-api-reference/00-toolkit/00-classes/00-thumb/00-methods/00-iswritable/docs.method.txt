@@ -1,0 +1,19 @@
+﻿Name: isWritable
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::isWritable
+----
+Syntax: thumb::isWritable()
+----
+Description: Checks if the thumbnail is writable
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

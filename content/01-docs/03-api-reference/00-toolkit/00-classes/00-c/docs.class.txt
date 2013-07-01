@@ -1,0 +1,6 @@
+﻿Title: Config
+----
+Class: C
+----
+Description: This is the core class to handle
+configuration values/constants.

@@ -1,0 +1,22 @@
+﻿Name: debug
+----
+Visibility: public
+----
+Static: no
+----
+Title: query::debug
+----
+Syntax: query::debug($debug = true)
+----
+Description: Enables query debugging.
+----
+Text: If enabled, the query will return an array with all important info about
+the query instead of actually executing the query and returning results
+----
+Parameters: - name: $debug
+  type: boolean
+  text:
+----
+Returntype: object
+----
+Return: 

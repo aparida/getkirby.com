@@ -1,0 +1,19 @@
+﻿Name: toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toString
+----
+Syntax: variable::toString()
+----
+Description: Converts the value to a string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

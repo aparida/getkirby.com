@@ -1,0 +1,25 @@
+﻿Name: js
+----
+Visibility: 
+----
+Static: 
+----
+Title: js
+----
+Syntax: js($url, $async = false)
+----
+Description: Returns a javascript tag
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: The url to the javascript file. Can be relative or absolute.
+
+- name: $async
+  type: string
+  text: adds an optional HTML5 async attribute to the script tag
+----
+Returntype: string
+----
+Return: 

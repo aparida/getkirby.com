@@ -1,0 +1,22 @@
+﻿Name: index
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::index
+----
+Syntax: pages::index($obj = null)
+----
+Description: Creates a clean one-level array with all
+pages, subpages, subsubpages, etc.
+----
+Text: 
+----
+Parameters: - name: 
+  type: object
+  text: Pages object for recursive indexing
+----
+Returntype: array
+----
+Return: 

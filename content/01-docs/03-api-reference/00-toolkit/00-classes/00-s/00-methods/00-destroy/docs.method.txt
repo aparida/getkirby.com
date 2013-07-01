@@ -1,0 +1,22 @@
+﻿Name: destroy
+----
+Visibility: public
+----
+Static: yes
+----
+Title: s::destroy
+----
+Syntax: s::destroy()
+----
+Description: Destroys a session
+----
+Text: <pre><code>
+s::start();
+// do whatever you want with the session now
+
+s::destroy();
+// everything stored in the session will be deleted
+
+</code></pre>
+----
+Parameters: 

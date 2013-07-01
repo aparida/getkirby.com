@@ -1,0 +1,25 @@
+﻿Name: gps
+----
+Visibility: protected
+----
+Static: no
+----
+Title: location::gps
+----
+Syntax: location::gps($coord, $hemi)
+----
+Description: Converts the gps coordinates
+----
+Text: 
+----
+Parameters: - name: $coord
+  type: string
+  text: 
+
+- name: $hemi
+  type: string
+  text:
+----
+Returntype: float
+----
+Return: 

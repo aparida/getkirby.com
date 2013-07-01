@@ -1,0 +1,22 @@
+﻿Name: toArray
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::toArray
+----
+Syntax: object::toArray()
+----
+Description: Converts the object to an array
+Automatically takes care of removing
+the internal key format (_keyname)
+and returns a clean array of keys and values
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

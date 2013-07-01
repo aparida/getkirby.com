@@ -1,0 +1,22 @@
+﻿Name: url
+----
+Visibility: protected
+----
+Static: no
+----
+Title: tag::url
+----
+Syntax: tag::url($url)
+----
+Description: Smart url generator
+This tries to find matching files for the given uri first.
+----
+Text: Otherwise it will try to build an absolute url if not yet absolute.
+----
+Parameters: - name: $url
+  type: string
+  text: any uri for internal links, absolute urls or files
+----
+Returntype: string
+----
+Return: 

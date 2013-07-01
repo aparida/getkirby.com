@@ -1,0 +1,15 @@
+﻿Name: run
+----
+Visibility: public
+----
+Static: no
+----
+Title: creator::run
+----
+Syntax: creator::run()
+----
+Description: Runs the thumbnail creation code
+----
+Text: 
+----
+Parameters: 

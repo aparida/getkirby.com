@@ -1,0 +1,25 @@
+﻿Name: referer
+----
+Visibility: public
+----
+Static: yes
+----
+Title: r::referer
+----
+Syntax: r::referer($default = null)
+----
+Description: Returns the referer if available
+----
+Text: <pre><code>
+echo r::referer();
+// sample result: http://someurl.com
+
+</code></pre>
+----
+Parameters: - name: $default
+  type: string
+  text: Pass an optional URL to use as default referer if no referer is being found
+----
+Returntype: string
+----
+Return: 

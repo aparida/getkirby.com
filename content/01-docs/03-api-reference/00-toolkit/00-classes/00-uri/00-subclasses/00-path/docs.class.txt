@@ -1,0 +1,7 @@
+﻿Title: Path
+----
+Class: Path
+----
+Description: The path object is a child object of the URI object.
+It contains all parts of the path from a URL:
+this/is/a/beautiful/path

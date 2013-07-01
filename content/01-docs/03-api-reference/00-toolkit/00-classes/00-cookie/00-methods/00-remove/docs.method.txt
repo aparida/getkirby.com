@@ -1,0 +1,29 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cookie::remove
+----
+Syntax: cookie::remove($key, $path = '/', $domain = null, $secure = false)
+----
+Description: Remove a cookie
+----
+Text: <pre><code>
+cookie::remove('mycookie');
+// mycookie is now gone
+
+</code></pre>
+----
+Parameters: - name: $key
+  type: string
+  text: The name of the cookie
+
+- name: $domain
+  type: string
+  text: The domain of the cookie
+----
+Returntype: mixed
+----
+Return: true: the cookie has been removed, false: the cookie could not be removed

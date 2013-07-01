@@ -1,0 +1,26 @@
+﻿Name: alphaNumeric
+----
+Visibility: public
+----
+Static: yes
+----
+Title: v::alphaNumeric
+----
+Syntax: v::alphaNumeric($value)
+----
+Description: Checks if the value contains only numbers and chars from a-z
+----
+Text: <pre><code>
+if(v::alphaNumeric('abc1234')) {
+  echo 'Valid alpha numeric string';
+}
+
+</code></pre>
+----
+Parameters: - name: $value
+  type: mixed
+  text:
+----
+Returntype: boolean
+----
+Return: 

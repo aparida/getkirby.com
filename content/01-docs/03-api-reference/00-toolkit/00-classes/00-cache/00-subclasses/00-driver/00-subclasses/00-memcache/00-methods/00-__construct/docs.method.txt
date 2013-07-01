@@ -1,0 +1,22 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: memcache::__construct
+----
+Syntax: memcache::__construct($params = array())
+----
+Description: Set all parameters which are needed for the memcache client
+see defaults for available parameters
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text:
+----
+Returntype: void
+----
+Return: 

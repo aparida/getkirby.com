@@ -1,0 +1,21 @@
+﻿Name: stripslashes
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::stripslashes
+----
+Syntax: str::stripslashes($string)
+----
+Description: A better way to strip slashes
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

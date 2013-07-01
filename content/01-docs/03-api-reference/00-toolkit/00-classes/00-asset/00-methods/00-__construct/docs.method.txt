@@ -1,0 +1,24 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::__construct
+----
+Syntax: asset::__construct($root, $url = null)
+----
+Description: Constructor
+----
+Text: <pre><code>
+$image = new Asset('/root/to/myfile.jpg', 'http://mydomain.com/myfile.jpg');
+
+</code></pre>
+----
+Parameters: - name: $root
+  type: string
+  text: 
+
+- name: $url
+  type: string
+  text:

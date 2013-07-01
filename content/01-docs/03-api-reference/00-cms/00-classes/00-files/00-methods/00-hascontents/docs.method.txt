@@ -1,0 +1,19 @@
+﻿Name: hasContents
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::hasContents
+----
+Syntax: files::hasContents()
+----
+Description: Checks if this collection contains content files
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

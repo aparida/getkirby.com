@@ -1,0 +1,19 @@
+﻿Name: type
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::type
+----
+Syntax: db::type()
+----
+Description: Returns the used database type
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

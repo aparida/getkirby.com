@@ -1,0 +1,19 @@
+﻿Name: keys
+----
+Visibility: public
+----
+Static: no
+----
+Title: object::keys
+----
+Syntax: object::keys()
+----
+Description: Gets all keys from the $data array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: An array of key names

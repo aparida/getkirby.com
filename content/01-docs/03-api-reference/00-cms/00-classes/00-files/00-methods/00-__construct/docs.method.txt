@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: files::__construct
+----
+Syntax: files::__construct($input)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $page
+  type: object
+  text: The parent Page object

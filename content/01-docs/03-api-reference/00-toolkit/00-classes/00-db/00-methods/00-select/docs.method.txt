@@ -1,0 +1,41 @@
+﻿Name: select
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::select
+----
+Syntax: db::select($table, $columns = '*', $where = null, $order = null, $offset, $limit = null)
+----
+Description: Shortcut for select clauses
+----
+Text: 
+----
+Parameters: - name: $table
+  type: string
+  text: The name of the table, which should be queried
+
+- name: $columns
+  type: mixed
+  text: Either a string with columns or an array of column names
+
+- name: $where
+  type: mixed
+  text: The where clause. Can be a string or an array
+
+- name: $order
+  type: mixed
+  text: 
+
+- name: $offset
+  type: int
+  text: 
+
+- name: $limit
+  type: int
+  text:
+----
+Returntype: mixed
+----
+Return: 

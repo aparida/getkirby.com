@@ -1,0 +1,25 @@
+﻿Name: span
+----
+Visibility: public
+----
+Static: yes
+----
+Title: html::span
+----
+Syntax: html::span($content, $attr = array())
+----
+Description: Generates a span tag
+----
+Text: 
+----
+Parameters: - name: $content
+  type: string
+  text: The content for the span tag
+
+- name: $attr
+  type: array
+  text: Additional attributes for the tag
+----
+Returntype: string
+----
+Return: the generated html

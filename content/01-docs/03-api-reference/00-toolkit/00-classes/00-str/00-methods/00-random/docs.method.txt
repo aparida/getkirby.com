@@ -1,0 +1,21 @@
+﻿Name: random
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::random
+----
+Syntax: str::random($length = false, $type = 'alphaNum')
+----
+Description: Generates a random string
+----
+Text: 
+----
+Parameters: - name: $length
+  type: int
+  text: The length of the random string
+----
+Returntype: string
+----
+Return: 

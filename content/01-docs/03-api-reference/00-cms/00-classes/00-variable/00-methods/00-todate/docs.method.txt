@@ -1,0 +1,21 @@
+﻿Name: toDate
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::toDate
+----
+Syntax: variable::toDate($format = 'Y-m-d H:i:s')
+----
+Description: Converts the value to a formatted date
+----
+Text: 
+----
+Parameters: - name: $format
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

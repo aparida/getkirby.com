@@ -1,0 +1,19 @@
+﻿Name: translatedUID
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::translatedUID
+----
+Syntax: site::translatedUID()
+----
+Description: The site doesn't have a translated uid
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: null
+----
+Return: 

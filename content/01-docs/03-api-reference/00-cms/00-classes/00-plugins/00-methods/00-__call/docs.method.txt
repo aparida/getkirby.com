@@ -1,0 +1,26 @@
+﻿Name: __call
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugins::__call
+----
+Syntax: plugins::__call($id, $arguments = null)
+----
+Description: Makes it possible to get a plugin by name
+with a smart getter method
+----
+Text: 
+----
+Parameters: - name: $id
+  type: string
+  text: id/folder name of a plugin
+
+- name: $arguments
+  type: array
+  text: Additional arguments to pass to the plugin (optional)
+----
+Returntype: object
+----
+Return: Returns the Plugin object if such a plugin is installed

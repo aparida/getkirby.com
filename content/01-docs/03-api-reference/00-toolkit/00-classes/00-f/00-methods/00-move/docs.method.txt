@@ -1,0 +1,30 @@
+﻿Name: move
+----
+Visibility: public
+----
+Static: yes
+----
+Title: f::move
+----
+Syntax: f::move($old, $new)
+----
+Description: Moves a file to a new location
+----
+Text: <pre><code>
+$move = f::move('test.txt', 'super.txt');
+
+if($move) echo 'The file has been moved';
+
+</code></pre>
+----
+Parameters: - name: $old
+  type: string
+  text: The current path for the file
+
+- name: $new
+  type: string
+  text: The path to the new location
+----
+Returntype: boolean
+----
+Return: 

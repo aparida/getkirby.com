@@ -1,0 +1,16 @@
+﻿Name: troubleshoot
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::troubleshoot
+----
+Syntax: site::troubleshoot()
+----
+Description: Displays the troubleshooting site and
+stops code execution
+----
+Text: 
+----
+Parameters: 

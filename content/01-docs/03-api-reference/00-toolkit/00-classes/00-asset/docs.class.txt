@@ -1,0 +1,6 @@
+﻿Title: Asset
+----
+Class: Asset
+----
+Description: The Asset class can represent any file and help with common stuff
+like fetching the mime type, size or dimensions (for images)

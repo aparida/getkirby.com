@@ -1,0 +1,5 @@
+﻿Title: smartypants.skip
+----
+Value: <pre>pre|code|kbd|script|math</pre>
+----
+Description: 

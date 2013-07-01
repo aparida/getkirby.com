@@ -1,0 +1,33 @@
+﻿Name: limit
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::limit
+----
+Syntax: str::limit($string, $type, $length, $rep = '…')
+----
+Description: Limits the string by a given method and length
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text: 
+
+- name: $type
+  type: string
+  text: 
+
+- name: $length
+  type: int
+  text: 
+
+- name: $rep
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

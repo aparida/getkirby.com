@@ -1,0 +1,15 @@
+﻿Name: localize
+----
+Visibility: protected
+----
+Static: no
+----
+Title: site::localize
+----
+Syntax: site::localize()
+----
+Description: Initializes some basic local settings
+----
+Text: 
+----
+Parameters: 

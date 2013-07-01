@@ -1,0 +1,17 @@
+﻿Name: raise
+----
+Visibility: protected
+----
+Static: no
+----
+Title: validation::raise
+----
+Syntax: validation::raise($validator)
+----
+Description: Internal method to raise a new error for an attribute/validator
+----
+Text: 
+----
+Parameters: - name: 
+  type: object
+  text: Validator

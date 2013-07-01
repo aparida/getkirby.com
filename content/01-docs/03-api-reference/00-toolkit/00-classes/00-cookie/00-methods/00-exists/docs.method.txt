@@ -1,0 +1,19 @@
+﻿Name: exists
+----
+Visibility: public
+----
+Static: yes
+----
+Title: cookie::exists
+----
+Syntax: cookie::exists($key)
+----
+Description: Checks if a cookie exists
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

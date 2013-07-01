@@ -1,0 +1,19 @@
+﻿Name: countItems
+----
+Visibility: public
+----
+Static: no
+----
+Title: pagination::countItems
+----
+Syntax: pagination::countItems()
+----
+Description: Returns the total number of items in the collection
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: int
+----
+Return: 

@@ -1,0 +1,15 @@
+﻿Name: u
+----
+Visibility: 
+----
+Static: 
+----
+Title: u
+----
+Syntax: u($uri = false, $lang = false)
+----
+Description: Shortcut for the url() function
+----
+Text: 
+----
+Parameters: 

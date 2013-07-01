@@ -1,0 +1,25 @@
+﻿Name: thumb
+----
+Visibility: 
+----
+Static: 
+----
+Title: thumb
+----
+Syntax: thumb($image, $params = array())
+----
+Description: Shortcut to create a new thumb object
+----
+Text: 
+----
+Parameters: - name: 
+  type: mixed
+  text: Either a file path or an Asset object
+
+- name: 
+  type: array
+  text: An array of additional params for the thumb
+----
+Returntype: object
+----
+Return: Thumb

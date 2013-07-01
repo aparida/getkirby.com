@@ -1,0 +1,19 @@
+﻿Name: flush
+----
+Visibility: public
+----
+Static: no
+----
+Title: driver::flush
+----
+Syntax: driver::flush()
+----
+Description: Flush the entire cache
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

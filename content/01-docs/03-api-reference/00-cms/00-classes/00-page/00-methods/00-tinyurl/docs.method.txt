@@ -1,0 +1,21 @@
+﻿Name: tinyurl
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::tinyurl
+----
+Syntax: page::tinyurl()
+----
+Description: Returns a tiny url for the page
+which is built with the unique hash
+and the tinyurl.folder defined in the config
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: i.e. http://yourdomain.com/x/abcd

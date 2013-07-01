@@ -1,0 +1,19 @@
+﻿Name: isWritable
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::isWritable
+----
+Syntax: asset::isWritable()
+----
+Description: Checks if the file is writable
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,32 @@
+﻿Name: split
+----
+Visibility: public
+----
+Static: yes
+----
+Title: str::split
+----
+Syntax: str::split($string, $separator = ',', $length = 1)
+----
+Description: Better alternative for explode()
+It takes care of removing empty values
+and it has a built-in way to skip values
+which are too short.
+----
+Text: 
+----
+Parameters: - name: $string
+  type: string
+  text: The string to split
+
+- name: $separator
+  type: string
+  text: The string to split by
+
+- name: $length
+  type: int
+  text: The min length of values.
+----
+Returntype: array
+----
+Return: An array of found values

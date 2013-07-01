@@ -1,0 +1,19 @@
+﻿Name: connection
+----
+Visibility: public
+----
+Static: yes
+----
+Title: db::connection
+----
+Syntax: db::connection()
+----
+Description: Returns the currently active connection
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: 

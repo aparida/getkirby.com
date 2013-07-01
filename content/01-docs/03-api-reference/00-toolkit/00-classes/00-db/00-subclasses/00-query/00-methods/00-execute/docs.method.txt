@@ -1,0 +1,25 @@
+﻿Name: execute
+----
+Visibility: protected
+----
+Static: no
+----
+Title: query::execute
+----
+Syntax: query::execute($query, $params = array())
+----
+Description: Used as an internal shortcut for executing a db query
+----
+Text: 
+----
+Parameters: - name: $query
+  type: string
+  text: 
+
+- name: $params
+  type: array
+  text:
+----
+Returntype: mixed
+----
+Return: 

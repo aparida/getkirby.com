@@ -1,0 +1,8 @@
+﻿Title: Dimensions
+----
+Class: Dimensions
+----
+Description: The dimension object is used to provide additional
+methods for KirbyImage objects and possibly other
+objects with width and height to recalculate the size,
+get the ratio or just the width and height.

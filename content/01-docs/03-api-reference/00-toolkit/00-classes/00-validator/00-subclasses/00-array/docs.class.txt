@@ -1,0 +1,5 @@
+﻿Title: Array Validator
+----
+Class: Array
+----
+Description: Checks for arrays

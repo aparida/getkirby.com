@@ -1,0 +1,19 @@
+﻿Name: file
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::file
+----
+Syntax: variable::file()
+----
+Description: Returns the parent content file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Content

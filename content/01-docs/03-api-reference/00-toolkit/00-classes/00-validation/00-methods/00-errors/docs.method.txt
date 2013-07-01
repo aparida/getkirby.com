@@ -1,0 +1,19 @@
+﻿Name: errors
+----
+Visibility: public
+----
+Static: no
+----
+Title: validation::errors
+----
+Syntax: validation::errors()
+----
+Description: Returns the entire collection of errors
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Collection

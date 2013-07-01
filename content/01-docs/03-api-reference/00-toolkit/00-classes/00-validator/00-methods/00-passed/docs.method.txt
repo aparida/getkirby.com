@@ -1,0 +1,19 @@
+﻿Name: passed
+----
+Visibility: public
+----
+Static: no
+----
+Title: validator::passed
+----
+Syntax: validator::passed()
+----
+Description: Checks if the validation succeeded
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: url
+----
+Visibility: public
+----
+Static: no
+----
+Title: thumb::url
+----
+Syntax: thumb::url()
+----
+Description: Returns the absolute url for the thumbnail
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

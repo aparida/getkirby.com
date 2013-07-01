@@ -1,0 +1,25 @@
+﻿Name: vimeo
+----
+Visibility: public
+----
+Static: yes
+----
+Title: embed::vimeo
+----
+Syntax: embed::vimeo($url, $attr = array())
+----
+Description: Embeds a vimeo video by passing the vimeo url
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: vimeo url i.e. http://vimeo.com/52345557
+
+- name: $attr
+  type: array
+  text: Additional attributes for the iframe
+----
+Returntype: string
+----
+Return: 

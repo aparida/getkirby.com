@@ -1,0 +1,5 @@
+﻿Title: smartypants
+----
+Value: <pre>false</pre>
+----
+Description: Enable smartypants with this option

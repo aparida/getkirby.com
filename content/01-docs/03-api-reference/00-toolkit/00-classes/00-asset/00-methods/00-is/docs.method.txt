@@ -1,0 +1,21 @@
+﻿Name: is
+----
+Visibility: public
+----
+Static: no
+----
+Title: asset::is
+----
+Syntax: asset::is($value)
+----
+Description: Checks if a file is of a certain type
+----
+Text: 
+----
+Parameters: - name: $value
+  type: string
+  text: An extension or mime type
+----
+Returntype: boolean
+----
+Return: 

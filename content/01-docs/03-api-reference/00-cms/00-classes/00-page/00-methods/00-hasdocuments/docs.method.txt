@@ -1,0 +1,19 @@
+﻿Name: hasDocuments
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::hasDocuments
+----
+Syntax: page::hasDocuments()
+----
+Description: Checks if there are any documents stored with this page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: true = has documents, false = no documents
