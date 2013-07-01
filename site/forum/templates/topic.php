@@ -85,7 +85,9 @@
 
           <ul>
             <li><a href="<?php echo $post->url() ?>"><small>#</small>Direct link</a></li>
+            <?php if($forum->user()): ?>
             <li><a href=""><small></small>Edit this reply</a></li>
+            <?php endif ?>
           </ul>
 
         </aside>
