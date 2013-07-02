@@ -19,7 +19,7 @@
   right: 0;
 }
 .forum .count a {
-  color: #fff;  
+  color: #fff;
   font-size: .8em;
   background: $color-text;
   display: inline-block;
@@ -33,7 +33,7 @@
 
 /* user avatars */
 .forum .user {
-  margin-left: -.2em; 
+  margin-left: -.2em;
   padding-right: 30px;
   float: left;
   line-height:0;
@@ -58,7 +58,7 @@
 
 /* timestamps */
 .forum .added {
-  color: $color-text-light;  
+  color: $color-text-light;
   font-weight: 300;
 }
 .forum .added a {
@@ -197,7 +197,7 @@
   top: .7em;
 }
 .topic .text {
-  max-width: 40em;    
+  max-width: 40em;
   padding: 0 0 0 4.7em;
 }
 .topic .sidebar {
@@ -216,7 +216,7 @@
   position: relative;
   @extend .clear;
   list-style: none;
-  border-bottom: .1em solid $color-ui;  
+  border-bottom: .1em solid $color-ui;
   margin-bottom: 1em;
 }
 .post-header {
@@ -233,13 +233,13 @@
   padding-top: .25em;
 }
 .post .text {
-  max-width: 40em;    
+  max-width: 40em;
   padding: 0 0 0 4.7em;
 }
 
 /* post form */
 .post-form form {
-  padding: 0 0 0 4.7em;  
+  padding: 0 0 0 4.7em;
   max-width: 40em;
   margin: 0
 }
@@ -249,12 +249,12 @@
   border: 0;
 }
 .topic-form .topic-header {
-  border-bottom: 1px solid $color-ui;  
+  border-bottom: 1px solid $color-ui;
   padding-bottom: 1em;
 }
 .topic-form form {
   max-width: 40em;
-  padding: 0 0 0 4.7em;  
+  padding: 0 0 0 4.7em;
   margin: 0;
 }
 .topic-form textarea {
@@ -266,12 +266,12 @@
   border: 0;
 }
 .post-form .post-header {
-  border-bottom: 1px solid $color-ui;  
+  border-bottom: 1px solid $color-ui;
   padding-bottom: 1em;
 }
 .post-form form {
   max-width: 40em;
-  padding: 0 0 0 4.7em;  
+  padding: 0 0 0 4.7em;
   margin: 0;
 }
 
