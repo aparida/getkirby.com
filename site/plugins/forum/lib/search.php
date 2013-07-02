@@ -3,45 +3,49 @@
 namespace Kirby\Forum;
 
 use Kirby\Toolkit\C;
+use Kirby\Toolkit\Collection;
 
 // direct access protection
 if(!defined('KIRBY')) die('Direct access is not allowed');
 
 class Search {
 
-  protected $query       = null;
-  protected $options     = array();
-  protected $searchwords = null;
+  protected $query  = null;
+  protected $topics = null;
+  protected $posts  = null;
 
   public function __construct($query = null) {
-
     $this->query = $query;
+  }
 
-    $this->options = array(
-      'minlength' => c::get('forum.search.minlength'),
-      'stopwords' => c::get('forum.search.stopwords', array())
-    );
+  public function topics() {
+
+    if(!is_null($this->topics)) return $this->topics;
+
+    if(!$this->query) return $this->topics = new Collection();
+
+    $search = new \Kirby\Toolkit\Search($this->query, array('title', 'text'));
+
+    $topics = new Topics();
+    $topics->where($search->sql());
+
+    return $this->topics = $topics->limit(25)->all();
+
+  }
+
+  public function posts() {
+
+    if(!is_null($this->posts)) return $this->posts;
+
+    if(!$this->query) return $this->posts = new Collection();
+
+    $search = new \Kirby\Toolkit\Search($this->query, array('text'));
+    
+    $posts = new Posts();
+    $posts->where($search->sql());
+
+    return $this->posts = $posts->limit(25)->all();
   
   }
-
-  public function searchwords() {
-
-    if(!is_null($this->searchwords)) return $this->searchwords;
-
-    $this->searchwords = preg_replace('/[^\pL]/u',',', preg_quote($this->query));
-    $this->searchwords = str::split($this->searchwords, ',', $this->options['minlength']);
-
-    if(!empty($this->options['stopwords'])) {
-      $this->searchwords = array_diff($this->searchwords, $this->options['stopwords']);
-    }
-
-    return $this->searchwords;
-
-  }
-
-  public function results() {
-    return array();    
-  }
-
 
 }

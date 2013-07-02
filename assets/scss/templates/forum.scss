@@ -56,6 +56,18 @@
   color: $color-text;
 }
 
+.forum .meta {
+  color: $color-text-light;
+  font-weight: 300;
+}
+.forum .meta a {
+  color: inherit;
+  font-weight: inherit;
+}
+.forum .meta a:hover {
+  color: $color-primary;
+}
+
 
 /* Forum Breadcrumb header */
 .forum-header {
@@ -169,13 +181,6 @@
   @include truncate(99%);
   padding-top: .25em;
 }
-.topic .meta {
-  color: $color-text-light;
-  font-weight: 300;
-}
-.topic .meta a {
-  font-weight: 300;
-}
 .topic .count {
   top: .7em;
 }
@@ -242,7 +247,6 @@
 .search-form .form {
   position: relative;
   overflow: hidden;
-  min-height: 200px;
 }
 .search-form .form-fieldset.is-buttonbar {
   position: absolute;
@@ -253,4 +257,14 @@
 }
 .search-form .form-field.is-text .form-field-inner {
   padding-right: 7em;
+}
+
+.search-form article:last-child {
+  border-bottom: 0
+}
+
+.search-results-header {
+  padding-bottom: 1em;
+  border-bottom: 1px solid $color-ui;
+  margin-bottom: 1em;
 }
