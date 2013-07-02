@@ -1,0 +1,19 @@
+Title: Try Kirby before you buy it
+----
+Text: 
+
+I want you to be happy with Kirby first, before you buy a license.
+This is why (link: http://github.com/getkirby text: Kirby's source code) is fully available without limitations. I like to call it commercial open-source. 
+
+Try it **locally** or install it on a **non-public staging server** and give it a spin as long as you want.
+
+
+----
+
+Steps: 
+
+1. (link: download text: Download Kirby)
+2. (link: docs text: Learn how to install Kirby on your local machine)
+3. (link: docs text: Build your first site with Kirby)
+4. (link: docs text: Take your time and decide if Kirby is right for you)
+5. You liked it? **(link: buy text: Let's buy a license…)**
