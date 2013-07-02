@@ -1,0 +1,33 @@
+Title: Styleguide
+
+----
+
+Subtitle: Create a design styleguide with Kirby
+
+----
+
+Description: Create a design styleguide in seconds with the Kirby Styleguide theme.
+
+----
+
+Link: styles.getkirby.com
+
+----
+
+Download: https://github.com/bastianallgeier/kirbystyles
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbystyles/blob/master/readme.mdown
+
+----
+
+Author: Bastian Allgeier
+
+----
+
+Author_URL: http://bastianallgeier.com
+
+----
+
+Twitter: @bastianallgeier

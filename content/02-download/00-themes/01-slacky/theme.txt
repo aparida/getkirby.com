@@ -1,0 +1,33 @@
+Title: Slacky
+
+----
+
+Subtitle: A slick, designy blog theme for Kirby
+
+----
+
+Description:
+
+----
+
+Link: slacky.geek-rocket.de
+
+----
+
+Download: https://github.com/Chail/Slacky---Blogtheme-for-Kirby
+
+----
+
+Docs: http://slacky.geek-rocket.de/about
+
+----
+
+Author: Tim Hartmann
+
+----
+
+Author_URL: http://geek-rocket.de
+
+----
+
+Twitter: @webolymp

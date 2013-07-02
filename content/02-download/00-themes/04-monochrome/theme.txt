@@ -1,0 +1,33 @@
+Title: Monochrome
+
+----
+
+Subtitle: A fully responsive Kirby blog theme
+
+----
+
+Description: Monochrome is a fully responsive Kirby blog theme.
+
+----
+
+Link: monochrome.niklausgerber.com
+
+----
+
+Download: https://github.com/niklausgerber/monochrome/
+
+----
+
+Docs: http://niklausgerber.com/articles/monochrome/
+
+----
+
+Author: Niklaus Gerber
+
+----
+
+Author_URL: http://niklausgerber.com
+
+----
+
+Twitter: @niklausgerber

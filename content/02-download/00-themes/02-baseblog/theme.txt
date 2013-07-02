@@ -1,0 +1,33 @@
+Title: Baseblog
+
+----
+
+Subtitle: A nice & clean Basic Blog for Kirby
+
+----
+
+Description: Baseblog is made to give you a nice and clean start to create a blog with Kirby. It allows you to setup your posts and pages quickly, so you can customize and just start blogging.
+
+----
+
+Link: baseblog.sashtown.de
+
+----
+
+Download: https://github.com/sashtown/Baseblog-Kirby-Theme
+
+----
+
+Docs: http://baseblog.sashtown.de/#docs
+
+----
+
+Author: Sascha Lack
+
+----
+
+Author_URL: http://sashtown.de
+
+----
+
+Twitter: @sashtown

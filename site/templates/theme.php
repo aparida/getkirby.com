@@ -1,0 +1,25 @@
+<?php snippet('header') ?>
+
+<section class="main columns theme">
+
+  <article class="column four">
+    <h1 class="alpha"><?php echo $page->title ?></h1>
+    <p class="gamma subtitle"><?php echo $page->subtitle ?></p>
+
+    <?php $image = $page->images()->first() ?>
+    <figure><a href="http://<?php echo $page->link ?>"><img src="<?php echo $image->url() ?>" /></a></figure>
+  </article>
+
+  <aside class="column two last">
+    <h2 class="gamma"><a href="http://<?php echo $page->link ?>"><?php echo $page->link ?></a></h2>
+    <ul class="theme-meta">
+      <li><a href="<?php echo $page->download ?>">Download</a></li>
+      <li><a href="<?php echo $page->docs ?>">Documentation</a></li>
+    </ul>
+    <?php echo kirbytext($page->description) ?>
+    <small>Made by <a href="<?php echo $page->author_url ?>"><?php echo $page->author ?></a> | <a href="http://twitter.com/<?php echo $page->twitter ?>"><?php echo $page->twitter ?></a></small>
+  </aside>
+
+</section>
+
+<?php snippet('footer') ?>

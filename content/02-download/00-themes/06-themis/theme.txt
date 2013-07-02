@@ -1,0 +1,33 @@
+Title: Themis
+
+----
+
+Subtitle: A beautiful theme for photographers
+
+----
+
+Description: Themis is a minimalistic and responsive theme for photographers.
+
+----
+
+Link: themis.niklausgerber.com
+
+----
+
+Download: https://github.com/niklausgerber/themis/
+
+----
+
+Docs: http://niklausgerber.com/articles/themis/
+
+----
+
+Author: Niklaus Gerber
+
+----
+
+Author_URL: http://niklausgerber.com
+
+----
+
+Twitter: @niklausgerber

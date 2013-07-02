@@ -1,0 +1,33 @@
+Title: Sunset
+
+----
+
+Subtitle: A full-featured blog theme
+
+----
+
+Description: Sunset is a gorgeous, full-featured blog theme.
+
+----
+
+Link: sunsettheme.syropia.net
+
+----
+
+Download: https://github.com/hendo13/SunsetTheme
+
+----
+
+Docs: http://sunsettheme.syropia.net/faq
+
+----
+
+Author: Collin Henderson
+
+----
+
+Author_URL: http://syropia.net
+
+----
+
+Twitter: @syropian

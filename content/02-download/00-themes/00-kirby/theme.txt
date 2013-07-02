@@ -1,0 +1,33 @@
+Title: Default
+
+----
+
+Subtitle: The Kirby default theme
+
+----
+
+Description: This is the default theme, which is included with every Kirby download.
+
+----
+
+Link: test.getkirby.com
+
+----
+
+Download: http://github.com/bastianallgeier/kirbycms
+
+----
+
+Docs: http://getkirby.com/docs
+
+----
+
+Author: Bastian Allgeier
+
+----
+
+Author_URL: http://bastianallgeier.com
+
+----
+
+Twitter: @bastianallgeier

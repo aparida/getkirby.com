@@ -1,0 +1,61 @@
+@import "../kirby/defaults";
+@import "../kirby/generic/mixins";
+@import "../ui/vars";
+
+
+.subtitle {
+  color: $color-text-light;
+}
+.theme figure {
+  margin: 2em 0 0 0;
+  border: 1px solid #ddd;
+  background: #bbb;
+}
+.theme figure img {
+  opacity: 0.9;
+  display: block;
+  @include vendor(transition, opacity .3s);
+}
+.theme figure img:hover {
+  opacity: 1;
+}
+.theme h2 {
+  padding: 1.9em 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.theme-meta {
+  margin: 2em 0;
+  padding: 1em 0;
+  list-style: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.theme-meta li {
+  padding: 0.5em 0;
+}
+.theme-meta li:before {
+  content: ' ';
+  height: 12px;
+  width: 6px;
+  display: inline-block;
+  margin-right: .5em;
+  background-color: $color-primary;
+  @include vendor(transition, all .3s);
+}
+.theme-meta li:hover:before {
+  background-color: $color-text;
+  width: 18px;
+}
+.theme small {
+  display: block;
+  margin-top: 2em;
+  color: $color-text-light;
+}
+.theme small a {
+  color: $color-text-light;
+}
+.theme small a:hover {
+  color: $color-primary;
+}
