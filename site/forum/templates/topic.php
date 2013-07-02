@@ -13,27 +13,15 @@
   <article class="topic details">
 
     <div class="columns">
+
       <div class="column four">
-        <header class="topic-header">
 
-          <figure class="user">
-            <a href="<?php echo $topic->user()->url() ?>"><img src="<?php echo $topic->user()->avatar() ?>" /></a>
-          </figure>
-
-          <h1 class="delta"><a href="<?php echo $topic->url() ?>"><?php echo html($topic->title()) ?></a></h1>
-
-          <div class="meta">
-            <a href=""><?php echo $topic->user()->username() ?></a> &rsaquo; 
-            <time class="added" datetime="<?php echo $topic->added('c') ?>">
-              <a href=""><?php echo $topic->added('d.m.Y - H:i') ?></a>
-            </time>
-          </div>
-
-        </header>
+        <?php $forum->snippet('topic.header', array('topic' => $topic)) ?>        
 
         <div class="text">
           <?php echo kirbytext($topic->text()) ?>
         </div>
+
       </div>
 
       <aside class="sidebar column two last">
@@ -41,9 +29,17 @@
         <h1 class="is-invisible">Topic navigation</h1>
 
         <ul>
-          <li><a href=""><small>↑</small>Back to the thread</a></li>
-          <li><a href=""><small></small>Edit this topic</a></li>
-          <li><a href=""><small></small>Mark as solved</a></li>
+          <li><a href="<?php echo $thread->url() ?>"><small>↑</small>Back to the thread</a></li>
+
+          <?php if($topic->isEditable()): ?>
+          <li><a href="<?php echo $topic->url() ?>/edit:this"><small>✎</small>Edit this topic</a></li>
+          <?php if($topic->solved()): ?>
+          <li><a href="<?php echo $topic->url() ?>/unsolve:this"><small>✘</small>Reopen this topic</a></li>
+          <?php else: ?>
+          <li><a href="<?php echo $topic->url() ?>/solve:this"><small>✔</small>Mark as solved</a></li>
+          <?php endif ?>
+          <?php endif ?>
+
         </ul>
 
       </aside>
@@ -61,9 +57,7 @@
   
           <header class="post-header">
 
-            <figure class="user">
-              <a href="<?php echo $post->user()->url() ?>"><img src="<?php echo $post->user()->avatar() ?>" /></a>
-            </figure>
+            <?php $forum->snippet('user', array('user' => $post->user())) ?>
 
             <h1 class="delta"><a href="<?php echo $post->url() ?>"><small>Reply by</small> <?php echo $post->user()->username() ?></a></h1>
 
@@ -85,8 +79,8 @@
 
           <ul>
             <li><a href="<?php echo $post->url() ?>"><small>#</small>Direct link</a></li>
-            <?php if($forum->user()): ?>
-            <li><a href=""><small></small>Edit this reply</a></li>
+            <?php if($post->isEditable()): ?>
+            <li><a href="<?php echo $topic->url() ?>/edit-post:<?php echo $post->id() ?>"><small>✎</small>Edit this reply</a></li>
             <?php endif ?>
           </ul>
 
@@ -98,7 +92,33 @@
 
     </section>
 
-    <?php $forum->form('post') ?>
+    <section class="post-form" id="reply">
+
+      <header class="post-header">
+
+        <?php if(!$forum->user()): ?>
+        <figure class="user no-user">
+          <a href="<?php echo $forum->url('login') ?>">?</a>
+        </figure>
+        <?php else: ?>
+        <?php $forum->snippet('user', array('user' => $forum->user())) ?>
+        <?php endif ?>
+
+        <h1 class="delta">Your Reply</h1>
+
+        <time class="added" datetime="<?php echo date('c') ?>">
+          Right now…
+        </time>
+
+      </header>
+
+      <?php if($forum->user()): ?>
+      <?php echo $forum->form('post') ?>
+      <?php else: ?>
+      <p class="text">Please <a href="<?php echo $forum->url('login') ?>">login via Twitter</a> to post a reply</p>
+      <?php endif ?>
+        
+    </section>
 
   </article>
 

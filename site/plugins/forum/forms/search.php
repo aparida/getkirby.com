@@ -6,7 +6,8 @@ use Kirby\Form;
 $fields = array(
   'q' => array(
     'placeholder' => 'Search the forum…',
-    'type'        => 'text'
+    'type'        => 'text', 
+    'autofocus'   => true
   )
 );
 

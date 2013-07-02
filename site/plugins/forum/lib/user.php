@@ -2,6 +2,7 @@
 
 namespace Kirby\Forum;
 
+use Kirby\Toolkit\C;
 use Kirby\Toolkit\Model\Database;
 
 // direct access protection
@@ -20,7 +21,7 @@ class User extends Database {
     return 'http://twitter.com/api/users/profile_image/' . $this->username();  
   }
   
-  public function admin() {
+  public function isAdmin() {
     return (in_array($this->username(), c::get('forum.admins', array()))) ? true : false;
   }
 

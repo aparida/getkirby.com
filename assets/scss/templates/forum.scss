@@ -43,6 +43,18 @@
   height: 48px;
   border-radius: 50%;
 }
+.forum .user.no-user a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: $color-text;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #fff;
+  border-radius: 50%;
+}
 
 /* timestamps */
 .forum .added {
@@ -86,7 +98,6 @@
   color: $color-ui;
   padding: 0 .3em 0;
 }
-
 
 /* Dropdown menu */
 .forum-menu {
@@ -148,7 +159,6 @@
   border-right: .5em solid $color-text;
 }
 
-
 /* thread pages */
 .thread {
   position: relative;
@@ -174,6 +184,8 @@
 .topic-header {
   position: relative;
   @extend .clear;
+}
+.topic.details .topic-header {
   margin-bottom: 1em;
 }
 .topic .delta {
@@ -188,11 +200,12 @@
   max-width: 40em;    
   padding: 0 0 0 4.7em;
 }
-
 .topic .sidebar {
   padding-bottom: 8em;
 }
-
+.topic .sidebar .text {
+  padding-left: 2em;
+}
 
 /* Posts on Topic pages */
 .posts {
@@ -209,10 +222,15 @@
 .post-header {
   @extend .topic-header;
   border: 0;
+  margin-bottom: 1em;
 }
 .post-header .delta small {
   font-size: inherit;
   color: $color-text;
+}
+.post .delta {
+  margin-right: 6em;
+  padding-top: .25em;
 }
 .post .text {
   max-width: 40em;    
@@ -243,6 +261,20 @@
   height: 600px !important;
 }
 
+/* post form */
+.post-form {
+  border: 0;
+}
+.post-form .post-header {
+  border-bottom: 1px solid $color-ui;  
+  padding-bottom: 1em;
+}
+.post-form form {
+  max-width: 40em;
+  padding: 0 0 0 4.7em;  
+  margin: 0;
+}
+
 /* search form */
 .search-form .form {
   position: relative;
@@ -258,11 +290,12 @@
 .search-form .form-field.is-text .form-field-inner {
   padding-right: 7em;
 }
-
 .search-form article:last-child {
   border-bottom: 0
 }
-
+.search-form .topic-header {
+  margin-bottom: 1em;
+}
 .search-results-header {
   padding-bottom: 1em;
   border-bottom: 1px solid $color-ui;

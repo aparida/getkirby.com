@@ -35,4 +35,9 @@ class Post extends Database {
     return (is_null($format)) ? $ts : date($format, $ts);
   }
 
+  public function isEditable() {
+    $user = forum::instance()->user();
+    return ($user && ($user->isAdmin() or $user->is($this->user()))) ? true : false;
+  }
+
 }

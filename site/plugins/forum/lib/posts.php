@@ -17,4 +17,9 @@ class Posts extends Query {
     return $posts->where(array('topic' => $topic->id()));
   }
 
+  static public function findByTopicAndId($topic, $id) {
+    $posts = new static();
+    return $posts->where(array('topic' => $topic->id(), 'id' => $id))->first();    
+  }
+
 }

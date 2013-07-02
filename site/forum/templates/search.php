@@ -1,6 +1,7 @@
 <section class="main forum">
 
   <header class="forum-header">
+
     <h1>
       <a class="alpha" href="<?php echo $forum->url() ?>">Forum</a> <small>/</small>
       <a class="alpha is-active" href="<?php echo $forum->url('search') ?>">Search</a>
@@ -26,9 +27,7 @@
 
         <header class="topic-header">
 
-          <figure class="user">
-            <a href="<?php echo $topic->user()->url() ?>"><img src="<?php echo $topic->user()->avatar() ?>" /></a>
-          </figure>
+          <?php $forum->snippet('user', array('user' => $topic->user())) ?>
 
           <h1 class="delta">
             <a href="<?php echo $topic->url() ?>"><?php echo html($topic->title()) ?></a>
@@ -68,9 +67,7 @@
 
         <header class="post-header">
 
-          <figure class="user">
-            <a href="<?php echo $post->user()->url() ?>"><img src="<?php echo $post->user()->avatar() ?>" /></a>
-          </figure>
+          <?php $forum->snippet('user', array('user' => $post->user())) ?>
 
           <h1 class="delta">
             <a href="<?php echo $post->url() ?>"><small>Reply by</small> <?php echo $post->user()->username() ?></a>

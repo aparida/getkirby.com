@@ -37,4 +37,33 @@ class Topic extends Database {
     return (is_null($format)) ? $ts : date($format, $ts);
   }
 
+  public function solve() {
+
+    $user = forum::instance()->user();
+
+    // make sure this only happens if allowed
+    if($user && ($user->isAdmin() or $user->is($this->user()))) {
+      $this->set('solved', 1);
+      $this->save();
+    }
+
+  }
+
+  public function unsolve() {
+
+    $user = forum::instance()->user();
+
+    // make sure this only happens if allowed
+    if($user && ($user->isAdmin() or $user->is($this->user()))) {
+      $this->set('solved', 0);
+      $this->save();
+    }
+
+  }
+
+  public function isEditable() {
+    $user = forum::instance()->user();
+    return ($user && ($user->isAdmin() or $user->is($this->user()))) ? true : false;
+  }
+
 }

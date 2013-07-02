@@ -138,9 +138,48 @@ class Forum {
       $template = 'thread';
       
       if($topic = $this->topic()) {
-        $template = 'topic';        
+        
+        if(param('edit') == 'this') {
+
+          // make sure that only authorized users may edit a topic
+          if(!$topic->isEditable()) go($this->url());
+
+          $template = 'topic.edit';        
+
+        } else if($postID = param('edit-post')) {
+
+          if($post = Posts::findByTopicAndId($topic, $postID)) {
+
+            // make sure that only authorized users may edit this
+            if(!$post->isEditable()) go($this->url());
+
+            tpl::set('post', $post);
+            $template = 'post.edit';            
+          } else {      
+            $template = 'topic';            
+          }
+
+        } else {
+          
+          // solve / unsolve topics
+          if(param('solve') == 'this') {
+            $topic->solve();
+            go($topic->url());
+          } else if(param('unsolve') == 'this') {
+            $topic->unsolve();
+            go($topic->url());
+          }
+
+          $template = 'topic';        
+
+        }
+
       } else if($this->uri->path()->last() == 'topic') {
-        $template = 'topicform';
+
+        // make sure that only authorized users may add new topics
+        if(!$this->user()) go($this->url());
+
+        $template = 'topic.new';
       }
 
     } else {
@@ -196,9 +235,8 @@ class Forum {
     // with the actual form object
     $form = null;
     // load the form controller
-    require_once(KIRBY_FORUM_ROOT . DS . 'forms' . DS . $name . '.controller.php');
-    // load the form template
-    return tpl::loadFile(KIRBY_PROJECT_ROOT_FORUM . DS . 'forms' . DS . $name . '.php', array('form' => $form));
+    require_once(KIRBY_FORUM_ROOT . DS . 'forms' . DS . $name . '.php');
+    return $form;
   }
 
 }
