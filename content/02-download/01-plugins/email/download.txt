@@ -2,8 +2,11 @@ Title: Email
 
 ----
 
-Text: Send emails via mail(), Amazon SES or Postmark
+Subtitle: Send emails via mail(), Amazon SES or Postmark
 
+----
+
+Description: It's a simple email sender plugin. You can use it everywhere in your code to send emails via PHP's mail(), Amazon Simple Email Service or Postmark.
 ----
 
 Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/email/email.php
@@ -12,6 +15,33 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/email/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/email-plugin
+
+----
+
+Install:
+
+## Installation
+
+Copy the email.php file to your site/plugins folder.
+
+### Amazon SES configuration
+
+Go to your site/config/config.php and add the following rules:
+
+```php
+c::set('email.use', 'amazon');
+c::set('email.amazon.key', 'Your Amazon SES Key');
+c::set('email.amazon.secret', 'Your Amazon SES Secret');
+```
+
+### Postmark configuration
+
+Go to your site/config/config.php and add the following rules:
+
+```php
+c::set('email.use', 'postmark');
+c::set('email.postmark.key', 'Your Postmark API Key');
+```

@@ -2,7 +2,11 @@ Title: Dribbble
 
 ----
 
-Text: Show your recent Dribbble shots to your site. Plugin by (link: http://albrecht.me text: Simon Albrecht)
+Subtitle: Show your recent Dribbble shots to your site.
+
+----
+
+Description: This is a plugin that fetches shots, player-info or likes for a user on Dribbble.
 
 ----
 
@@ -10,9 +14,29 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 ----
 
-Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/dribbble/readme.md
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/dribbble/readme.mdown
 
+----
 
----- 
+Author: Simon Albrecht
 
-Tutorial: 
+----
+
+Author_URL: http://albrecht.me
+
+----
+
+Twitter: @s_albrecht
+
+----
+
+Install:
+
+## Installation
+
+Put the `dribbble.php` file in your `site/plugins` folder. If this folder doesn't exist yet, create it.
+
+## Update instructions
+
+To update, just replace the old `dribbble.php` file in `site/plugins`, with the new one.
+

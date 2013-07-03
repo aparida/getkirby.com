@@ -2,7 +2,11 @@ Title: Feed
 
 ----
 
-Text: Use this together with the Feed Snippet, to add a RSS-Feed to your site.
+Subtitle: Add a RSS-Feed to your site
+
+----
+
+Description: This is used in connection with the (link: /downloads/snippets/feed text: feed snippet) to setup a RSS-Feed for any part of your site.
 
 ----
 
@@ -12,6 +16,14 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/templat
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/templates/feed/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/how-to-add-a-rss-feed
+
+----
+
+Install:
+
+## Installation
+
+Put the `feed.php` file from inside the `template` folder into the `templates` folder of your Kirby installation.

@@ -2,7 +2,11 @@ Title: Map
 
 ----
 
-Text: Add Google Maps to your site
+Subtitle: Add Google Maps to your site
+
+----
+
+Description: This snippet will embed a Google Map in your site. You can set your own address, zoom level and some other options to customize it. It even has a fallback to the Google Maps Image API if javascript is disabled.
 
 ----
 
@@ -12,6 +16,35 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/map/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/google-maps
+
+----
+
+Install:
+
+## Installation
+
+Put the `map.php` file in your `site/snippets` folder.
+
+## How to use it?
+
+```php
+<?php snippet('map', array('address' => 'Mannheim, Germany')) ?>
+```
+
+…or with more options…
+
+```php
+<?php
+
+snippet('map', array(
+    'address' => 'Mannheim, Germany',
+    'zoom'    => 17,
+    'width'   => 300,
+    'height'  => 200
+));
+
+?>
+```

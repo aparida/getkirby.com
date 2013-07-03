@@ -1,0 +1,8 @@
+@import "../kirby/defaults";
+@import "../kirby/generic/mixins";
+@import "../ui/vars";
+@import "../ui/objects/download-single";
+
+.media figure {
+    margin: 2em 0;
+}

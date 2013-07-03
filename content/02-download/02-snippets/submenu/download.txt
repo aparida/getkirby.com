@@ -2,7 +2,11 @@ Title: Submenu
 
 ----
 
-Text: Add a submenu to your site. This snippet is included in the default Kirby theme.
+Subtitle: Add a submenu to your site
+
+----
+
+Description: This snippet generates a submenu for each page on the first level with visible children. This snippet is included in the default Kirby theme.
 
 ----
 
@@ -12,6 +16,20 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/submenu/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+Put the `submenu.php` file in your `site/snippets` folder
+
+## How to use it?
+
+```php
+<?php snippet('submenu') ?>
+```

@@ -2,7 +2,11 @@ Title: Treemenu
 
 ----
 
-Text: Add a treemenu to your site.
+Subtitle: Add a treemenu to your site
+
+----
+
+Description: This is a very simple treemenu snippet, which renders a menu of all your site's pages and subpages.
 
 ----
 
@@ -12,6 +16,20 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/treemenu/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+Put the `treemenu.php` file in your `site/snippets` folder.
+
+## How to use it?
+
+```php
+<?php snippet('treemenu') ?>
+```

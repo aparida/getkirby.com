@@ -2,7 +2,11 @@ Title: Tweets
 
 ----
 
-Text: Display recent Tweets from any public Twitter account
+Subtitle: Display recent Tweets from any public Twitter account
+
+----
+
+Description: It's a little plugin to display the latest Tweets from any public Twitter account.
 
 ----
 
@@ -12,6 +16,38 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tweets/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+Copy the `tweet.php` file to your `site/plugins` folder. You should make sure to enable caching. Otherwise the plugin will call the Twitter API on every page view and you might soon be blocked.
+
+Go to `site/config/config.php` to set `c::set('cache', true);`. Make sure that `site/cache` is writable (change permissions to 0755).
+
+## How to use it?
+
+You can add it to your templates like this:
+
+```php
+<?php $tweets = tweets('getkirby') ?>
+
+<ul class="tweets">
+  <?php foreach($tweets as $tweet): ?>
+  <li>
+    <a class="user" href="<?php echo $tweet->user()->url() ?>">
+      <img src="<?php echo $tweet->user()->image() ?>" />
+      <strong><?php echo $tweet->user()->name() ?></strong>
+      <small>@<?php echo $tweet->user()->username() ?></small>
+    </a>
+    <p><?php echo $tweet->text(true) ?></p>
+    <a class="date" href="<?php echo $tweet->url() ?>"><?php echo $tweet->date('h:i A - d M y') ?></a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

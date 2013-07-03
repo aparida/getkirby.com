@@ -2,7 +2,11 @@ Title: Instagram
 
 ----
 
-Text: Show your recent pictures from Instagram on your site. Plugin by (link: http://albrecht.me text: Simon Albrecht)
+Subtitle: Show your recent pictures from Instagram on your site.
+
+----
+
+Description: This is a plugin for Kirby that loads images from the Instagram API.
 
 ----
 
@@ -12,6 +16,47 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/instagram/readme.md
 
----- 
+----
 
-Tutorial: 
+Tutorial:
+
+----
+
+Author: Simon Albrecht
+
+----
+
+Author_URL: http://albrecht.me
+
+----
+
+Twitter: @s_albrecht
+
+----
+
+Install:
+
+## Installation
+
+- Put the `instagram.php` file in your `site/plugins` folder. If this folder doesn't exist yet, create it.
+- In order to interact with the Instagram API, you need to obtain an access token for yourself.
+- Visit <http://instagram.com/developer/clients/manage/> and register an application.
+- Set the OAuth redirect_uri to the main URL (i.e. http://yourdomain.com) of your website.
+- Copy the Client-ID of the newly created app.
+- Visit:
+
+```
+https://instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=http://yourdomain.com&response_type=token
+```
+
+…in your browser, but replace CLIENT-ID with your client-id and YOURDOMAIN.COM with the OAuth redirect_uri you've entered while registering your app.
+
+- The browser will redirect you to your own website and in the address bar you will find your access token like this:
+
+```
+http://yourdomain.com/#access_token=xxxxx.xxxxx.xxxxxxxxxxx
+```
+
+- Copy the access token (everything after =) and save it somewhere.
+- Implement the plugin into your template.
+

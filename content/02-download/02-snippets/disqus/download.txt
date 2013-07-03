@@ -2,7 +2,11 @@ Title: Disqus
 
 ----
 
-Text: Add comments to any page of your site with (link: http://disqus.com text: Disqus) 
+Subtitle: Add comments to your site with Disqus
+
+----
+
+Description: A snippet which makes embedding Disqus comments very easy.
 
 ----
 
@@ -12,6 +16,20 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/disqus/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/adding-comments
+
+----
+
+Install:
+
+## Installation
+
+Put the `disqus.php` file in your `site/snippets folder`.
+
+## How to use it?
+
+```php
+<?php snippet('disqus', array('disqus_shortname' => 'yourshortname')) ?>
+```

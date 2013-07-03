@@ -2,7 +2,11 @@ Title: Auth
 
 ----
 
-Text: Frontend user authentification
+Subtitle: Frontend user authentification
+
+----
+
+Description: The Authentication plugin makes it possible to create user accounts and user groups for your website and restrict access to certain parts.
 
 ----
 
@@ -12,6 +16,51 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/auth
 
----- 
+----
 
 Tutorial: /blog/frontend-authentication
+
+----
+
+Install:
+
+## Installation
+
+- Copy the auth folder to your site/plugins folder.
+- Copy auth/snippets/login.php to your snippets folder and optionally customize it
+- Create an invisible content/login folder with a login.txt
+- Create a login.php template in site/templates and include the login form snippet. I.e.:
+
+
+```php
+
+<!-- site/templates/login.php -->
+<?php snippet('header') ?>
+<?php snippet('login') ?>
+<?php snippet('footer') ?>
+```
+
+- Create an invisible content/logout folder with a logout.txt
+- Crate a logout.php template in site/templates:
+
+```php
+    <?php Auth::logout() ?>
+```
+
+- Create an site/accounts folder and add your first user account. Use the username as filename (ie. yourusername.php)
+
+```php
+
+<?php if(!defined('KIRBY')) exit ?>
+
+<!-- setup your account credentials here -->
+
+```
+
+It's highly recommended to use md5 or sha1 encryption for your passwords. read more about encryption in the (link: http://getkirby.com/docs/panel/accounts text: docs:)
+
+username: yourusername
+password: yourpassword
+group:    optional-group-name
+
+Now you have a fully functional login/logout system.

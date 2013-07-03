@@ -2,7 +2,11 @@ Title: PrevNext
 
 ----
 
-Text: Add a "previous entry | next entry" navigation to your site
+Subtitle: Add a page switching navigation to your site
+
+----
+
+Description: This snippet puts a "previous page | next page" navigation on your pages.
 
 ----
 
@@ -12,6 +16,19 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/prevnext/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+Put the `prevnext.php` file in your `site/snippets` folder
+
+## How to use it?
+
+```php
+<?php snippet('prevnext') ?>
+```
