@@ -1,0 +1,21 @@
+﻿Name: __get
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::__get
+----
+Syntax: view::__get($property)
+----
+Description: Magic getter for assigned data
+----
+Text: 
+----
+Parameters: - name: $property
+  type: string
+  text:
+----
+Returntype: mixed
+----
+Return: 

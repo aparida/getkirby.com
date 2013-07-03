@@ -1,0 +1,25 @@
+﻿Name: js
+----
+Visibility: public
+----
+Static: yes
+----
+Title: assets::js
+----
+Syntax: assets::js($url, $async = false)
+----
+Description: Embeds js by url
+----
+Text: 
+----
+Parameters: - name: $url
+  type: string
+  text: the relative or absolute url
+
+- name: $async
+  type: boolean
+  text: Optionally the js tag can include the new async attribute
+----
+Returntype: string
+----
+Return: 

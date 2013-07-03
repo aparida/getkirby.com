@@ -1,0 +1,25 @@
+﻿Name: __call
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::__call
+----
+Syntax: controller::__call($property, $arguments = null)
+----
+Description: Magic getter method for data
+----
+Text: 
+----
+Parameters: - name: $property
+  type: string
+  text: set by php
+
+- name: $arguments
+  type: mixed
+  text: optional arguments. not used!
+----
+Returntype: mixed
+----
+Return: 

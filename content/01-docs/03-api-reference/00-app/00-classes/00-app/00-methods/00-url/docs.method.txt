@@ -1,0 +1,23 @@
+﻿Name: url
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::url
+----
+Syntax: app::url($uri = null)
+----
+Description: Returns the base url of the site
+The url is auto-detected by default and can
+also be set in the config like the subfolder
+----
+Text: 
+----
+Parameters: - name: $uri
+  type: string
+  text: Optional path for the URL
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,20 @@
+﻿Name: uri
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::uri
+----
+Syntax: app::uri()
+----
+Description: Returns the URI object, which can be used
+to inspect and work with the current URL/URI
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Uri

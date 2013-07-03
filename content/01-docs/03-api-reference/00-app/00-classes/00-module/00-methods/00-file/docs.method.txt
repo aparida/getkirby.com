@@ -1,0 +1,21 @@
+﻿Name: file
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::file
+----
+Syntax: module::file($file = null)
+----
+Description: Returns the full path to the module file
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: Optional argument to use this as setter
+----
+Returntype: string
+----
+Return: 

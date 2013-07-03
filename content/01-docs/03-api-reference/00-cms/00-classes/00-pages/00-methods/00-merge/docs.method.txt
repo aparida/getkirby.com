@@ -1,0 +1,27 @@
+﻿Name: merge
+----
+Visibility: public
+----
+Static: yes
+----
+Title: pages::merge
+----
+Syntax: pages::merge()
+----
+Description: Merges multiple collections of pages
+----
+Text: <pre><code>
+$articles = page('blog')->children();
+$news     = page('news')->children();
+$merged   = pages::merge($articles, $news);
+// $merged is now a new collection with all children from news and blog
+
+</code></pre>
+----
+Parameters: - name: 
+  type: args
+  text: n sets of pages
+----
+Returntype: object
+----
+Return: A new pages Collection

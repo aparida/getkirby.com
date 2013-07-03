@@ -1,0 +1,21 @@
+﻿Name: root
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::root
+----
+Syntax: app::root($path)
+----
+Description: Returns the full root for a smart path (tm)
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

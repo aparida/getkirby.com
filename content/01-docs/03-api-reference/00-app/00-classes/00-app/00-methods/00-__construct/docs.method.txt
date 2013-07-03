@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::__construct
+----
+Syntax: app::__construct($params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: An optional array of params to configure the app instance

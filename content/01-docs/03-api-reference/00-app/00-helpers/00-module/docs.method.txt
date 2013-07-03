@@ -1,0 +1,19 @@
+﻿Name: module
+----
+Visibility: 
+----
+Static: 
+----
+Title: module
+----
+Syntax: module()
+----
+Description: Singleton getter for the current module
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Module

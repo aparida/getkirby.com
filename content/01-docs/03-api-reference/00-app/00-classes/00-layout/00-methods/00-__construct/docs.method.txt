@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: layout::__construct
+----
+Syntax: layout::__construct($path, $controller)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text: The path to this layout
+
+- name: $controller
+  type: object
+  text: The parent Controller

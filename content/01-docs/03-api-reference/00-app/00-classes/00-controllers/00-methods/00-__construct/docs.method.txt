@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: controllers::__construct
+----
+Syntax: controllers::__construct($module)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: 
+  type: object
+  text: Module The parent module object

@@ -1,0 +1,19 @@
+﻿Name: controller
+----
+Visibility: 
+----
+Static: 
+----
+Title: controller
+----
+Syntax: controller()
+----
+Description: Singleton getter for the current controller
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Controller

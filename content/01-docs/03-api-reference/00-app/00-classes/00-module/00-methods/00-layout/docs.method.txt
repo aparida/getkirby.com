@@ -1,0 +1,19 @@
+﻿Name: layout
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::layout
+----
+Syntax: module::layout()
+----
+Description: Returns the default layout object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Layout

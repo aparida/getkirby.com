@@ -1,0 +1,19 @@
+﻿Name: query
+----
+Visibility: public
+----
+Static: no
+----
+Title: search::query
+----
+Syntax: search::query()
+----
+Description: Returns the raw search query
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

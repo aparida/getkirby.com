@@ -1,0 +1,18 @@
+﻿Name: load
+----
+Visibility: public
+----
+Static: yes
+----
+Title: app::load
+----
+Syntax: app::load($path)
+----
+Description: A simple loader for collections, models and lib stuff
+from any module
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text:

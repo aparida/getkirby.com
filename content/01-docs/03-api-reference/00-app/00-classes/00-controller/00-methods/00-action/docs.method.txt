@@ -1,0 +1,21 @@
+﻿Name: action
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::action
+----
+Syntax: controller::action($action = null)
+----
+Description: Returns the currently selected action
+----
+Text: 
+----
+Parameters: - name: $action
+  type: string
+  text: Optional argument to use this as a setter
+----
+Returntype: string
+----
+Return: Name of the action

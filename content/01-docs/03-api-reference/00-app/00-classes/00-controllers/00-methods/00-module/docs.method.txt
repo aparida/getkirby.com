@@ -1,0 +1,19 @@
+﻿Name: module
+----
+Visibility: public
+----
+Static: no
+----
+Title: controllers::module
+----
+Syntax: controllers::module()
+----
+Description: Returns the parent module object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Module

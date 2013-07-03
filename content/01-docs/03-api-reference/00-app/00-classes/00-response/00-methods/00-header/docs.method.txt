@@ -1,0 +1,15 @@
+﻿Name: header
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::header
+----
+Syntax: response::header($send = true)
+----
+Description: Sends the correct header for the response
+----
+Text: 
+----
+Parameters: 

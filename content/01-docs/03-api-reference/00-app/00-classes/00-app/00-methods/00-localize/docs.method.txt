@@ -1,0 +1,15 @@
+﻿Name: localize
+----
+Visibility: protected
+----
+Static: no
+----
+Title: app::localize
+----
+Syntax: app::localize()
+----
+Description: Initializes some basic local settings
+----
+Text: 
+----
+Parameters: 

@@ -1,0 +1,19 @@
+﻿Name: route
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::route
+----
+Syntax: app::route()
+----
+Description: Returns the current route
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Route

@@ -1,0 +1,25 @@
+﻿Name: error
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::error
+----
+Syntax: controller::error($message = 'Oh no!', $data = array())
+----
+Description: Responds with a json error status
+----
+Text: 
+----
+Parameters: - name: $message
+  type: string
+  text: The error message
+
+- name: $data
+  type: array
+  text: optional data to merge into the response array
+----
+Returntype: string
+----
+Return: 

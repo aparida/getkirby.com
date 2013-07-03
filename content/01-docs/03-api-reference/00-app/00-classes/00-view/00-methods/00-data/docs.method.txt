@@ -1,0 +1,19 @@
+﻿Name: data
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::data
+----
+Syntax: view::data()
+----
+Description: Returns all the assigned data
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

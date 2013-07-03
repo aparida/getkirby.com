@@ -1,0 +1,19 @@
+﻿Name: root
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::root
+----
+Syntax: module::root()
+----
+Description: Returns the module directory root
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

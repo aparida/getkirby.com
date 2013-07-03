@@ -1,0 +1,15 @@
+﻿Name: routes
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::routes
+----
+Syntax: app::routes()
+----
+Description: Placeholder for app classes to create global routes
+----
+Text: 
+----
+Parameters: 

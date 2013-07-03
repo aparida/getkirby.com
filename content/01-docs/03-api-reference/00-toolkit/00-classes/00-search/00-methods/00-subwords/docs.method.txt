@@ -1,0 +1,30 @@
+﻿Name: subwords
+----
+Visibility: protected
+----
+Static: no
+----
+Title: search::subwords
+----
+Syntax: search::subwords($text, $size = 50, $reverse = false)
+----
+Description: Shortens strings but keeps words
+Can be used to shorten strings starting from the beginning or the end
+----
+Text: 
+----
+Parameters: - name: $text
+  type: string
+  text: 
+
+- name: $size
+  type: int
+  text: The maximum character length for the final string
+
+- name: $reverse
+  type: boolean
+  text: If true, the string will be started from the end.
+----
+Returntype: string
+----
+Return: 

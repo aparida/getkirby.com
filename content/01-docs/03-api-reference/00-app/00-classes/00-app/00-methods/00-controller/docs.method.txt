@@ -1,0 +1,19 @@
+﻿Name: controller
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::controller
+----
+Syntax: app::controller()
+----
+Description: Returns the current controller
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Controller

@@ -6,13 +6,15 @@ Static: no
 ----
 Title: page::url
 ----
-Syntax: page::url()
+Syntax: page::url($lang = null)
 ----
 Description: Returns the full url for the page
 ----
 Text: 
 ----
-Parameters: 
+Parameters: - name: $lang
+  type: string
+  text: Optional language code to get the URL for that specific language on multilang sites
 ----
 Returntype: string
 ----

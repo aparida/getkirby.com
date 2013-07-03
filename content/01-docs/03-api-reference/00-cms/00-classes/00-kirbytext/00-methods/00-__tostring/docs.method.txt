@@ -1,0 +1,20 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: kirbytext::__toString
+----
+Syntax: kirbytext::__toString()
+----
+Description: Makes it possible to echo the entire Kirbytext object and get
+the parsed text back as string
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

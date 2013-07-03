@@ -1,0 +1,19 @@
+﻿Name: modules
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::modules
+----
+Syntax: app::modules()
+----
+Description: Returns a list with all available modules
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Modules

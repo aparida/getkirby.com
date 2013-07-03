@@ -1,0 +1,5 @@
+﻿Title: Assets
+----
+Class: Assets
+----
+Description: The assets class makes it easy to include css and js files from your modules in your views and layouts

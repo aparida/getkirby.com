@@ -1,0 +1,5 @@
+﻿Title: Response
+----
+Class: Response
+----
+Description: Represents any response coming from a controller's action and takes care of sending an appropriate header

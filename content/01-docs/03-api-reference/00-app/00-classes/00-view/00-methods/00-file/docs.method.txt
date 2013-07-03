@@ -1,0 +1,19 @@
+﻿Name: file
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::file
+----
+Syntax: view::file()
+----
+Description: Returns the full file path
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

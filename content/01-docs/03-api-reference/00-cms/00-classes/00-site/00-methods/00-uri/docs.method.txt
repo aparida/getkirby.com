@@ -13,7 +13,9 @@ to inspect and work with the current URL/URI
 ----
 Text: 
 ----
-Parameters: 
+Parameters: - name: $uri
+  type: string
+  text: This is only to comply with strict mode, because the page::uri method has a uri argument. It's not going to be used here.
 ----
 Returntype: object
 ----

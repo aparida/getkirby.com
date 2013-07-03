@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::__construct
+----
+Syntax: response::__construct($content, $format)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $content
+  type: string
+  text: 
+
+- name: $format
+  type: string
+  text:

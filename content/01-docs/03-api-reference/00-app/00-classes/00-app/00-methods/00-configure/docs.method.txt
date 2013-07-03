@@ -1,0 +1,17 @@
+﻿Name: configure
+----
+Visibility: protected
+----
+Static: no
+----
+Title: app::configure
+----
+Syntax: app::configure($params = array())
+----
+Description: Loads all config files
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text: An optional array of params, which should be merged

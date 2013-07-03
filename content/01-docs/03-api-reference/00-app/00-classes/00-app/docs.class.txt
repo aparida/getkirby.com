@@ -1,0 +1,11 @@
+﻿Title: App
+----
+Class: App
+----
+Description: The main object, which is used to retrieve all sub objects
+and to organize some basic functionality. Extend this from your own
+app class and define the KIRBY_APP_CLASS constant with the name of your
+class to use the global app() singleton helper.
+
+Make sure to check out methods of this class and overwrite them in your
+app class to have a convenient app initializer.

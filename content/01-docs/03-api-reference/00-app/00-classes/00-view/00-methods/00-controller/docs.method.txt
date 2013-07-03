@@ -1,0 +1,19 @@
+﻿Name: controller
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::controller
+----
+Syntax: view::controller()
+----
+Description: Returns the parent controller object
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Controller

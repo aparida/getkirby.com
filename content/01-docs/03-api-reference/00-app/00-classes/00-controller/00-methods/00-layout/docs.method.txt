@@ -1,0 +1,21 @@
+﻿Name: layout
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::layout
+----
+Syntax: controller::layout($path = null)
+----
+Description: Returns the assigned layout object
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text: Smart path to change the layout
+----
+Returntype: object
+----
+Return: Layout

@@ -1,0 +1,19 @@
+﻿Name: action
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::action
+----
+Syntax: app::action()
+----
+Description: Returns the current route
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

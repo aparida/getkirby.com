@@ -1,0 +1,15 @@
+﻿Name: routes
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::routes
+----
+Syntax: module::routes()
+----
+Description: Register all routes for this module
+----
+Text: 
+----
+Parameters: 

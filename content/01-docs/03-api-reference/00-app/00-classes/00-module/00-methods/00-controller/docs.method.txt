@@ -1,0 +1,19 @@
+﻿Name: controller
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::controller
+----
+Syntax: module::controller()
+----
+Description: Returns the currently active controller
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Controller

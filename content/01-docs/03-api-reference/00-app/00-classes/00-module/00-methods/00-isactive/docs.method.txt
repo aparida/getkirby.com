@@ -1,0 +1,19 @@
+﻿Name: isActive
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::isActive
+----
+Syntax: module::isActive()
+----
+Description: Checks if this module is currently active
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: file
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::file
+----
+Syntax: controller::file()
+----
+Description: Returns the full file path of the controller
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: scheme
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::scheme
+----
+Syntax: app::scheme()
+----
+Description: Returns the scheme (http or https)
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

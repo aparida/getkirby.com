@@ -1,0 +1,19 @@
+﻿Name: format
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::format
+----
+Syntax: controller::format($format = null)
+----
+Description: Returns the response format type
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

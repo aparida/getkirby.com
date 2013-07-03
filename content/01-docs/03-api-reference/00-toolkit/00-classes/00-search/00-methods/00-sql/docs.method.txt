@@ -1,0 +1,19 @@
+﻿Name: sql
+----
+Visibility: public
+----
+Static: no
+----
+Title: search::sql
+----
+Syntax: search::sql()
+----
+Description: Builds the sql search clause
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

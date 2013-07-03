@@ -1,0 +1,7 @@
+﻿Title: app.url
+----
+Value: <pre>false</pre>
+----
+Description: the base url for the app
+leave this set to false for
+url auto-detection

@@ -1,0 +1,19 @@
+﻿Name: defaults
+----
+Visibility: protected
+----
+Static: no
+----
+Title: search::defaults
+----
+Syntax: search::defaults()
+----
+Description: Returns all default values for the search object's option array
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

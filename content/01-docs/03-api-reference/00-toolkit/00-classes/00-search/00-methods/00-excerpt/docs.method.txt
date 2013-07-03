@@ -1,0 +1,26 @@
+﻿Name: excerpt
+----
+Visibility: public
+----
+Static: no
+----
+Title: search::excerpt
+----
+Syntax: search::excerpt($text, $size = 20)
+----
+Description: Generates a smart Googlish search excerpt with highlighted search words
+Shortens parts between search words intelligently.
+----
+Text: 
+----
+Parameters: - name: $text
+  type: string
+  text: 
+
+- name: $size
+  type: int
+  text: The max length of strings before and after search words
+----
+Returntype: string
+----
+Return: 

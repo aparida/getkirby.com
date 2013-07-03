@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::__construct
+----
+Syntax: view::__construct($path, $controller)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text: 
+
+- name: $controller
+  type: object
+  text: Controller

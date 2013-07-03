@@ -1,0 +1,25 @@
+﻿Name: flash
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::flash
+----
+Syntax: app::flash($type = false, $message = false)
+----
+Description: Checks and sets the flash message
+----
+Text: 
+----
+Parameters: - name: $type
+  type: string
+  text: a type for the flash message if you want to use this as setter. This makes it possible to store different flash messages for different types of stuff (error, notice, etc.)
+
+- name: $message
+  type: string
+  text: The message which should be stored
+----
+Returntype: mixed
+----
+Return: If no type is specified this will return the last message

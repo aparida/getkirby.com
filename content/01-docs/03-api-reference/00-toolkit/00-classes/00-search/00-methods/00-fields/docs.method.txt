@@ -1,0 +1,19 @@
+﻿Name: fields
+----
+Visibility: public
+----
+Static: no
+----
+Title: search::fields
+----
+Syntax: search::fields()
+----
+Description: Returns the array of search fields
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

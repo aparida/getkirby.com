@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::__toString
+----
+Syntax: view::__toString()
+----
+Description: Echos the html for this view
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

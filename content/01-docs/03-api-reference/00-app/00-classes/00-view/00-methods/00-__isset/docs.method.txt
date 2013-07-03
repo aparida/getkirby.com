@@ -1,0 +1,21 @@
+﻿Name: __isset
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::__isset
+----
+Syntax: view::__isset($property)
+----
+Description: Magic isset checker for assigned data
+----
+Text: 
+----
+Parameters: - name: $property
+  type: string
+  text:
+----
+Returntype: boolean
+----
+Return: 

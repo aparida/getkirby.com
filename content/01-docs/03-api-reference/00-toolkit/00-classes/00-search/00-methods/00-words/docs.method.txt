@@ -1,0 +1,22 @@
+﻿Name: words
+----
+Visibility: public
+----
+Static: no
+----
+Title: search::words
+----
+Syntax: search::words()
+----
+Description: Splits the search query into search words
+and strips all non-word characters
+It also removes stopwords and makes sure that
+search words are long enough.
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

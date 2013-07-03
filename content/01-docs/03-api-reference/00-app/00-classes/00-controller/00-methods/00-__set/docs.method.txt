@@ -1,0 +1,21 @@
+﻿Name: __set
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::__set
+----
+Syntax: controller::__set($property, $value)
+----
+Description: Magic setter for new data
+----
+Text: 
+----
+Parameters: - name: $property
+  type: string
+  text: is set by php
+
+- name: $value
+  type: mixed
+  text:

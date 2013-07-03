@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: controllers::__toString
+----
+Syntax: controllers::__toString()
+----
+Description: Echos a list of all available controllers
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

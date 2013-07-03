@@ -1,0 +1,25 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: search::__construct
+----
+Syntax: search::__construct($query, $fields, $params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $query
+  type: string
+  text: 
+
+- name: $fields
+  type: array
+  text: 
+
+- name: $params
+  type: array
+  text:

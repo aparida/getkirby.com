@@ -1,0 +1,19 @@
+﻿Name: root
+----
+Visibility: public
+----
+Static: no
+----
+Title: controllers::root
+----
+Syntax: controllers::root()
+----
+Description: Returns the root of the controllers dir
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

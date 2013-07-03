@@ -1,0 +1,20 @@
+﻿Name: url
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::url
+----
+Syntax: module::url()
+----
+Description: Dummy method to return the base url of the module
+Set this in your model class
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: false
+----
+Return: 

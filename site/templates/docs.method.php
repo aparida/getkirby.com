@@ -32,7 +32,7 @@
 
         preg_match('!(<pre><code>.*?</code></pre>)!is', (string)$page->text(), $code);
 
-        $code = $code[0];
+        $code = @$code[0];
         $code = str_replace('<pre><code>', '```php', $code);
         $code = str_replace('</code></pre>', '```', $code);
 

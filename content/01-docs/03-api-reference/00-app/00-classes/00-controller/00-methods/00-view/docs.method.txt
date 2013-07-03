@@ -1,0 +1,21 @@
+﻿Name: view
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::view
+----
+Syntax: controller::view($path = null)
+----
+Description: Returns the view object
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text: Smart path to change the view
+----
+Returntype: object
+----
+Return: View

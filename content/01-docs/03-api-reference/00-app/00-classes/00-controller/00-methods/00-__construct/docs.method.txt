@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::__construct
+----
+Syntax: controller::__construct($file, $siblings)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $file
+  type: string
+  text: The full path to the controller file
+
+- name: 
+  type: object
+  text: Controllers a list of sibling controllers

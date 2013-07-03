@@ -1,0 +1,21 @@
+﻿Name: __get
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::__get
+----
+Syntax: controller::__get($property)
+----
+Description: Magic getter for data
+----
+Text: 
+----
+Parameters: - name: $property
+  type: string
+  text: set by php
+----
+Returntype: mixed
+----
+Return: 

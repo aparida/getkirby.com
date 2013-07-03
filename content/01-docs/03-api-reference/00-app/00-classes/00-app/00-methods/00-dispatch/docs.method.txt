@@ -1,0 +1,19 @@
+﻿Name: dispatch
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::dispatch
+----
+Syntax: app::dispatch()
+----
+Description: Match the url to a module, controller and action
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: The controller response

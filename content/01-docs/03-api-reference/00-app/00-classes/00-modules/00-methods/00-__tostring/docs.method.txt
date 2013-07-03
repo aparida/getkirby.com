@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: modules::__toString
+----
+Syntax: modules::__toString()
+----
+Description: Echos a list of all available modules
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,17 @@
+﻿Name: redirect
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::redirect
+----
+Syntax: controller::redirect($path = '')
+----
+Description: Redirects to a different path
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text: A relative path to redirect to

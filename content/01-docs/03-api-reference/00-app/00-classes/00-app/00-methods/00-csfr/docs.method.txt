@@ -1,0 +1,21 @@
+﻿Name: csfr
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::csfr
+----
+Syntax: app::csfr($check = null)
+----
+Description: Checks / returns a csfr token
+----
+Text: 
+----
+Parameters: - name: $check
+  type: string
+  text: Pass a token here to compare it to the one in the session
+----
+Returntype: mixed
+----
+Return: Either the token or a boolean check result

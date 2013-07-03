@@ -1,0 +1,5 @@
+﻿Title: app.version.number
+----
+Value: <pre>1</pre>
+----
+Description: numeric app version

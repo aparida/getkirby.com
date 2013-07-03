@@ -1,0 +1,21 @@
+﻿Name: __set
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::__set
+----
+Syntax: view::__set($property, $value)
+----
+Description: Magic setter for assigned data
+----
+Text: 
+----
+Parameters: - name: $property
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text:

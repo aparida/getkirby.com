@@ -1,0 +1,20 @@
+﻿Name: title
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::title
+----
+Syntax: module::title()
+----
+Description: Returns the default title for this module, which
+should be passed to the layout
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

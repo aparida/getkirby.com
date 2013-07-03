@@ -1,0 +1,21 @@
+﻿Name: get
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::get
+----
+Syntax: controller::get($property)
+----
+Description: Getter for stored data
+----
+Text: 
+----
+Parameters: - name: $property
+  type: string
+  text:
+----
+Returntype: mixed
+----
+Return: 

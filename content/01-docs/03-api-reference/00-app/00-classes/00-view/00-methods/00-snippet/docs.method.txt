@@ -1,0 +1,29 @@
+﻿Name: snippet
+----
+Visibility: public
+----
+Static: yes
+----
+Title: view::snippet
+----
+Syntax: view::snippet($path, $data = array(), $return = false)
+----
+Description: Includes a snippet from a smart path
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text: The smart path to the snippet
+
+- name: $data
+  type: array
+  text: Optional data, which should be passed to the snippet
+
+- name: $return
+  type: boolean
+  text: By default the snippet is echoed, but you can return the result by passing true here.
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,8 @@
+﻿Title: Layout
+----
+Class: Layout
+----
+Description: A layout is an extended view, which loads
+a html layout skeleton from the layouts folder of a particular module.
+You can use layouts to create boilerplates for complex html documents.
+Views will become smaller if you outsource global stuff to layouts.

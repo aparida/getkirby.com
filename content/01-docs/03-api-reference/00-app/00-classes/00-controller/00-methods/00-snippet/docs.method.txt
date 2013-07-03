@@ -1,0 +1,29 @@
+﻿Name: snippet
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::snippet
+----
+Syntax: controller::snippet($path, $data = array(), $return = true)
+----
+Description: Shortcut to work with snippets in controllers
+----
+Text: 
+----
+Parameters: - name: $path
+  type: string
+  text: 
+
+- name: $data
+  type: array
+  text: 
+
+- name: $return
+  type: boolean
+  text:
+----
+Returntype: string
+----
+Return: 

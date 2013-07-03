@@ -1,0 +1,5 @@
+﻿Title: app.version.string
+----
+Value: <pre>1.0</pre>
+----
+Description: human readable app version

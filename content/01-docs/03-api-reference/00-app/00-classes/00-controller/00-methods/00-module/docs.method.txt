@@ -1,0 +1,19 @@
+﻿Name: module
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::module
+----
+Syntax: controller::module()
+----
+Description: Returns the parent module
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: AppModule

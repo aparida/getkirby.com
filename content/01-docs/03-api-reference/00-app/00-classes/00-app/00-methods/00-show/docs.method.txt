@@ -1,0 +1,15 @@
+﻿Name: show
+----
+Visibility: public
+----
+Static: no
+----
+Title: app::show
+----
+Syntax: app::show()
+----
+Description: Renders the app html
+----
+Text: 
+----
+Parameters: 

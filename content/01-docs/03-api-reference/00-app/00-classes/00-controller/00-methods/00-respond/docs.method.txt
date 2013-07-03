@@ -1,0 +1,30 @@
+﻿Name: respond
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::respond
+----
+Syntax: controller::respond($type, $message, $data = array())
+----
+Description: Respond with a json status object
+No view will be rendered afterwards
+----
+Text: 
+----
+Parameters: - name: $type
+  type: mixed
+  text: Either success, error or a saved model
+
+- name: $message
+  type: string
+  text: An error or success message
+
+- name: $data
+  type: array
+  text: Optional data for the response
+----
+Returntype: string
+----
+Return: 

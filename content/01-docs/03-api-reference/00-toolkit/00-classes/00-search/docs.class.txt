@@ -1,0 +1,7 @@
+﻿Title: Search
+----
+Class: Search
+----
+Description: A simple base class for searches,
+which helps with extracting search words,
+handling stopwords and building a sql search clause.

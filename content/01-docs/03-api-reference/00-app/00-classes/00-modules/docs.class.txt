@@ -1,0 +1,6 @@
+﻿Title: Modules
+----
+Class: Modules
+----
+Description: A list of all available modules for the app.
+You can use this to access any module and any controller in a module.

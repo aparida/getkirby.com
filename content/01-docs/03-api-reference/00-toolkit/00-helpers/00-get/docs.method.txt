@@ -6,7 +6,7 @@ Static:
 ----
 Title: get
 ----
-Syntax: get($key = false, $default = null)
+Syntax: get($key = null, $default = null)
 ----
 Description: Shortcut for r::get()
 ----

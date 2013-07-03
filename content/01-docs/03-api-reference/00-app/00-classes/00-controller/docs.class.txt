@@ -1,0 +1,6 @@
+﻿Title: Controller
+----
+Class: Controller
+----
+Description: The main controller class, which will be used as
+base for all custom controllers

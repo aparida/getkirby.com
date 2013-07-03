@@ -1,0 +1,19 @@
+﻿Name: file
+----
+Visibility: public
+----
+Static: no
+----
+Title: layout::file
+----
+Syntax: layout::file()
+----
+Description: Returns the proper layout file path
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

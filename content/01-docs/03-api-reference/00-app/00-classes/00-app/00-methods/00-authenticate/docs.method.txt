@@ -1,0 +1,16 @@
+﻿Name: authenticate
+----
+Visibility: protected
+----
+Static: no
+----
+Title: app::authenticate
+----
+Syntax: app::authenticate()
+----
+Description: Dummy authentication method
+Should be overwritten by the app
+----
+Text: 
+----
+Parameters: 

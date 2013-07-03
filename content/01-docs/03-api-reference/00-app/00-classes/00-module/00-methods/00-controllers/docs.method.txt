@@ -1,0 +1,19 @@
+﻿Name: controllers
+----
+Visibility: public
+----
+Static: no
+----
+Title: module::controllers
+----
+Syntax: module::controllers()
+----
+Description: Returns a list with all available controllers for this module
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Controllers

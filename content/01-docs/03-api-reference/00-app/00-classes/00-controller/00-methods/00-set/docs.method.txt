@@ -1,0 +1,21 @@
+﻿Name: set
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::set
+----
+Syntax: controller::set($property, $value)
+----
+Description: Sets new data
+----
+Text: 
+----
+Parameters: - name: $property
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text:

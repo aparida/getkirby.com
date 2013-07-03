@@ -1,0 +1,19 @@
+﻿Name: render
+----
+Visibility: public
+----
+Static: no
+----
+Title: view::render
+----
+Syntax: view::render()
+----
+Description: Renders the view and returns the html
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

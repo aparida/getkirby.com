@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: response::__toString
+----
+Syntax: response::__toString()
+----
+Description: Echos the content
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

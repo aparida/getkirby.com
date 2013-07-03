@@ -1,0 +1,22 @@
+﻿Name: submitted
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::submitted
+----
+Syntax: controller::submitted($method = 'post')
+----
+Description: Checks if a form has been submitted
+The request method and csfr must match
+----
+Text: 
+----
+Parameters: - name: $method
+  type: string
+  text: The request method to check for
+----
+Returntype: boolean
+----
+Return: 

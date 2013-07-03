@@ -1,0 +1,19 @@
+﻿Name: name
+----
+Visibility: public
+----
+Static: no
+----
+Title: controller::name
+----
+Syntax: controller::name()
+----
+Description: Returns the name of the controller
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

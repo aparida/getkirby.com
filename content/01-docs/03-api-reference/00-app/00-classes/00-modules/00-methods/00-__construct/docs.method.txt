@@ -1,0 +1,15 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: modules::__construct
+----
+Syntax: modules::__construct()
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: 
