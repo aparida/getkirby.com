@@ -221,6 +221,19 @@ class Forum {
     return static::snippet('menu', array('user' => $this->user()), $return = true);
   }
 
+  public function latest($type) {
+
+      switch($type) {
+      case 'topics':
+        return topics::latest()->limit(5)->all();
+        break;
+      case 'posts':
+        return posts::latest()->limit(5)->all();
+        break;
+    }
+
+  }
+
   static public function snippet($snippet, $data = array(), $return = false) {
     $html = tpl::loadFile(KIRBY_PROJECT_ROOT_FORUM . DS . 'snippets' . DS . $snippet . '.php', $data, true);
     if(!$return) {

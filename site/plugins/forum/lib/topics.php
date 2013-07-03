@@ -22,4 +22,9 @@ class Topics extends Query {
     return $topics->where(array('id' => $id))->first();
   }
 
+  static public function latest() {
+    $topics = new static();
+    return $topics->order('added desc');
+  }
+
 }

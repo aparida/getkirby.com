@@ -8,4 +8,4 @@ Kirby's source code is fully accessible on Github, so you don't have to buy a pi
 
 ----
 
-Link: downloads
+Link: try

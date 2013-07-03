@@ -159,6 +159,27 @@
   border-right: .5em solid $color-text;
 }
 
+/* activity on the home page */
+.activity {
+  clear: both;
+  padding-top: 3em;
+}
+.activity-header {
+  border-bottom: 1px solid $color-ui;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.activity .added a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.activity .added a em {
+  display: inline-block;
+  width: 3.5em;
+  font-style: normal;
+}
 /* thread pages */
 .thread {
   position: relative;

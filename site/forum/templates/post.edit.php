@@ -11,21 +11,7 @@
 
   <section class="post post-form">
 
-    <header class="post-header">
-
-      <?php $forum->snippet('user', array('user' => $post->user())) ?>
-
-      <h1 class="delta"><a href="<?php echo $post->url() ?>">Edit this reply</a></h1>
-
-      <div class="meta">
-        <a href="<?php echo $post->user()->url() ?>"><?php echo $post->user()->username() ?></a> 
-        <small>/</small>
-        <time class="added">
-          <?php echo $post->added('d.m.Y - H:i') ?>
-        </time>
-      </div>
-
-    </header>
+    <?php $forum->snippet('post.header', array('post' => $post)) ?>        
 
     <div class="column four">
       <?php echo $forum->form('post') ?>

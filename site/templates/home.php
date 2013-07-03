@@ -24,7 +24,7 @@
       <p class="text">
         <?php echo kirbytext($feature->text(), false) ?>
         <?php if($feature->link() != ''): ?>
-        <a class="more" href="<?php echo $page->link() ?>">Read more…</a>
+        <a class="more" href="<?php echo $feature->link() ?>">Read more…</a>
         <?php endif ?>
       </p>
     </article>
