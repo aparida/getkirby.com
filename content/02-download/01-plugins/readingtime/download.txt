@@ -2,8 +2,11 @@ Title: Reading Time
 
 ----
 
-Text: Estimate the reading time of any text. 
-Plugin by (link: http://roylodder.com/ text: Roy Lodder)
+Subtitle: Estimate the reading time of any text
+
+----
+
+Description: This is a plugin that estimates the reading time for your content.
 
 ----
 
@@ -13,6 +16,26 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/readingtime/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/reading-time
+
+----
+
+Author: Roy Lodder
+
+----
+
+Author_URL: http://roylodder.com
+
+----
+
+Install:
+
+## Installation
+
+Put the `readingtime.php` file in your `site/plugins` folder.
+
+## How to use it
+
+It's very simple! Just put `<?php echo readingtime($page->text()) ?>` in your template and it will echo the estimated reading time. You can pass any other page variable to estimate the reading time of it.

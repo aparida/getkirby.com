@@ -2,7 +2,11 @@ Title: Breadcrumb
 
 ----
 
-Text: Add a breadcrumb navigation to your site. 
+Subtitle: Add a breadcrumb navigation to your site
+
+----
+
+Description: A snippet which generates a breadcrumb navigation for your site.
 
 ----
 
@@ -12,6 +16,20 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/breadcrumb/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+Put the breadcrumb.php file in your site/snippets folder
+
+## How to use it?
+
+```php
+<?php snippet('breadcrumb') ?>
+```

@@ -2,7 +2,11 @@ Title: Feed
 
 ----
 
-Text: Create a RSS-Feed for your site.
+Subtitle: Create a RSS-Feed for your site
+
+----
+
+Description: A very simple snippet to help you setup RSS-Feeds for your site.
 
 ----
 
@@ -12,6 +16,35 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/feed/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/how-to-add-a-rss-feed
+
+----
+
+Install:
+
+## Installation
+
+Put the `feed.php` file in your `site/snippets` folder.
+
+## How to use it?
+
+```php
+<?php
+
+// get any list of items
+// in this case we get all visible children of the blog section,
+// flip them to get them in reverse order and make sure we only get the last 10
+$items = $pages->find('blog')->children()->visible()->flip()->limit(10);
+
+// this is how you embed the feed snippet with some options
+snippet('feed', array(
+  'link'  => url('blog'),
+  'items' => $items,
+  'descriptionField'  => 'text',
+  'descriptionLength' => 300
+));
+
+?>
+```

@@ -2,7 +2,11 @@ Title: Thumb
 
 ----
 
-Text: Auto-generate thumbnails and resized versions of big images. 
+Subtitle: Auto-generate thumbnails
+
+----
+
+Description: The thumb plugin makes it easy to include smaller, resized versions of your images in your pages without adding extra code or uploading smaller versions yourself.
 
 ----
 
@@ -12,6 +16,33 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/thumb/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/thumb-plugin
+
+----
+
+Install:
+
+## Installation
+
+Put the thumb.php file in your site/plugins folder. Add the plugins folder if it isn't there yet. Add a thumbs folder to the root dir of your site and make sure it is writable. If you want to change the location of your thumbs cache folder read more about the available default settings further down.
+
+## How to use it?
+
+```php
+<?php thumb($image, array('width' => 200, 'height' => 150)); ?>
+```
+
+or a more extended version:
+
+```php
+thumb($image, array(
+  'width'     => 200,
+  'height'    => 200,
+  'quality'   => 90,
+  'upscale'   => true,
+  'crop'      => true,
+  'grayscale' => true
+));
+```

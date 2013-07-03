@@ -2,7 +2,11 @@ Title: Menu
 
 ----
 
-Text: Add a menu to your site. This snippet is included in the default Kirby theme.
+Subtitle: Add a menu to your site
+
+----
+
+Description: This snippet generates a main menu for your site. It's included in the default Kirby theme.
 
 ----
 
@@ -12,6 +16,20 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/menu/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+Put the `menu.php` file in your `site/snippets` folder.
+
+## How to use it?
+
+```php
+<?php snippet('menu') ?>
+```

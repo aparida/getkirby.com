@@ -2,7 +2,11 @@ Title: Gallery
 
 ----
 
-Text: Add a simple image gallery to your site
+Subtitle: Add a simple image gallery to your site
+
+----
+
+Description: This is a very basic gallery snippet, which will generate a list of images, which are available in your page's content folder. Don't expect too much. It's just a good starting point for your own gallery script.
 
 ----
 
@@ -12,6 +16,20 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/gallery/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+Put the `gallery.php` file in your `site/snippets` folder.
+
+## How to use it?
+
+```php
+<?php snippet('gallery') ?>
+```

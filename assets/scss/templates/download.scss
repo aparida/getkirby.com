@@ -1,0 +1,17 @@
+@import "../kirby/defaults";
+@import "../kirby/generic/mixins";
+@import "../ui/vars";
+@import "../ui/objects/download-single";
+
+/** code highlighting */
+@import "../ui/vendors/highlight/php";
+@import "../ui/vendors/highlight/css";
+@import "../ui/vendors/highlight/html";
+@import "../ui/vendors/highlight/js";
+
+
+.download-single header {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+}

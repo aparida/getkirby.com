@@ -2,7 +2,11 @@ Title: SublimeVideo
 
 ----
 
-Text: Embed SublimeVideos with a simple Kirbytag. Plugin by (link: http://wooconcept.com/ text: Thibaut Ninove)
+Subtitle: Embed SublimeVideos with a simple Kirbytag.
+
+----
+
+Description: This plugin is a Kirbytext extension, in order to easily use the SublimeVideo HTML5 Player.
 
 ----
 
@@ -12,6 +16,34 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/sublimevideo/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Author: Thibaut Ninove
+
+----
+
+Author_URL: http://wooconcept.com
+
+----
+
+Twitter: @tbnv
+
+----
+
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+1. Copy the `sublimevideo.php` file into your `site/plugins` folder. If the plugins folder doesn't exist yet, please create it. As a plugin, the file will be automatically loaded by Kirby.
+
+2. Put your SublimeVideo embed code inside the `<head>` tag of your site. It should look like this :
+
+```html
+<script type="text/javascript" src="http://cdn.sublimevideo.net/js/YOUR_TOKEN.js"></script>
+```
+
+Please note that you need to have a [SublimeVideo account](http://sublimevideo.net/plans) (free). This service is very easy to use but if you need help, please refer to [their documentation](http://docs.sublimevideo.net/quickstart-guide). I am also not going to discuss [video encoding](http://docs.sublimevideo.net/encode-videos-for-the-web) here.

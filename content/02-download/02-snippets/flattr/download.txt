@@ -2,8 +2,11 @@ Title: Flattr
 
 ----
 
-Text: Add a flattr button to your site. 
-Snippet by (link: http://djdn.de text: André Dujardin)
+Subtitle: Add a flattr button to your site
+
+----
+
+Description: This snippet will embed a Flattr button in your site. You can set several options to customize it. The options are nearly equal to the original Flattr parameters. It even has a fallback if javascript is disabled and an optional HTML5 output.
 
 ----
 
@@ -13,6 +16,53 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/flattr/readme.mdown
 
----- 
+----
 
-Tutorial: 
+Author: André Dujardin
+
+----
+
+Author_URL: http://djdn.de
+
+----
+
+Twitter: @andredjdn
+
+----
+
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+Put the `flattr.php` file in your `site/snippets` folder.
+
+## How to use it?
+
+```php
+<?php snippet('flattr', array('user_id' => 'your_user_id')) ?>
+```
+
+…or with more options…
+
+```php
+<?php
+
+  snippet('flattr', array(
+    'user_id'     => 'your_user_id',
+    'url'         => 'http://custom.url/path/to/page',
+    'title'       => 'Your Page Headline',
+    'description' => 'Your Description',
+    'category'    => 'One of the Flattr Categories',
+    'language'    => 'en_GB',
+    'tags'        => 'different, tags',
+    'button'      => 'compact',
+    'popout'      => '0',
+    'html5'       => '1'
+  ));
+
+?>
+```

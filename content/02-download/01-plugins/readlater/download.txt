@@ -2,8 +2,11 @@ Title: Read Later
 
 ----
 
-Text: Add "read later" links to your articles and pages
-Plugin by (link: http://roylodder.com/ text: Roy Lodder)
+Subtitle: Add "read later" links to your articles and pages
+
+----
+
+Description: This is a plugin for Kirby that let´s you save the page for later reading. It currently supports Instapaper and Pocket.
 
 ----
 
@@ -13,6 +16,28 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/readlater/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/readlater
+
+----
+
+Author: Roy Lodder
+
+----
+
+Author_URL: http://roylodder.com
+
+----
+
+Install:
+
+## Installation
+
+Put the `readlater.php` file in your `site/plugins` folder.
+
+## How to use it
+
+Simple! Put `<?php echo readlater($page->title(),'instapaper') ?>` in your template and it will echo the a link that let´s you save the page to Instapaper. Do you want to use Pocket? Then you use `<?php echo readlater($page->title(),'pocket') ?>` in your template.
+
+You can pass any other page variable to use for the title. I asume that you use `$page->title()` for the title but you are free to change it.

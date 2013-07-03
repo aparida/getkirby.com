@@ -2,7 +2,11 @@ Title: Search
 
 ----
 
-Text: Add a search form to your site.
+Subtitle: Add a search form to your site.
+
+----
+
+Description: The search plugin makes it possible to search the entire content of your site and to build a nice search form for your users.
 
 ----
 
@@ -12,6 +16,21 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/search/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/search
+
+----
+
+Install:
+
+## Installation
+
+Put the `search.php` file in your `site/plugins` folder.
+
+## How to use it?
+
+```php
+$search  = new search(array('searchfield' => 'search'));
+$results = $search->results();
+```

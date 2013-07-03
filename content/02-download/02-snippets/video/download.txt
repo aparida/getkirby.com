@@ -2,7 +2,11 @@ Title: Video
 
 ----
 
-Text: Add HTML5 videos to your site
+Subtitle: Add HTML5 videos to your site
+
+----
+
+Description: This snippet is a very simple helper to build full html 5 video tags.
 
 ----
 
@@ -12,6 +16,35 @@ Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippet
 
 Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/video/readme.mdown
 
----- 
+----
 
 Tutorial: /blog/html5-videos
+
+----
+
+Install:
+
+## Installation
+
+Put the `video.php` file in your `site/snippets` folder.
+
+## How to use it?
+
+```php
+<?php
+
+// fetch all video formats we need
+$videos = array(
+  $page->videos()->find('movie.mp4'),
+  $page->videos()->find('movie.mobile.mp4'),
+  $page->videos()->find('movie.webm'),
+  $page->videos()->find('movie.ogv'),
+);
+
+snippet('video', array(
+  'videos' => $videos,
+  'thumb'  => $page->images()->find('movie.jpg')
+));
+
+?>
+```
