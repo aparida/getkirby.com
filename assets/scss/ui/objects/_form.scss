@@ -2,6 +2,16 @@
 .form {
   margin: 0 auto;
 }
+
+.form-notice {
+  background: red;
+  margin-bottom: 1em;
+  padding: .5em 1em;
+  border-radius: .3em;
+  color: #fff;
+}
+
+
 .form-field {
   position: relative;
   margin-bottom: 2rem;

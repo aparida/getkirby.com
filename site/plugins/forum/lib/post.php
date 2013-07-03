@@ -16,6 +16,17 @@ class Post extends Database {
   protected $_topic = null;
   protected $_user  = null;
 
+  protected function validate() {
+
+    $this->v(array(
+      'text' => array(
+        'required',
+        'min' => 2
+      )
+    ));    
+
+  }
+
   public function topic() {
     if(!is_null($this->_topic)) return $this->_topic;
     return $this->_topic = Topics::findById($this->read('topic'));

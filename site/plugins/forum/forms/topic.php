@@ -6,6 +6,12 @@ use Kirby\Forum\Topic;
 // check for an existing topic
 $topic = forum::instance()->topic();
 
+// define the data for the form 
+$data = ($topic) ? $topic->get() : get();
+
+// set the label for the submit button
+$submit = ($topic) ? 'Update topic' : 'Publish topic';
+
 // define all form fields
 $fields = array(
   'title' => array(
@@ -50,6 +56,7 @@ if(r::is('POST') and csfr(get('csfr'))) {
   if($topic->save()) {
     go($topic->url());
   } else {
+
     // create an error notice if it went wrong
     $notice = array(
       'type'    => 'error',
@@ -58,12 +65,6 @@ if(r::is('POST') and csfr(get('csfr'))) {
   }
 
 }
-
-// define the data for the form 
-$data = ($topic) ? $topic->get() : get();
-
-// set the label for the submit button
-$submit = ($topic) ? 'Update topic' : 'Publish topic';
 
 // build the form
 $form = new Form($fields, array(

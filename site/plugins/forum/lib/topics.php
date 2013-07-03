@@ -14,7 +14,7 @@ class Topics extends Query {
 
   static public function findByThread($thread) {
     $topics = new static();
-    return $topics->where(array('thread' => $thread->uid()));
+    return $topics->where(array('thread' => $thread->uid()))->order('added desc');
   }
 
   static public function findById($id) {

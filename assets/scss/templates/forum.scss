@@ -162,7 +162,7 @@
 /* activity on the home page */
 .activity {
   clear: both;
-  padding-top: 3em;
+  padding: 3em 0 3em;
 }
 .activity-header {
   border-bottom: 1px solid $color-ui;
@@ -205,6 +205,29 @@
 .topic-header {
   position: relative;
   @extend .clear;
+}
+.topic-header.is-solved:after {
+  position: absolute;
+  content: "";
+  top: .36em;
+  left: 4.5em;
+  border-radius: 2em;
+  border: 2px solid $color-ui;
+  width: 36px;
+  height: 40px;
+  background: url(../../images/check.png) no-repeat center center;
+}
+.topic-header.is-solved .user {
+  padding-right: 5em;
+}
+.topic-header.is-solved .delta {
+  color: #aaa;
+} 
+.topic-header.is-solved .delta a:hover {
+  color: $color-primary;
+}
+.topic-header.is-solved .meta {
+  opacity: .5;
 }
 .topic.details .topic-header {
   margin-bottom: 1em;

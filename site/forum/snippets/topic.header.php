@@ -1,4 +1,4 @@
-<header class="topic-header">
+<header class="topic-header<?php e($topic->solved(), ' is-solved') ?>">
 
   <?php $forum->snippet('user', array('user' => $topic->user())) ?>
 

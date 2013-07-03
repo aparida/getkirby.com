@@ -15,6 +15,21 @@ class Topic extends Database {
   // cached properties
   protected $_user = null;
 
+  protected function validate() {
+
+    $this->v(array(
+      'title' => array(
+        'required', 
+        'between' => array(2,140)
+      ),
+      'text' => array(
+        'required',
+        'min' => 2
+      )
+    ));    
+
+  }
+
   public function posts() {
     return Posts::findByTopic($this);
   }

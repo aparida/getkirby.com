@@ -6,6 +6,12 @@ use Kirby\Forum\Post;
 // check for an existing post
 $post = tpl::get('post');
 
+// set the form data
+$data = ($post) ? $post->get() : get();
+
+// set the submit button label
+$submit = ($post) ? 'Update reply' : 'Publish reply';
+
 // define all form fields
 $fields = array(
   'text' => array(
@@ -52,14 +58,10 @@ if(r::is('POST') and csfr(get('csfr'))) {
 
 }
 
-// set the form data
-$data = ($post) ? $post->get() : get();
-
-// set the submit button label
-$submit = ($post) ? 'Update reply' : 'Publish reply';
-
 // build the form
 $form = new Form($fields, array(
+  'action'  => '#post',
+  'id'      => 'post',
   'data'    => $data,
   'notice'  => $notice,
   'buttons' => array(
