@@ -1,4 +1,4 @@
-site/config/new.getkirby.com.php
-site/forum/config/config.php
+site/config/config.new.getkirby.com.php
 assets/scss/.sass-cache
 .DS_Store
+site/forum/config/config.php
