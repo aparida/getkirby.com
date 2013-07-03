@@ -3,7 +3,7 @@
 <article class="main">
 
   <header class="main-header">
-    <h1 class="alpha"><?php echo html($page->title()) ?></h1>
+    <h1 class="alpha with-beta"><?php echo html($page->title()) ?></h1>
     <h2 class="beta">Don't buy a pig in a poke</h2>
   </header>
 

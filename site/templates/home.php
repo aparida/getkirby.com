@@ -6,7 +6,7 @@
 
   <article class="introduction section text intro">
 
-    <h1 class="alpha"><?php echo html($page->headline()) ?></h1>
+    <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
     <h2 class="beta"><?php echo html($page->subheadline()) ?></h2>
 
     <?php echo kirbytext($page->intro()) ?>
