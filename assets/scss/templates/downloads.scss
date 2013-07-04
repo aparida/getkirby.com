@@ -20,10 +20,9 @@
   padding: 1em 0 1em 3em;
   border-bottom: 1px solid $color-ui;
 }
-.download .options {
-  position: absolute;
-  bottom: 1em;
-  right: 0;
+.download .epsilon {
+  font-weight: 300;
+  color: $color-text-light;
 }
 .download .icon {
   position: absolute;

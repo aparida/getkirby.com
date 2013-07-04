@@ -12,6 +12,7 @@
         <a href="http://download.getkirby.com"></a>
       </figure>
       <h1 class="gamma"><a href="http://download.getkirby.com">kirby-2.0.0.zip</a></h1>
+      <h2 class="epsilon"><a href="http://download.getkirby.com">Download Kirby's minimal setup</a></h2>
     </article>
 
     <article class="download column three last">
@@ -19,6 +20,7 @@
         <a href="http://download.getkirby.com/minimal/panel:true"></a>
       </figure>
       <h1 class="gamma"><a href="http://download.getkirby.com/minimal/panel:true">kirby-2.0.0-with-panel.zip</a></h1>
+      <h2 class="epsilon"><a href="http://download.getkirby.com">Download Kirby's minimal setup including the panel</a></h2>
     </article>
 
   </section>
@@ -35,6 +37,7 @@
         <a href="<?php echo $download->url() ?>"><img src="<?php echo $download->images()->first()->url() ?>" /></a>
       </figure>
       <h1 class="gamma"><a href="<?php echo $download->url() ?>"><?php echo html($download->title()) ?></a></h1>
+      <h2 class="epsilon"><a href="<?php echo $download->url() ?>"><?php echo html($download->subtitle()) ?></h2>
     </article>
     <?php endforeach ?>
 
