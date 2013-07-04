@@ -1,12 +1,12 @@
 <?php snippet('header') ?>
 
 <section class="main columns download-single media">
+  <h1 class="alpha"><?php echo $page->title ?></h1>
 
   <article class="column four">
-      <h1 class="alpha"><?php echo $page->title ?></h1>
-      <p class="gamma subtitle"><?php echo $page->subtitle ?></p>
-      <?php $image = $page->images()->nth(1) ?>
-      <figure><img src="<?php echo $image->url() ?>" alt="<?php echo $page->title ?>" /></figure>
+    <p class="gamma subtitle"><?php echo $page->subtitle ?></p>
+    <?php $image = $page->images()->nth(1) ?>
+    <figure><img src="<?php echo $image->url() ?>" alt="<?php echo $page->title ?>" /></figure>
   </article>
 
   <aside class="column two last download-meta">

@@ -1,12 +1,10 @@
 <?php snippet('header') ?>
 
 <section class="main columns download-single">
+  <h1 class="alpha"><?php echo $page->title ?></h1>
 
   <article class="column four">
-    <header>
-      <h1 class="alpha"><?php echo $page->title ?></h1>
-      <p class="gamma subtitle"><?php echo $page->subtitle ?></p>
-    </header>
+    <p class="gamma subtitle"><?php echo $page->subtitle ?></p>
     <div class="text">
       <?php echo kirbytext($page->install) ?>
       <p>Check out the <a href="<?php echo $page->docs ?>">full documentation</a> to learn more!
