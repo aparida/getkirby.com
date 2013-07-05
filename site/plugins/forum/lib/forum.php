@@ -71,13 +71,17 @@ class Forum {
    */
   public function threads() {
 
-    $threads = array();
+    $threads = new Pages();
     
     foreach($this->page->children()->visible() as $page) {        
-      $threads[$page->uri()] = new Thread($page->root());
+      
+      $thread = new Thread($page->root());
+      $thread->parent($this->page);
+
+      $threads->set($thread->id(), $thread);
     }
 
-    return new Pages($threads);
+    return $threads;
 
   }
 
