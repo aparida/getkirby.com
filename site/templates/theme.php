@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
 
 <section class="main columns download-single theme">
+  <h1 class="alpha"><?php echo $page->title ?></h1>
 
   <article class="column four">
-    <h1 class="alpha"><?php echo $page->title ?></h1>
     <p class="gamma subtitle"><?php echo $page->subtitle ?></p>
 
     <?php $image = $page->images()->first() ?>

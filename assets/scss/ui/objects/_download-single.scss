@@ -1,8 +1,12 @@
 .subtitle {
   color: $color-text-light;
 }
+.download-single article .text {
+  padding-top: 2em;
+  margin-top: 2em;
+  border-top: 1px solid #ddd;
+}
 .download-meta h2 {
-  padding: 1.88em 0 0 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
