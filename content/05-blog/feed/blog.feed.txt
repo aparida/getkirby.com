@@ -1,4 +1,0 @@
-Title: Kirby news and tutorials
-----
-Description: The latest updates and tutorials for Kirby CMS. 
----- 

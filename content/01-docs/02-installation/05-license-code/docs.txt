@@ -26,11 +26,11 @@ You can (link: blog/free-trial text: read more about this here).
 
 Blogposts:
 
-Free trial:
-    link: blog/free-trial
+- text: Free trial:
+  link: blog/free-trial
 
-License to kill:
-    link: blog/license-to-kill
+- text: License to kill:
+  link: blog/license-to-kill
 
 ----
 

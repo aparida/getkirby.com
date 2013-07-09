@@ -16,7 +16,7 @@ define('KIRBY_INDEX_ROOT', __DIR__);
 define('KIRBY_CMS_ROOT', __DIR__ . DS . 'kirby');
 
 // location of all site specific files / site folder
-define('KIRBY_PROJECT_ROOT', KIRBY_INDEX_ROOT . DS . 'site');
+define('KIRBY_SITE_ROOT', KIRBY_INDEX_ROOT . DS . 'site');
 
 // location of the content folder
 define('KIRBY_CONTENT_ROOT', KIRBY_INDEX_ROOT . DS . 'content');

@@ -1,8 +1,8 @@
 <?php
 
-require_once('highlight/geshi.php');
-
 function highlight($code, $lang) {
+
+  require_once('highlight/geshi.php');
 
   if($lang == 'php-html') {
     return smartHighlight($code);

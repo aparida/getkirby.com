@@ -27,6 +27,9 @@ class Forum {
   protected $_users  = null;
   protected $_search = null;
 
+  /**
+   * Constructor
+   */
   public function __construct() {
     $uri        = c::get('forum.uri');
     $this->page = page($uri);
@@ -38,6 +41,11 @@ class Forum {
  
   }
 
+  /**
+   * Returns the forum's singleton instance
+   * 
+   * @return object 
+   */
   static public function instance() {
     static $instance = null;
     if(!$instance) {
@@ -121,16 +129,49 @@ class Forum {
 
   }
 
+  /**
+   * Returns the base url and can also 
+   * be used as url builder for urls within the 
+   * forum by passing the uri
+   * 
+   * @param string $uri
+   * @return string
+   */
   public function url($uri = '') {
     return rtrim($this->page->url() . '/' . $uri, '/');
   }
 
+  /**
+   * Returns the Forum search object, which 
+   * can be used to build the search page and all results
+   * 
+   * @param string $searchword
+   * @return object
+   */
   public function search($searchword = null) {  
     if(!is_null($searchword))    return $this->_search = new Search($searchword);
     if(!is_null($this->_search)) return $this->_search;
     return $this->_search = new Search();
   }
 
+  /**
+   * Returns the guidelines text, which is used for
+   * the topic forms to give some advice how to write topics
+   * 
+   * The guidelines text can be set in the main forum.txt 
+   * 
+   * @return string
+   */
+  public function guidelines() {
+    return $this->page->guidelines();
+  }
+
+  /**
+   * Dispatches all the routes, calls all needed methods
+   * and builds the templates
+   * 
+   * @return string
+   */
   public function run() {
 
     $template = 'index';
@@ -217,14 +258,25 @@ class Forum {
       'topic'   => $topic
     ));
 
-    echo tpl::loadFile(KIRBY_PROJECT_ROOT_FORUM . DS . 'templates' . DS . $template . '.php');
+    echo tpl::loadFile(KIRBY_SITE_ROOT_FORUM . DS . 'templates' . DS . $template . '.php');
 
   }
 
+  /**
+   * Shortcut for the menu snippet 
+   * 
+   * @return string
+   */
   public function menu() {  
     return static::snippet('menu', array('user' => $this->user()), $return = true);
   }
 
+  /**
+   * Returns the latest topics or posts
+   * 
+   * @param string $type topics or posts
+   * @return object
+   */
   public function latest($type) {
 
       switch($type) {
@@ -238,8 +290,16 @@ class Forum {
 
   }
 
+  /**
+   * Returns a forum specific snippet
+   * 
+   * @param string $snippet the name of the snippet without .php
+   * @param array $data An optional array of data, which should be passed to the snippet
+   * @param boolean $return If set to true, the snippet html will be returned instead of echoed
+   * @return string
+   */
   static public function snippet($snippet, $data = array(), $return = false) {
-    $html = tpl::loadFile(KIRBY_PROJECT_ROOT_FORUM . DS . 'snippets' . DS . $snippet . '.php', $data, true);
+    $html = tpl::loadFile(KIRBY_SITE_ROOT_FORUM . DS . 'snippets' . DS . $snippet . '.php', $data, true);
     if(!$return) {
       echo $html;
     } else {
@@ -247,6 +307,12 @@ class Forum {
     }
   }
 
+  /**
+   * Builds and includes a forum form
+   * 
+   * @param string $name Name of the form without .php
+   * @return string
+   */
   static public function form($name) {    
     // this will be replaced in the controller 
     // with the actual form object

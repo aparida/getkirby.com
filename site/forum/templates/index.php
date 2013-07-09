@@ -1,4 +1,4 @@
-<section class="main columns forum">
+<section class="main forum columns">
 
   <header class="forum-header">
 

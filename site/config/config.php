@@ -333,4 +333,27 @@ custom config by specific rules for that host.
 
 */
 
+
+/* 
+
+---------------------------------------
+Multi-Language support setup
+---------------------------------------
+
+*/
+
+c::set('lang.support', true);
+c::set('lang.detect', true);
+c::set('lang.urls', 'short');
+c::set('lang.config', array(
+  'en' => array(
+    'code'      => 'en',
+    'name'      => 'English',
+    'default'   => true, 
+    'locale'    => 'en_US', 
+    'available' => true,
+  )
+));
+
+
 ?>

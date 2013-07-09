@@ -7,3 +7,19 @@ Text:
 ### About the forum
 This is the first version of the Kirby forum. It's entirely based on Kirby – no forum software involved. 
 It's still in beta, so bear with me, if things don't work out as expected and please let me know: <bastian@getkirby.com>
+
+----
+
+Guidelines:
+
+##### Read me
+
+Please, make sure that there's no such topic in the forum yet.
+
+Stick to some simple rules: *no spam, no porn, no violence*
+
+Please, just post topics related to Kirby.
+
+##### Text formats
+
+You may use (link: http://daringfireball.net/projects/markdown/ text: Markdown) and (link: docs/formatting-text text: Kirbytext) to format your text

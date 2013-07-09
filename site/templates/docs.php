@@ -19,7 +19,7 @@
         <ul>
             <?php $blogposts = yaml($page->blogposts()) ?>
             <?php foreach($blogposts as $key => $blogpost): ?>
-            <li><a href="<?php echo $article['link'] ?>"><?php echo $key ?></a></li>
+            <li><a href="<?php echo $blogpost['link'] ?>"><?php echo $key ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>
@@ -34,7 +34,7 @@
         </ul>
         <?php endif ?>
 
-        <?php if($page->forumposts() != ""): ?>
+        <?php if($page->docs() != ""): ?>
         <h2 class="gamma">Docs</h2>
         <ul>
             <?php $docs = yaml($page->docs()) ?>

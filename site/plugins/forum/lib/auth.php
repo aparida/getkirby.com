@@ -17,7 +17,7 @@ class Auth {
   static public function login() {
 
     // load the oauth wrapper if not installed as a pecl module
-    if(c::get('forum.oauth.pecl') == false) require_once(KIRBY_FORUM_ROOT_VENDORS . DS . 'oauth' . DS . 'oauth.php');
+    if(!class_exists('OAuthException')) require_once(KIRBY_FORUM_ROOT_VENDORS . DS . 'oauth' . DS . 'oauth.php');
     
     // load the twitter oauth class
     require_once(KIRBY_FORUM_ROOT_VENDORS . DS . 'twitter' . DS . 'twitter.php');
