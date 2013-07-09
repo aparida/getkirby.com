@@ -2,5 +2,12 @@ Title: Installing the Admin Panel
 
 ----
 
-Text: 
+Text:
 
+Download the (link: https://github.com/getkirby/panel text: Kirby Admin Panel) and add it to your existing Kirby site. Put it in a folder in the root of your site (where the file `index.php` is located) and name the folder `panel`.
+
+Visit `http://yourdomain.com/panel` and follow the instructions to finish the installation of the panel.
+
+## Requirements
+
+The Panel requires Kirby CMS 1.1 or newer

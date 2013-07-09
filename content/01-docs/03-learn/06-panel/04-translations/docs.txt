@@ -2,5 +2,98 @@ Title: Translations
 
 ----
 
-Text: 
+Text:
 
+## Available Translations
+
+### English
+Author: Bastian Allgeier
+Since: 0.5
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/en.php text: en.php)
+
+### German
+Author: Bastian Allgeier
+Since: 0.5
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/de.php text: de.php)
+
+### Dutch
+Author: (link: http://www.nirusu.me text: Nils Hendriks) & (link: http://twitter.com/kfarris text: kfarris)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.6)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/nl.php text: nl.php)
+
+### French
+Author: (link: http://www.laggoun.com/ text: Loubna Aggoun)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.6)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/fr.php text: fr.php)
+
+### Turkish
+
+Author: (link: http://seitenwerk.at text: Seitenwerk & Parlak)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.6)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/tr.php text: tr.php)
+
+### Rumanian
+
+Author: (link: http://seitenwerk.at text: Seitenwerk) & (link: http://ciuciu.at/ text: CIUCIU)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.6)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/ro.php text: ro.php)
+
+### Spanish
+
+Author: (link: http://morrick.me/ text: Riccardo Mori)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.6)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/es.php text: es.php)
+
+### Hungarian
+
+Author: (link: http://github.com/kukac7 text: Dávid Bóta)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.6)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/hu.php text: hu.php)
+
+### Italian
+
+Author: (link: http://morrick.me/ text: Riccardo Mori)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.6)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/it.php text: it.php)
+
+### Portuguese
+
+Author: (link: http://seufelipe.com.br text: Felipe Coelho Kussik)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.8)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/pt.php text: pt.php)
+
+### Finnish
+
+Author: (link: http://lauriliimatta.com text: Lauri Liimatta)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.8)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/fi.php text: fi.php)
+
+### Polish
+
+Author: (link: https://github.com/peterblazejewicz text: Peter Blazejewicz)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.9.3)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/pl.php text: pl.php)
+
+### Thai
+
+Author: (link: http://www.blog.co.th/ text: Techatat Jaturuntanont)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.9.3)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/th.php text: th.php)
+
+### Norwegian
+
+Author: (link: http://www.bybaptistella.com/ text: Jonathan Baptistella)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.9.3)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/no.php text: no.php)
+
+### Russian
+
+Author: (link: http://pepelsbey.net text: Vadim Makeev)
+Since: (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: 0.9.3)
+File: (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/ru.php text: ru.php)
+
+
+## Get involved
+
+Any help with translations in other languages is very welcome!!
+You can fork Kirby on Github or download the (link: https://github.com/bastianallgeier/kirbycms-panel/blob/dev/languages/en.php text: english language file) as reference and just translate it. Just send me an email if you got any questions: <bastian@getkirby.com>

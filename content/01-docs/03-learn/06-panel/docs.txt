@@ -2,5 +2,20 @@ Title: Admin Panel
 
 ----
 
-Text: 
+Text:
 
+The Kirby Panel is an open-source interface for your Kirby installation. It will give you and your clients the possibility to administrate a Kirby-flavoured site without touching the original files. It also makes it possible to edit content from a mobile device, while you are on the road.
+
+The Kirby Panel is highly customizable.
+Read more about how to get the best out of it here.
+
+(image: 01.png link: https://github.com/getkirby/panel)
+
+## Download
+
+The source code for the Kirby panel can be found on Github:
+<https://github.com/getkirby/panel>
+
+## Bugs
+
+The Panel is currently in a public beta. Please use the (link: https://github.com/getkirby/panel/issues text: Github Issue Tracker) to report any bugs or send me an email <bastian@getkirby.com>

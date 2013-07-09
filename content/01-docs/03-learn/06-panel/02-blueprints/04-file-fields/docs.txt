@@ -1,0 +1,35 @@
+Title: File Fields
+
+----
+
+Text: 
+
+If you want to add meta information to your files you can setup file fields in each blueprint. Those file fields will appear in the file edit form:
+
+(image: 01.png)
+
+To define file fields, simply add them to your blueprints like this: 
+
+```
+
+# default blueprint
+
+title: Page
+pages: true
+files: true
+fields:
+  title: 
+    label: Title
+    type:  text
+  text: 
+    label: Text
+    type:  textarea
+    size:  large
+filefields: 
+  caption: 
+    label: Caption
+    type:  text 
+
+```
+
+So far there are two available field types: `text` and `textarea`. Please refer to the (link: docs/panel/blueprints/field-types text: field types) section for more information.

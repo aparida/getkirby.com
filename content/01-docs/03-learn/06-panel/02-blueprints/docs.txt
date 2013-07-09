@@ -2,5 +2,37 @@ Title: Form blueprints
 
 ----
 
-Text: 
+Text:
 
+Content files in Kirby don't have a predefined structure. Actually you can use any set of data for each page, which makes the entire system so flexible. As soon as you are using the Kirby Panel, you somehow need to define the form fields for each template.
+**Those form field definition files are called Blueprints.**
+
+All your blueprints for your site are located in `site/panel/blueprints`. After installing the panel, you will find the blueprint for the default template in there, which you can use as a starting point.
+
+You must define a blueprint for each of your templates, otherwise the default blueprint will be used.
+
+## Blueprint Definition
+
+Blueprint definition is very easy and it only takes a few minutes to set up the needed form fields for each template.
+
+Kirby uses (link: http://www.yaml.org/ text: YAML) to define form fields. It's a simple, intuitive language to define data structures. But I guess some examples make it clearer.
+
+### The Default Blueprint
+
+The default template, which is shipped with Kirby uses only two fields of data. `title` and `text` so the blueprint for this template is very straight forward:
+
+```
+title: Page
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+    size:  large
+```
+
+As you can see YAML uses indentation to create a basic structure. The rest of the language looks pretty much like the definition in Kirby content files.

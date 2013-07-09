@@ -1,0 +1,132 @@
+Title: Field Definition
+
+----
+
+Text: 
+
+Fields are defined like this:
+
+```
+fields: 
+
+  myfield: 
+    label: Label Text
+    type: textarea 
+    …    
+
+  mysecondfield: 
+    label: Another Label Text
+    type: text
+    …    
+
+```
+
+The name will be used as the field name in content files. So if a field has the name `myfield` the result in the content file will look like this:
+
+	myfield: my content for my field
+	----
+
+## Global field options
+
+Each field can have the following variables: 
+
+### label: 
+Defines the name label, which will be displayed above the field 
+
+#### Example:
+
+```
+fields: 
+  myfield:
+    label: This is a nice field
+    …
+```
+
+If you want to translate labels for your editors, you can add translations like this: 
+
+```
+fields: 
+  myfield:
+    label: 
+      en: This is a nice field
+      de: Das ist ein schönes Feld
+    …
+```
+
+
+****
+
+### required: 
+Use this to mark a field as required. It will no longer be possible to submit the form without adding any data in that field:
+
+#### Example:
+
+```
+fields: 
+  myfield:
+    label:    This is a nice field
+    required: true
+    …
+```
+
+****
+
+### validate: 
+
+If you want to make sure that the content of a field is validated before a page can be saved, you can use the validate option for fields.
+
+#### Example:
+
+```
+fields: 
+  email:
+    label:    Email Address
+    type:     text
+    validate: email
+    …
+```
+
+You can use the predefined validation methods: email, date, url or you can define your own:
+
+```
+fields:
+  somefield: 
+    label:  Some Label
+    type:   text
+    validate: 
+      minlength: 10
+      maxlength: 30
+      match:     /[a-z0-9]+/i
+```
+
+`minlength`, `maxlength` and `match` are all optional, so you can combine them however you want.
+
+
+****
+
+### help: 
+Defines a help text, which will be displayed below the field to give some more instructions. 
+
+#### Example:
+
+```
+fields: 
+  myfield:
+    label: This is a nice field
+    help: Fill this out or you will die
+    …
+```
+
+If you want to translate help for your editors, you can add translations like this: 
+
+```
+fields: 
+  myfield:
+    label: 
+      en: This is a nice field
+      de: Das ist ein schönes Feld
+    help: 
+      en: Fill this out or you will die
+      de: Füllen Sie dieses Feld aus oder Sie werden sterben
+    …
+```

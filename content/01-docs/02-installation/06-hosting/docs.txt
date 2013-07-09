@@ -2,5 +2,17 @@ Title: Hosting
 
 ----
 
-Text: 
+Text:
+
+## Requirements
+
+Kirby runs best on Linux, Apache and PHP 5.2+
+Pretty much any modern hosting provider should have a plan,
+which matches those requirements.
+
+Kirby has also been successfully installed on LightHTTPD and Nginx. Please send me an email if you got a working version of Kirby running on any other server architecture: <bastian@getkirby.com>
+
+### URL rewriting
+
+I recommend having `mod_rewrite` or a comparable URL rewriting module enabled, as it will help Kirby to build awesome URLs for your site. It has a nice fallback though if you don't have URL rewriting available on your server.
 

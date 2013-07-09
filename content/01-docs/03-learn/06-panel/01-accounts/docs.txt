@@ -2,5 +2,67 @@ Title: User accounts
 
 ----
 
-Text: 
+Text:
 
+During the installation process you already setup the first user account. You can setup more accounts very easily. (Please follow the installation steps first if you haven't yet)
+
+## Adding a new account
+
+Go to `site/panel/accounts` and duplicate an exisiting account file. Rename the file to match your username.
+
+Here are some examples:
+
+```php
+username: peter => filename: peter.php
+username: paul  => filename: paul.php
+username: mary  => filename: mary.php
+```
+
+You must only use the following characters for usernames: `a-z0-9_-`
+
+Open your new account file in your favorite editor and change the credentials:
+
+```php
+username: yourusername
+password: yourpassword
+language: en
+```
+
+### Language
+
+The Kirby panel has built-in language support for English and German. Set language: to `en` or `de` to set the interface-language for the user.
+
+### Password encryption
+
+By default account files use plain passwords. If you want to use encrypted passwords instead, you can do it like this:
+
+#### SHA1
+
+```php
+username: yourusername
+password: be1109d4a1ba36a23733c30a23f3428fd0c2ed7d
+encrypt:  sha1
+language: en
+```
+
+#### MD5
+
+```php
+username: yourusername
+password: 0cbc6611f5540bd0809a388dc95a615b
+encrypt:  md5
+language: en
+```
+
+## Custom fields
+
+You are free to add your own fields to store with each account
+
+```php
+username: yourusername
+password: yourpassword
+language: en
+email:    mail@testaccount.com
+name:     John Doe
+phone:    444-1234
+```

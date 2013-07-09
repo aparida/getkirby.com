@@ -2,5 +2,28 @@ Title: Troubleshooting
 
 ----
 
-Text: 
+Text:
+
+##File Permissions
+
+The Panel must be able to edit, move and delete your files and folders inside your content folder. So please make sure that all folders are set to `0755` and your files are set to `0666`.
+
+##Missing Blueprints
+
+Whenever you login to the Panel you will get a warning when there are templates for your site, which don't have a corresponding blueprint. Please add a blueprint to get rid of that warning.
+
+##Uploads
+
+If you are not allowed to upload a specific file, please make sure that the folder is writable, the file is not too big and it has an allowed mime type.
+
+### Allowing more mime types
+
+By default there are only a few mime types allowed to be uploaded. Go to `site/panel/config/config.php` to add additional mime types.
+
+### Thumbnails for uploaded images
+
+Kirby will automatically try to generate thumbnails for your uploaded images. If this fails, it will use the original files to display a preview in the file browser. This can influence loading times, when you've uploaded huge images.
+
+To make sure that Kirby is able to generate thumbnails, please add a `thumbs` folder to the main directory of your Kirby site and make it writable.
+
 

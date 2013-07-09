@@ -1,0 +1,72 @@
+title: Providers
+
+----
+
+text:
+
+
+## Kirby is running great on…
+
+### International Providers
+
+#### phpfog
+(link: https://phpfog.com/?a_aid=12080653 text: phpfog.com)
+
+#### Mediatemple
+(link: http://www.mediatemple.net#a_aid=501b842c58f66 text: mediatemple.net)
+
+#### Midphase
+(link: http://manage.aff.biz/z/11606/CD38502/ text: midphase.com)
+
+#### Linode
+(link: http://www.linode.com/?r=54c34858de722e04bbab8a32715bd6c0d79679ad text: linode.com)
+
+#### Site5
+(link: http://www.site5.com/in.php?id=141054 text: site5.com)
+
+#### Pair
+(link: http://pair.com text: pair.com)
+
+#### Webfaction
+(link: http://www.webfaction.com text: webfaction.com)
+
+#### Fortrabbit
+(link: http://www.fortrabbit.com text: fortrabbit.com)
+
+#### Pagodabox
+(link: http://pagodabox.com text: pagodabox.com)
+
+### German Providers
+
+#### Uberspace
+(link: http://uberspace.de/ text: uberspace.de)
+
+#### HostEurope
+(link: http://www.hosteurope.com/ text: hosteurope.com)
+
+#### Hetzner
+(link: http://www.hetzner.de text: hetzner.de)
+
+#### Mittwald
+(link: http://www.mittwald.de text: mittwald.de)
+
+#### Domaingo
+(link: http://domaingo.de text: domaingo.de)
+
+#### Speicherhosting
+(link: http://speicherhosting.com text: speicherhosting.com)
+
+#### All Inkl
+(link: http://all-inkl.com/ text: all-inkl.com)
+
+### Swiss Providers
+
+#### Cyon
+(link: http://cyon.ch text: cyon.ch)
+
+## Disclaimer
+
+This list is totally incomplete. It's just a result of feedback I got
+from Kirby users so far. Please let me know if you are running Kirby
+on any other hosting plan you'd like to recommend: <bastian@getkirby.com>
+

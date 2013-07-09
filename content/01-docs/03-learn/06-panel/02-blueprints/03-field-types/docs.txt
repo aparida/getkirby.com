@@ -1,0 +1,185 @@
+Title: Field Types
+
+----
+
+Text: 
+
+## The title field
+
+Kirby will always generate a title field for each page, even if you don't define it in your blueprint. The default definition of the title field looks like this: 
+
+```
+fields:
+  title: 
+    label: Title
+    type:  text
+```
+
+You can just leave that away in your blueprints to save some time or you can create your own title field definition. All you need to do to define your own title field is to use `title` as name of the field. 
+
+## Custom fields
+
+### type: text
+
+This will generate a simple text input. 
+
+#### Example:
+
+```
+
+fields: 
+  myfield: 
+    label: My text field
+    type: text
+
+```
+
+****
+
+### type: textarea
+
+This will generate a texarea.
+
+#### Example:
+
+```
+
+fields: 
+  myfield: 
+    label:   My textarea
+    type:    textarea
+    size:    large 
+    buttons: true
+
+```
+
+For texareas you can define three different sizes:
+
+size: small
+size: medium
+size: large
+
+The size controls the height of the textarea
+
+To show or hide format buttons use the "buttons" attribute. You can also switch on and off specific buttons by listing them in the order you'd like them to appear: 
+
+```
+
+fields: 
+  myfield: 
+    label: My textarea
+    type:  textarea
+    size:  large 
+    buttons: 
+      - h1
+      - h2
+      - h3
+      - bold
+      - italic
+      - email
+      - link
+
+```
+
+
+****
+
+### type: date
+
+This will generate a datepicker input
+
+#### Example:
+
+```
+fields: 
+  myfield: 
+    label:  My Date Field
+    type:   date
+    format: dd.mm.yy
+```
+
+****
+
+### type: radio
+
+This will generate a row of radio buttons
+
+#### Example:
+
+```
+fields: 
+  myfield: 
+    label: My Radio Field
+    type: radio
+    options:
+      firstValue:  firstText
+      secondValue: secondText
+      thirdValue:  thirdText
+    default: secondValue
+```
+
+A radio field needs a bit more setup then the text and textarea fields. With options you can setup any number of radio buttons, which will be displayed. For each radio button, you can set a value, which won't be visible, but will be used as data for the content file. And you can set a text, which will be displayed next to the button. 
+
+With `default:` you can define, which button will be selected by default, if nothing has been selected or saved yet. 
+
+****
+
+### type: select
+
+The will generate a select box with a row of options. 
+
+#### Example:
+
+```
+fields: 
+  myfield: 
+    label: My Select Box
+    type: select
+    options:
+      1: Option 1
+      2: Option 2
+      3: Option 3
+      4: Option 4
+      5: Option 5
+      6: Option 6
+      7: Option 7
+    default: 2
+```
+
+The select field works just like the definition for the radio button. It's perfect if you have a bigger list of options, which would be too confusing to display as radio buttons. 
+
+****
+
+### type: checkbox
+
+The will generate a simple checkbox with a label. 
+
+#### Example:
+
+```
+fields: 
+  myfield: 
+    label:   My Checkbox
+    type:    checkbox
+    default: on
+```
+
+****
+
+### type: multicheckbox
+
+The will generate a row of checkboxes, which can be used for multi-value field content (values will be listed in a comma separated list in fields)
+
+#### Example:
+
+```
+fields: 
+  categories: 
+    label:   Categories
+    type:    multicheckbox
+    default: design, photography
+    options:
+      design: Design
+      photography: Photography
+      architecture: Architecture
+```

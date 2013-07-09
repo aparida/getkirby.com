@@ -1,0 +1,95 @@
+Title: Blueprint Variables
+
+----
+
+Text: ### title: Pages
+Set the title of the blueprint. This is only used internally. 
+
+```
+title: My Blueprint Title
+```
+
+### pages: true
+Define if pages with this template should be allowed to have subpages. If this is set to `false` editors won't be able to add subpages in the Panel.
+
+```
+title: My Blueprint Title
+pages: true
+```
+
+```
+title: My Blueprint Title
+pages: false
+```
+
+#### pages > templates 
+By default the editor can choose, which template to use for new subpages. If you would like to define a specific template, which will be used for supages you can do it like this:
+
+```
+title: My Blueprint Title
+pages:
+  template: mytemplate
+```
+
+To define multiple templates, simply write them as a list: 
+
+```
+title: My Blueprint Title
+pages:
+  template: 
+    - blogarticle
+    - blogfeed
+```
+
+#### pages > sort 
+The list of visible subpages is sorted by the prepended folder number. To flip the sorting and display higher number at the top of the list, change the settings like this… 
+
+```
+title: My Blueprint Title
+pages:
+  sort: flip
+```
+
+#### pages > limit 
+If there are a lot of subpages, the list can get quite long and confusing. Add a limit of shown subpages to avoid that. A "show more…" link will automatically appear when a limit is set and there are more subpages. 
+
+```
+title: My Blueprint Title
+pages:
+  limit: 10
+```
+
+### files: true
+Define if the pages with this template are allowed to have files. If this is set to `false`, editors are not able to upload files in the Panel.  
+
+```
+title: My Blueprint Title
+pages: true
+files: true
+```
+
+```
+title: My Blueprint Title
+pages: true
+files: false
+```
+
+### fields:
+This is the set of fields for the template. Use indentation to define those fields. 
+Read more about how to (link: docs/panel/blueprints/field-definition text: define fields) and which available (link: docs/panel/blueprints/field-types text: field types) there are. 
+
+```
+title: My Blueprint Title
+pages: true
+files: true
+fields: 
+
+  myfirstfield:
+    label: My First Field
+    type: text  
+
+  mysecondfield:
+    label: My Second Field
+    type: textarea
+
+```
