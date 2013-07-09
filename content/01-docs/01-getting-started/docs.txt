@@ -4,3 +4,23 @@ Title: Getting started
 
 Text: 
 
+// Illustration that shows how easy it is to install Kirby
+// maybe a video later
+
+## 1. Download Kirby
+
+- (link: # text: Kirby.2.0.zip)
+
+## 2. Install Kirby
+
+- (link: # text: on your Mac)
+- (link: # text: on your PC)
+- (link: # text: on your server)
+
+## 3. Learn Kirby
+
+- (link: # text: Creating content for your site)
+- (link: # text: Formatting Text)
+- (link: # text: Creating Templates)
+- (link: # text: Images, Videos, Documents)
+- (link: # text: More tutorials…)
