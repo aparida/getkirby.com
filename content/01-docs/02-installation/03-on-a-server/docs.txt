@@ -1,0 +1,6 @@
+Title: Installing Kirby on a server
+
+----
+
+Text: 
+

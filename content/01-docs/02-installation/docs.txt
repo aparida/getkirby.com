@@ -1,0 +1,23 @@
+Title: Installation
+
+----
+
+Text: 
+
+
+## Download
+
+- Kirby
+
+## Requirements
+
+- Apache 2
+- mod_rewrite
+- PHP 5.3+
+
+## Install on…
+
+- mac
+- pc
+- server
+

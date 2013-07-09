@@ -1,0 +1,6 @@
+Title: Custom language variables
+
+----
+
+Text: 
+
