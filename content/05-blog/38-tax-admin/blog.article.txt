@@ -1,0 +1,81 @@
+Title: A little experiment…
+
+----
+
+Date: 29.02.2012 12:18
+
+----
+
+Tags: content, experiment
+
+---- 
+
+Text: 
+
+I had the weird idea yesterday, that I could try to manage my invoices and tax stuff for all my client projects with a local version of Kirby. 
+
+Since I started freelancing a few years ago I've always been searching for a good system to manage projects, clients, invoices and all this. I always ended up with a set of multiple tools and ways to keep that all organized and it never felt right. 
+
+So far I track all projects and invoices in (link: http://www.marketcircle.com/billings/ text: Billings), but I've never used their invoice generator because I can't work with it. So I still kept generating PDFs for my invoices with Indesign, which is super oversized. And at the end I still put all invoice PDFs in folders on my hard drive. 
+
+So I came up with the idea that I could use my current folder structure for invoices and see if I can wrap Kirby around to build a nice overview of all PDF and Indesign files I got. Combined with text files for each invoice with the date, the subtotal, the VAT and when the invoice has been paid I would be able to build a quite nice tool, which shows me invoices per year and month and produce some handy stats. 
+
+I decided to use (link: http://twitter.github.com/bootstrap/ text: Twitter's Bootstrap framework), which offers a huge set of CSS, HTML and JS interface components, so I wouldn't have to spend extra time on that. 
+
+Actually it only took me about three hours to come up with a rough first version and one more this morning to wrap it up and (link: http://github.com/bastianallgeier/kirbytax text: put it on Github) and I'm super happy with the result. 
+
+When I posted a first screenshot on Twitter yesterday I got some real nice feedback, so I thought it might come handy for other users as well.  
+
+(image: 01.jpg link: http://cl.ly/Ebsg)
+
+## Demo
+
+I also put up a **(link: http://tax.getkirby.com text: demo with some dummy data)** for you to click around and see how it works. 
+
+## The folder structure 
+
+(image: 02.png)
+
+I wanted to keep the folder structure real simple and obvious. The invoices folder has subfolders for each year, in which you put another subfolder for each invoice. I name them like this: 
+
+	{invoice-number}-{client}
+
+…but you are free to use your own naming convention. The cool thing is that you can put all additional files into an invoice folder. For example I put all the Indesign Documents in there. They will be available as downloads/links in the invoice tables. For me this is a great way to keep track of my invoices as well in the interface as in the Finder. 
+
+### Putting it on Dropbox
+
+The great thing about having all the files and folders organized like this is that you can put it all in your Dropbox and link it to your MAMP or XAMPP folder with a symlink and you get instant cloud backup. 
+
+## Alpha
+
+It's still in alpha mode, but I decided to start using it for my own purpose and to extend it to better fit my workflow. I feel like I finally have a start for a project tool, which really does what I want and which I can extend if I need more features. 
+
+There's still a lot missing. I plan to add management for expenses, a invoice overview per client, handling client data and projects and especially a HTML-based invoice generator. (twitter: @73inches text: Marcel) has some real nice ideas for that and I hope we can come up with something awesome together soon. 
+
+## Use it locally!
+
+**If you are planning to use it, never put it on a server, which is connected to the internet!** It's entirely built to run locally. It has no user login or any other protections built in to keep visitors from seeing all your invoices and income. 
+
+It's perfect though to use it locally together with MAMP or XAMPP or the default Mac LAMP stack. 
+
+## License
+
+As you probably already know, you must (link: buy text: purchase) a Kirby license if you are using Kirby in production. Using it locally on your machine is free. That means that you can use the Tax admin tool for free on your machine. Please consider to support me with a license if it really helps you. I put a lot of time into this stuff. 
+
+The entire source code for the Tax admin tool is licensed under the MIT license. If you want to join me and help extending it, just (link: http://github.com/bastianallgeier/kirbytax text: fork it on Github)
+
+## Installation
+
+It's a default Kirby CMS installation. Just (link: https://github.com/bastianallgeier/kirbytax/zipball/master text: download the source) and follow the instructions in the Kirby CMS Docs: <http://getkirby.com/docs> 
+
+## Configuration
+
+You can find a few configuration variables in `site/plugins/tax.php`
+It should be pretty self-explainatory. 
+
+## Feedback
+
+I'm super excited to hear your thoughts about it!! It might turn out to be a very personal approach, which is too much tailored to my own needs, but in general I think it's a good showcase for what you can do with Kirby. It's definitely not limited to websites :)
+
+
+

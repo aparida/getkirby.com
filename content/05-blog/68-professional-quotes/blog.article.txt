@@ -1,0 +1,23 @@
+﻿Title: “Professional quotes”
+
+----
+
+Date: 11.07.2012
+
+----
+
+Tags: tutorial, typography
+
+----
+
+Text: (link: http://www.nirusu.me text: Nils Hendriks) has written a fantastic little article about how to set correct quotes with CSS for different languages:
+
+<http://nirusu.me/articles/quotes>
+
+Today he released a nice plugin for Kirby, so you can make sure to always set the right quotes and format them in the best way. 
+
+<http://nirusu.me/articles/quote-tag>
+
+----
+
+Likes: 5

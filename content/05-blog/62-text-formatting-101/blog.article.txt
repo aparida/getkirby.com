@@ -1,0 +1,394 @@
+Title: Kirby Text Formatting 101
+
+----
+
+Date: 22.05.2012
+
+----
+
+Tags: tutorial, markdown, kirbytext
+
+----
+
+Text: 
+
+I've been asked a few times, how you can format text with Kirby. 
+
+Kirby has a built-in parser for the fantastic (link: http://daringfireball.net/projects/markdown/syntax text: Markdown syntax by John Gruber). Markdown is a way to add formats in plain text with easy learnable and understandable tags. It's way easier to learn than HTML and all clients I worked with so far are using it without problems. 
+
+To add more features to Markdown, I've developed something, called **Kirbytext**. It's an extended version of Markdown, which makes it easy to embed images from your content folders, link to other pages of your website, provide download links for files, etc. 
+
+This is an overview of all the great things you can do with Kirbytext to get your content formatted in the way you want. 
+
+If you want to learn more about how to add kirbytext-formatted content to your templates, (link: docs/formatting-text text: please read the docs).
+
+**** 
+
+## Basic formats
+
+### Line breaks & paragraphs
+Kirbytext does automatically convert single line breaks and paragraphs. So just add them to your text as you would in any other editor. 
+
+```text
+
+My first line
+My second line
+
+Another paragraph
+
+```
+
+### Headlines
+
+Adding a hierarchy of headlines to your content is very easy…
+
+```text
+
+# Headline 1
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+
+## Headline 2
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+
+### Headline 3
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+
+#### Headline 4
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+
+```
+
+### Bold Text
+
+```
+**The quick brown fox jumps over the lazy dog**
+```
+
+### Italic Text
+
+```
+_The quick brown fox jumps over the lazy dog_
+```
+
+### Unordered Lists
+
+```text
+
+The Simpsons: 
+
+- Homer 
+- Marge
+- Bart
+- Lisa
+- Maggie
+
+```
+
+### Ordered Lists
+
+```text
+
+The Simpsons: 
+
+1. Homer 
+2. Marge
+3. Bart
+4. Lisa
+5. Maggie
+
+```
+
+### Horizontal Rules
+
+To add a horizontal rule (hr) to your content, just add four asterisks.
+
+```text
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+
+****
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+
+```
+
+### Quotes
+
+```text
+> Design is not just what it looks like and feels like. 
+> Design is how it works.
+
+– Steve Jobs
+```
+
+### Code Blocks
+
+If you want to demonstrate some code, like I do on this page, simply indent the entire code block with a tab:
+
+		<?php 
+	
+		// awesome code example
+
+		?>
+
+
+
+**** 
+
+## Links
+
+Link without link text:
+
+```text
+<http://wikipedia.org>
+
+or 
+
+(\link: http://wikipedia.org)
+
+``` 
+
+Link with link text:
+
+```text
+(\link: http://wikipedia.org text: Wikipedia)
+```
+
+Open link in a new window
+
+```text
+(\link: http://wikipedia.org text: Wikipedia popup: yes)
+```
+
+Link with a title
+
+```text
+(\link: http://wikipedia.org text: Wikipedia title: Go to Wikipedia)
+```
+
+Link with a custom CSS class
+
+```text
+(\link: http://wikipedia.org text: Wikipedia class: mylink)
+```
+
+### Relative links
+
+To link to any page of your site, you can simply use relative links without typing the entire URL. This will make sure, links won't break when you move your site to a different domain or when you are testing your site locally. 
+
+```text
+(\link: docs/getting-started)
+(\link: blog/text-formatting-101)
+```
+
+### Email Addresses
+
+Kirby will automatically encrypt your email addresses, so they won't be that easy to be parsed and misused by spam bots. 
+
+Email without link text
+
+```text
+<bastian@getkirby.com>
+
+or 
+
+(\email: bastian@getkirby.com)
+```
+
+Email with link text
+
+```text
+(\email: bastian@getkirby.com text: Send me an email)
+```
+
+Email with a title
+
+```text
+(\email: bastian@getkirby.com text: Send me an email title: Contact me)
+```
+
+Email with a custom CSS class
+
+```text
+(\email: bastian@getkirby.com text: Send me an email class: email)
+```
+
+**** 
+
+## Images
+
+### Images in your content folder
+
+You can easily embed any images from your page's content folder. 
+
+```text
+(\image: myawesomepicture.jpg)
+```
+
+Set the width and height of an image
+
+```text
+(\image: myawesomepicture.jpg width: 120 height: 200)
+```
+
+Define an alternative text for an image
+
+```text
+(\image: myawesomepicture.jpg alt: On this picture you can see a cat)
+```
+
+Sometimes you need to add floating or special styling to particular images. Best way to do this is to go for a custom css class. 
+
+```text
+(\image: myawesomepicture.jpg class: floated)
+```
+
+A linked image
+
+```text
+(\image: myawesomepicture.jpg link: http://flickr.com)
+```
+
+You can even link to the same picture – maybe for a lightbox feature – or to a different picture in the same content folder. 
+
+```text
+(\image: myawesomepicture.jpg link: anothergreatpic.jpg)
+```
+
+### Images from other websites
+
+To embed images from other websites, simply use the direct URL to the image. Please make sure you got the copyright and the permission to deep-link to an external image!
+
+```text
+(\image: http://flickr.com/someimage.jpg)
+```
+
+Of course all the additional attributes, described above, are available for external images as well. 
+
+**** 
+
+## Files
+
+Provide a download link to a file in your page's content folder.
+
+```text
+(\file: companysecrets.pdf)
+```
+
+Download link with link text
+
+```text
+(\file: companysecrets.pdf text: Download our company secrets)
+```
+
+**** 
+
+## Youtube & Vimeo Videos
+
+Kirbytext has a built-in way to add Youtube and Vimeo videos to any page without the hassle of fiddling with those scary embed codes. All you need is the URL of the video. 
+
+```text
+(\youtube: http://www.youtube.com/watch?v=lLuc6rtWkrM)
+
+or 
+
+(\vimeo: http://vimeo.com/3432886)
+
+```
+
+Set the width and height of the embedded video
+
+```text
+
+(\vimeo: http://vimeo.com/3432886 width: 400 height: 300)
+
+```
+
+**** 
+
+## Twitter Profile Links
+
+Linking to Twitter profiles has become almost as important as linking to your own website. Thus Kirby provides a simple way to link to any Twitter profile.
+
+```text
+
+(\twitter: getkirby)
+
+```
+
+With link text:
+
+```text
+
+(\twitter: getkirby text: Follow Kirby on Twitter)
+
+```
+
+**** 
+
+## Embedding Github Gists
+
+(link: http://github.com text: Github) is probably the most awesome platform for all developers and sharing pieces of code with a (link: http://gist.github.com text: Github Gist) is fantastic. Those Gists can be embedded in any page as easy as it is to embed a Youtube video.
+
+```text
+(\gist: https://gist.github.com/2556891)
+```
+
+Define, which file you want to embed
+
+```text
+(\gist: https://gist.github.com/2556891 file: targetblank.js)
+```
+
+**** 
+
+## Something's missing? 
+
+You'd love to have a special tag for embedding cat pictures from <http://placekitten.com/> or you need some other tags for your next client project?
+
+(link: blog/kirbytext text: Kirbytext is extendable), so you can actually build in all the great features you need.
+
+If you still think there's a missing feature, which should be included in Kirbytext by default, please let me know: <bastian@getkirby.com> or start talking about it (link: forum text: in the forum). 
+
+**** 
+
+## More Markdown features
+
+I've not listed all Markdown features here, so if you want to learn more about Markdown and its syntax, head over to (link: http://daringfireball.net/projects/markdown/syntax text: John Gruber's site). 
+
+**** 
+
+## Markdown Extra
+
+If you still need more features, you can switch to (link: http://michelf.com/projects/php-markdown/extra/ text: Markdown Extra), which is also included with Kirby. 
+
+Switching it on is easy. Go to `site/config/config.php` and set
+
+```php
+c::set('markdown.extra', true);
+```
+
+**** 
+
+## Editors
+
+There are some fantastic Markdown Editors for Mac and PC, which you can use to edit content for Kirby: 
+
+### For Mac:
+
+- iA Writer (<http://iawriter.com>)
+- Mou (<http://mouapp.com>)
+- Byword (<http://bywordapp.com>)
+- Marked (<http://markedapp.com>)
+<br />
+### For Windows: 
+
+- MarkdownPad (<http://markdownpad.com>)
+- WriteMonkey (<http://writemonkey.com>)
+<br />
+
+Of course you can still use any other editor, as this is all just plain text. 
+
+## Questions? Feedback?
+
+Let me know!

@@ -1,0 +1,112 @@
+Title: Add pagination to your blog
+
+----
+
+Date: 15.12.2011
+
+----
+
+Tags: tutorial, pagination
+
+---- 
+
+Text:
+
+After creating a nice (link: blog/how-to-build-a-blog text: blog) with some great articles and even building a (link: blog/how-to-add-a-rss-feed text: RSS-Feed) for it we definitely need to add one more vital thing: pagination. The time will come when we have more than just a few articles in our blog and we can't show them all on one page. 
+
+This has been the code for fetching and displaying our articles on the main blog page:
+
+```
+
+<?php foreach($page->children()->visible()->flip() as $article): ?>
+
+<article>
+  <h1><?php echo html($article->title()) ?></h1>
+  <p><?php echo excerpt($article->text(), 300) ?></p>
+  <a href="<?php echo $article->url() ?>">Read more…</a>
+</article>
+
+<?php endforeach ?>
+
+```
+
+We need to modify that slightly to just get the last 10 articles and then add pagination to it: 
+
+```
+
+<?php $articles = $page->children()->visible()->flip()->paginate(10) ?>
+
+<?php foreach($articles as $article): ?>
+
+…
+
+<?php endforeach ?>
+
+```
+
+All we do here is to create a new variable, which contains all the articles instead of directly
+putting the query code into the foreach loop. 
+
+```php
+
+<?php $articles = $page->children()->visible()->flip()->paginate(10) ?>
+
+```
+
+We also add `->paginate(10)` This automatically will limit the number of recent articles to ten and it will also attach a handy pagination object to the set of pages. 
+
+If you already got more than 10 articles you should now just see the last 10 on your blog page. In the next step we will add a `older posts | newer posts` navigation to the bottom of our page, by using the new pagination object and its methods, which have been attached to the `$articles` variable. 
+
+Add this below your foreach loop:
+
+```
+
+<?php if($articles->pagination()->hasPages()): ?>
+<nav class="pagination">  
+
+  <?php if($articles->pagination()->hasNextPage()): ?>
+  <a class="next" href="<?php echo $articles->pagination()->nextPageURL() ?>">&lsaquo; newer posts</a>
+  <?php endif ?>
+
+  <?php if($articles->pagination()->hasPrevPage()): ?>
+  <a class="prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">older posts &rsaquo;</a>
+  <?php endif ?>
+
+</nav>
+<?php endif ?>
+
+```
+  
+Let me break that down a bit:
+
+With `<?php if($articles->pagination()->hasPages()): ?>` we can check if there are enough articles at all, so it makes sense to show the pagination.
+
+With `<?php if($articles->pagination()->hasNextPage()): ?>` we can check if there's a next page
+and with `<?php if($articles->pagination()->hasPrevPage()): ?>` we can check if there's a previous page. By using those if clauses we can make sure 
+that we don't show navigation links if not necessary. 
+
+The pagination object also provides some simple methods, which will build URLs for the previous and next pages for you: 
+
+```
+
+…href="<?php echo $articles->pagination()->nextPageURL() ?>"…
+
+…
+
+…href="<?php echo $articles->pagination()->prevPageURL() ?>"…
+
+```
+
+Both will automatically attach `/page:2` for example to your url. 
+
+That's it! Now you got nice pagination for your blog. 
+
+
+
+
+
+
+
+
+
+

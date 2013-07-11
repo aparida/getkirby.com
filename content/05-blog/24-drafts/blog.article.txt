@@ -1,0 +1,80 @@
+Title: Drafts
+
+----
+
+Date: 20.01.2012
+
+----
+
+Tags: tutorial, content, drafts, blog
+
+---- 
+
+Text: 
+
+I was asked quite often, how it would be possible to have something like drafts with Kirby. When you are updating parts of your site or you are writing a new article for your blog, you probably want to preview it somehow before you put it online. 
+
+There's no built-in way to handle drafts with Kirby, but there are multiple ways to build your own draft system. 
+
+## 1. Invisible folders
+
+This is the most obvious way. Since folders without numbers in front will be ignored by the menu, you could just add invisible folders for new pages. You can still access the page via its URL, but it won't appear in the menu as long as you don't put a number in front of it. 
+
+### Draft Status
+
+It's still accessible with the url http://yourdomain.com/my-new-page so you can use that to preview your work.
+
+(image: 01.png)
+
+### Online
+
+Now it is online and it will be listed in the menu.
+
+(image: 02.png)
+
+
+## 2. Dedicated drafts folder
+
+For this blog, I'm using a dedicated, invisible drafts folder:
+
+(image: 03.png)
+
+For each new article I plan to write, I just create a new folder in there and later when I have time to start writing about it, I create the text file for it. It gives me almost some kind of todo-list what I still need/want to write about. Those drafts are also separated from the published articles so it's tidier than the first approach.
+
+When an article is done I simply move the folder of the draft to the parent blog folder and it's online.
+
+My content files for articles are all named blogarticle.txt and my article template is also called blogarticle.php. So I also use blogarticle.txt for all drafts. Even if they are in a different folder they still use the same template as all the published articles, which is great to get a real preview.
+
+## 3. Draft field
+
+You could also add a drafts field to all your content files, which are not ready to be published yet:
+
+    Title: My Draft
+    ----
+    Text: This is the text for my draft
+    ----
+    Draft: yes
+  
+Later in your templates and snippets you could check for that drafts field and if it is set to yes, you simply skip that page. Here's an example for the menu snippet:
+
+```
+<nav class="menu">
+  <ul>
+    <?php foreach($pages->visible() AS $p): ?>
+    <?php if($p->draft() == 'yes') continue ?>
+    <li>
+      <a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
+    </li>
+    <? endforeach ?>
+  </ul>
+</nav>
+```
+
+It's definitely more complex to implement throughout the entire site, because you must make sure to skip draft pages everywhere, but once this is implemented it is very easy to switch content on and off.
+
+
+## Security
+
+The first two approaches include the risk that someone guesses the URL of one of your drafts and can read it before it is online. In most cases this isn't that bad at all if you don't have to hide some serious secrets, but sometimes you might want to keep them really secret until they are ready to be public. In this case you should give all content files for drafts the name draft.txt and implement a draft.php template, which has built-in authentication. There are plenty of ways to build simple logins with PHP and I will also write an article about it in the next weeks. 
+
+

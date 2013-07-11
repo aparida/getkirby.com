@@ -1,0 +1,217 @@
+Title: Fun with loops
+
+----
+
+Date: 08.10.2012
+
+----
+
+Tags: tutorial
+
+----
+
+Text: 
+
+After quite a long break it's time to start with some fresh tutorials. 
+Today I'm starting with a little tutorial about how to have more fun with foreach loops. 
+
+Foreach loops are needed all over the place. No matter if you build a menu, a simple list of subpages, a gallery, a table of contents, you name it – foreach loops are your best friends in templates.
+
+```
+
+<nav>
+ <ul>
+   <?php foreach($pages->visible() as $item): ?>
+   <li><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></li>
+   <?php endforeach ?>
+ </ul>
+</nav>
+
+```
+
+In this example I'm building a very basic menu for all visible main pages in Kirby. 
+
+As you can see this is just a matter of seven lines of code. But as soon as you want to get some more control over each item in the loop, it can get very painful.
+
+## First and last items
+
+Especially in such "Menu situations" you often need to find out which is the first or the last item to add a css selector for example. 
+
+### Desired result
+
+```
+
+<nav>
+  <ul>
+    <li><a href="/">Home</li>
+    <li><a href="/about">About us</li>
+    <li><a href="/projects">Projects</li>
+    <li class="last"><a href="/contact">Contact</li>
+  </ul>
+</nav>
+
+```
+
+This can be very helpful to change the styles for the last element. Even since CSS3 nowadays offer the `:last-child` selector and we could simply do that with CSS, it's often needed to provide a more solid version for older browsers.
+
+So how would you achieve that in a loop? 
+
+### Nasty version
+
+```
+
+<?php
+
+$items = $pages->visible();
+$count = $items->count();
+$index = 0;
+
+?>
+<nav>
+ <ul>
+   <?php foreach($items as $item): $index++; ?>
+   <li<?php if($count == $index) echo ' class="last"' ?>><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></li>
+   <?php endforeach ?>
+ </ul>
+</nav>
+
+```
+
+It doesn't look too bad, does it? But it can be written more clearly in Kirby. 
+
+## Anatomy of a set of pages
+
+Whenever you get a set of pages in Kirby, like:
+
+```php
+
+$items = $pages->visible();
+
+// or
+
+$items = $pages->find('projects')->children();
+
+```
+
+The result (`$item`) is not just a plain, boring array. Kirby has it's own array implementation, which comes with a few nice perks that make your life easier. 
+
+### First element in a set of pages
+
+```php
+
+$items = $pages->visible();
+
+// get the first element in a set of pages
+$first = $items->first();
+
+// get the title of the first item in a set of pages
+echo $items->first()->title();
+
+// this can be done with any variable of the first page
+
+```
+
+### Last element in a set of pages
+
+```php
+
+$items = $pages->visible();
+
+// get the last element in a set of pages
+$last = $items->last();
+
+// get the title of the last item in a set of pages
+echo $items->last()->title();
+
+// this can be done with any variable of the last page
+
+```
+
+So detecting the first or last element in a set of pages is very easy, which brings us to a nicer version of the menu:
+
+### Let's do that menu thing again
+
+```
+
+<?php
+
+$items = $pages->visible();
+$last  = $items->last();
+
+?>
+<nav>
+ <ul>
+   <?php foreach($items as $item): ?>
+   <li<?php if($item == $last) echo ' class="last"' ?>><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></li>
+   <?php endforeach ?>
+ </ul>
+</nav>
+
+```
+
+This can be easily modified to work for the first item instead…
+
+```
+
+<?php
+
+$items = $pages->visible();
+$first = $items->first();
+
+?>
+<nav>
+ <ul>
+   <?php foreach($items as $item): ?>
+   <li<?php if($item == $first) echo ' class="first"' ?>><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></li>
+   <?php endforeach ?>
+ </ul>
+</nav>
+
+```
+
+## Search a set of pages
+
+You can even search a set of pages with the `find()` metho or the `findBy()` methods:
+
+```php
+
+$items = $pages->find('projects')->children();
+
+// let's search for a specific element in that set of pages by it's uid
+$needle = $items->find('project-2');
+
+// or let's do that search by title:
+$needle = $items->findBy('title', 'Project 2');
+
+```
+
+Both methods will only return a single page object, like the `first()` and `last()` methods. 
+
+So we can use that search result to assign a class selector in our menu:
+
+```
+
+<?php
+
+$items  = $pages->visible();
+$needle = $items->findBy('title', 'Contact');
+
+?>
+<nav>
+ <ul>
+   <?php foreach($items as $item): ?>
+   <li<?php if($item == $needle) echo ' class="special-item"' ?>><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></li>
+   <?php endforeach ?>
+ </ul>
+</nav>
+
+```
+
+Doesn't sound useful? Think about it again! You can use this to customize single items in any kind of menu, list, gallery, etc. without writing huge amounts of extra code. Since the `findBy` method can search for all your custom variables, which you've added to the content file for each page, this can be very powerful. Just use your imagination :)
+
+## Odd and even
+
+Another tricky task is to work with odd and even entries in a loop. I've wrote an (link: blog/odd-even text: extra article about that) a while ago, so make sure to check it out. 
+
+
+

@@ -1,0 +1,104 @@
+Title: How to add Google Maps to your site
+
+----
+
+Date: 29.12.2011
+
+----
+
+Tags: tutorial, maps
+
+---- 
+
+Text:
+
+For almost every new client website clients keep asking me if it is possible to embed Google Maps on their contact page. It's just so much more convenient than having your own self-drawn map or no map at all. Visitors can easily spot the location of the client's office and get driving directions. It has pretty much become a standard. 
+
+Google offers three great ways to embed their maps. The simple iframe solution, which you can find directly on (link: http://maps.google.com text: Google Maps), their mighty (link: http://code.google.com/intl/de/apis/maps/documentation/javascript/ text: Google Maps Javascript API) and their (link: http://code.google.com/intl/de/apis/maps/documentation/staticmaps/ text:Google Static Maps API). All three are good, but the most elegant way is the javascript API in my opinion. 
+
+Unfortunately this won't be available when visitors have javascript disabled of course. So what I did is to write a snippet, which uses the javascript API to build nice and easy maps, but which falls back to the Google Static Maps whenever javascript is disabled. 
+
+## Download the snippet
+
+You can find the code and docs for the snippet over at Github: <https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/map>
+
+## Installation
+
+All you need to do is to put the map.php file into your snippets directory:
+
+	site/snippets/map.php
+
+The new version of the Google Maps javascript API does not need an API key anymore so this is all you need to get going. 
+
+## Adding a map to your templates
+
+Using the snippet in your templates is mostly just one line of code:
+
+```php
+
+<?php snippet('map', array('address' => 'Mannheim, Germany')) ?>
+
+```
+
+This will render a map for your address with a default size of 300x300 pixels. You can use anything as address, which you would use to search on Google Maps. Strings like "Timesquare, New York" entire street addresses or stuff like that. 
+
+## Customization
+
+You can easily customize the size and appearance of the map by using the following options:
+
+```php
+<?php 
+
+// set your own width and height
+snippet('map', array(
+  'address' => 'Mannheim, Germany',
+  'width'   => 600,
+  'height'  => 400
+));
+
+
+// set the zoom level (default is 15)
+snippet('map', array(
+  'address' => 'Mannheim, Germany',
+  'zoom'    => 17,
+));
+
+
+// set the map type (default is roadmap)
+// you can set it to roadmap, satellite, hybrid or terrain
+snippet('map', array(
+  'address' => 'Mannheim, Germany',
+  'type'    => 'satellite',
+));
+
+  
+?>
+```
+
+There are some more options to define your own map id and a custom class name. You can find more about it in the snippet docs: <https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/map/map.mdown>
+
+## Dynamically setting the address
+
+If you want to be able to set the address in your content files, so it will be easily changeable in the future without messing with the template, all you need to do is to specify an address field in your content file:
+
+    Title: Contact Us
+    ----
+    Text: Sometext
+    ----
+    Address: Kirby HQ, 68165 Mannheim, Germany
+    ----
+    
+Afterwards you can use the address variable to embed your map snippet like this:    
+    
+```php
+snippet('map', array('address' => $page->address()));
+```
+
+## Multiple Maps
+
+The javascript implemention for the snippet makes it possible to embed multiple maps with different setups per page. 
+
+## Noscript fallback
+
+As mentioned before, the map will automatically fall back to the Google Static Maps API if javascript is disabled in your browser. The image result is pretty identical to the javascript implementation except the interactive elements.
+

@@ -24,7 +24,7 @@ snippet('header', array(
   </article>
   <?php endforeach ?>
 
-  <?php snippet('pagination', array('pagination' => $blog->articles()->pagination())) ?>
+  <?php echo $blog->pagination() ?>
 
 </section>
 

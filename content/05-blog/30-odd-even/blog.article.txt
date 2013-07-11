@@ -1,0 +1,133 @@
+Title: Odd/Even
+
+----
+
+Date: 31.01.2012
+
+----
+
+Tags: tutorial, css
+
+---- 
+
+Text: 
+
+I got a request today, how it would be possible to react on odd or even rows in a foreach loop. You often need this to create a striped effect in a table or list for example. So I thought I write a little tutorial about it. 
+
+## The code
+
+```
+
+<ul>
+  <?php $n = 0; foreach($page->children() as $child): $n++; ?>
+  <li class="<?php echo ($n%2) ? 'odd' : 'even' ?>">
+    ...
+  </li>
+  <?php endforeach ?>
+</ul>
+
+```
+
+If you are too lazy to read on or you know how this works anyway, just copy the code above and play with it :) I'm going to explain now what it does. 
+
+## How it works
+
+Whenever I need some sort of counter in a foreach loop, I create a new variable right before the loop…
+
+```php
+$n = 0;
+```
+
+…and with each row I increase it by one…
+
+```php
+$n++;
+```
+
+You can use that counter to display the number before each row for example or you can use it to determine if this is an odd or even row. The easiest way to find out if the number is odd or even is by using the (link: http://www.php.net/manual/en/language.operators.arithmetic.php text: modulus operator), which will return the remainder of a division. In this case, here's what the modulus operator returns for each row:
+
+    1%2 = 1
+    2%2 = 0
+    3%2 = 1
+    4%2 = 0
+    
+    etc…
+
+So we will always get back `1` if it is an odd row number and `0` if it is an even row number. We can use that to add a css selector to our HTML with a little if clause:
+
+
+```
+
+<ul>
+  <?php $n = 0; foreach($page->children() as $child): $n++; ?>
+
+  <?php if($n%2 == 1): ?>
+  <li class="odd">
+  <?php else: ?>
+  <li class="even">  
+  <?php endif ?>
+  
+  ...
+  </li>
+  <?php endforeach ?>
+</ul>
+
+```
+
+But in fact this isn't very elegant and we can write that a lot shorter. In PHP `1` is also considered to be `true` and `0` is considered to be `false`, so we can reduce…
+
+```php
+<?php if($n%2 == 1): ?>
+…
+```
+
+… to …
+
+```php
+<?php if($n%2): ?> 
+…
+```
+
+There's also a shorter way to write if clauses:
+
+```php
+<?php echo ($n%2) ? 'odd' : 'even' ?> 
+```
+
+If the condition is true, the first string will be echoed, otherwise the second string will be echoed.
+
+Especially when you are using PHP together with HTML instead of a specific template language this is often shorter and easier to read. 
+
+All put together, you will get a nice and clean example how to add an odd or even CSS selector to your HTML:
+
+```
+
+<ul>
+  <?php $n = 0; foreach($page->children() as $child): $n++; ?>
+  <li class="<?php echo ($n%2) ? 'odd' : 'even' ?>">
+    ...
+  </li>
+  <?php endforeach ?>
+</ul>
+
+```
+
+## CSS3 alternative
+
+The example above is baked into your final HTML and it might not always be the best and most flexible result. A better result could be to use the CSS :nth-child pseudo selector:
+
+```css
+
+li:nth-child(even) {
+  background: #ccc;
+}
+li:nth-child(odd) {
+  background: #fff
+}
+
+```
+
+Unfortunately this is not available in all browsers, especially IE prior to IE9 – who would have though that? There are still options to use a javascript plugin to generate the same effect in older browsers or to see it as a progressive enhancement to your design, which won't be visible to users of older browsers. 
+
+It's up to you to decide if it is better for your project to go for the server-side solution or the client-side solution. Both are easy to implement and can be extended and adjusted very well. 
+

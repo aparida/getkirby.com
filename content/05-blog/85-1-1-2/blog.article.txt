@@ -1,0 +1,45 @@
+Title: Kirby 1.1.2 and Panel 0.9.2
+
+----
+
+Date: 04.02.2013
+
+----
+
+Tags: releases
+
+----
+
+Text: 
+
+## Kirby 1.1.2
+
+I just uploaded (link: https://github.com/bastianallgeier/kirbycms text: Kirby 1.1.2) to Github, which is mostly a maintenance release. 
+This new release comes with updated versions of Markdown, Markdown Extra and Smartypants as well as many bugfixes and small improvments. Check out the (link: https://github.com/bastianallgeier/kirbycms/blob/master/kirby/changelog.mdown text: changelog) for more information. 
+
+To update the core, please replace your current kirby folder with the new kirby folder from the (link: https://github.com/bastianallgeier/kirbycms/archive/master.zip text: downloaded ZIP). If you've got caching enabled, you must delete all cache files in your cache directory. 
+
+## Panel 0.9.2
+
+The latest panel version can also be downloaded (link: https://github.com/bastianallgeier/kirbycms-panel text: from Github). It fixes some small glitches and a annoying sorting bug, when you got a lot of subfolders in a single folder. 
+
+## Brand new versions coming soon…
+
+Please don't be sad that those updates are not so exciting. The brand new versions of the core and the panel are coming along nicely and will bring some very cool new stuff in the next weeks. 
+
+## Pull requests
+
+Some of you asked me if they should submit pull requests to Github – YES please do! I'm very happy about any help. Even if you contribute to the current versions, I can use those improvments for the brand new stuff. 
+
+I'm also still looking for translators, who help me translate the panel interface into more languages. You can find more about it on the translation page:
+
+<http://getkirby.com/docs/panel/translations>
+
+## New ideas for tutorials wanted
+
+I'm currently looking for new ideas for tutorials, which I could post here in the blog. So please use the comments below to send me your wishes for tutorials. 
+
+## Hosting
+
+Last but not least, there's a new (link: forum/hosting text: Hosting thread) in the forum, which I'd like to promote a bit. It's the perfect place to share your experience with hosting providers, servers and shared hosting plans and to look for a new place to host your next project. So please join the discussions over there. 
+

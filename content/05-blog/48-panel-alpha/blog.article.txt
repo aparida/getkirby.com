@@ -1,0 +1,82 @@
+﻿Title: Public Admin Panel Alpha
+
+----
+
+Select: awesome
+
+----
+
+Date: 22.03.2012
+
+----
+
+Text: I got a lot of positive feedback for Kirby so far and a lot of that feedback included that you would love to use Kirby for client projects but most of your clients won't be able to use it without a web-based admin interface. 
+
+So today I'm super excited to start a public alpha for the official **(link: panel text: Kirby Admin Panel)**.
+
+(image: kirby-panel-01.png width: 500 link: http://cl.ly/FEOU)
+
+The Panel is a **free open-source add-on** to the Kirby CMS core. It's built in a very modular way, so you can decide if you want to use it for your Kirby project or not at any time. It's packed in one single folder, so you can always add it to new or existing Kirby projects and you can also remove it at any time without harming your site. 
+
+Here are some main features of the Panel:
+
+### Add/Update/Delete 
+
+The Panel offers full control of all your content and files. 
+
+### Supports any content structure
+
+All forms in the Panel can be fully customized to fit the content structure of your site. 
+
+### Very Lightweight
+
+I've put all energy in keeping things simple and small. The entire source for the Panel is under 1 MB so you don't get a bloated system. 
+
+### No Branding
+
+The Panel does not come with a huge Kirby logo and Kirby branding, which you have to remove for your client projects. It has a very reduced design with one adjustable primary color and no extra logo. It will fit to your client branding in seconds. 
+
+### Drag & Drop Sorting
+
+Sorting your pages with drag & drop is super handy. Your clients will never have to worry about numbers in front of folders. 
+
+### Multiple Accounts
+
+You can setup as many accounts for your Panel as you need. 
+
+### FTP + Panel = Love
+
+Installing the Panel does not mean that you have to give up control via FTP. You can still upload files and edit content with your favorite FTP client and all will be synced in the Panel instantly. 
+
+## Bugs
+
+Keep in mind that this is an Alpha version. **There will be bugs!** Please use the (link: https://github.com/bastianallgeier/kirbycms-panel/issues text: Github Issue tracker) or send me an email to report any bugs: <bastian@getkirby.com>
+
+**Also please make a backup of your site to make sure you don't break anything!!**
+
+## Docs 
+
+I've tried to write down as many instructions as possible in (link: panel text: the panel docs). Please let me know if something is missing.
+
+## Download 
+
+The latest source code for the Panel is available on Github: 
+<https://github.com/bastianallgeier/kirbycms-panel>
+
+## Feedback
+
+It's very important for me to get feedback from you. Do you like the Panel? Does it work? Would your clients use/understand it? What can I do to improve it? Whatever you have in mind, let me know: <bastian@getkirby.com>
+
+## Demo
+
+So far there's no demo. I will try to setup something as soon as possible. 
+
+## Screenshots
+
+(image: kirby-panel-01.png width: 500 link: http://cl.ly/FEOU)
+(image: kirby-panel-02.png width: 500 link: http://cl.ly/FEPe)
+(image: kirby-panel-03.png width: 500 link: http://cl.ly/FFAZ)
+(image: kirby-panel-04.png width: 500 link: http://cl.ly/FEw7)
+(image: kirby-panel-05.png width: 500 link: http://cl.ly/FEZh)
+(image: kirby-panel-06.png width: 500 link: http://cl.ly/FDf5)
+(image: kirby-panel-07.png width: 500 link: http://cl.ly/FDXA)

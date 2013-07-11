@@ -1,0 +1,170 @@
+Title: The Smashing Conference 
+
+----
+
+Date: 25.05.2012
+
+----
+
+Tags: 
+
+----
+
+Text: 
+
+(link: http://smashingmagazine.com text: Smashing Magazine) is probably one of the most famous and successful blogs about web design and development and they are known for their high-quality authors and articles. They teamed up this year with (link: http://beyondtellerrand.com text: beyond tellerrand) to run their first conference, 
+called (link: http://smashingconf.com text: Smashing Conference)
+
+(image: 01.png link: http://smashingconf.com)
+
+I'm happy to be friends with (twitter: @marcthiele text: Marc) and (twitter: @smashingmag text: Vitaly) – the two organizers – for quite a while and they seem to be up to something really outstanding. 
+
+The (link: http://smashingconf.com/speakers text: line-up of speakers and workshops) is absolutey top-notch…
+
+- (link: http://smashingconf.com/speakers/aarron-walter text: Aarron Walter)
+- (link: http://smashingconf.com/workshops/clarke text: Andy Clarke)
+- (link: http://smashingconf.com/speakers/chris-heilmann text: Christian Heilmann)
+- (link: http://smashingconf.com/speakers/jeremy-keith text: Jeremy Keith)
+- (link: http://smashingconf.com/speakers/jonathan-snook text: Jonathan Snook)
+- (link: http://smashingconf.com/speakers/josh-brewer text: Josh Brewer)
+- (link: http://smashingconf.com/speakers/lea-verou text: Lea Verou)
+- (link: http://smashingconf.com/speakers/paul-boag text: Paul Boag)
+- (link: http://smashingconf.com/speakers/rachel-andrew text: Rachel Andrew)
+- (link: http://smashingconf.com/speakers/stephen-hay text: Stephen Hay)
+- (link: http://smashingconf.com/speakers/tim-ahrens text: Tim Ahrens)
+
+
+…and the (link: http://smashingconf.com/registration text: ticket prices) are more than fair. 
+
+The conference is taking place from September 17th until 19th in the south of Germany, 
+in the beautiful city of (link: https://maps.google.com/maps?q=Freiburg,+Deutschland&hl=de&ie=UTF8&sll=49.487459,8.466039&sspn=0.337663,0.630341&hnear=Freiburg,+Baden-W%C3%BCrttemberg,+Deutschland&t=m&z=12 text: Freiburg). 
+
+(image: 02.jpg link: http://smashingconf.com/locations)
+
+Seize the chance and (link: http://smashingconf.com/registration text: grab one of the tickets). 
+They only got 350 available seats, so you better be quick. 
+
+****
+
+## Smashingconf.com – Made with Kirby and ♥
+
+I'm thrilled that Marc and Vitaly asked me, to help them with the (link: http://smashingconf.com text: Smashing Conference website) and that we could use Kirby as the CMS for it. 
+
+(image: 03.png link: http://smashingconf.com)
+
+### Behind the scenes
+
+A conference website is quite a good match for Kirby. You need to display different kinds of data on each page – speaker profiles, workshop details, travel information, etc. So it's very important to be free, how to store and retrieve that data. 
+
+We used multiple templates and different sets of fields, depending on what we wanted to show. For example, this is the content structure for a (link: http://smashingconf.com/speakers/aarron-walter text: speaker): 
+
+
+    Title: Aarron Walter
+    
+    ----
+    
+    Bio: 
+    
+    Aarron Walter is the lead user experience designer for MailChimp, where he socializes with primates and ponders ways to make interfaces more human. Aarron is the author of Designing for Emotion, the purple stripe in the rainbow of knowledge from A Book Apart. He lives with his wife and son in Athens, Georgia, and is a wannabe barista. He tweets about design under the moniker @aarron on Twitter.
+    
+    ----
+    
+    Talk: The Real Me 
+    
+    ----
+    
+    Description: 
+    
+    While some companies use their brand as an opaque facade to hide their questionable practices, others are opening up to their audience and sharing their true personality. The result is a more honest relationship with customers.
+    
+    ----
+    
+    Link: http://aarronwalter.com
+    
+    ----
+    
+    Twitter: @aarron
+    
+    
+…while this is the content structure for the (link: http://smashingconf.com/conference text: conference page). 
+
+
+    Title: Conference
+    
+    ----
+    
+    Intro: 
+    
+    We are working hard to create an interesting and exciting schedule for you. Doors open each day at 9:00am. Second day ends 6:00pm latest. 
+    
+    ----
+    
+    Schedule: 
+    
+    Monday: 
+      Headline: Monday, 17th 
+      Track:
+    
+        - time: 09:00
+          text: Doors open // Registration
+    
+    Tuesday: 
+      Headline: Tuesday, 18th 
+      Track:
+    
+        - time: 09:00
+          text: Doors open // Registration
+    
+
+The content in the Schedule field is structured with a simple, readable structure language called YAML. (link: blog/structured-field-content text: Kirby has a built-in parser) for that. In this case, we used it to have a simple way to update the schedule table. You can enter the time of each slot, together with some text or later with direct links to speakers and their talks. 
+
+If you want to learn more about how to create such structured content and how to use it in your templates, please read the tutorial about (link: blog/structured-field-content text: structured field content). 
+
+### Templates
+
+We wanted to have different kinds of layouts for the main pages, so we used quite a bunch of templates to make that happen. Reusable parts of the site have been placed in snippets, which we could add to each template.
+
+(image: 04.png)
+
+### Design
+
+The design is a mixture between the fantastic Smashing Magazine redesign by (link: http://elliotjaystocks.com text: Elliot Jay Stocks) and Marc's established site design for his (link: http://beyondtellerrand.com text: beyond tellerrand conferences). It's great to see how well those two parts fit together. 
+
+### Fonts
+
+Proxima Nova and Skolar, which are part of Elliot's redesign, are provided by (link: http://fontdeck.com text: Fontdeck)
+
+### CSS Columns
+
+This has been one of the first projects, where I made use of the new CSS3 columns for some parts of the site. 
+
+```
+.columns {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-count: 2;
+  -moz-column-gap: 40px;
+  column-count: 2;
+  column-gap: 40px;
+}
+```
+
+This made it possible to simply wrap a div with the `.columns` class around text, which should be shown in columns, wherever we needed. Since the entire site is fully responsive, it was also important that those columns automatically adjust their width, which is great. 
+
+(image: 05.png)
+
+Older browsers fall back to single column text, which is still looking good. 
+
+****
+
+## Kirby loves conferences
+
+This has been a fantastic project and a great addition to conference sites, which are powered by Kirby. 
+
+You should definitely also check out the great (link: http://eventhandler.co.uk/ text: Eventhandler) conference site and the site of the German (link: http://multimediatreff.de text: Multimediatreff) conference, which are both running on Kirby. 
+
+Marc is also preparing for his next (link: http://beyondtellerrand.com text: beyond tellerrand conference) in November and told me, that he's going to build the website for it with Kirby as well – great news!
+
+If you are about to organize a conference and you are thinking about using Kirby for your website, please get in contact: <bastian@getkirby.com> I'd be happy to support you as good as I can. 
+
+

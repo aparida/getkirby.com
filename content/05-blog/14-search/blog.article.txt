@@ -1,0 +1,322 @@
+Title: How to add a search to your site
+
+----
+
+Date: 02.01.2012
+
+----
+
+Tags: tutorial, search
+
+---- 
+
+Text:
+
+## Disclaimer
+
+This has started as an experiment, how difficult or easy it would be to build a search for Kirby. It's not yet perfect and there are limits when it comes to the size of your site, but the current version already works pretty good and has some cool features. I've setup a little (link: search text: search page) for this site, where you can try the current version. 
+
+## The search plugin
+
+You can find the source code of the (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/search text: latest version) over at Github. Installing it is very simple. Download the search.php file and copy it to your site/plugins folder.
+
+    site/plugins/search.php
+
+## Implementing a basic search form
+
+Create a new invisible search page in your main content folder and add a search.txt
+
+(image: 01.png)
+
+Except the title, it doesn't really matter what you put in that search.txt as the search page won't contain any other content than the form and the list of results. Now you can visit your new search page at http://yourdomain.com/search but it will still be very empty and boring. 
+
+Add a `search.php` to your `site/templates` folder so we can build a custom template for your search page.  
+
+    site/templates/search.php
+
+Add some basic template stuff to that file: 
+
+```
+
+<?php snippet('header') ?>
+<?php snippet('menu') ?>
+
+<!-- this is where the search form will be -->
+
+<?php snippet('footer') ?>
+
+```
+
+## Building the form
+
+I guess you all can do that by hard but let's just build a very basic search form for our search page:
+
+```
+<form action="<?php echo thisURL() ?>">
+  <input type="text" placeholder="Search…" name="q" />
+  <input type="submit" value="Search" />
+</form>
+```
+
+It's basically just the search field and a submit button. For the form action we use the `thisURL()` helper function, which will give us the current url of the page, so the form will always be submitted to the same location. We add some placeholder text to the search field (which is optional) and we also name it "q": `name="q"`. 
+
+## Adding the search plugin
+
+Now whenever the form gets submitted it will send a GET request to the same page. We don't have any code on that page yet to handle that request, so actually nothing will ever happen. 
+
+To react on that request and search for the submitted searchword we only need to add a few lines of code. **Just add it at the top of your template or directly above the form:**
+
+
+```php
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q'
+));
+
+$results = $search->results();
+
+?>
+
+```
+
+This is the most basic implementation. What we are doing here is to initialize the search plugin and pass it the name of our searchfield. 
+
+The plugin will automatically receive the request and do all the search trickery for us.
+
+```php
+$results = $search->results()
+```
+…will then return a set of pages if something has been found. Otherwise `$results` will return `false`.
+
+## Displaying the results
+
+Displaying a list of found pages is as simple as building the articles overview for our blog for example. **Add this below your searchform:**
+
+```
+<?php if($results): ?>
+<ul>
+  <?php foreach($results as $result): ?>
+  <li><a href="<?php echo $result->url() ?>"><?php echo $result->title() ?></a></li>
+  <?php endforeach ?>
+</ul>
+<?php endif ?>
+```
+
+Now we have a plain list of page titles with links to the found pages. For the (link: search text: demo search page) I've also added the full url below the title of each result. There are gazillions of possibilities to extend and beautify that results list, but I don't want to go too much into detail here.   
+
+## Search options
+
+The biggest problem I had with exisiting search solutions so far was the minimal customizability – is that a word? So I've added quite a few options you can use to get better search results. Again: this is just a first version! The search algorithm can definitely use some more love, but since it is all PHP and some regular expressions it is very easy to tinker with it.  
+
+### Search mode 
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'mode' => 'and'
+));
+
+$results = $search->results();
+
+?>
+
+```
+By default the search will separate the query string into single searchwords and search for all of those (`'mode' => 'or'`). You can switch to `and` as search mode, so it will only return pages, on which every word has been found. 
+
+### Search fields 
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'fields' => array('title', 'text')
+));
+
+$results = $search->results();
+
+?>
+
+```
+Since there's no fixed data structure for your content you might have dozens of different field types in your content files. By default the search plugin searches in every field, but you can pass an array of field names, which should be searched instead of the entire thing. This makes it easy to exclude certain fields, which shouldn't be searched at all. 
+
+### Search for words only
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'words' => true
+));
+
+$results = $search->results();
+
+?>
+
+```
+By default searchwords will be matched even inside of strings. So if you are searching for `tom`  &nbsp;`customizability` would be a match. If you set `words` to true, only entire words will be matched.
+
+
+### Ignore pages
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'ignore' => array('error', 'secret/page')
+));
+
+$results = $search->results();
+
+?>
+```
+It's often a problem to hide certain pages from the search. There might be a page, which you only share with a small circle of people or you probably don't want the error page to be found by your search. To ignore those pages you can add an array or URIs which should be skipped. 
+
+
+### Limit the search to certain subpages
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'in' => 'blog'
+));
+
+$results = $search->results();
+
+?>
+```
+Maybe you don't even want to make the search available for your entire site but just the blog for example. Add the URI of that page with the `in` option and only the children of that page will be found. 
+
+
+### Minimum length for searchwords
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'minlength' => 4
+));
+
+$results = $search->results();
+
+?>
+```
+As mentioned before, the search will automatically split the search query into searchwords. With `minlength` you can define the minimum length of strings, which will be considered a searchword. The rest will be skipped.
+
+### Stopwords
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'stopwords' => array('the', 'or', 'in', '...')
+));
+
+$results = $search->results();
+
+?>
+```
+The search plugin has no built-in stopword list, but it offers an option to add your own array of stopwords, which will be skipped while searching. 
+
+
+### Score
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'score' => array('title' => 4, 'subheadline' => 2, 'text' => 1)
+));
+
+$results = $search->results();
+
+?>
+```
+The plugin does some simple scoring. Each match for each searchword in each field will be added to an internal counter. The set of results will be sorted by that counter. To adjust the scoring of matches per field you can set an array of fields as key names and a mulitiplier as value. That multiplier will then be used to multiply the number of matches for that field. This makes it very easy to give certain fields more importance in search results than others.
+
+
+
+### Query
+
+```php
+
+<?php
+
+$search = new search(array(
+  'query' => 'Super custom search query'
+));
+
+$results = $search->results();
+
+?>
+```
+Sometimes you might not want to search on request but on demand. To make that possible you can pass a `query` option instead of a `searchfield` name to search for that string. 
+
+
+### Paginate
+
+```php
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'paginate' => 10
+));
+
+$results = $search->results();
+
+?>
+```
+You probably want to add pagination to the list of results – especially if a lot of results will be returned. `$search->results()` returns a normal set of pages so you could always do that like this:
+
+```php
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+));
+
+$results = $search->results();
+
+if($results) $results->paginate(10);
+
+?>
+```
+Read more about pagination in the docs: (link: docs/variables/pages)
+
+But to make that a little easier, you can also pass a `pagination` option with the number of rows per page, so the `results()` method will automatically return a paginated set of pages. 
+
+## Example Code
+
+You can find my code for the (link: search text: Kirby search site) over at Github: <https://gist.github.com/1551286>
+
+## Performance
+
+The performance is rather good so far. This site has about 60 subpages and the search is pretty snappy. But the performance will probably go down with every new subpage and there's definitely a limit. That's the bad news! The good news are, that Kirby will get a memory based cache in the future. This means that you can easily store even bigger projects in memory, which will make the entire site including the search very, very fast. 
+
+## Beta status
+
+If you got any idea how to improve the code for this search plugin, please (email: bastian@getkirby.com text: let me know) or fork it on (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/search text: Github). 
+
+## Where's that demo again?
+
+(link: search text: Here's the demo)

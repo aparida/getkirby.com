@@ -1,0 +1,185 @@
+Title: Kirby and the Bootstrap Carousel
+
+----
+
+Date: 06.02.2012
+
+----
+
+Tags: tutorial, css, js, bootstrap, carousel, images
+
+---- 
+
+Text: 
+
+I always wanted to write a little tutorial on how to implement an image slider with Kirby and the carousel component from (link: http://twitter.github.com/bootstrap text: Twitter's Bootstrap) seems like the perfect little piece of code to do that. 
+
+## The Demo
+
+Check out the demo of (link: blog/bootstrap-carousel/demo text: the final image slider) first. 
+
+## The Images
+
+Let's suppose we are adding the slider to our homepage. You can add it to any page of course but I guess this is the place where it is to end up most of the times. 
+
+What we are going to do, is to add three images to our `content/home` folder, which will all be added to the slider later. All those images will have an additional info text file with a title and a caption. 
+
+(image: 02.png)
+
+You can download the example files (link: home.zip text: here)
+
+## The Setup
+
+First, you need to (link: https://github.com/twitter/bootstrap/zipball/master text: download Twitter's Bootstrap). It's a lot of files and components and we are only going to use the Javascript, HTML and CSS for the Carousel. 
+
+### Javascript
+
+Pick the following files from the downloaded folder:
+
+	js/bootstrap-transition.js
+	js/bootstrap-carousel.js
+
+(image: 01.png)
+
+Copy them and paste them into the Javascript folder of your site. 
+In my case it is `/assets/js` 
+
+### LESS
+
+If you are a fan of (link: http://lesscss.org/ text: Less) you can copy the LESS file for the Carousel 
+to generate CSS out of it. 
+
+	less/carousel.less
+
+### CSS 
+
+If you prefer plain CSS or you never heard of LESS, (link: carousel.css text: download the CSS for the carousel).
+
+### Loading the CSS and JS
+
+Once we've downloaded and copied all files, we still need to add them to the code for our site. Go to the header snippet (`site/snippets/header.php`) and add the following lines:
+
+```
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+…
+
+<?php echo css('assets/styles/carousel.css') ?>
+
+<?php echo js('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js') ?>
+<?php echo js('assets/js/bootstrap-transition.js') ?>
+<?php echo js('assets/js/bootstrap-carousel.js') ?>
+
+…
+
+</head>
+
+```
+
+Please make sure to change the paths to the CSS and JS folders, if you don't use the same as I do. I'm loading the jQuery core from Google's CDN here. If you prefer to host your own version of jQuery, please change that as well. 
+
+
+## The Template
+
+We are going to need a new template for our homepage to be able to implement the Carousel there. As the content file for our homepage is called `home.txt` we can create a custom template for it by adding a new `home.php` template file to `site/templates`
+
+Open that one in your favorite editor. The HTML code for the Carousel component is pretty straight forward:
+
+```html
+<div id="carousel" class="carousel">
+
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <img src="01.jpg" alt="Some Alt Text" />
+      <div class="carousel-caption">
+	Some caption
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="02.jpg" alt="Some Alt Text" />
+      <div class="carousel-caption">
+	Some caption
+      </div>
+    </div>
+
+    …
+    
+  </div>
+
+  <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+
+</div>
+
+```
+
+Each image of the Carousel is contained in a div with the class `item`. Another div called `carousel-caption` is added if you want to display a caption on top of the image. 
+
+At the end we have two links, which will serve as previous and next buttons. 
+
+Of course this is still static. None of our images is loaded so far and the captions won't be dynamic either. So we need to add some nice PHP now. Instead of defining each item we are going to use a foreach loop. This will make it possible later to add more images to our content folder without having to adjust the HTML. 
+
+```
+<div id="carousel" class="carousel">
+
+  <div class="carousel-inner">
+    <?php $n=0; foreach($page->images() as $image): $n++; ?>
+    <div class="item<?php if($n==1) echo ' active' ?>">
+      <img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>" />
+      <div class="carousel-caption">
+        <?php echo kirbytext($image->caption()) ?>
+      </div>
+    </div>
+    <?php endforeach ?>
+  </div>
+
+  <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+
+</div>
+```
+
+This will take all the images in the current content folder and create the needed HTML for each of it. The first item div must have the class active, so we are using a counter (`$n`) to determine which one in the loop is the first. We are also using the additional information from the image info text file (`$image->title()` and `$image->caption()`) to fill the alt attribute of each image and to create that caption text. Of course you can just leave those captions away if you don't want them. 
+
+### Initializing the Carousel
+
+There's one last step we need to do, to make the Carousel work. All the code is loaded, but it is not initialized yet. The most simple way to do that is to add a little script tag to your template **right below the HTML code of your Carousel:**
+
+```js
+
+<script>
+
+$(function() {
+  $('#carousel').carousel();
+});
+
+</script>
+
+```
+
+This will start the carousel. It will automatically slide images in the predefined interval. If you don't like the auto-rotation of images, you should pause the Carousel on start:
+
+```js
+
+<script>
+
+$(function() {
+  $('#carousel').carousel('pause');
+});
+
+</script>
+
+```
+
+You can find more ways to setup and adjust the Carousel on the (link: http://twitter.github.com/bootstrap/javascript.html#carousel text: Twitter Bootstrap site).
+
+Adding the init script directly to your template isn't the most elegant way. You should consider loading your own javascript file for your site in the header like we did with all the other javascript files and initialize the Carousel there. 
+
+## That's it!
+
+If you followed all the steps above, you should now have a beautiful flexible image slider/carousel. You can easily add more images to your content folder and they will all be loaded by the Carousel automatically. 

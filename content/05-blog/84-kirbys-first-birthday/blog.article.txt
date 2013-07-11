@@ -1,0 +1,107 @@
+Title: Kirby’s first birthday
+
+----
+
+Date: 09.01.2013
+
+----
+
+Tags: 
+
+----
+
+Text: 
+
+## Time flies like an arrow; fruit flies like a banana
+
+I launched (link: blog/1-0-is-here text: Kirby 1.0) exactly one year ago.
+
+(image: kirbycake.jpg width: 400)<br />
+
+## Retrospective
+
+Let me keep the stats simple:
+
+**More than 1,000 websites are (link: made-with-kirby-and-love text: made with Kirby)**
+
+Numbers don't matter. It's all about the results. Whenever I get an email with a link of a Kirby-powered website, I feel like a little boy on Christmas. I couldn't be more proud of the (link: made-with-kirby-and-love text: show case of sites), which has slowly been growing over the last twelve months. 
+
+The quality of those sites is mind-blowing. I'm so happy that so many people trust in Kirby and use it as a platform to realize their own ideas or their client's wishes. 
+
+It has been an amazing year!
+
+## Plans, plans, plans
+
+**So let's talk about the future…**
+
+I've been working on a couple things quietly in the last three months, 
+which will all lead to visible results hopefully soon. 
+
+### The Kirby Core
+
+#### Stability
+
+I've been very happy with the stability and flexibility of the core over the last year. Yet there are so many things that could be better. I started working on a refactored core about a month ago and it's coming along nicely. 
+
+Most importantly, I'm working on a better testable environment. Releasing new features has become more and more difficult without breaking stuff. Especially with more pull requests from you guys it took me way too long to find out if things are still stable for a new release. 
+
+#### Performance
+
+Kirby has been very snappy in most scenarios and I got a lot of positive feedback from users who switched from Wordpress and other systems about faster page loads. But there have also been situations where Kirby could be faster. The new core is going to be way more optimized and will also get improved caching. 
+
+#### Documentation
+
+The code of the new core will be fully documented. I want you to be able to understand every line of it. I didn't see the necessity when I launched Kirby in the first place, because I spent so much time on writing (link: docs text: online documentation). But there are situations as a developer where you really need to dive deep into the guts of a system and this should 
+be easier. 
+
+#### Extendability
+
+With all the feedback from users I got so many ideas how to make the core more extendable. This will include easier ways to extend Kirbytext, an improved plugin system, which will allow to access and control core parts of the system and a new routing system to get more control over URLs. 
+
+### The Kirby Panel
+
+The (link: docs/panel text: Kirby Panel) never made it out of beta for a good reason. It is stable enough to use it for client projects, but I never felt it to be good enough to officially launch it. 
+
+That's why I spent the last three months on writing a new framework for a new Panel. Even though it probably won't look much different from the current version, it will have a lot of improvements and features you asked for. Stay tuned for updates!
+
+### The Kirby Forum
+
+I'm so happy about the activity in the (link: forum text: forum). When I launched it, topics and replies appeared very slowly and I almost wondered if I should shut it down again. But in the last months it got quite crowded there and a lot of requests, which would have normally landed in my inbox are now being answered from other Kirby users. This is helping me so much and I'm always amazed how good the answers are and how friendly Kirby's community is. 
+
+The Kirby forum software is still very rough though and it needs a lot more features to be more comfortable and convenient with more users. I plan to add a search soon and I also want to integrate a system to mark topics as solved. A new notification system is also urgently needed, so you know when someone replies to one of your questions. And then there's this plan to finally launch the forum as a plugin…
+
+### KPM 
+
+(twitter: vis7mac text: Lukas) is doing a tremendous job in his spare time, building the (link: http://kpm.getkirby.com text: Kirby Package Manager). I tried the first version and this has amazing potential. KPM will allow you to install the core, the panel and extensions from the command line with a few convenient commands. A lot of his development has been slowed down by me, because I wasn't able to release new versions of Kirby quickly enough. The new core will finally make it easier for third party developers to get their stuff out without depending on me, so KPM will hopefully be available soon for everybody. 
+
+### Todos en masse 
+
+The plans above are just a small extract from my ever growing todo list. Be assured that I write down every feedback and idea you send me, but please don't be too disappointed if I won't be able to get all that done. 
+
+### Tutorials & Docs
+
+Last but not least I'm planning to write more tutorials soon and also extend the online docs further. Especially connecting existing tutorials, code snippets from the forum and parts of the docs is something that will help you to learn how to use Kirby even faster. 
+
+## A word about Kirby's license
+
+When I launched Kirby, I got quite a few critical comments about my license model. Why would anybody buy a small CMS like Kirby for 30 € when there are so many free solutions out there. And why would you even care about paying for it, when the (link: https://github.com/bastianallgeier/kirbycms text: source is fully available on Github)? 
+
+To be honest I wasn't sure myself if this would work out at all. Looking back, Kirby's license model has been the best decision I could have made. People actually buy licenses and I'm able to pay bills with that money. Last year Kirby generated about a quarter of my income. That was an amazing start for me and gave me the chance to skip some client projects in favor of working on Kirby instead. 
+
+Whenever someone buys a license I can be sure that they had the chance to thoroughly test Kirby before and that it fits their needs. **This led to just one request for a refund in an entire year.** I think this speaks for itself. 
+
+So if you plan to launch your own project and you don't know which license model you should choose, I can highly recommend "commercial but open-source"
+
+## Let me say thank you!
+
+With trusting in Kirby, you guys made it possible that I could  spend a significant time of last year on building something I truly love. **Thank you so much!**
+
+I met amazing people in those twelve months and I can't wait for the future. With a little luck and your support I will be able to spend even more time on Kirby this year and there will be more news and features soon.
+
+## The Birthday Discount
+
+For those who kept on reading all the way down here, there's a **20%-Birthday-Discount**. Use the coupon code: **FIRSTBIRTHDAY** and make sure to (link: buy text: buy a license today). 
+(You can enter the coupon code in the second step of the checkout process)
+
+Cheers, Bastian
+

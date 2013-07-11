@@ -1,0 +1,62 @@
+Title: Quick Tip: Odd/Even Revisited
+
+----
+
+Date: 11.06.2013
+
+----
+
+Tags: tutorial
+
+----
+
+Text: 
+
+A couple months ago I wrote about (link: blog/odd-even text: how to add odd/even class selectors to items) when looping through a set of pages for example. 
+
+Today I found a way how to write it even shorter. It's a combination of the new `ecco()` function included in the latest releases of Kirby and a shorter way to write the PHP syntax for counter variables. 
+
+```
+<ul>
+  <?php $x = 0; foreach($page->children() as $child): ?>
+  <li class="<?php ecco($x++%2, 'even', 'odd') ?>">
+    <!-- your html for each page -->
+  </li>
+  <?php endforeach ?>
+</ul>
+```
+
+## Even shorter…
+
+It can get even shorter if you just add an even class:
+
+
+```
+<ul>
+  <?php $x = 0; foreach($page->children() as $child): ?>
+  <li<?php ecco($x++%2, ' class="even"') ?>>
+    <!-- your html for each page -->
+  </li>
+  <?php endforeach ?>
+</ul>
+```
+
+
+## And shorter…
+
+If you activate PHP's short tags it can get even shorter…
+
+
+```
+<ul>
+  <? $x = 0; foreach($page->children() as $child): ?>
+  <li<? ecco($x++%2, ' class="even"') ?>>
+    <!-- your html for each page -->
+  </li>
+  <? endforeach ?>
+</ul>
+```
+
+It's nothing too exciting but one of those things you will need all the time. In my opinion those are the little parts that make our lifes as developers easier or more fun so I wanted to share it with you. 
+
+And now back to complaining about iOS 7 … :)
