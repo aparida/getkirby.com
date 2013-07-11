@@ -70,3 +70,10 @@ This list is totally incomplete. It's just a result of feedback I got
 from Kirby users so far. Please let me know if you are running Kirby
 on any other hosting plan you'd like to recommend: <bastian@getkirby.com>
 
+----
+Forumposts:
+
+Hosting recommendations:
+    text: Hosting recommendations
+    link: /support/forum/hosting
+

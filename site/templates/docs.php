@@ -12,48 +12,51 @@
       <h1><?php echo html($page->title()) ?></h1>
       <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
+      <?php if($page->blogposts() or $page->forumposts() or $page->docs() or $page->externals()): ?>
       <footer class="further-reading">
-        <h1 class="beta">Further reading</h1>
-        <?php if($page->blogposts() != ""): ?>
-        <h2 class="gamma">Blogposts</h2>
+        <h2 class="beta">Further reading</h2>
+
+        <?php if($page->blogposts()): ?>
+        <h3 class="gamma">Blogposts</h3>
         <ul>
             <?php $blogposts = yaml($page->blogposts()) ?>
-            <?php foreach($blogposts as $key => $blogpost): ?>
-            <li><a href="<?php echo $blogpost['link'] ?>"><?php echo $key ?></a></li>
+            <?php foreach($blogposts as $blogpost): ?>
+            <li><a href="<?php echo $blogpost['link'] ?>"><?php echo $blogpost['text'] ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>
 
-        <?php if($page->forumposts() != ""): ?>
-        <h2 class="gamma">Forumposts</h2>
+        <?php if($page->forumposts()): ?>
+        <h3 class="gamma">Forumposts</h3>
         <ul>
             <?php $forumposts = yaml($page->forumposts()) ?>
-            <?php foreach($forumposts as $key => $forumpost): ?>
-            <li><a href="<?php echo $forumpost['link'] ?>"><?php echo $key ?></a></li>
+            <?php foreach($forumposts as $forumpost): ?>
+            <li><a href="<?php echo $forumpost['link'] ?>"><?php echo $forumpost['text'] ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>
 
-        <?php if($page->docs() != ""): ?>
-        <h2 class="gamma">Docs</h2>
+        <?php if($page->docs()): ?>
+        <h3 class="gamma">Docs</h3>
         <ul>
             <?php $docs = yaml($page->docs()) ?>
-            <?php foreach($docs as $key => $doc): ?>
-            <li><a href="<?php echo $doc['link'] ?>"><?php echo $key ?></a></li>
+            <?php foreach($docs as $doc): ?>
+            <li><a href="<?php echo $doc['link'] ?>"><?php echo $doc['text'] ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>
 
-        <?php if($page->others() != ""): ?>
-        <h2 class="gamma">Other</h2>
+        <?php if($page->externals()): ?>
+        <h3 class="gamma">Other</h3>
         <ul>
-            <?php $others = yaml($page->others()) ?>
-            <?php foreach($others as $key => $other): ?>
-            <li><a href="<?php echo $other['link'] ?>"><?php echo $key ?></a></li>
+            <?php $externals = yaml($page->externals()) ?>
+            <?php foreach($externals as $external): ?>
+            <li><a href="<?php echo $external['link'] ?>"><?php echo $external['text'] ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>
       </footer>
+      <?php endif ?>
     </article>
 
   </div>
