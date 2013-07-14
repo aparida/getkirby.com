@@ -7,3 +7,6 @@
 [submodule "assets/scss/kirby"]
 	path = assets/scss/kirby
 	url = https://github.com/getkirby/sass.git
+[submodule "site/plugins/search"]
+	path = site/plugins/search
+	url = https://github.com/getkirby-extensions/search.plugin.git
