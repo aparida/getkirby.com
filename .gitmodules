@@ -7,3 +7,9 @@
 [submodule "site/plugins/blog"]
 	path = site/plugins/blog
 	url = https://github.com/getkirby-extensions/blog.plugin.git
+[submodule "site/plugins/search"]
+	path = site/plugins/search
+	url = https://github.com/getkirby-extensions/search.plugin.git
+[submodule "site/plugins/forum"]
+	path = site/plugins/forum
+	url = https://github.com/getkirby-extensions/forum.plugin.git
