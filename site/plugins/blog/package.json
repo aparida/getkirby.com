@@ -1,9 +1,0 @@
-{
-    "name": "blog",
-    "readable": "Blog",
-    "version": "1.0",
-    "stable": false,
-    "description": "This plugin simplifies building a blog with Kirby.",
-    "author": "Bastian Allgeier",
-    "url": "http://getkirby.com/"
-}

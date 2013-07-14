@@ -4,9 +4,9 @@
 [submodule "assets/scss/kirby"]
 	path = assets/scss/kirby
 	url = https://github.com/getkirby/sass.git
-[submodule "site/plugins/search"]
+[submodule "search.plugin"]
 	path = site/plugins/search
 	url = https://github.com/getkirby-extensions/search.plugin.git
-[submodule "forum.plugin"]
-	path = forum.plugin
-	url = https://github.com/getkirby-extensions/forum.plugin.git
+[submodule "site/plugins/blog"]
+	path = site/plugins/blog
+	url = https://github.com/getkirby-extensions/blog.plugin.git
