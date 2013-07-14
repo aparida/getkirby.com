@@ -1,9 +1,0 @@
-{
-    "name": "forum",
-    "readable": "Forum",
-    "version": "1.0",
-    "stable": false,
-    "description": "This plugin makes it possible to create a nice and simple forum integrated in your site.",
-    "author": "Bastian Allgeier",
-    "url": "http://getkirby.com/"
-}
