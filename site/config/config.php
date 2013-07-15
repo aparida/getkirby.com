@@ -342,7 +342,7 @@ Multi-Language support setup
 
 */
 
-c::set('lang.support', true);
+c::set('lang.support', false);
 c::set('lang.detect', true);
 c::set('lang.urls', 'short');
 c::set('lang.config', array(
