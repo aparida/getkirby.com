@@ -2,5 +2,18 @@ Title: Building Templates
 
 ----
 
-Text: 
+Text:
 
+## Default template
+
+All the templates for your site are located in `site/templates`. You will find a `default.php` in there, which is used for every page without a specific template.
+
+## Page specific templates
+
+If you already read the chapter about (link: docs/content text: adding content) you might remember that the content file for the homepage was called `home.txt`.
+
+Let's say we want to build a specific template for our homepage. All we need to do is to add a new `home.php` file to the `site/templates` folder and define our specific html for the homepage there.
+
+This makes it very easy to create your own templates for any page without any further setup. As long as you don't add a page-specific file, the `default.php` will be used.
+
+To use the same template for other pages, just give the text file for that page the same name.

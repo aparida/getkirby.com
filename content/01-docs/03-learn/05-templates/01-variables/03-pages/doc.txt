@@ -1,0 +1,362 @@
+Title: Pages ($pages)
+
+----
+
+Text: 
+
+The next big object you should know about, is the `$pages` variable. It contains every page of your site and you can browse it very fast and easy. The way you filter and search through it is highly inspired by jQuery, so if you are familiar with that you should get along very fast. If not, you are totally lost – just kidding :)
+
+### $pages->find($uri)
+
+This is the most common way to search through all pages by uri to get a page object back. Take a look at the example: 
+
+#### Example A:
+
+```php
+
+<?php
+
+$aboutus = $pages->find('about-us');
+
+echo $aboutus->title(); 
+// will echo "About us"	
+
+?>
+
+```
+
+#### Example B:
+
+```
+
+<?php $project = $pages->find('projects/project-1') ?>
+
+<a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a>
+
+```	
+
+### $pages->active()
+
+This is the same as the globally available `$page` variable. It will return the current page object. You should use `$page` instead. 
+
+
+### $pages->findOpen() 
+
+Find the open page in a set. Read more about $page->isOpen (link: docs/variables/page text: here)
+
+### $pages->findBy($key, $value)
+
+This is a nice way to find a page by a specific key and value. Let's say the contact page has a field street:
+
+content/contact/contact.txt
+
+	Street: Sesamestreet
+	----
+	City: New York
+	----
+	…
+
+You could then get that page like this: 
+
+```php
+
+<?php $contact = $pages->findBy('street', 'Sesamestreet') ?>
+
+```
+
+Pretty cool :)
+
+### $pages->findByUID($uid)
+	
+Find a page by UID. UID is the name of the folder without the prepended number. The UID of the "01-about-us" folder would be "about-us"
+
+### $pages->findByDirname($dirname) 
+
+While findByUID takes the name of the folder without the number in front, this one searches for the entire dirname.
+
+### $pages->findByTitle($title)
+
+Well, that should be easy to get :)
+
+### $pages->first() 
+
+Find the first page in a set of pages
+
+### $pages->last() 
+
+Find the last page in a set of pages
+
+### $pages->count()
+
+Count the number of pages in a set
+
+```php
+
+<?php echo $page->children()->count() ?>
+
+```
+	
+or
+
+```php
+
+<?php $pages->count() ?>
+
+```
+
+### $pages->visible()
+
+Returns a set of visible pages. For example if you want to find all visible children of the current page, do it like this: 
+
+```php
+
+<?php $visibleChildren = $page->children()->visible() ?>
+
+```
+
+If you want to get all visible first level pages, do this: 
+
+```php
+
+<?php $rootChildren = $pages->visible() ?>
+
+```
+
+### $pages->countVisible() 
+
+Count all visible pages in a set of pages. 	
+
+### $pages->invisible()
+
+Returns a set of invisible pages. 
+
+### $pages->countInvisible() 
+
+Count all invisible pages in a set of pages. 	
+
+### $pages->without($uid)
+
+Returns a set of pages without the page with the given UID
+
+```php
+
+<?php
+
+$set = $page->children->without('project-1');
+
+?>
+
+```
+
+### $pages->not($uid)
+
+is a shortcut for $pages->without($uid) to have a more jquery way of doing this. 
+
+### $pages->slice($offset, $limit)
+
+If you want to get a subset of pages, use the slice method to set the offset and limit. 
+
+```php
+
+<?php
+
+$set = $page->children->slice(2);
+// get all children starting with the third one. 
+
+$set = $page->children->slice(2,5);
+// get five children starting with the third one. 
+
+$set = $page->children->slice(0,5);
+// get five children starting with first one.		
+
+?>
+
+```
+
+### $pages->limit($limit)
+
+Limit the result of pages in a set. 
+
+```php
+
+<?php
+
+$set = $pages->limit(5);
+// only get the first 5 pages (is equal to $pages->slice(0,5))
+
+?>	
+
+```
+
+### $pages->offset($offset)
+
+Get a set of pages, starting with an offset.  
+
+```php
+
+<?php
+
+$set = $pages->offset(5);
+// starting with the sixth element of a set (is equal to $pages->slice(5))
+
+?>	
+
+``` 
+
+### $pages->flip()
+
+Returns a set of pages in reversed order. If you sort your folders with the appended numbers, it is sometimes easier to reverse the default sort so higher numbers will be returned first. For example if you build a blog and your article folders are named like this:
+
+- 01-first-article
+- 02-second-article
+- 03-third-article
+
+…you probably want to get a set of pages where 03-third-article is first. That's where `$pages->flip()` is just doing what you want. 
+
+
+### $pages->sortBy($sort='title', $direction='asc')
+
+Sort a set of pages by any field and direction: 
+
+```php
+
+<?php
+
+$sortedSet = $page->children->sortBy('dirname', 'desc');
+$sortedSet = $page->children->sortBy('title', 'desc');
+$sortedSet = $page->children->sortBy('date', 'asc');
+  
+?>
+
+```
+
+### $pages->shuffle() 
+
+Returns the set of pages in random order 
+
+```php
+
+<?php
+
+$random = $page->children->shuffle();
+  
+?>
+
+```
+
+
+## Pagination
+
+Pagination sucks!! It's always a hassle to set that up right so Kirby implements a very nice way to paginate through a set of pages. 
+
+### Here is how it is done:
+
+First you call the paginate($limit) method on a set of pages. This will add a `pagination` object to the set. Set the limit to the number of pages you want to get per page.
+
+```php
+
+<?php $list = $page->children()->paginate(10) ?>
+
+```
+
+Do something with that list of 10 pages
+
+```
+	
+<ul>
+   <?php foreach($list as $item): ?>
+   <li><?php echo $item->title() ?></li>
+   <?php endforeach ?>
+</ul>
+
+```
+	
+Add `previous` and `next` links
+
+```
+
+<?php if($list->pagination()->hasPages()): ?>
+
+  <?php if($list->pagination()->hasNextPage()): ?>
+  <a class="next" href="<?php echo $list->pagination()->nextPageURL() ?>">next</a>
+  <?php endif ?>
+
+  <?php if($list->pagination()->hasPrevPage()): ?>
+  <a class="prev" href="<?php echo $list->pagination()->prevPageURL() ?>">previous</a>
+  <?php endif ?>
+
+<?php endif ?>
+
+```
+
+### The pagination object
+
+Here's a list of all available methods of the pagination object:
+
+#### $list->pagination->page()
+
+Returns the current page
+
+#### $list->pagination->countPages()
+
+Get the total number of pages of entries.
+
+#### $list->pagination->hasPages()
+
+Returns true if there's anything to paginate at all and false if not.
+
+#### $list->pagination->countItems()
+
+Return the total number of entries.
+
+#### $list->pagination->pageURL($page)
+
+Generate an url to a specific page of a list.
+
+#### $list->pagination->firstPage()
+
+Return the page number of the first page of a list.
+
+#### $list->pagination->isFirstPage()
+
+Checks if the current page is the first page
+
+#### $list->pagination->firstPageURL()
+
+Returns the url to the first page. 
+
+#### $list->pagination->lastPage()
+
+Returns the page number of the last page of a list.
+
+#### $list->pagination->isLastPage()
+
+Checks if the current page is the last page
+
+#### $list->pagination->lastPageURL()
+
+Returns the url to the last page. 
+
+#### $list->pagination->prevPage()
+
+Returns the page number of the previous page of a list.
+
+#### $list->pagination->hasPrevPage()
+
+Checks if there's a previous page
+
+#### $list->pagination->prevPageURL()
+
+Returns the url to the previous page. 
+
+#### $list->pagination->nextPage()
+
+Returns the page number of the next page of a list.
+
+#### $list->pagination->hasNextPage()
+
+Checks if there's a next page
+
+#### $list->pagination->nextPageURL()
+
+Returns the url to the next page. 

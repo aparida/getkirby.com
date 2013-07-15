@@ -2,5 +2,22 @@ Title: Documents
 
 ----
 
-Text: 
+Text:
+
+
+## Files
+
+Provide a download link to a file in your page's content folder.
+
+```text
+(\file: companysecrets.pdf)
+```
+
+Download link with link text
+
+```text
+(\file: companysecrets.pdf text: Download our company secrets)
+```
+
+****
 

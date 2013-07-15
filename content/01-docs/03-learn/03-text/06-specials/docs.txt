@@ -2,4 +2,90 @@
 
 ----
 
-Text: 
+Text:
+
+## Horizontal Rules
+
+To add a horizontal rule (hr) to your content, just add four asterisks.
+
+```text
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+****
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+```
+
+## Quotes
+
+```text
+> Design is not just what it looks like and feels like.
+> Design is how it works.
+
+– Steve Jobs
+```
+
+## Code Blocks
+
+If you want to demonstrate some code, like I do on this page, simply indent the entire code block with a tab:
+
+    <?php
+
+    // awesome code example
+
+    ?>
+
+
+
+## Twitter Profile Links
+
+Linking to Twitter profiles has become almost as important as linking to your own website. Thus Kirby provides a simple way to link to any Twitter profile.
+
+```text
+
+(\twitter: getkirby)
+
+```
+
+With link text:
+
+```text
+
+(\twitter: getkirby text: Follow Kirby on Twitter)
+
+```
+
+## Embedding Github Gists
+
+(link: http://github.com text: Github) is probably the most awesome platform for all developers and sharing pieces of code with a (link: http://gist.github.com text: Github Gist) is fantastic. Those Gists can be embedded in any page as easy as it is to embed a Youtube video.
+
+```text
+(\gist: https://gist.github.com/2556891)
+```
+
+Define, which file you want to embed
+
+```text
+(\gist: https://gist.github.com/2556891 file: targetblank.js)
+```
+
+## Markdown Extra
+
+If you still need more features, you can switch to (link: http://michelf.com/projects/php-markdown/extra/ text: Markdown Extra), which is also included with Kirby.
+
+Switching it on is easy. Go to `site/config/config.php` and set
+
+```php
+c::set('markdown.extra', true);
+```
+
+
+----
+Externals:
+
+Code Highlighting Plugin:
+
+    text: Code Highlighting Plugin
+    link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/highlight

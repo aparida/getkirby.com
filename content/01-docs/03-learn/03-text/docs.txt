@@ -2,5 +2,95 @@ Title: Formatting text
 
 ----
 
-Text: 
+Text:
+
+## Kirbytext
+
+Kirby has a built-in converter for the fantastic (link: http://daringfireball.net/projects/markdown/syntax text: Markdown syntax by John Gruber). Markdown is a way to add formats in plain text with easy learnable and understandable tags. To offer more site-specific features Kirby has its own version of Markdown called Kirbytext.
+
+To learn more about how to format text with Kirbytext please follow the
+**(link: blog/text-formatting-101 text: Kirby Text Formatting Tutorial)**
+
+****
+
+### kirbytext($text)
+
+To use the Kirbytext converter in your templates, you can call it like this:
+
+```php
+
+<?php echo kirbytext($page->text()) ?>
+
+```
+
+****
+
+## More ways to work with text
+
+### html($text) or h($text)
+
+Converts the given text to valid HTML. This is very handy to make sure your content will be displayed correctly.
+
+```php
+
+<?php echo html($page->title()) ?>
+
+```
+
+### xml($text)
+
+Converts the given text to valid xml. This is very handy for feeds.
+
+```php
+
+<?php echo xml($page->title()) ?>
+
+```
+
+### multiline($text)
+
+Converts new lines to breaks and also converts the text to HTML.
+
+```php
+
+<?php echo multiline($page->title()) ?>
+
+```
+
+### markdown($text)
+
+Convert markdown from your content files to valid HTML. This makes it super easy to add nice rich content to your pages, without knowing HTML.
+
+```php
+
+<?php echo markdown($page->text()) ?>
+
+```
+
+### excerpt($text, $length=140)
+
+Extracts a short excerpt of a text and makes sure that words are not messed-up and html tags are stripped properly. You can define the number of maximum characters with the second parameter.
+
+```php
+
+<?php echo excerpt($page->text(), 300) ?>
+
+```
+
+
+
+----
+Blogposts:
+
+Formatting text 101:
+    text: Kirby Text Formatting 101
+    link: blog/text-formatting-101
+
+----
+Externals:
+
+More Markdown features:
+
+    text: More Markdown features
+    link: http://daringfireball.net/projects/markdown/syntax
 

@@ -2,5 +2,51 @@ Title: Snippets
 
 ----
 
-Text: 
+Text:
 
+Before we move on with stuff you can add to your templates I want to talk about snippets first. Snippets are little pieces of html, which you can re-use in any template. Snippets help you keeping your templates organized. They are located in `site/snippets`. You can add as many as you want/need.
+
+## Embedding snippets in your templates
+
+Embedding them in your templates is something your grandma could do.
+If your snippet file is called `mysnippet.php` simply embed it in your templates like this:
+
+```php
+
+<?php snippet('mysnippet') ?>
+
+```
+
+
+**You can even embed snippets inside of snippets. How cool is that?**
+
+You will find a bunch of demo snippets inside `site/snippets`, which you can use for your own templates. I plan to have a shared snippet repository later, where everybody can take part and upload their own snippets.
+
+## Passing variables to snippets
+
+Sometimes you might need to pass some variables from your template to a snippet or from a snippet to a deeper embedded snippet. No big deal! In your template you pass variables to your snippets like this:
+
+```php
+
+<?php
+
+$myvar = 'My Super Awesome Var';
+
+snippet('mysnippet', array('myvar' => $myvar));
+
+?>
+
+```
+
+…and in `mysnippet.php` you can access them like this:
+
+```php
+
+<?php
+
+echo $myvar;
+// should echo: 'My Super Awesome Var'
+
+?>
+
+```

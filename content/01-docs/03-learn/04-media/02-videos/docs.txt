@@ -2,5 +2,25 @@ Title: Videos
 
 ----
 
-Text: 
+Text:
 
+## Youtube & Vimeo Videos
+
+Kirbytext has a built-in way to add Youtube and Vimeo videos to any page without the hassle of fiddling with those scary embed codes. All you need is the URL of the video.
+
+```text
+(\youtube: http://www.youtube.com/watch?v=lLuc6rtWkrM)
+
+or
+
+(\vimeo: http://vimeo.com/3432886)
+
+```
+
+Set the width and height of the embedded video
+
+```text
+
+(\vimeo: http://vimeo.com/3432886 width: 400 height: 300)
+
+```

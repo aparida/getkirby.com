@@ -1,5 +1,13 @@
-﻿Title: Structured content
+﻿Title: Structured field content
 
 ----
 
-Text: 
+Text:
+
+
+----
+Blogposts:
+
+Structured field content:
+    text: Structured field content
+    link: blog/structured-field-content

@@ -2,4 +2,21 @@
 
 ----
 
-Text: 
+Text:
+
+You will find that some of the folders in the content folder have numbers prepended to their names…
+
+    01-about-us
+    02-projects
+    03-contact
+
+…while others don't…
+
+    home
+    error
+
+It's pretty easy: **folders with numbers are for "visible" pages, folders without numbers are for "invisible" pages**. Visible pages will appear in your site's menu later, while you can still link to invisible pages, but they won't appear in your menu. The error page should probably not be in your site's menu, right? :)
+
+Numbers in front of folders also help to sort your pages. So this makes it super easy to setup your site's menu at the same time as setting up the general structure.
+
+BTW: numbers will automatically be stripped in URLs, so the folder `01-about` will get the URL `http://yourdomain.com/about`

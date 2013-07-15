@@ -2,5 +2,74 @@ Title: Adding media
 
 ----
 
-Text: 
+Text:
+
+Kirby makes it super easy to add images, documents or videos to your pages. Simply drop them into the folder for each page like this:
+
+(image: 01.png)
+
+You can sort files by prepending those numbers again. I recommend just using numbers instead of filenames. This makes it much easier to keep stuff tidy.
+
+Kirby will automatically fetch all those images, videos and docs and you can later add them to your templates or content in seconds.
+
+## Adding files to your content
+
+Kirby has built-in tags, which you can use to embed images in your content or to link to downloadable files. (link: docs/formatting-text text: Read more about them…)
+
+## Adding files to your templates
+
+Kirby has an array of methods to make it easy to include all images and files in your templates. (link: docs/variables/media text: Read more about them…)
+
+
+## Thumbnails
+
+Kirby has no built-in image resizer by default, but there's the (link: http://getkirby.com/blog/thumb-plugin text: Thumb plugin), which will create resized images for you on the fly.
+
+If you prefer to work with your own thumbnails upload them to your page folders like this:
+
+(image: 03.png)
+
+Similar to the image info text files, Kirby will automatically attach them to the original images and you can access them in your templates very easily:
+
+```
+
+<?php $image = $page->images()->find('01.jpg') ?>
+
+<a href="<?php echo $image->url() ?>"><img src="<?php echo $image->thumb()->url() ?>" /></a>
+
+```
+
+## Recalculating Image Sizes
+
+Though there is no real image resizer, all image objects in Kirby have built-in recalculation of image sizes. You won't get a smaller file, but you can still embed your images into your site with different sizes. Here are some examples:
+
+### Fit the image into a box of 200x200 pixel
+
+```
+
+<?php $image = $page->images()->find('01.jpg')->fit(200) ?>
+
+<img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" />
+
+```
+
+### Make the image 200px width
+
+```
+
+<?php $image = $page->images()->find('01.jpg')->fitWidth(200) ?>
+
+<img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" />
+
+```
+
+### Make the image 200px height
+
+```
+
+<?php $image = $page->images()->find('01.jpg')->fitHeight(200) ?>
+
+<img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" />
+
+```
 

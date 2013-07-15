@@ -2,5 +2,21 @@ Title: Creating content
 
 ----
 
-Text: 
+Text:
+
+All the content of your site is located in the `content` folder – who would have thought that :)
+
+I've setup a very basic demo content structure for you, so you will hopefully find it easier to get started by modifying existing text files and folders or by adding new ones.
+
+(image: 01.png)
+
+The entire structure inside the content folder is identical to the structure of your site.
+
+For example if you have an "about-us" folder insider your content folder, your site will automatically have an "about-us" page:
+
+```text
+    http://yourdomain.com/about-us
+```
+
+You can put as many subfolders inside of folders as you like to build the structure of your site. Just take a closer look at the existing structure and browse your site to get an idea of it.
 

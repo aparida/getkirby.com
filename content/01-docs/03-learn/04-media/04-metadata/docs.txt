@@ -2,5 +2,33 @@ Title: Metadata
 
 ----
 
-Text: 
+Text:
 
+## Adding meta info to your files and images
+
+For images and files you might want to add titles, captions and stuff like that.
+
+(image: 02.png)
+
+Add a text file for each image file. Just make sure to use the full name of the image file as the name for your text file. Inside those text files you can define your own fields and content again, just like in normal content files. For example:
+
+###01.jpg.txt:
+
+    Title: Very nice image
+    ----
+    Caption:
+
+    This is a very nice image with loads of colors and stuff.
+    ----
+
+Kirby will automatically fetch this data from the matching text files and add them to your image object, which you can access in the templates later. Some sample template code would then look like this:
+
+```
+
+<?php $image = $page->images()->find('01.jpg') ?>
+
+<img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" />
+
+<p><?php echo $image->caption() ?></p>
+
+```

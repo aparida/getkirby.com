@@ -2,5 +2,8 @@ Title: Advanced Tutorials
 
 ----
 
-Text: 
+Text:
 
+The advanced stuff? Really? Just kidding :) Sometimes you really need to dig deeper to setup things the way you like or to get the site running on more complex environments. I'm trying to give as much information about how you can customize kirby for your needs here. Please don't hesitate to ask me any questions, which are not covered here though:
+
+<bastian.allgeier@gmail.com>

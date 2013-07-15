@@ -2,5 +2,9 @@ Title: Installing Kirby on a server
 
 ----
 
-Text: 
+Text:
+
+Installing Kirby couldn't be simpler. Just connect to your FTP-Server and **upload all files contained in the Kirby package to the document root of your server – done!**
+
+Visit `http://yourdomain.com` (you should probably replace that with your url :)) and take a look at your brand new, Kirby-flavoured site.
 

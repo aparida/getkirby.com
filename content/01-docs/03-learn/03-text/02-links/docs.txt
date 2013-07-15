@@ -2,4 +2,80 @@
 
 ----
 
-Text: 
+Text:
+
+Link without link text:
+
+```text
+<http://wikipedia.org>
+
+or
+
+(\link: http://wikipedia.org)
+
+```
+
+Link with link text:
+
+```text
+(\link: http://wikipedia.org text: Wikipedia)
+```
+
+Open link in a new window
+
+```text
+(\link: http://wikipedia.org text: Wikipedia popup: yes)
+```
+
+Link with a title
+
+```text
+(\link: http://wikipedia.org text: Wikipedia title: Go to Wikipedia)
+```
+
+Link with a custom CSS class
+
+```text
+(\link: http://wikipedia.org text: Wikipedia class: mylink)
+```
+
+## Relative links
+
+To link to any page of your site, you can simply use relative links without typing the entire URL. This will make sure, links won't break when you move your site to a different domain or when you are testing your site locally.
+
+```text
+(\link: docs/getting-started)
+(\link: blog/text-formatting-101)
+```
+
+## Email Addresses
+
+Kirby will automatically encrypt your email addresses, so they won't be that easy to be parsed and misused by spam bots.
+
+Email without link text
+
+```text
+<bastian@getkirby.com>
+
+or
+
+(\email: bastian@getkirby.com)
+```
+
+Email with link text
+
+```text
+(\email: bastian@getkirby.com text: Send me an email)
+```
+
+Email with a title
+
+```text
+(\email: bastian@getkirby.com text: Send me an email title: Contact me)
+```
+
+Email with a custom CSS class
+
+```text
+(\email: bastian@getkirby.com text: Send me an email class: email)
+```

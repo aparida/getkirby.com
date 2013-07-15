@@ -2,5 +2,25 @@ Title: Variables
 
 ----
 
-Text: 
+Text:
 
+Kirby makes it possible to access any content in your content folder from any template with mostly just one line of code.
+
+There are three main template variables, which are available in each template:
+
+```php
+
+$site
+// contains everything about the site
+// (title, description, pages, etc.)
+
+$page
+// contains everything about the current page
+
+$pages
+// contains all pages of your site
+
+```
+
+You access stuff inside those templates in a very jQuery-ish way.
+Please read more about it in the subsections about each variable.

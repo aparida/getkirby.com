@@ -2,4 +2,34 @@
 
 ----
 
-Text: 
+Text:
+
+Every folder inside the content folder has a main text file, which holds all the content for that page. Just go to `content/home/home.txt` and open it in your favorite texteditor to see what I'm talking about.
+
+Those text files are very easy to read and edit and still they offer amazing possibilities to add content.
+
+In the `home.txt` file we have a `title:` field and a `text:` field. Both fields will later be available in your template and you can add as much text to each as you like. Maybe just try changing the title or some of the text and go to `http://yourdomain.com` to see the changes instantly. Easy, huh?
+
+If you need more fields for your template – maybe you want to show a date on that page or a subtitle – simply add more fields to the text file.
+
+You define a new field like this:
+
+    Subtitle: This is a great subtitle
+
+So every field has a name, which needs to contain of chars from A-Z and 0-9 without white spaces or any other fancy stuff.
+
+The field name is followed by a colon and the actual content of that field. After each field you have to add four dashes and that's it.
+
+Here's a more detailed example:
+
+
+## Use the right charset
+
+There's only one thing you need to be aware of when editing content. You should always make sure to enter your text as UTF-8. Almost every decent text editor has support for that.
+
+    Title: Home
+    ----
+    Subtitle: Welcome to my super awesome site
+    ----
+    Text: Well, I don't like you. Go away!
+    ----

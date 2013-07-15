@@ -2,5 +2,12 @@ Title: Caching
 
 ----
 
-Text: 
+Text:
 
+Small websites won't really need caching, but if your site grows bigger and bigger and you feel like performance is going down because you've got plenty of pages or your templates are super complex, you might want to turn on caching.
+
+There's a two-way cache built into Kirby. The first caches all the data from the content folder and the second one caches the final html output. Both can be turned on in your custom config file.
+
+Caching data does not need any kind of attention at all so you can turn it on whenever you like, but html caching will also cache your templates. So whenever you change your template code you must delete all cache files in `site/cache` to make your new template code work. I recommend you wait for that until your site is really ready for production.
+
+#### Make sure `site/cache` is writable. Otherwise caching won't work.

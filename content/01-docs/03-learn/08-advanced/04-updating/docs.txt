@@ -2,5 +2,10 @@ Title: Updating Kirby
 
 ----
 
-Text: 
+Text:
 
+I've separated the kirby system folder and the site and content folders, so basically all you need to do when there are updates is to replace the old kirby folder with the new kirby folder.
+
+It might happen that there are some API changes in future updates, where you need to update your template and plugin code. I don't plan to do that, but you know how this stuff works :) If so, I will let you know in the change notes.
+
+However, you should always keep a backup of the old kirby folder so you can roll back to the previous version if something goes wrong.

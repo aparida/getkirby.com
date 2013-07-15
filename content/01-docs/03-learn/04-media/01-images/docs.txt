@@ -2,5 +2,55 @@ Title: Images
 
 ----
 
-Text: 
+Text:
+
+## Images in your content folder
+
+You can easily embed any images from your page's content folder.
+
+```text
+(\image: myawesomepicture.jpg)
+```
+
+Set the width and height of an image
+
+```text
+(\image: myawesomepicture.jpg width: 120 height: 200)
+```
+
+Define an alternative text for an image
+
+```text
+(\image: myawesomepicture.jpg alt: On this picture you can see a cat)
+```
+
+Sometimes you need to add floating or special styling to particular images. Best way to do this is to go for a custom css class.
+
+```text
+(\image: myawesomepicture.jpg class: floated)
+```
+
+A linked image
+
+```text
+(\image: myawesomepicture.jpg link: http://flickr.com)
+```
+
+You can even link to the same picture – maybe for a lightbox feature – or to a different picture in the same content folder.
+
+```text
+(\image: myawesomepicture.jpg link: anothergreatpic.jpg)
+```
+
+## Images from other websites
+
+To embed images from other websites, simply use the direct URL to the image. Please make sure you got the copyright and the permission to deep-link to an external image!
+
+```text
+(\image: http://flickr.com/someimage.jpg)
+```
+
+Of course all the additional attributes, described above, are available for external images as well.
+
+****
 

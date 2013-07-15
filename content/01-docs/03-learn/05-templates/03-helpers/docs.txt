@@ -2,5 +2,131 @@ Title: Helpers
 
 ----
 
-Text: 
+Text:
 
+To make your life as a template developer even easier, there are some handy helper functions
+
+### url($uri)
+
+If you want to echo a page url in your templates without using an absolute url you can use the url() function like this:
+
+```php
+
+<?php echo url('projects/project-1') ?>
+
+```
+
+It will take care of always returning the right absolute url.
+If you need it even shorter, go for:
+
+```php
+
+<?php echo u('projects/project-1') ?>
+
+```
+
+### thisURL()
+
+Sometimes it's nice to get the current url without much hassle. That's what thisURL() is for:
+
+```php
+
+<?php echo thisURL() ?>
+
+```
+
+### home()
+
+Redirects the user to the homepage
+
+```php
+
+<?php home() ?>
+
+```
+
+### notFound()
+
+Redirects the user to the error page
+
+```php
+
+<?php notFound() ?>
+
+```
+
+### css($url, $media='all')
+
+This is just a shortcut for your templates to easily embed stylesheet files:
+
+```php
+
+<?php echo css('styles/styles.css') ?>
+
+```
+
+You can also use this with absolute urls
+
+```php
+
+<?php echo css('http://example.com/some/styles.css') ?>
+
+```
+
+### js($url)
+
+This is another shortcut for your templates to easily embed javascript files:
+
+```php
+
+<?php echo js('javascript/jquery.js') ?>
+
+```
+
+You can also use this with absolute urls
+
+```php
+
+<?php echo js('http://example.com/some/scripts.js') ?>
+
+```
+
+### youtube($url, $width=false, $height=false)
+
+Emebed a Youtube url as video
+
+```php
+
+<?php echo youtube('http://www.youtube.com/watch?v=iUCDhvbQFmU') ?>
+
+```
+
+### vimeo($url, $width=false, $height=false)
+
+Emebed a Vimeo url as video
+
+```php
+
+<?php echo vimeo('http://vimeo.com/33091687') ?>
+
+```
+
+### flash($url, $width=false, $height=false)
+
+Emebed any flash video file
+
+```php
+
+<?php echo flash('http://yourdomain.com/flash.flv') ?>
+
+```
+
+### twitter($username, $text=false)
+
+Add a link to a Twitter profile
+
+```php
+
+<?php echo twitter('getkirby') ?>
+
+```
