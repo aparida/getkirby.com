@@ -2,12 +2,12 @@ Title: Installation
 
 ----
 
-Text: 
+Text:
 
 
 ## Download
 
-- Kirby
+- Grab the (link: download text: latest version of Kirby!)
 
 ## Requirements
 
@@ -17,7 +17,7 @@ Text:
 
 ## Install on…
 
-- mac
-- pc
-- server
+- (link: docs/installation/on-a-mac text: Mac)
+- (link: docs/installation/on-a-pc text: PC)
+- (link: docs/installation/on-a-server text: Server)
 
