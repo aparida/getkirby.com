@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::__construct
+----
+Syntax: field::__construct($attributes = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $attributes
+  type: array
+  text: Add all attributes for the field with this array. Check out $this->defaults() for available attributes

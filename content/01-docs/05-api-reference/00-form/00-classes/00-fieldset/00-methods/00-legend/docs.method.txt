@@ -1,0 +1,19 @@
+﻿Name: legend
+----
+Visibility: public
+----
+Static: no
+----
+Title: fieldset::legend
+----
+Syntax: fieldset::legend()
+----
+Description: Generates the legend for the fieldset if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

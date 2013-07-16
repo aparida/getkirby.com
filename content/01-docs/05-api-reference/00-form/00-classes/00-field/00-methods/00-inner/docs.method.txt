@@ -1,0 +1,22 @@
+﻿Name: inner
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::inner
+----
+Syntax: field::inner($html)
+----
+Description: The inner html template for the field, which also adds the label and help
+Overwrite this to create an entirely new inner wrapper for the field
+----
+Text: 
+----
+Parameters: - name: $html
+  type: string
+  text: The html for the input part of the field
+----
+Returntype: string
+----
+Return: 

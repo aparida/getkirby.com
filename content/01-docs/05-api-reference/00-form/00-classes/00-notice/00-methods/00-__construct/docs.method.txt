@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: notice::__construct
+----
+Syntax: notice::__construct($type, $message, $options = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $options
+  type: array
+  text:

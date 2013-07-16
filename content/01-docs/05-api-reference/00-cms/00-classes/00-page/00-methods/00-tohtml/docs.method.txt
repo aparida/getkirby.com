@@ -1,12 +1,12 @@
-﻿Name: toHtml
+﻿Name: toHTML
 ----
 Visibility: public
 ----
 Static: no
 ----
-Title: page::toHtml
+Title: page::toHTML
 ----
-Syntax: page::toHtml()
+Syntax: page::toHTML()
 ----
 Description: Returns the html for the current page
 ----

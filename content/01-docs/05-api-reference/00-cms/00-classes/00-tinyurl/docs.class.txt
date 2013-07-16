@@ -1,0 +1,5 @@
+﻿Title: Tinyurl
+----
+Class: Tinyurl
+----
+Description: Handles building and resolving Kirby's internal Tinyurls.

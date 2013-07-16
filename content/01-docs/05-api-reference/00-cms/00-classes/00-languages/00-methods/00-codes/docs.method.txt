@@ -1,0 +1,19 @@
+﻿Name: codes
+----
+Visibility: public
+----
+Static: no
+----
+Title: languages::codes
+----
+Syntax: languages::codes()
+----
+Description: Return all available language codes
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

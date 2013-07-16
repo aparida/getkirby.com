@@ -1,0 +1,16 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: columns::__toString
+----
+Syntax: columns::__toString()
+----
+Description: Makes it possible to simply echo the fieldset object
+and get the html for the fieldset that way.
+----
+Text: 
+----
+Parameters: 

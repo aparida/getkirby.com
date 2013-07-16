@@ -1,0 +1,21 @@
+﻿Name: remove
+----
+Visibility: public
+----
+Static: yes
+----
+Title: buttons::remove
+----
+Syntax: buttons::remove($key)
+----
+Description: Remove buttons by key
+----
+Text: 
+----
+Parameters: - name: 
+  type: mixed
+  text: Either a single key or an array of keys
+----
+Returntype: array
+----
+Return: 

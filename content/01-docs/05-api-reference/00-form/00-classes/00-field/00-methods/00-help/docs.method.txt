@@ -1,0 +1,19 @@
+﻿Name: help
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::help
+----
+Syntax: field::help()
+----
+Description: Builds a help text underneath the input
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

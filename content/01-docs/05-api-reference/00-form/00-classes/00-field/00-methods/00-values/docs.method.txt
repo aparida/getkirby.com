@@ -1,0 +1,21 @@
+﻿Name: values
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::values
+----
+Syntax: field::values($default = null)
+----
+Description: Makes sure to return the value(s) as array
+----
+Text: 
+----
+Parameters: - name: $default
+  type: mixed
+  text: Optional default values, which should be returned if no values are available
+----
+Returntype: array
+----
+Return: 

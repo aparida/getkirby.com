@@ -1,0 +1,15 @@
+﻿Name: attr
+----
+Visibility: public
+----
+Static: no
+----
+Title: notice::attr
+----
+Syntax: notice::attr()
+----
+Description: 
+----
+Text: 
+----
+Parameters: 

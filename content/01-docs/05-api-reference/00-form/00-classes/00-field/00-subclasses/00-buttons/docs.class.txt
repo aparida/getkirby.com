@@ -1,0 +1,6 @@
+﻿Title: Form Field Buttons
+----
+Class: Buttons
+----
+Description: The Buttons class generates a list of formatting
+buttons to simplify entering Markdown or in textareas

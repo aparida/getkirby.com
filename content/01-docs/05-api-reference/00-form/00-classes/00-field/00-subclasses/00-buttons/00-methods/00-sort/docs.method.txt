@@ -1,0 +1,21 @@
+﻿Name: sort
+----
+Visibility: public
+----
+Static: yes
+----
+Title: buttons::sort
+----
+Syntax: buttons::sort($keys)
+----
+Description: Resort all installed buttons by key
+----
+Text: 
+----
+Parameters: - name: $keys
+  type: array
+  text:
+----
+Returntype: array
+----
+Return: 

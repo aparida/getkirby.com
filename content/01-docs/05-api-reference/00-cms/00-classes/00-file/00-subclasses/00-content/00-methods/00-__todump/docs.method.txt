@@ -1,0 +1,19 @@
+﻿Name: __toDump
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::__toDump
+----
+Syntax: content::__toDump()
+----
+Description: Returns a more readable dump array for the dump() helper
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

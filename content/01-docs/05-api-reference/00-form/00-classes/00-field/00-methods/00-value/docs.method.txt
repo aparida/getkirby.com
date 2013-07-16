@@ -1,0 +1,21 @@
+﻿Name: value
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::value
+----
+Syntax: field::value($default = null)
+----
+Description: Returns the value, that should be shown in the input
+----
+Text: 
+----
+Parameters: - name: $default
+  type: mixed
+  text: Optional default value, which should be returned if no value is available
+----
+Returntype: string
+----
+Return: 

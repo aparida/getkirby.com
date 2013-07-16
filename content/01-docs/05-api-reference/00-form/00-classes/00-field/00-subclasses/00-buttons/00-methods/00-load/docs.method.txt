@@ -1,0 +1,19 @@
+﻿Name: load
+----
+Visibility: protected
+----
+Static: no
+----
+Title: buttons::load
+----
+Syntax: buttons::load()
+----
+Description: Load all available buttons
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

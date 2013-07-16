@@ -1,0 +1,27 @@
+﻿Name: onSubmit
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::onSubmit
+----
+Syntax: field::onSubmit($value, $data)
+----
+Description: An onSubmit handler that can be used by the extended field class
+to manipulate the results for this field after the form has been submitted
+This is useful if you have to inputs, which you need to join in a single field for example.
+----
+Text: 
+----
+Parameters: - name: $value
+  type: mixed
+  text: The original value for this field
+
+- name: $data
+  type: array
+  text: The entire data array
+----
+Returntype: Return
+----
+Return: the new value for this field

@@ -1,0 +1,21 @@
+﻿Name: language
+----
+Visibility: public
+----
+Static: yes
+----
+Title: visitor::language
+----
+Syntax: visitor::language()
+----
+Description: Returns the preferred language of the visitor
+If no preferred language is found, the
+default language will be returned
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: KirbyLanguage

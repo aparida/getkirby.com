@@ -6,7 +6,7 @@ Static: no
 ----
 Title: page::template
 ----
-Syntax: page::template()
+Syntax: page::template($template = null)
 ----
 Description: Returns the name of the used template
 The name of the template is defined by the name
@@ -17,7 +17,9 @@ Text: i.e. text file: project.txt / template name: project
 This method returns the name of the default template
 if there's no template with such a name
 ----
-Parameters: 
+Parameters: - name: $template
+  type: string
+  text: Optional template name to overwrite the auto-detected template
 ----
 Returntype: string
 ----

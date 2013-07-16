@@ -1,0 +1,19 @@
+﻿Name: autofocus
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::autofocus
+----
+Syntax: field::autofocus()
+----
+Description: Checks if the autofocus attribute should be added
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

@@ -1,0 +1,19 @@
+﻿Name: id
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::id
+----
+Syntax: field::id()
+----
+Description: Returns the id of the field. If not specified this will be generated with the name and -field
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

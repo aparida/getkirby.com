@@ -1,0 +1,25 @@
+﻿Name: attribute
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::attribute
+----
+Syntax: field::attribute($key = null, $default = null)
+----
+Description: Returns a particular attribute from the attributes array
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: An optional key. If no key is given, the entire array will be returned
+
+- name: $default
+  type: mixed
+  text: An optional default value if the attribute could not be found
+----
+Returntype: mixed
+----
+Return: Whatever is stored for that key

@@ -1,0 +1,21 @@
+﻿Name: attr
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::attr
+----
+Syntax: field::attr($attr = array())
+----
+Description: Returns an array with all attributes that should be added to the input
+----
+Text: 
+----
+Parameters: - name: $attr
+  type: array
+  text: An optional array of attributes that should be merged
+----
+Returntype: array
+----
+Return: 

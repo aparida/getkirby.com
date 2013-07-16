@@ -1,0 +1,24 @@
+﻿Name: slug
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::slug
+----
+Syntax: page::slug($lang = null)
+----
+Description: Returns the slug for the page
+The slug is the last part of the URL path
+For multilang sites this can be translated with a URL-Key field
+in the text file for this page.
+----
+Text: 
+----
+Parameters: - name: $lang
+  type: string
+  text: Optional language code to get the translated slug
+----
+Returntype: string
+----
+Return: i.e. 01-projects returns projects

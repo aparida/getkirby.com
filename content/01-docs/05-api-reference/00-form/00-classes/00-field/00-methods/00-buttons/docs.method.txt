@@ -1,0 +1,19 @@
+﻿Name: buttons
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::buttons
+----
+Syntax: field::buttons()
+----
+Description: Returns input buttons for the input
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Kirby\Form\Buttons

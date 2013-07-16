@@ -13,5 +13,5 @@ Description: Constructor
 Text: 
 ----
 Parameters: - name: $root
-  type: string
-  text: The full root to this page's directory
+  type: mixed
+  text: The full root to this page's directory or a page object which this should be converted from

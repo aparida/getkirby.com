@@ -1,0 +1,19 @@
+﻿Name: id
+----
+Visibility: public
+----
+Static: no
+----
+Title: file::id
+----
+Syntax: file::id()
+----
+Description: Returns the unique id for this file
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

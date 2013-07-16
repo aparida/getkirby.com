@@ -1,0 +1,21 @@
+﻿Name: id
+----
+Visibility: public
+----
+Static: no
+----
+Title: page::id
+----
+Syntax: page::id()
+----
+Description: The unique id for this page
+This is generated on construction by
+md5-ing the root of the page
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

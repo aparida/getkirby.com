@@ -1,0 +1,19 @@
+﻿Name: html
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::html
+----
+Syntax: field::html()
+----
+Description: Generates the final html for the entire field
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

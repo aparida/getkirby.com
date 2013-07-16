@@ -1,0 +1,7 @@
+﻿Title: Form Field Columns
+----
+Class: Columns
+----
+Description: Makes it possible to group form fields in a single
+row with multiple columns. Simply pass an array of field
+objects and set the columns attribute for each field.

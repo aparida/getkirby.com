@@ -1,0 +1,20 @@
+﻿Name: type
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::type
+----
+Syntax: field::type()
+----
+Description: Returns the field type
+The class must be named accordingly to make this work.
+----
+Text: Otherwise you have to overwrite it and return the type yourself.
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

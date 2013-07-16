@@ -1,0 +1,17 @@
+﻿Name: fields
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::fields
+----
+Syntax: content::fields()
+----
+Description: Returns an array with all fields objects
+----
+Text: 
+----
+Parameters: - name: 
+  type: 
+  text: array

@@ -1,0 +1,22 @@
+﻿Name: selector
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::selector
+----
+Syntax: field::selector($type = null)
+----
+Description: A css selectors builder for the various places where
+a selector is needed for the field and all it's child elements.
+----
+Text: 
+----
+Parameters: - name: $type
+  type: string
+  text: The type of selectors you want to get
+----
+Returntype: string
+----
+Return: 

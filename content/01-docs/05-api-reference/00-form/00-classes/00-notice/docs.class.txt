@@ -1,0 +1,5 @@
+﻿Title: Form Notice
+----
+Class: Notice
+----
+Description: Displays a success or error message at the top of the form

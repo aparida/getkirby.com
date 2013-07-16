@@ -1,0 +1,22 @@
+﻿Name: extend
+----
+Visibility: public
+----
+Static: yes
+----
+Title: page::extend
+----
+Syntax: page::extend($key, $value)
+----
+Description: Makes it possible to extend the page object
+For each extended key, there's a new magic getter available afterwards
+----
+Text: 
+----
+Parameters: - name: $key
+  type: string
+  text: 
+
+- name: $value
+  type: mixed
+  text: Can be an object, a simple string or a callable function

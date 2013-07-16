@@ -1,0 +1,19 @@
+﻿Name: root
+----
+Visibility: public
+----
+Static: no
+----
+Title: plugin::root
+----
+Syntax: plugin::root()
+----
+Description: Returns the root location of the plugin
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

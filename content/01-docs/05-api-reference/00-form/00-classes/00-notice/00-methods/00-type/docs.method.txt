@@ -1,0 +1,19 @@
+﻿Name: type
+----
+Visibility: public
+----
+Static: no
+----
+Title: notice::type
+----
+Syntax: notice::type()
+----
+Description: Returns the type of the notice (success or error)
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

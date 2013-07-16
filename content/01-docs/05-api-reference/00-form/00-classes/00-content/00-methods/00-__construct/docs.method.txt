@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::__construct
+----
+Syntax: content::__construct($fields, $form)
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $fields
+  type: array
+  text: 
+
+- name: $form
+  type: array
+  text:

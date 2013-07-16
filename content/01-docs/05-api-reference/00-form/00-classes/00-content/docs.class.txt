@@ -1,0 +1,7 @@
+﻿Title: Form Content
+----
+Class: Content
+----
+Description: Takes a field setup array and converts
+it to proper field/fieldset/columns objects first and
+html afterwards.

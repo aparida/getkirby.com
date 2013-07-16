@@ -1,0 +1,22 @@
+﻿Name: create
+----
+Visibility: public
+----
+Static: yes
+----
+Title: tinyurl::create
+----
+Syntax: tinyurl::create($page)
+----
+Description: Creates a tinyurl for the given page object
+by using the page's hash and if necessary the current language code
+----
+Text: 
+----
+Parameters: - name: $page
+  type: object
+  text:
+----
+Returntype: string
+----
+Return: 

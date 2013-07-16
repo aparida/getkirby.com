@@ -9,10 +9,8 @@ Title: language::locale
 Syntax: language::locale()
 ----
 Description: Returns the locale of the language if available
-To enable this feature, locales must be
-set in your config in an associative array
 ----
-Text: i.e. c::set('lang.locales', array('en' => 'en_US'));
+Text: 
 ----
 Parameters: 
 ----

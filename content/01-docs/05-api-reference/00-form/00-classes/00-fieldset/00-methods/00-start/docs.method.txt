@@ -1,0 +1,19 @@
+﻿Name: start
+----
+Visibility: public
+----
+Static: no
+----
+Title: fieldset::start
+----
+Syntax: fieldset::start()
+----
+Description: Generates the head tag for the fieldset with all its attributes
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

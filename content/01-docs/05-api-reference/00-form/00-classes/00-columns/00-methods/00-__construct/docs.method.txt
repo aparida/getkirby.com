@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: columns::__construct
+----
+Syntax: columns::__construct($fields, $attributes = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $fields
+  type: array
+  text: An array of field objects, which should be grouped in columns
+
+- name: $attribute
+  type: array
+  text: An optional array of attributes for the columns element

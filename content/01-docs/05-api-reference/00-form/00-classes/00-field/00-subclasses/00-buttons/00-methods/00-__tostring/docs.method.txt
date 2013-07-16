@@ -1,0 +1,19 @@
+﻿Name: __toString
+----
+Visibility: public
+----
+Static: no
+----
+Title: buttons::__toString
+----
+Syntax: buttons::__toString()
+----
+Description: Makes it possible to simply echo the class to get the button html
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

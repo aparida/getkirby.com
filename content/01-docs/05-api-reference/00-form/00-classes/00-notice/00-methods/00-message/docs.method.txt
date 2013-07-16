@@ -1,0 +1,19 @@
+﻿Name: message
+----
+Visibility: public
+----
+Static: no
+----
+Title: notice::message
+----
+Syntax: notice::message()
+----
+Description: Returns the message text
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

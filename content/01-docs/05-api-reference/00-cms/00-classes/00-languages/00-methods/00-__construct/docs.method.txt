@@ -6,7 +6,7 @@ Static: no
 ----
 Title: languages::__construct
 ----
-Syntax: languages::__construct($codes = array())
+Syntax: languages::__construct()
 ----
 Description: Constructor
 ----

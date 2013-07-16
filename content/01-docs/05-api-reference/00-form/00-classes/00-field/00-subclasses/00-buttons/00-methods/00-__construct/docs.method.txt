@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: buttons::__construct
+----
+Syntax: buttons::__construct($active = array(), $params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $active
+  type: array
+  text: A list of keys of active buttons, which should be rendered
+
+- name: $params
+  type: $array
+  text: A list of optional settings for the buttonbar

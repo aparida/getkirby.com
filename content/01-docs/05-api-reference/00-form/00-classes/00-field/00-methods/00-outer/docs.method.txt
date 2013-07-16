@@ -1,0 +1,22 @@
+﻿Name: outer
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::outer
+----
+Syntax: field::outer($html)
+----
+Description: The outer html template for the field
+Overwrite this to create an entirely new wrapper for the field
+----
+Text: 
+----
+Parameters: - name: $html
+  type: string
+  text: The html for the inner part of the field
+----
+Returntype: string
+----
+Return: 

@@ -1,0 +1,25 @@
+﻿Name: findByURI
+----
+Visibility: public
+----
+Static: no
+----
+Title: pages::findByURI
+----
+Syntax: pages::findByURI($uri, $use = 'uid')
+----
+Description: Finds pages by it's unique URI
+----
+Text: 
+----
+Parameters: - name: $uri
+  type: mixed
+  text: Either a single URI string or an array of URIs
+
+- name: $use
+  type: string
+  text: The field, which should be used (uid or slug)
+----
+Returntype: mixed
+----
+Return: Either a Page object, a Pages object for multiple pages or null if nothing could be found

@@ -1,0 +1,17 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: buttons::__construct
+----
+Syntax: buttons::__construct($params = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $params
+  type: array
+  text:

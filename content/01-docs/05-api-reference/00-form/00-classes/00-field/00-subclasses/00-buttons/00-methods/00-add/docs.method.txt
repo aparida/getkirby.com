@@ -1,0 +1,25 @@
+﻿Name: add
+----
+Visibility: public
+----
+Static: yes
+----
+Title: buttons::add
+----
+Syntax: buttons::add($key, $value = null)
+----
+Description: Add new buttons
+----
+Text: 
+----
+Parameters: - name: $key
+  type: mixed
+  text: Either a single key or an array of keys and buttons
+
+- name: $value
+  type: string
+  text: The button html
+----
+Returntype: array
+----
+Return: Return all installed buttons

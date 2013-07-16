@@ -6,13 +6,15 @@ Static: no
 ----
 Title: site::template
 ----
-Syntax: site::template()
+Syntax: site::template($template = null)
 ----
 Description: Returns the usable template
 ----
 Text: 
 ----
-Parameters: 
+Parameters: - name: $template
+  type: string
+  text: This argument has no effect and is just here to align to strict standards.
 ----
 Returntype: string
 ----

@@ -1,0 +1,25 @@
+﻿Name: __call
+----
+Visibility: public
+----
+Static: no
+----
+Title: variable::__call
+----
+Syntax: variable::__call($name, $arguments)
+----
+Description: Additional Shortcuts for all the methods above
+----
+Text: 
+----
+Parameters: - name: $name
+  type: string
+  text: Name of the method will be passed by PHP
+
+- name: $arguments
+  type: array
+  text: an optional list of passed arguments
+----
+Returntype: mixed
+----
+Return: 

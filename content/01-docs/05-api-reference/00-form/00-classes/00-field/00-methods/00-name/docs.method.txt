@@ -1,0 +1,19 @@
+﻿Name: name
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::name
+----
+Syntax: field::name()
+----
+Description: Returns the name of the field
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

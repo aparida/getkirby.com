@@ -1,12 +1,12 @@
-﻿Name: toHtml
+﻿Name: toHTML
 ----
 Visibility: public
 ----
 Static: no
 ----
-Title: site::toHtml
+Title: site::toHTML
 ----
-Syntax: site::toHtml($echo = false)
+Syntax: site::toHTML($echo = false)
 ----
 Description: Converts the current page to html
 ----

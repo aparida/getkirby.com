@@ -1,0 +1,21 @@
+﻿Name: __construct
+----
+Visibility: public
+----
+Static: no
+----
+Title: fieldset::__construct
+----
+Syntax: fieldset::__construct($fields, $attributes = array())
+----
+Description: Constructor
+----
+Text: 
+----
+Parameters: - name: $fields
+  type: array
+  text: An array with field objects
+
+- name: $attributes
+  type: array
+  text: An optional array of additional attributes for the fieldset

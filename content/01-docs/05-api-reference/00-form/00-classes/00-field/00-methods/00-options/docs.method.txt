@@ -1,0 +1,19 @@
+﻿Name: options
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::options
+----
+Syntax: field::options()
+----
+Description: Returns an optional array of options. i.e. for select boxes or multiple checkboxes
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: array
+----
+Return: 

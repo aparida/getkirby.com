@@ -1,0 +1,19 @@
+﻿Name: instance
+----
+Visibility: public
+----
+Static: yes
+----
+Title: site::instance
+----
+Syntax: site::instance($params = array())
+----
+Description: Singleton accessor for the current site instance
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: object
+----
+Return: Site

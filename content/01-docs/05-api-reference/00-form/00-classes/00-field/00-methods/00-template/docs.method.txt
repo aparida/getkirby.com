@@ -1,0 +1,22 @@
+﻿Name: template
+----
+Visibility: public
+----
+Static: no
+----
+Title: field::template
+----
+Syntax: field::template()
+----
+Description: Loads the template file for this field.
+----
+Text: In most extended field classes it will be easier to overwrite
+this and return some simple form:: class stuff. But if you
+need more complex templates you can add a {type}.html.php file to your
+field root, which will then be loaded automatically via this method.
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: The final html for the input

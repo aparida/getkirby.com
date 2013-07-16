@@ -1,0 +1,22 @@
+﻿Name: resolve
+----
+Visibility: public
+----
+Static: yes
+----
+Title: tinyurl::resolve
+----
+Syntax: tinyurl::resolve($tinyurl)
+----
+Description: Tries to resolve internal tinyurls by
+parsing the given url and searching for a matching page
+----
+Text: 
+----
+Parameters: - name: $tinyurl
+  type: string
+  text:
+----
+Returntype: string
+----
+Return: 

@@ -2,7 +2,7 @@
 ----
 Class: Site
 ----
-Description: ATTENTION: use the site() helper function to get access to the site singleton
+Description: ATTENTION: use the site::instance() method or site() helper to get access to the site singleton
 
 This is the main site object
 Everything else is dependent on this

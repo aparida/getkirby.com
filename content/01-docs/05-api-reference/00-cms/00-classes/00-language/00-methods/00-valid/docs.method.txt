@@ -1,0 +1,19 @@
+﻿Name: valid
+----
+Visibility: public
+----
+Static: yes
+----
+Title: language::valid
+----
+Syntax: language::valid($code)
+----
+Description: Checks if the passed code is valid
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

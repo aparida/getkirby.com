@@ -1,0 +1,17 @@
+﻿Name: html
+----
+Visibility: public
+----
+Static: no
+----
+Title: content::html
+----
+Syntax: content::html()
+----
+Description: Returns the generated html
+----
+Text: 
+----
+Parameters: - name: 
+  type: 
+  text: string

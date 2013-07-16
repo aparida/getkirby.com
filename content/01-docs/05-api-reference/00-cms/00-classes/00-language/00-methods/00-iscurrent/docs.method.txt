@@ -1,0 +1,20 @@
+﻿Name: isCurrent
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::isCurrent
+----
+Syntax: language::isCurrent()
+----
+Description: Checks if this language is
+currently active
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: boolean
+----
+Return: 

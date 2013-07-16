@@ -6,16 +6,16 @@ Static: no
 ----
 Title: page::uri
 ----
-Syntax: page::uri($uri = null)
+Syntax: page::uri($lang = null)
 ----
 Description: Setter and getter for the uri
 The uri is the page's url path without the base url
 ----
 Text: 
 ----
-Parameters: - name: $uri
+Parameters: - name: $lang
   type: string
-  text: this is used to set the uri in context with other pages
+  text: Optional language code to get the URI in other languages
 ----
 Returntype: string
 ----
