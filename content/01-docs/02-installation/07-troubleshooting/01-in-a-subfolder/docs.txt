@@ -2,5 +2,50 @@ Title: Installing Kirby in a subfolder
 
 ----
 
-Text: 
+Text:
 
+Normally your Kirby-flavored website would probably have its own Domain. Something like `http://mysite.com`, but in some cases you might run Kirby in a subfolder of your domain like `http://mysite.com/blog` for example. This means that we need to adjust the config a little bit. When you go to `http://mysite.com/blog` you should already see an instruction screen how to do that.
+
+It's pretty easy: Go to `site/config/config.php` and open that file in your favorite editor.
+
+Change…
+
+```php
+c::set('url', false);
+```
+
+…to…
+
+```php
+c::set('url', 'http://mysite.com/blog');
+```
+
+…and…
+
+```php
+c::set('subfolder', false);
+```
+
+…to…
+
+```php
+c::set('subfolder', 'blog');
+```
+
+Save the file.
+
+
+## One last step
+
+Also open the .htaccess file in your editor and change
+
+    RewriteBase /
+
+…to…
+
+    RewriteBase /blog
+
+
+## That's it!
+
+Open `http://mysite.com/blog` in your browser. You should now have a fully functional Kirby installation with working navigation and some tiny demo pages. Play around with the files and folders inside the content folder and the templates and snippets in the site folder to make your first steps with Kirby. Read more about the (link: docs/learn text: next steps).

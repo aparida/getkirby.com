@@ -2,5 +2,41 @@ Title: Installing Kirby on a PC
 
 ----
 
-Text: 
+Text:
+
+Chances are pretty high that most of the Windows users are using (link: http://www.apachefriends.org/de/xampp.html text: XAMPP) as their preferred local environment for web development.
+
+## Installing XAMPP
+
+The installation of XAMPP is really straightforward. You just have to (link: http://www.apachefriends.org/de/xampp-windows.html#628 text: download) and unpack it. Then start the installer and follow the upcoming instructions.
+
+(image: xampp-01.png)
+
+## Download Kirby
+
+Grab the **(link: https://github.com/getkirby/cms/zipball/master text: latest Kirby version**) or choose your preferred (link: download text: download setup)!
+
+## Copy ALL files
+
+You will find the source of Kirby in your Download folder. Copy all files from this folder and add them to the `C:\xampp\htdocs\kirby` folder.
+
+That's basically – almost – all you need to do to install Kirby with XAMPP. You should now be able to access it at: <http://localhost/kirby> in your browser.
+
+
+
+----
+Docs:
+
+Installing Kirby in a subfolder:
+
+    text: Installing Kirby in a subfolder
+    link: troubleshooting/in-a-subfolder
+
+----
+Externals:
+
+XAMPP:
+
+    text: XAMPP
+    link: http://www.apachefriends.org/de/xampp.html
 

@@ -2,5 +2,61 @@ Title: Installing Kirby on a Mac
 
 ----
 
-Text: 
+Text:
+
+Most Mac users will probably try Kirby with (link: http://www.mamp.info/en/index.html text: MAMP). It's a pretty awesome app to get PHP, Apache and MySQL running on your shiny Apple laptop without fiddling with the Terminal for ages.
+
+## Installing MAMP
+
+(image: mamp-01.png)
+
+Installing MAMP is just a matter of downloading the app from the MAMP website and running the installer. It will install a MAMP app in your Applications folder.
+
+(image: mamp-02.png)
+
+By starting the MAMP app you are also starting your Apache and MySQL server. You should now be able to reach your local server at <http://localhost:8888>
+
+## Download Kirby
+
+Grab the **(link: https://github.com/getkirby/cms/zipball/master text: latest Kirby version**) or choose your preferred (link: download text: download setup)!
+
+## Copy ALL files
+
+You will find the source of Kirby in your Download folder, **but there's pitfall!** By default the Finder does not show invisible files. The .htaccess file, which is needed to generate nice URLs is such an invisible file. So we need to make sure to copy that as well.
+
+## Show invisible files
+
+There's a nice free app, which you can use to show invisible files on your Mac called (link: http://sweetpproductions.com/ text: DesktopUtility) Once hidden files are visible in the Finder, your Download of Kirby should look like this:
+
+(image: mamp-03.png)
+
+Copy all files from the "bastianallgeier…" folder and add them to the `~/Applications/MAMP/htdocs/kirby` folder:
+
+(image: mamp-04.png)
+
+That's basically – almost – all you need to do to install Kirby. You should now be able to access it at: <http://localhost:8888/kirby> in your browser.
+
+----
+Docs:
+
+Installing Kirby in a subfolder:
+
+    text: Installing Kirby in a subfolder
+    link: troubleshooting/in-a-subfolder
+
+----
+Externals:
+
+MAMP:
+
+    text: MAMP
+    link: http://www.mamp.info/en/index.html
+
+DesktopUtility:
+
+    text: DesktopUtility
+    link: http://sweetpproductions.com
+
+
+
 
