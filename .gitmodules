@@ -13,3 +13,6 @@
 [submodule "site/plugins/forum"]
 	path = site/plugins/forum
 	url = https://github.com/getkirby-extensions/forum.plugin.git
+[submodule "site/plugins/linky"]
+	path = site/plugins/linky
+	url = https://github.com/TimKaechele/Linky.Plugin.git
