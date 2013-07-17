@@ -1,0 +1,25 @@
+Title: Google Plus
+
+----
+
+Text:
+
+## Static Google Plus Sharing Button
+
+```
+
+<a class="button" href="https://plusone.google.com/_/+1/confirm?hl=de&url=<?php echo rawurlencode ($page->url()); ?>&title=<?php echo rawurlencode($page->title()); ?>" target="blank" title="Share on Google+">Share on Google+</a>
+
+```
+
+This link will share the current page on Facebook.
+
+
+----
+
+Externals:
+
+Standard Google Plus Plugins:
+
+    text: Standard Google Plus Plugins
+    link: https://developers.google.com/+/web/
