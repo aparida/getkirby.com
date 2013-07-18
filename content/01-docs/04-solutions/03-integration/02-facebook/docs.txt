@@ -2,5 +2,25 @@ Title: Facebook
 
 ----
 
-Text: 
+Text:
 
+## Static Facebook Sharing Button
+
+```
+
+<a class="button" href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url()); ?>" target="blank" title="Share on Facebook">Share on Facebook</a>
+
+```
+
+This link will share the current page on Facebook.
+
+
+
+----
+
+Externals:
+
+Standard Facebook Plugins:
+
+    text: Standard Facebook Plugins
+    link: https://developers.facebook.com/docs/plugins/

@@ -2,5 +2,33 @@ Title: Twitter
 
 ----
 
-Text: 
+Text:
 
+## Static Tweet Button
+
+```
+
+<a class="button" href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @your_account')?>" target="blank" title="Tweet this">Tweet</a>
+
+```
+
+This link will share the title and the corresponding url of the current page on Twitter. Replace `@your_account` with your own user name!
+
+
+----
+
+Docs:
+
+Twitter profile links:
+
+    text: Twitter profile links
+    link: docs/learn/text/specials
+
+----
+
+Externals:
+
+Standard Twitter Buttons:
+
+    text: Standard Twitter Buttons
+    link: https://twitter.com/about/resources/buttons
