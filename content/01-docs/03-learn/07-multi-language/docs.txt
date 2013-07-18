@@ -2,5 +2,53 @@ Title: Multi-language sites
 
 ----
 
-Text: 
+Text:
 
+Since Version 1.1 Kirby has full built-in multi-language support. You are able to translate each and every part of your website with a few simple steps.
+
+## Getting started
+
+Jump to your config file `site/config/config.php` and activate multi-language support there:
+
+```php
+
+c::set('lang.support', true);
+c::set('lang.default', 'en');
+c::set('lang.available', array('en', 'de'));
+c::set('lang.detect', true);
+
+```
+
+If you are still using an older version of Kirby, please upgrade and add those lines to your existing config file.
+
+As soon as you activate multi-language support, Kirby will automatically create new language-specific URLs for your site:
+
+(image: url.png)
+
+----
+Docs:
+
+Configuration:
+
+    text: Configuration
+    link: multi-language/configuration
+
+Translating Content:
+
+    text: Translating Content
+    link: multi-language/translating-content
+
+Translating URLs:
+
+    text: Translating URLs
+    link: multi-language/translating-urls
+
+Custom Language Variables:
+
+    text: Custom Language Variables
+    link: multi-language/custom-language-variables
+
+Switching Languages:
+
+    text: Switching Languages
+    link: multi-language/language-toggle

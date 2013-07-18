@@ -2,5 +2,31 @@ Title: Translating content
 
 ----
 
-Text: 
+Text:
+
+## Translate your content files
+
+Adding translated content couldn't be easier. Just add another text file to your content folder and append the language shortcode:
+
+(image: 01.png)
+
+Make sure you always got a text file for your default language. Otherwise Kirby won't be able to provide a fallback for missing translations.
+
+In your content files you can use the same fields and just fill in the translated text. Best way to proceed at the beginning is to start with the default language and when you are happy with the results, duplicate the default language files, rename them and translate them.
+
+## Translate your site info
+
+To provide translations for your global site info, add language-specific site.txt to your main content folder files like this:
+
+(image: 02.png)
+
+
+## Translate file meta information
+
+You can add meta information for each file in your content folders, by simply adding a new text file for it. For example, to add meta info for an image called `myimage.jpg` you would add a new text file called `myimage.jpg.txt`. You can (link: docs/media text: read more about that here.)
+
+To translate those meta info files, you can simply append the language code again:
+
+(image: 03.png)
+
 

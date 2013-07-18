@@ -2,5 +2,32 @@ Title: Language toggle
 
 ----
 
-Text: 
+Text:
 
+One of the most important elements on a multi-language site project is a language toggle, so your visitors can easily change their language.
+
+```
+<ul>
+  <?php foreach(c::get('lang.available') as $lang): ?>
+  <li<?php if($lang == c::get('lang.current')) echo ' class="active"' ?>>
+    <a href="<?php echo $page->url($lang) ?>"><?php echo $lang ?></a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```
+
+You can use this simple list and change the HTML to fit your project or you could build your own from scratch. Kirby automatically sets a new config variable: `lang.current`, which contains the shortcode for the currently active language. Together with your config setup for available languages it is pretty straight forward to build whatever you are looking for.
+
+To switch URLs, you can either use…
+
+```php
+$page->url($lang)
+```
+
+…which will change the URL for the current page.
+
+Or you can switch to a different homepage, by using…
+
+```php
+$site->url($lang)
+```

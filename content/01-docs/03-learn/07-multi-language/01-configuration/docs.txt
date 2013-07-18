@@ -2,5 +2,50 @@ Title: Configuration
 
 ----
 
-Text: 
+Text:
 
+## Adding available languages
+
+You can define any number of available languages by adding their 2-character shortcodes to the `lang.available` array:
+
+```php
+
+c::set('lang.available', array('en', 'fr', 'it', 'de'));
+
+```
+
+## Setting the default language
+
+To make sure that you provide a proper fallback for parts of your site, which are not translated yet, you must define a default language. Kirby will automatically take care of replacing untranslated content from other languages with content from your default language, so you will never get empty or broken spaces on your site.
+
+```php
+
+c::set('lang.default', 'en');
+
+```
+
+## Detecting the user language
+
+If you set `lang.detect` to true, Kirby will automatically try to find the best language for your visitor and will redirect them to the translated version. This is activated by default, but you can switch it off, so visitors will always land on your default translation first.
+
+```php
+
+c::set('lang.detect', true);
+
+```
+
+## Add your first translated content
+
+Adding translated content couldn't be easier. Just add another text file to your content folder and append the language shortcode:
+
+(image: 01.png)
+
+Make sure you always got a text file for your default language. Otherwise Kirby won't be able to provide a fallback for missing translations.
+
+In your content files you can use the same fields and just fill in the translated text. Best way to proceed at the beginning is to start with the default language and when you are happy with the results, duplicate the default language files, rename them and translate them.
+
+## Translate your site info
+
+To provide translations for your global site info, add language-specific site.txt to your main content folder files like this:
+
+(image: 02.png)

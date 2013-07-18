@@ -2,5 +2,53 @@ Title: Translating URLs
 
 ----
 
-Text: 
+Text:
+
+I put a lot of effort to create nice URLs with Kirby. Something like:
+
+```
+http://yourdomain.com/projects/project-a
+```
+
+This is more readable for your visitors and also for search engines.
+
+But when you are working with a multi-language site project you will be facing the problem, that those URLs should somehow be translatable.
+
+```
+http://yourdomain.com/projekte/projekt-a
+```
+
+So what you can do with mulit-language support activated is to add a new field to your content files, to provide a translation for the URL.
+
+Here's a quick example – English is the default language:
+
+#### content/projects/projects.en.txt
+
+    title: My Title
+    ----
+    text: This is the text for the projects page
+
+#### content/projects/projects.de.txt
+
+    title: Mein Titel
+    ----
+    URL-Key: projekte
+    ----
+    text: Das ist der Text für die Projekt Seite
+
+The URL for the English translation will be:
+
+```
+http://yourdomain.com/en/projects
+```
+
+and the URL for the German translation will be:
+
+```
+http://yourdomain.com/de/projekte
+```
+
+You don't need to add `URL-Key` to your text files for your default language. Kirby will take the folder name in that case.
+
+
 
