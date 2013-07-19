@@ -2,5 +2,13 @@ Title: Custom post-types
 
 ----
 
-Text: 
+Text:
 
+
+----
+Blogposts:
+
+Custom Post Types For Your Blog:
+
+    text: Custom Post Types For Your Blog
+    link: blog/custom-post-types

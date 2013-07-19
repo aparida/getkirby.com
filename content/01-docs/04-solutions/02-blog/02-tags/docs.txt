@@ -2,5 +2,13 @@ Title: Tags
 
 ----
 
-Text: 
+Text:
 
+
+----
+Blogposts:
+
+How to handle tags:
+
+    text: How to handle tags
+    link: blog/tagcloud

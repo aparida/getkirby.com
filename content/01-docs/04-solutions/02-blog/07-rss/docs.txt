@@ -2,5 +2,13 @@ Title: RSS-Feeds
 
 ----
 
-Text: 
+Text:
 
+
+----
+Blogposts:
+
+How to add a RSS-Feed:
+
+    text: How to add a RSS-Feed
+    link: blog/how-to-add-a-rss-feed

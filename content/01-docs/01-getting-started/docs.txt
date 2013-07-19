@@ -2,7 +2,7 @@ Title: Getting started
 
 ----
 
-Text: 
+Text:
 
 // Illustration that shows how easy it is to install Kirby
 // maybe a video later
@@ -13,9 +13,9 @@ Text:
 
 ## 2. Install Kirby
 
-- (link: # text: on your Mac)
-- (link: # text: on your PC)
-- (link: # text: on your server)
+- (link: docs/installation/on-a-mac text: on your Mac)
+- (link: docs/installation/on-a-pc text: on your PC)
+- (link: docs/installation/on-a-server text: on your server)
 
 ## 3. Learn Kirby
 

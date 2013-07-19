@@ -12,7 +12,7 @@ Text:
 
 ```
 
-This link will share the current page on Facebook.
+This link will share the current page on Google Plus.
 
 
 ----

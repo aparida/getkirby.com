@@ -2,5 +2,13 @@ Title: Comments
 
 ----
 
-Text: 
+Text:
 
+
+----
+Blogposts:
+
+How to add comments to your blog:
+
+    text: How to add comments to your blog
+    link: blog/adding-comments

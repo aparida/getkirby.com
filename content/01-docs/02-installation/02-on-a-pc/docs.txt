@@ -8,7 +8,7 @@ Chances are pretty high that most of the Windows users are using (link: http://w
 
 ## Installing XAMPP
 
-The installation of XAMPP is really straightforward. You just have to (link: http://www.apachefriends.org/de/xampp-windows.html#628 text: download) and unpack it. Then start the installer and follow the upcoming instructions.
+The installation of XAMPP is really straightforward. You just have to (link: http://www.apachefriends.org/de/xampp-windows.html#628 text: download) and unpack it. Then start the installer and follow the upcoming instructions. Afterwards you'll have to launch the control panel and start the Apache. Done!
 
 (image: xampp-01.png)
 

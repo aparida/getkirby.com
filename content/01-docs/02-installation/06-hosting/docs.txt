@@ -6,7 +6,7 @@ Text:
 
 ## Requirements
 
-Kirby runs best on Linux, Apache and PHP 5.2+
+Kirby runs best on Linux, Apache and PHP 5.3+
 Pretty much any modern hosting provider should have a plan,
 which matches those requirements.
 

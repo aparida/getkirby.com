@@ -9,66 +9,47 @@ text:
 
 ### International Providers
 
-#### phpfog
-(link: https://phpfog.com/?a_aid=12080653 text: phpfog.com)
+- (link: https://phpfog.com/?a_aid=12080653 text: phpfog)
 
-#### Mediatemple
-(link: http://www.mediatemple.net#a_aid=501b842c58f66 text: mediatemple.net)
+- (link: http://www.mediatemple.net#a_aid=501b842c58f66 text: Mediatemple)
 
-#### Midphase
-(link: http://manage.aff.biz/z/11606/CD38502/ text: midphase.com)
+- (link: http://manage.aff.biz/z/11606/CD38502/ text: Midphase)
 
-#### Linode
-(link: http://www.linode.com/?r=54c34858de722e04bbab8a32715bd6c0d79679ad text: linode.com)
+- (link: http://www.linode.com/?r=54c34858de722e04bbab8a32715bd6c0d79679ad text: Linode)
 
-#### Site5
-(link: http://www.site5.com/in.php?id=141054 text: site5.com)
+- (link: http://www.site5.com/in.php?id=141054 text: Site5)
 
-#### Pair
-(link: http://pair.com text: pair.com)
+- (link: http://pair.com text: Pair)
 
-#### Webfaction
-(link: http://www.webfaction.com text: webfaction.com)
+- (link: http://www.webfaction.com text: Webfaction)
 
-#### Fortrabbit
-(link: http://www.fortrabbit.com text: fortrabbit.com)
+- (link: http://www.fortrabbit.com text: Fortrabbit)
 
-#### Pagodabox
-(link: http://pagodabox.com text: pagodabox.com)
+- (link: http://pagodabox.com text: Pagodabox)
 
 ### German Providers
 
-#### Uberspace
-(link: http://uberspace.de/ text: uberspace.de)
+- (link: http://uberspace.de/ text: Uberspace)
 
-#### HostEurope
-(link: http://www.hosteurope.com/ text: hosteurope.com)
+- (link: http://www.hosteurope.com/ text: HostEurope)
 
-#### Hetzner
-(link: http://www.hetzner.de text: hetzner.de)
+- (link: http://www.hetzner.de text: Hetzner)
 
-#### Mittwald
-(link: http://www.mittwald.de text: mittwald.de)
+- (link: http://www.mittwald.de text: Mittwald)
 
-#### Domaingo
-(link: http://domaingo.de text: domaingo.de)
+- (link: http://domaingo.de text: Domaingo)
 
-#### Speicherhosting
-(link: http://speicherhosting.com text: speicherhosting.com)
+- (link: http://speicherhosting.com text: Speicherhosting)
 
-#### All Inkl
-(link: http://all-inkl.com/ text: all-inkl.com)
+- (link: http://all-inkl.com/ text: All Inkl)
 
 ### Swiss Providers
 
-#### Cyon
-(link: http://cyon.ch text: cyon.ch)
+- (link: http://cyon.ch text: Cyon)
 
 ## Disclaimer
 
-This list is totally incomplete. It's just a result of feedback I got
-from Kirby users so far. Please let me know if you are running Kirby
-on any other hosting plan you'd like to recommend: <bastian@getkirby.com>
+This list is totally incomplete. It's just a result of feedback I got from Kirby users so far. Please let me know if you are running Kirby on any other hosting plan you'd like to recommend: <bastian@getkirby.com>
 
 ----
 Forumposts:

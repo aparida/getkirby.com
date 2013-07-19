@@ -2,5 +2,13 @@ Title: Pagination
 
 ----
 
-Text: 
+Text:
+
+----
+Blogposts:
+
+Add pagination to your blog:
+
+    text: Add pagination to your blog
+    link: blog/add-pagination-to-your-blog
 

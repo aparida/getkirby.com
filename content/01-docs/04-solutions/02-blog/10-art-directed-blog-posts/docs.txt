@@ -2,5 +2,13 @@ Title: Art-directed blog posts
 
 ----
 
-Text: 
+Text:
 
+
+----
+Blogposts:
+
+Art-directed blog posts:
+
+    text: Art-directed blog posts
+    link: blog/art-directed-posts
