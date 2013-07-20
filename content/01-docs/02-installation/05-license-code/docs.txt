@@ -30,33 +30,5 @@ Free trial:
   text: Free trial
   link: blog/free-trial
 
-License to kill:
-  text: License to kill
-  link: blog/license-to-kill
-
-----
-
-Forumposts:
-
-Blablablub:
-  text: Blablablub
-  link: blog/blablablub
-
-----
-
-Docs:
-
-megageil:
-  text: megageil
-  link: docs/megageil
-
-----
-
-Externals:
-
-superother:
-  text: superother
-  link: http://google.com
-
 
 

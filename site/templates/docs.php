@@ -21,7 +21,7 @@
         <ul>
             <?php $blogposts = yaml($page->blogposts()) ?>
             <?php foreach($blogposts as $blogpost): ?>
-            <li><a href="<?php echo $blogpost['link'] ?>"><?php echo $blogpost['text'] ?></a></li>
+            <li><a href="<?php echo url() ?>/<?php echo $blogpost['link'] ?>"><?php echo $blogpost['text'] ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>
@@ -31,7 +31,7 @@
         <ul>
             <?php $forumposts = yaml($page->forumposts()) ?>
             <?php foreach($forumposts as $forumpost): ?>
-            <li><a href="<?php echo $forumpost['link'] ?>"><?php echo $forumpost['text'] ?></a></li>
+            <li><a href="<?php echo url() ?>/<?php echo $forumpost['link'] ?>"><?php echo $forumpost['text'] ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>
@@ -41,7 +41,7 @@
         <ul>
             <?php $docs = yaml($page->docs()) ?>
             <?php foreach($docs as $doc): ?>
-            <li><a href="<?php echo $doc['link'] ?>"><?php echo $doc['text'] ?></a></li>
+            <li><a href="<?php echo url() ?>/<?php echo $doc['link'] ?>"><?php echo $doc['text'] ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>

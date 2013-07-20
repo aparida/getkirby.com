@@ -42,7 +42,7 @@ Docs:
 Installing Kirby in a subfolder:
 
     text: Installing Kirby in a subfolder
-    link: troubleshooting/in-a-subfolder
+    link: docs/installation/troubleshooting/in-a-subfolder
 
 ----
 Externals:
