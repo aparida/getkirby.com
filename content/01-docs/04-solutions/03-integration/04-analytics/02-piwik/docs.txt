@@ -2,5 +2,132 @@ Title: Piwik
 
 ----
 
-Text: 
+Text:
+
+Piwik is an awesome open source software for self-hosted web analytics. It's totally free, highly customizable and quite straightforward to install on your own server. Learn more about it and check out the (link: http://piwik.org text: website)!
+
+## Simple integration
+
+The easiest and most common way to integrate the tracking code for stats with Piwik is to paste it directly into your template, respectively your footer snippet. In that case your `footer.php` might look like this for example:
+
+```
+
+<footer class="colophon">
+    <p><?php echo $site->author() ?></p>
+</footer>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.getkirby.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "5"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+</body>
+</html>
+
+```
+You'll have to replace `stats.getkirby.com` with the URL your Piwik installation is running on and make sure you're using the correct site ID, of course.
+
+That's it. You're done.
+
+
+## Integration via snippet
+
+As you might know by now, it's very easy to create (link: docs/learn/templates/snippets text: snippets) with Kirby and reuse them wherever you want to in your templates. We can do the same with the Piwik tracking code.
+
+Save a `piwik.php` in your snippets folder...
+
+```html
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.getkirby.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "5"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+```
+
+... and refer to it in your `footer.php`:
+
+```
+
+<footer class="colophon">
+    <p><?php echo $site->author() ?></p>
+</footer>
+
+<?php snippet('piwik') ?>
+
+</body>
+</html>
+
+```
+
+## Snippet on roids
+
+If you're searching for a more maintainable solution you can add fields for the custom parts of the Piwik snippet in your `site.txt`:
+
+    title: My awesome site
+    ----
+    Author: © 2013 Kirby
+    ----
+    piwik_url: stats.getkirby.com
+    ----
+    piwik_id: 5
+
+You'll have to adjust the `piwik.php` like this:
+
+```
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://<?php echo $site->piwik_url() ?>/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "<?php echo $site->piwik_id() ?>"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+```
+
+Now your clients would be able to easily change the URL or site ID of the corresponding Piwik installation if they need to, just by editing the `site.txt` via FTP or the (link: docs/learn/panel text: panel).
+
+----
+Externals:
+
+Piwik installation:
+
+    text: Piwik installation
+    link: http://piwik.org/docs/installation-optimization/
+
+Piwik API Reference:
+
+    text: Piwik API Reference
+    link: http://piwik.org/docs/analytics-api/reference/
 
