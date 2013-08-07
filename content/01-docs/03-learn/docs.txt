@@ -2,5 +2,47 @@ Title: Learn Kirby
 
 ----
 
-Text: 
+Text:
+
+To dig deeper into Kirby check out the following chapters.
+
+
+
+----
+Docs:
+
+Creating content:
+
+    text: Creating content
+    link: docs/learn/content
+
+Formatting text:
+
+    text: Formatting text
+    link: docs/learn/text
+
+Adding media:
+
+    text: Adding media
+    link: docs/learn/media
+
+Building Templates:
+
+    text: Building Templates
+    link: docs/learn/templates
+
+Admin Panel:
+
+    text: Admin Panel
+    link: docs/learn/panel
+
+Multi-language sites:
+
+    text: Multi-language sites
+    link: docs/learn/multi-language
+
+Advanced Tutorials:
+
+    text: Advanced Tutorials
+    link: docs/learn/advanced
 

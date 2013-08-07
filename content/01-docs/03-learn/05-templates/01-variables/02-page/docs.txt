@@ -1,0 +1,222 @@
+Title: Page Variable ($page)
+
+----
+
+Text: 
+
+While `$site` contains all the general information about your site, the `$page` variable contains all the information about the current page you are on. 
+
+For example, if the content folder contained a subfolder named `01-about-us` and you go to the url `http://yourdomain.com/about-us`, the `$page` variable will contain all the stuff you entered in the `about-us.txt` plus much more!
+
+Let's say in your `about-us.txt` you got a title field and a text field: 
+
+	Title: About us
+	----
+	Text: This is all the information about us.
+	----
+
+You can access that content in your template like this: 
+
+```
+
+<h1><?php echo $page->title() ?></h1>
+<?php echo $page->text() ?>
+
+```
+
+Again, all field names will be converted to lowercase variable names. To add and access more fields, just go on like this:
+
+in `content/01-about-us/about-us.txt`
+
+	Title: About us
+	----
+	Subtitle: What a nice subtitle
+	----
+	Text: This is all the information about us.
+	----
+
+in `site/templates/default.php`
+or `site/templates/about-us.php` (if you need a custom template)
+
+```
+
+<h1><?php echo $page->title() ?></h1>
+<h2><?php echo $page->subtitle() ?></h2>
+<?php echo $page->text() ?>
+
+```
+	
+I guess you already see how flexible and powerful this is. The best part about it is that you can define totally different sets of fields for each page of your site. 
+
+## Predefined Page Variables
+
+Beside all the custom variables you can define for each page. There's also a bunch of predefined variables you can use in your templates. 
+
+### $page->parent()
+
+Returns the parent page. The entire parent page object is returned so you can access any of its properties. Returns false when no parent exists.
+
+### $page->children()
+
+This will give you a set of subpages for the current page if available. 
+	
+### $page->hasChildren() 
+
+This will check if there are any children for this page. 
+
+### $page->siblings()
+
+This will give you a set of siblings for the current page if available.
+
+### $page->template()
+
+This will return the name of the template, which is used to display the current page.
+
+### $page->next($sort='title', $direction='asc')
+
+This will give you the next $page object if available. 
+
+### $page->hasNext($sort='title', $direction='asc')
+
+This will check if there's a next page and return true or false. 
+
+### $page->prev($sort='title', $direction='asc')
+
+This will give you the previous $page object if available. 
+
+### $page->hasPrev($sort='title', $direction='asc')
+
+This will check if there's a previous page and return true or false. 
+
+### $page->nextVisible($sort='title', $direction='asc')
+
+This will give you the next visible $page object if available. 
+
+### $page->hasNextVisible($sort='title', $direction='asc')
+
+This will check if there's a next visible page and return true or false. 
+
+### $page->prevVisible($sort='title', $direction='asc')
+
+This will give you the previous visible $page object if available. 
+
+### $page->hasPrevVisible($sort='title', $direction='asc')
+
+This will check if there's a previous visible page and return true or false. 
+ 
+### $page->url()
+
+This will return the absolute URL for the current page. 
+
+### $page->tinyurl() 
+
+Every page has its own tiny url in Kirby. So you can fetch that with $page->tinyurl() This is super handy for sharing stuff.
+
+### $page->date($format=false)
+
+If you define a date field in your content file, you can easily get a timestamp of that field like this:
+
+```php
+
+<?php echo $page->date() ?>
+
+```
+
+You can also pass php date() format strings to format that timestamp:
+
+```php
+
+<?php echo $page->date('d.m.Y') ?>
+
+```
+
+### $page->isHomePage()
+
+Checks if this is the homepage. Returns true or false. 
+
+### $page->isErrorPage()
+
+Checks if this is the error page. Returns true or false. 
+
+### $page->isActive()
+
+Checks if this is the active page. Returns true or false. This is handy in menus.
+
+### $page->isOpen()
+
+Checks if the page is open. For example if you have a structure like…
+
+    - home
+    - projects
+    -- projects 01
+    -- projects 02
+    --- projects 02 A
+    --- projects 02 B
+    --- projects 03 B
+    -- projects 03
+
+…and `projects 02 A` is the active current page, `projects 02` and also `projects` will be "open"
+
+### $page->isVisible()
+
+Checks if this is page is visible. Returns true or false. 
+
+### $page->isChildOf($obj)
+
+Pass another page object here to find out if this page is a child of the other page. 
+
+### $page->isAncestorOf($obj)
+
+Pass another page object here to find out if this page is an ancestor of the other page. 
+
+### $page->isDescendantOf($obj)
+
+Pass another page object here to find out if this page is a descendant of the other page. 
+
+### $page->isDescendantOfActive()
+
+Check if this page obj is a descendant of the active page. This is very useful for tree menus, where you need to assign css selectors according to the state of a page. 
+
+## Media Variables
+
+You can find more docs about how to handle media (link: docs/variables/media text: over here).
+
+### $page->files()
+
+Returns a set of files for this page if available
+
+### $page->hasFiles()
+
+Checks if there are available files for this page
+
+### $page->images()
+
+Returns a set of images for this page if available
+
+### $page->hasImages()
+
+Checks if there are available files for this page
+
+### $page->videos()
+
+Returns a set of videos for this page if available
+
+### $page->hasVideos()
+
+Checks if there are available videos for this page
+
+### $page->documents()
+
+Returns a set of documents for this page if available
+
+### $page->hasDocuments()
+
+Checks if there are available documents for this page
+
+### $page->sounds()
+
+Returns a set of sound files for this page if available
+
+### $page->hasSounds()
+
+Checks if there are available sound files for this page

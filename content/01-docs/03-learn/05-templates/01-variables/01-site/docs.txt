@@ -1,0 +1,74 @@
+Title: Site Variable ($site)
+
+----
+
+Text: 
+
+The site variable is the mother of all variables in Kirby. It's a huge object which contains everything else. You will find more about this later, but the most important parts for your templates are: 
+
+## Site Title
+
+```php
+
+<?php echo $site->title() ?>
+
+```
+
+This is defined in `content/site.txt` and you can use that to set the global name of your site and probably use it for the title tag in your templates. 
+
+## Site Description 
+
+```php
+
+<?php echo $site->description() ?>
+
+```
+
+This is defined in `content/site.txt` as well and will hold the description for your description meta tag.
+
+## Site Keywords
+
+```php
+
+<?php echo $site->keywords() ?>
+
+```
+
+Well, that one is defined in `content/site.txt` again and I guess you know what you can do with that :)
+
+## Modified
+
+```php
+
+<?php echo $site->modified() ?>
+
+```
+
+Returns the date and time of the site’s most recent modification.
+
+## Your own global Site Variables
+
+In general all the fields you define in the `content/site.txt` file will be available that way. So if you define a field for copyright for example:
+
+    Copyright: John Doe
+    ----
+
+
+You can access it in your templates like this: 
+
+```php
+
+<?php echo $site->copyright() ?>
+
+```
+
+BTW: Field names will always be converted to lowercase variables. 
+
+## URI
+
+The site variable also contains an URI object, which has some nice information about the current url, path and query. 
+	
+To learn more about the URI object, please read the (link: blog/the-mighty-mighty-uri-object text: URI tutorial…)
+
+
+

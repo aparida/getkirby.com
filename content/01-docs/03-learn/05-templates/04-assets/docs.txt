@@ -2,5 +2,55 @@ Title: Assets
 
 ----
 
-Text: 
+Text:
 
+Embedding asset files ain't nothing but a peanut with Kirby. Have a look at the following options!
+
+
+## Shorthand loading of CSS and JS files
+
+The easiest way to embed single asset files is to use the shortcut helpers:
+
+```
+<?php echo css('assets/css/main.css') ?>
+<?php echo js('assets/js/jquery.js') ?>
+```
+
+The output will be:
+
+```
+<link rel="stylesheet" href="http://yourdomain.com/assets/css/main.css" />
+<script src="http://yourdomain.com/assets/js/jquery.js"></script>
+```
+
+
+## Loading multiple asset files
+
+You can use simple arrays to fetch multiple asset files if you need to.
+
+```
+<?php css(array(
+      'assets/css/reset.css',
+      'assets/css/main.css',
+      'assets/css/ie.css'
+)); ?>
+```
+
+Feel free to do the same with JavaScript files:
+
+```
+<?php js(array(
+      'assets/css/jquery.js',
+      'assets/css/slider.js'
+)); ?>
+```
+
+## Loading template specific asset files
+
+The following CSS file will only be loaded if the corresponding template is used. That works with JS files as well.
+
+```
+<?php echo css('@auto') ?>
+```
+
+Make sure to name your asset file equally to your template file!

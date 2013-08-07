@@ -11,3 +11,12 @@ Visit `http://yourdomain.com/panel` and follow the instructions to finish the in
 ## Requirements
 
 The Panel requires Kirby CMS 1.1 or newer
+
+
+----
+Docs:
+
+Learn more about the panel:
+
+    text: Learn more about the panel
+    link: docs/learn/panel

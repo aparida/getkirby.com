@@ -2,5 +2,14 @@ Title: Google Maps
 
 ----
 
-Text: 
+Text:
+
+----
+
+Blogposts:
+
+How to add Google Maps to your site:
+
+    text: How to add Google Maps to your site
+    link: blog/google-maps
 

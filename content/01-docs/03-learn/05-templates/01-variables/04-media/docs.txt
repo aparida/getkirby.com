@@ -1,0 +1,266 @@
+Title: Media
+
+----
+
+Text: 
+
+In the (link: docs/media text: "Adding Media") section you've learned everything about how to organize your images and other files in your page folders. Now it's time to learn how to access and embed files in your templates. 
+
+The current `$page` variable has five main file objects: 
+
+```php
+
+$page->files()
+$page->images()
+$page->videos()
+$page->documents()
+$page->sounds()
+
+```
+
+### $page->files()
+
+This contains all files, which are in the page folder. All other objects are just a subset of this one, but sometimes it's helpful to have everything in one place. 
+
+With `$page->hasFiles()` you can check if there are any files for this page at all.
+
+For example if you wanted to render a list of all filenames in your template you could do it like this:
+
+```
+
+<?php if($page->hasFiles()): ?> 
+<ul>
+  <?php foreach($page->files() as $file): ?>
+  <li><?php echo $file->name() ?></li>
+  <?php endforeach ?>
+</ul>
+<?php endif ?>
+
+```
+
+### $page->images()
+
+This contains all images, which are in the page folder.  
+
+With `$page->hasImages()` you can check if there are any images for this page at all.
+
+Here's a very simple gallery example
+
+```
+
+<?php if($page->hasImages()): ?> 
+<ul class="gallery">
+  <?php foreach($page->images() as $image): ?>
+  <li><img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /></li>
+  <?php endforeach ?>
+</ul>
+<?php endif ?>
+
+```
+
+The following file extensions will be recognized as images:
+
+- jpg
+- jpeg
+- gif
+- png
+<br />
+
+### $page->videos()
+
+This contains all video files, which are in the page folder.  
+
+With `$page->hasVideos()` you can check if there are any videos for this page at all.
+
+The following file extensions will be recognized as videos:
+
+- mov
+- avi
+- ogg
+- flv
+- swf
+<br />
+
+### $page->documents()
+
+This contains all document files, which are in the page folder.  
+
+With `$page->hasDocuments()` you can check if there are any document for this page at all.
+
+The following file extensions will be recognized as documents:
+
+- pdf
+- doc
+- xls
+- ppt
+<br />
+
+### $page->sounds()
+
+This contains all sound files, which are in the page folder.  
+
+With `$page->hasSounds()` you can check if there are any sound files for this page at all.
+
+- mp3
+- mp4
+<br />
+
+## Finding files
+
+Finding files in any of the objects above is super simple. Here are some examples:
+
+```php
+
+$page->files()->find('mydoc.pdf');
+
+$page->images()->find('01.jpg');
+
+$page->sounds()->find('justinbieber.mp3');
+
+```
+
+## $files->first()
+
+Find the first file in a set of files
+
+```php
+
+echo $page->files()->first()->url();
+
+echo $page->images()->first()->title();
+
+echo $page->sounds()->first()->extension();
+
+```
+
+## $files->last()
+
+Find the last file in a set of files. 
+
+## $files->shuffle() 
+
+Returns a set of files in random order 
+
+```php
+
+<?php
+
+$randomFiles  = $page->files()->shuffle();
+$randomImages = $page->images()->shuffle();
+  
+?>
+
+```
+
+
+
+## Doing stuff with files
+
+Looping through a set of files/images/videos etc. or using $page->files->find('mydoc.pdf') will return a file object, which has a bunch of cool additional features. 
+
+### $file->name()
+
+Returns the name of the file without extension
+
+### $file->filename()
+
+Returns the entire name of the file
+
+### $file->extension()
+
+Returns the file extension
+
+### $file->root()
+
+Returns the file root
+
+### $file->url()
+
+Returns the url for the file, which you can use to link to it in your templates.
+
+### $file->modified()
+
+Returns the last modified timestamp of this file
+	
+### $file->type()
+
+Returns the type of the file (image, document, video, sound, content, other)
+
+### $file->next()
+
+Get the next file object in the parent set if available
+
+### $file->hasNext()
+
+Checks if there's a next file
+
+### $file->prev()
+
+Get the previous file object in the parent set if available
+
+### $file->hasPrev()
+
+Checks if there's a previous file
+
+### $file->size()
+
+Returns the raw filesize
+
+### $file->niceSize()
+
+Returns a readable filesize
+
+### $file->mime()
+
+Returns the mime type of the file
+
+
+## Special methods for image objects
+
+Image objects have some more features than other files. 
+
+### $image->width()
+
+Returns the image width in pixels. 
+
+### $image->height()
+
+Returns the image height in pixels
+
+### $image->fit($maxSize, $upscale=false)
+
+This will recalculate the size of the image (without actually changing the original file) so height or width will be lower or equal to $maxSize. This will keep the image ratio. It will return a new image object with the new width and height.
+
+Setting $upscale to true will force the image's dimensions to be upscaled to $maxSize, even if the image is smaller. 
+
+### $image->fitWidth($maxWidth, $upscale=false)
+
+This will recalculate the size of the image (without actually replacing the original file) so the width will be lower or equal to $maxWidth. This will keep the image ratio. It will return a new image object with the new width and height
+
+Setting $upscale to true will force the image's width to be upscaled to $maxWidth, even if the width is smaller. 
+
+### $image->fitHeight($maxHeight, $upscale=false)
+
+This will recalculate the size of the image (without actually replacing the original file) so the height will be lower or equal to $maxHeight. This will keep the image ratio. It will return a new image object with the new width and height
+
+Setting $upscale to true will force the image's height to be upscaled to $maxHeight, even if the height is smaller. 
+
+## Image Info
+
+If you added a .txt file for your image like described in (link: docs/media text: "Adding media") all the variables from that text file will also be available in the $image object.
+
+For example if your image file is named 01.jpg and you've added a 01.jpg.txt to the same folder with the following content:
+
+	Title: Nice Image
+	----
+	Caption: This is indeed a really nice image
+	----
+
+you can access title and caption of that image in your template like this:
+
+```php
+
+echo $image->title()
+echo $image->caption()
+
+```

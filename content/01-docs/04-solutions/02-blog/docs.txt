@@ -12,3 +12,7 @@ How to build a blog:
     text: How to build a blog
     link: blog/how-to-build-a-blog
 
+All blog posts on "blog":
+
+    text: All blog posts on "blog"
+    link: blog/tag:blog
